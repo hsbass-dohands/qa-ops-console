@@ -74,11 +74,17 @@
     ],
     "env_status": { "staging": "pass", "production": "degraded", "sandbox": "pass" },
     "oncall": {
-      "name": "정현우 · QA 온콜",
-      "range": "7/14 (월) – 7/20 (일)",
-      "next_handoff": "7/20 (월) 10:00",
+      "qa_name": "김태재",
+      "qa_role": "제품/QA팀 호출대기",
+      "qa_range": "7/13 (월) – 7/19 (일)",
+      "dev_name": "이승우",
+      "dev_role": "개발팀 호출대기",
+      "dev_range": "7/13 (월) – 7/19 (일)",
+      "next_handoff": "7/20 (월) · QA 이영균 / 개발 윤송",
       "next_freeze": "D-6",
-      "next_release": "7/24 (금)"
+      "next_release": "7/24 (금)",
+      "source": "호출대기 공유시트 · 2026-07-16 기준 수동 스냅샷",
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1uI3Sxs5rjN8tTjaZeEdi11Wc6e9LWH0B3p56-sACDR0/edit?gid=839738987"
     }
   }
 }

@@ -705,17 +705,28 @@ function renderConfluence(docs){
 
 function renderOncall(m){
   const el = document.getElementById('oncall-body');
+  const o = m.oncall;
   el.innerHTML = `
     <div class="oncall-row">
-      <div class="oncall-avatar">${esc(initials(m.oncall.name))}</div>
+      <div class="oncall-avatar">${esc(initials(o.qa_name))}</div>
       <div>
-        <div class="oncall-name">${esc(m.oncall.name)}</div>
-        <div class="oncall-sub">${esc(m.oncall.range)}</div>
+        <div class="oncall-name">${esc(o.qa_name)} · ${esc(o.qa_role)}</div>
+        <div class="oncall-sub">${esc(o.qa_range)}</div>
       </div>
     </div>
-    <div class="mini-stat"><span class="k">다음 핸드오프</span><span class="v">${esc(m.oncall.next_handoff)}</span></div>
-    <div class="mini-stat"><span class="k">다음 Code Freeze까지</span><span class="v">${esc(m.oncall.next_freeze)}</span></div>
-    <div class="mini-stat"><span class="k">다음 릴리즈 예정일</span><span class="v">${esc(m.oncall.next_release)}</span></div>`;
+    <div class="oncall-row">
+      <div class="oncall-avatar" style="background:linear-gradient(135deg, var(--c-purple), var(--c-blue))">${esc(initials(o.dev_name))}</div>
+      <div>
+        <div class="oncall-name">${esc(o.dev_name)} · ${esc(o.dev_role)}</div>
+        <div class="oncall-sub">${esc(o.dev_range)}</div>
+      </div>
+    </div>
+    <div class="mini-stat"><span class="k">다음 핸드오프</span><span class="v">${esc(o.next_handoff)}</span></div>
+    <div class="mini-stat"><span class="k">다음 Code Freeze까지</span><span class="v">${esc(o.next_freeze)}</span></div>
+    <div class="mini-stat"><span class="k">다음 릴리즈 예정일</span><span class="v">${esc(o.next_release)}</span></div>
+    <div style="margin-top:10px; font-size:11px; color:var(--text-dim);">
+      출처: <a href="${esc(o.sheet_url)}" target="_blank" rel="noopener" style="color:var(--text-dim); text-decoration:underline;">호출대기 공유시트</a> · ${esc(o.source)}
+    </div>`;
 }
 
 function renderEnv(m){
