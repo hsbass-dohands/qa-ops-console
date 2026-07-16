@@ -1,112 +1,769 @@
 {
-  "generated_at": "2026-07-16T09:00:00+09:00",
-  "source": "seed-sample",
+  "generated_at": "2026-07-16T08:14:47.957Z",
+  "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
-    "open_by_priority": { "P0": 3, "P1": 14, "P2": 41, "P3": 29 },
-    "total_open": 87,
-    "new_this_week": 23,
-    "closed_this_week": 19,
+    "open_by_priority": {
+      "P0": 0,
+      "P1": 1,
+      "P2": 9,
+      "P3": 43
+    },
+    "total_open": 53,
+    "new_this_week": 7,
+    "closed_this_week": 0,
     "funnel": [
-      { "key": "QA", "name": "QA 검증", "todo": 26, "inprogress": 37, "inreview": 17, "blocked": 9, "done": 54, "total": 143 },
-      { "key": "BE", "name": "Back-end", "todo": 6, "inprogress": 22, "inreview": 5, "blocked": 9, "done": 22, "total": 64 },
-      { "key": "FE", "name": "Front-end", "todo": 24, "inprogress": 18, "inreview": 10, "blocked": 4, "done": 43, "total": 99 },
-      { "key": "PRODUCT", "name": "제품", "todo": 10, "inprogress": 11, "inreview": 7, "blocked": 4, "done": 19, "total": 51 }
+      {
+        "key": "TECH",
+        "name": "기술",
+        "total": 7,
+        "statuses": [
+          {
+            "name": "QA 필요",
+            "count": 2
+          },
+          {
+            "name": "QA 중",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "key": "SPRINT",
+        "name": "스프린트 백로그",
+        "total": 4,
+        "statuses": [
+          {
+            "name": "QA 필요",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "key": "INT",
+        "name": "연동",
+        "total": 1,
+        "statuses": [
+          {
+            "name": "QA 필요",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "key": "ROBOT",
+        "name": "로보틱스",
+        "total": 1,
+        "statuses": [
+          {
+            "name": "QA 필요",
+            "count": 1
+          }
+        ]
+      }
     ],
     "weekly_severity": [
-      { "week": "W1", "p0": 5, "p1": 20, "p2": 55, "p3": 38 },
-      { "week": "W2", "p0": 3, "p1": 15, "p2": 50, "p3": 35 },
-      { "week": "W3", "p0": 8, "p1": 23, "p2": 63, "p3": 40 },
-      { "week": "W4", "p0": 5, "p1": 18, "p2": 53, "p3": 33 },
-      { "week": "W5", "p0": 3, "p1": 13, "p2": 48, "p3": 30 },
-      { "week": "W6", "p0": 5, "p1": 20, "p2": 58, "p3": 38 },
-      { "week": "W7", "p0": 8, "p1": 25, "p2": 60, "p3": 43 },
-      { "week": "W8", "p0": 8, "p1": 23, "p2": 65, "p3": 45 }
+      {
+        "week": "W1",
+        "p0": 0,
+        "p1": 1,
+        "p2": 0,
+        "p3": 3
+      },
+      {
+        "week": "W2",
+        "p0": 0,
+        "p1": 1,
+        "p2": 1,
+        "p3": 7
+      },
+      {
+        "week": "W3",
+        "p0": 0,
+        "p1": 2,
+        "p2": 9,
+        "p3": 9
+      },
+      {
+        "week": "W4",
+        "p0": 0,
+        "p1": 1,
+        "p2": 6,
+        "p3": 9
+      },
+      {
+        "week": "W5",
+        "p0": 0,
+        "p1": 0,
+        "p2": 6,
+        "p3": 7
+      },
+      {
+        "week": "W6",
+        "p0": 0,
+        "p1": 2,
+        "p2": 2,
+        "p3": 4
+      },
+      {
+        "week": "W7",
+        "p0": 0,
+        "p1": 0,
+        "p2": 3,
+        "p3": 5
+      },
+      {
+        "week": "W8",
+        "p0": 0,
+        "p1": 0,
+        "p2": 0,
+        "p3": 6
+      }
     ],
     "calendar_events": [
-      { "date": "2026-07-16", "title": "제품팀 미팅 · 최라온", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-16", "title": "Robotics weekly Sync-up · 김태재", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-16", "title": "[스터디] 도메인스터디 · 베스현승", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-17", "title": "Weekly 탐색적 테스트 · 베스현승/김태재/최라온", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-20", "title": "기술 리더 주간 싱크업 · 베스현승", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-20", "title": "[VISE] 재고증차감 이관-정기 회의 · 김태재", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-20", "title": "성수 <> 현승 면담 · 베스현승", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-20", "title": "Weekly QA · 베스현승/김태재/최라온", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-20", "title": "VI 디자인 중간 리뷰 · 베스현승", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-20", "title": "단수/묶음바코드 · 베스현승", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-21", "title": "이동/적치 · 베스현승", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-21", "title": "[VISE] 2단계 인증-정기 회의 · 김태재", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-22", "title": "토스쇼핑 주간 미팅 · 최라온", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-22", "title": "[문화] 정기미팅 · 최라온", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-22", "title": "[VISE][과제회고] 송장 이관 · 김태재", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-23", "title": "QA Leadership Summit Summer 2026 · 베스현승", "type": "deadline", "source": "google_calendar" },
-      { "date": "2026-07-23", "title": "[bass<->tj] 인사평가 면담 · 베스현승/김태재", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-23", "title": "스프린트 · 베스현승/최라온", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-23", "title": "제품팀 미팅 · 최라온", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-23", "title": "QA팀 대면 타운홀 · 베스현승/김태재/최라온", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-23", "title": "[현승<->라온] 인사평가 면담 · 베스현승/최라온", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-23", "title": "Robotics weekly Sync-up · 김태재", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-23", "title": "팀장회식 · 베스현승", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-27", "title": "영세율 배포 목표일 · 최라온", "type": "release", "source": "google_calendar" },
-      { "date": "2026-07-27", "title": "기술 리더 주간 싱크업 · 베스현승", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-27", "title": "[VISE] 재고증차감 이관-정기 회의 · 김태재", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-27", "title": "Weekly QA · 베스현승/김태재/최라온", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-28", "title": "트랙스로지스 배포 목표일 · 최라온", "type": "release", "source": "google_calendar" },
-      { "date": "2026-07-28", "title": "[VISE] 2단계 인증-정기 회의 · 김태재", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-29", "title": "카페24 운송장 배포 목표일 · 최라온", "type": "release", "source": "google_calendar" },
-      { "date": "2026-07-29", "title": "토스쇼핑 주간 미팅 · 최라온", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-29", "title": "[문화] 정기미팅 · 최라온", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-30", "title": "문화 준비 · 최라온", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-30", "title": "7월 Tech Sync · 베스현승/김태재/최라온", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-30", "title": "문화 뒷정리 · 최라온", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-30", "title": "워크샵TF 점심 · 최라온", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-30", "title": "Robotics weekly Sync-up · 김태재", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-30", "title": "[스터디] 도메인스터디 · 베스현승", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-31", "title": "휴가 · 베스현승", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-07-31", "title": "Weekly 탐색적 테스트 · 베스현승/김태재/최라온", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-08-03", "title": "휴가 · 베스현승", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-08-03", "title": "기술 리더 주간 싱크업 · 베스현승", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-08-03", "title": "병원 · 베스현승", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-08-03", "title": "조직OKR 리뷰 · 베스현승", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-08-03", "title": "[VISE] 재고증차감 이관-정기 회의 · 김태재", "type": "misc", "source": "google_calendar" },
-      { "date": "2026-08-03", "title": "Weekly QA · 베스현승/김태재/최라온", "type": "misc", "source": "google_calendar" }
-    ]
+      {
+        "date": "2026-07-16",
+        "title": "제품팀 미팅 · 최라온",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-16",
+        "title": "Robotics weekly Sync-up · 김태재",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-16",
+        "title": "[스터디] 도메인스터디 · 베스현승",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-17",
+        "title": "Weekly 탐색적 테스트 · 베스현승/김태재/최라온",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-20",
+        "title": "기술 리더 주간 싱크업 · 베스현승",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-20",
+        "title": "[VISE] 재고증차감 이관-정기 회의 · 김태재",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-20",
+        "title": "성수 <> 현승 면담 · 베스현승",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-20",
+        "title": "Weekly QA · 베스현승/김태재/최라온",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-20",
+        "title": "VI 디자인 중간 리뷰 · 베스현승",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-20",
+        "title": "단수/묶음바코드 · 베스현승",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-21",
+        "title": "이동/적치 · 베스현승",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-21",
+        "title": "[VISE] 2단계 인증-정기 회의 · 김태재",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-22",
+        "title": "토스쇼핑 주간 미팅 · 최라온",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-22",
+        "title": "[문화] 정기미팅 · 최라온",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-22",
+        "title": "[VISE][과제회고] 송장 이관 · 김태재",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-23",
+        "title": "QA Leadership Summit Summer 2026 · 베스현승",
+        "type": "deadline",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-23",
+        "title": "[bass<->tj] 인사평가 면담 · 베스현승/김태재",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-23",
+        "title": "스프린트 · 베스현승/최라온",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-23",
+        "title": "제품팀 미팅 · 최라온",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-23",
+        "title": "QA팀 대면 타운홀 · 베스현승/김태재/최라온",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-23",
+        "title": "[현승<->라온] 인사평가 면담 · 베스현승/최라온",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-23",
+        "title": "Robotics weekly Sync-up · 김태재",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-23",
+        "title": "팀장회식 · 베스현승",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-27",
+        "title": "영세율 배포 목표일 · 최라온",
+        "type": "release",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-27",
+        "title": "기술 리더 주간 싱크업 · 베스현승",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-27",
+        "title": "[VISE] 재고증차감 이관-정기 회의 · 김태재",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-27",
+        "title": "Weekly QA · 베스현승/김태재/최라온",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-28",
+        "title": "트랙스로지스 배포 목표일 · 최라온",
+        "type": "release",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-28",
+        "title": "[VISE] 2단계 인증-정기 회의 · 김태재",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-29",
+        "title": "카페24 운송장 배포 목표일 · 최라온",
+        "type": "release",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-29",
+        "title": "토스쇼핑 주간 미팅 · 최라온",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-29",
+        "title": "[문화] 정기미팅 · 최라온",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-30",
+        "title": "문화 준비 · 최라온",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-30",
+        "title": "7월 Tech Sync · 베스현승/김태재/최라온",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-30",
+        "title": "문화 뒷정리 · 최라온",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-30",
+        "title": "워크샵TF 점심 · 최라온",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-30",
+        "title": "Robotics weekly Sync-up · 김태재",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-30",
+        "title": "[스터디] 도메인스터디 · 베스현승",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-31",
+        "title": "휴가 · 베스현승",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-07-31",
+        "title": "Weekly 탐색적 테스트 · 베스현승/김태재/최라온",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-08-03",
+        "title": "휴가 · 베스현승",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-08-03",
+        "title": "기술 리더 주간 싱크업 · 베스현승",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-08-03",
+        "title": "병원 · 베스현승",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-08-03",
+        "title": "조직OKR 리뷰 · 베스현승",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-08-03",
+        "title": "[VISE] 재고증차감 이관-정기 회의 · 김태재",
+        "type": "misc",
+        "source": "google_calendar"
+      },
+      {
+        "date": "2026-08-03",
+        "title": "Weekly QA · 베스현승/김태재/최라온",
+        "type": "misc",
+        "source": "google_calendar"
+      }
+    ],
+    "funnel_filter_id": "10973",
+    "funnel_filter_url": "https://dohands.atlassian.net/issues/?filter=10973",
+    "calendar_events_live": []
   },
   "confluence": {
     "space_key": "qa",
     "docs": [
-      { "title": "v4.3 릴리즈 체크리스트", "url": "https://dohands.atlassian.net/wiki/spaces/qa", "updated": "어제 수정" },
-      { "title": "결제 타임아웃 인시던트 RCA", "url": "https://dohands.atlassian.net/wiki/spaces/qa", "updated": "3일 전" },
-      { "title": "회귀 테스트 스위트 가이드", "url": "https://dohands.atlassian.net/wiki/spaces/qa", "updated": "1주 전" },
-      { "title": "QA 온보딩 위키", "url": "https://dohands.atlassian.net/wiki/spaces/qa", "updated": "2주 전" }
+      {
+        "title": "격리재고",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/260669483",
+        "updated": "2026-07-16"
+      },
+      {
+        "title": "PDA 기본기능",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/268238910/PDA",
+        "updated": "2026-07-16"
+      },
+      {
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-07-16"
+      },
+      {
+        "title": "[QA] 로케이션 등록 – 유형별 격리구분 활성화 검증",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264994834/QA",
+        "updated": "2026-07-14"
+      },
+      {
+        "title": "PDA 안드로이드 특성 QA 체크리스트",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/270368775/PDA+QA",
+        "updated": "2026-07-14"
+      },
+      {
+        "title": "고객사/브랜드 조회 권한",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/267911195",
+        "updated": "2026-07-13"
+      }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
     "tasks_source_title": "26년 과제/작업 QA 리소스 및 스케쥴",
     "tasks_snapshot_at": "2026-07-16 (수동 스냅샷 · 완료 항목 제외)",
     "tasks": [
-      { "month": "7월", "priority": "P1", "owner": "최라온", "category": "연동", "title": "토스 쇼핑", "url": "https://dohands.atlassian.net/browse/TECH-1448", "due": "2026-07-22", "status": "라이브 8/12" },
-      { "month": "7월", "priority": "P1", "owner": "최라온(리드)·김태재", "category": "연동/VISE", "title": "투함", "url": "https://dohands.atlassian.net/browse/TECH-1240", "due": "2026-07-29", "status": "QA 중 · 라이브 목표 8/1" },
-      { "month": "7월", "priority": null, "owner": "최라온", "category": "VISE 이관", "title": "판매처 연동", "url": "https://dohands.atlassian.net/browse/TECH-626", "due": null, "status": "시작 전 (기획 리뷰 단계)" },
-      { "month": "7월", "priority": null, "owner": "김태재", "category": "VISE 이관", "title": "격리 재고", "url": "https://dohands.atlassian.net/browse/TECH-1428", "due": "2026-07-24", "status": "QA 중" },
-      { "month": "7월", "priority": null, "owner": "김태재", "category": "VISE", "title": "바이스 역할 권한에 따른 조회 (1차)", "url": "https://dohands.atlassian.net/browse/TECH-1586", "due": null, "status": "개발 중" },
-      { "month": "8월 이후", "priority": "P1", "owner": "최라온", "category": "NFA", "title": "사은품 출고", "url": "https://dohands.atlassian.net/browse/TECH-1317", "due": "2026-08-04", "status": "개발 진행 중 (연동 테스트 8/4까지)" },
-      { "month": "8월 이후", "priority": "P1", "owner": "최라온", "category": "NFA", "title": "교환 출고", "url": "https://dohands.atlassian.net/browse/TECH-1317", "due": "2026-08-04", "status": "개발 진행 중 (연동 테스트 8/4까지)" },
-      { "month": "8월 이후", "priority": "P1", "owner": "최라온", "category": "NFA", "title": "수기 출고", "url": "https://dohands.atlassian.net/browse/TECH-1317", "due": "2026-08-04", "status": "개발 진행 중 (연동 테스트 8/4까지)" },
-      { "month": "8월 이후", "priority": "P1", "owner": "김태재", "category": "VISE 이관", "title": "재고증차감", "url": null, "due": "2026-08-31", "status": "시작 전" },
-      { "month": "8월 이후", "priority": "P1", "owner": "김태재", "category": "내부", "title": "PII (Phase2)", "url": "https://dohands.atlassian.net/browse/TECH-998", "due": "2026-07-31", "status": "-" },
-      { "month": "8월 이후", "priority": null, "owner": "김태재·박래원", "category": null, "title": "바이스 역할 권한에 따른 조회 (2차)", "url": "https://dohands.atlassian.net/browse/TECH-1586", "due": null, "status": "-" },
-      { "month": "8월 이후", "priority": null, "owner": "김태재", "category": null, "title": "위젯", "url": null, "due": null, "status": "-" }
+      {
+        "month": "7월",
+        "priority": "P1",
+        "owner": "최라온",
+        "category": "연동",
+        "title": "토스 쇼핑",
+        "url": "https://dohands.atlassian.net/browse/TECH-1448",
+        "due": "2026-07-22",
+        "status": "라이브 8/12"
+      },
+      {
+        "month": "7월",
+        "priority": "P1",
+        "owner": "최라온(리드)·김태재",
+        "category": "연동/VISE",
+        "title": "투함",
+        "url": "https://dohands.atlassian.net/browse/TECH-1240",
+        "due": "2026-07-29",
+        "status": "QA 중 · 라이브 목표 8/1"
+      },
+      {
+        "month": "7월",
+        "priority": null,
+        "owner": "최라온",
+        "category": "VISE 이관",
+        "title": "판매처 연동",
+        "url": "https://dohands.atlassian.net/browse/TECH-626",
+        "due": null,
+        "status": "시작 전 (기획 리뷰 단계)"
+      },
+      {
+        "month": "7월",
+        "priority": null,
+        "owner": "김태재",
+        "category": "VISE 이관",
+        "title": "격리 재고",
+        "url": "https://dohands.atlassian.net/browse/TECH-1428",
+        "due": "2026-07-24",
+        "status": "QA 중"
+      },
+      {
+        "month": "7월",
+        "priority": null,
+        "owner": "김태재",
+        "category": "VISE",
+        "title": "바이스 역할 권한에 따른 조회 (1차)",
+        "url": "https://dohands.atlassian.net/browse/TECH-1586",
+        "due": null,
+        "status": "개발 중"
+      },
+      {
+        "month": "8월 이후",
+        "priority": "P1",
+        "owner": "최라온",
+        "category": "NFA",
+        "title": "사은품 출고",
+        "url": "https://dohands.atlassian.net/browse/TECH-1317",
+        "due": "2026-08-04",
+        "status": "개발 진행 중 (연동 테스트 8/4까지)"
+      },
+      {
+        "month": "8월 이후",
+        "priority": "P1",
+        "owner": "최라온",
+        "category": "NFA",
+        "title": "교환 출고",
+        "url": "https://dohands.atlassian.net/browse/TECH-1317",
+        "due": "2026-08-04",
+        "status": "개발 진행 중 (연동 테스트 8/4까지)"
+      },
+      {
+        "month": "8월 이후",
+        "priority": "P1",
+        "owner": "최라온",
+        "category": "NFA",
+        "title": "수기 출고",
+        "url": "https://dohands.atlassian.net/browse/TECH-1317",
+        "due": "2026-08-04",
+        "status": "개발 진행 중 (연동 테스트 8/4까지)"
+      },
+      {
+        "month": "8월 이후",
+        "priority": "P1",
+        "owner": "김태재",
+        "category": "VISE 이관",
+        "title": "재고증차감",
+        "url": null,
+        "due": "2026-08-31",
+        "status": "시작 전"
+      },
+      {
+        "month": "8월 이후",
+        "priority": "P1",
+        "owner": "김태재",
+        "category": "내부",
+        "title": "PII (Phase2)",
+        "url": "https://dohands.atlassian.net/browse/TECH-998",
+        "due": "2026-07-31",
+        "status": "-"
+      },
+      {
+        "month": "8월 이후",
+        "priority": null,
+        "owner": "김태재·박래원",
+        "category": null,
+        "title": "바이스 역할 권한에 따른 조회 (2차)",
+        "url": "https://dohands.atlassian.net/browse/TECH-1586",
+        "due": null,
+        "status": "-"
+      },
+      {
+        "month": "8월 이후",
+        "priority": null,
+        "owner": "김태재",
+        "category": null,
+        "title": "위젯",
+        "url": null,
+        "due": null,
+        "status": "-"
+      }
     ]
   },
   "slack": {
-    "channel_prefixes": ["기술-", "기술과제-", "sig"],
-    "channels": [],
-    "messages": []
+    "channel_names": [
+      "기술-로보틱스팀",
+      "기술-휴가",
+      "기술-qa팀",
+      "기술조직",
+      "sigint",
+      "sigvise"
+    ],
+    "channel_prefixes": [
+      "기술과제-"
+    ],
+    "qa_team_size": 9,
+    "channels": [
+      {
+        "id": "C046PF86X7Z",
+        "name": "기술조직",
+        "is_private": true,
+        "is_member": true
+      },
+      {
+        "id": "C08631SD24X",
+        "name": "sigint",
+        "is_private": true,
+        "is_member": true
+      },
+      {
+        "id": "C086W87319P",
+        "name": "sigvise",
+        "is_private": true,
+        "is_member": true
+      },
+      {
+        "id": "C09471BM5L6",
+        "name": "기술과제-n직재고",
+        "is_private": false,
+        "is_member": false
+      },
+      {
+        "id": "C094QGRN0FK",
+        "name": "기술과제-큐텐-배송지연api",
+        "is_private": false,
+        "is_member": false
+      },
+      {
+        "id": "C097N5PGQ1F",
+        "name": "기술-qa팀",
+        "is_private": true,
+        "is_member": true
+      },
+      {
+        "id": "C098G1UGK0A",
+        "name": "기술과제-cafe24-openapi",
+        "is_private": true,
+        "is_member": true
+      },
+      {
+        "id": "C09EFB500K0",
+        "name": "기술과제-카페24",
+        "is_private": false,
+        "is_member": false
+      },
+      {
+        "id": "C09HREEDUJ0",
+        "name": "기술-휴가",
+        "is_private": true,
+        "is_member": true
+      },
+      {
+        "id": "C0A69Q00Y15",
+        "name": "기술-로보틱스팀",
+        "is_private": true,
+        "is_member": true
+      },
+      {
+        "id": "C0A9K11QEBV",
+        "name": "기술과제-개발팀-pii",
+        "is_private": false,
+        "is_member": true
+      },
+      {
+        "id": "C0ADLQC98R0",
+        "name": "기술과제-바이스이관-알림",
+        "is_private": false,
+        "is_member": true
+      },
+      {
+        "id": "C0AL59YDQE7",
+        "name": "기술과제-송장-이관",
+        "is_private": true,
+        "is_member": true
+      },
+      {
+        "id": "C0ARS87DZTL",
+        "name": "기술과제-네이버새벽배송",
+        "is_private": true,
+        "is_member": true
+      },
+      {
+        "id": "C0AT4NVF484",
+        "name": "기술과제-재고증차감-이관",
+        "is_private": true,
+        "is_member": true
+      },
+      {
+        "id": "C0B3JEMP8QZ",
+        "name": "기술과제-정산오류모니터링",
+        "is_private": false,
+        "is_member": true
+      },
+      {
+        "id": "C0B3L0NU0Q7",
+        "name": "기술과제-판매처-연동-설정이관",
+        "is_private": true,
+        "is_member": true
+      },
+      {
+        "id": "C0B486JGX0F",
+        "name": "기술과제-트랙스로지스",
+        "is_private": true,
+        "is_member": true
+      },
+      {
+        "id": "C0B66DGBEP3",
+        "name": "기술과제-직계약-입점",
+        "is_private": true,
+        "is_member": true
+      },
+      {
+        "id": "C0B70GEK5PT",
+        "name": "기술과제-n직-사은품-교환-수기",
+        "is_private": true,
+        "is_member": true
+      },
+      {
+        "id": "C0B918BPK0Q",
+        "name": "기술과제-패킹로봇-poc",
+        "is_private": true,
+        "is_member": true
+      },
+      {
+        "id": "C0BAVD6MUSD",
+        "name": "기술과제-토스쇼핑",
+        "is_private": true,
+        "is_member": true
+      }
+    ],
+    "messages": [
+      {
+        "channel": "기술과제-트랙스로지스",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784186218.128899",
+        "text": "@황성민 (기술/개발팀) 트랙스로지스 정산 반영 안되는 스레드~!\n\nSTG &gt; 평내센터 &gt; [라온 단독 사용 고객사] 스완 &gt; 7월 정산서\n• 반영 안된 송장번호\n```QSP219170826\nQSP219170813\nQSP219170808\nQSP219170805\nQSP219170820\nQSP219170794```"
+      },
+      {
+        "channel": "기술조직",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784182407.291859",
+        "text": "@이대한 (기술/개발팀) @이희영 (기술/개발팀) PRE 환경 관련 확인 요청 드립니다~!\n현재 PRE에서 Office 진입 시 아래와 같은 에러 토스트메세지가 뜨고 있어서 STG, PROD만 적용되고 PRE는 미적용되어있는 작업 내용이 있을지 확인 부탁드립니다!\n\n```column \"addressDetail\" does not exist\ncolumn Par"
+      },
+      {
+        "channel": "기술과제-재고증차감-이관",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1784173094.875269",
+        "text": "@이승우 (기술/개발팀) 격리 로케이션 -&gt; 출고 로케이션 이동"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1784168875.520619",
+        "text": "@김태재 (기술/QA팀) 23일 인사평가 면담 5시에서 11시로 옮겼습니다. 23일 반반차때문에 4시에 퇴근입니다."
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1784168280.410529",
+        "text": "@베스현승 (기술/QA팀) zscaler 켜면 컴이 너무 느려지는거같네요"
+      },
+      {
+        "channel": "기술과제-트랙스로지스",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784164801.510729",
+        "text": "@황성민 (기술/개발팀) @이덕희 (기술/개발팀) @한상협 (기술/개발팀) 트랙스로지스(투함) 코드 PRE 배포 여부 확인 부탁드립니다~!!"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1784109081.161329",
+        "text": "<!here> 래원님 오시고"
+      },
+      {
+        "channel": "기술-로보틱스팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784101328.700509",
+        "text": "@우창수 (기술/로보틱스팀) 운영 기준 마감 API"
+      }
+    ]
   },
   "manual": {
     "regression_pass_rate": 96.4,
     "regression_pass_rate_delta": "+0.8%p (전주비)",
-    "p0_sla_rate": 92.0,
+    "p0_sla_rate": 92,
     "p0_sla_rate_delta": "-3.0%p (전주비)",
     "coverage": 78.3,
     "coverage_delta": "+1.1%p",
@@ -116,11 +773,24 @@
     "escaped_defects_month": 5,
     "escaped_defects_delta": "전월비 -2건",
     "flaky_tests": [
-      { "name": "CheckoutFlow.e2e", "rate": "14% flake" },
-      { "name": "PaymentRetry.spec", "rate": "9% flake" },
-      { "name": "OrderSync.integration", "rate": "7% flake" }
+      {
+        "name": "CheckoutFlow.e2e",
+        "rate": "14% flake"
+      },
+      {
+        "name": "PaymentRetry.spec",
+        "rate": "9% flake"
+      },
+      {
+        "name": "OrderSync.integration",
+        "rate": "7% flake"
+      }
     ],
-    "env_status": { "staging": "pass", "production": "degraded", "sandbox": "pass" },
+    "env_status": {
+      "staging": "pass",
+      "production": "degraded",
+      "sandbox": "pass"
+    },
     "oncall": {
       "qa_name": "김태재",
       "qa_role": "제품/QA팀 호출대기",
