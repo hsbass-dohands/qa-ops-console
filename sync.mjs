@@ -25,11 +25,15 @@ const JIRA_EMAIL = process.env.JIRA_EMAIL || '';
 const JIRA_TOKEN = process.env.JIRA_API_TOKEN || '';
 const SLACK_TOKEN = process.env.SLACK_BOT_TOKEN || '';
 
-const FUNNEL_PROJECTS = [
-  { key: 'QA', name: 'QA 검증' },
-  { key: 'BE', name: 'Back-end' },
-  { key: 'FE', name: 'Front-end' },
-  { key: 'PRODUCT', name: '제품' },
+// Jira funnel now mirrors this saved filter directly instead of a fixed set of projects:
+// https://dohands.atlassian.net/issues/?filter=10973
+const FUNNEL_FILTER_ID = '10973';
+
+// Calendar (release/incident) only surfaces Jira due-date items assigned to these three people.
+const CALENDAR_ASSIGNEE_ACCOUNT_IDS = [
+  '712020:a6a46ae3-9120-4389-9152-5870017801ec', // 베스현승
+  '712020:7b28026d-6df8-4f5a-8a1d-b884a69702c0', // 최라온
+  '712020:75dd4f22-4af3-4265-b213-381e3185e3fb', // 김태재
 ];
 
 // Exact channel names to pull from, plus any channel starting with "기술과제-".
@@ -124,31 +128,28 @@ async function buildJiraData() {
   out.new_this_week = await jiraCount(`issuetype = 버그 AND created >= -7d`);
   out.closed_this_week = await jiraCount(`issuetype = 버그 AND statusCategory = Done AND resolutiondate >= -7d`);
 
-  // 3) Ticket funnel by project (status category breakdown)
-  const funnel = [];
-  for (const proj of FUNNEL_PROJECTS) {
-    try {
-      const [todo, inprogress, done, total] = await Promise.all([
-        jiraCount(`project = ${proj.key} AND statusCategory = "To Do"`),
-        jiraCount(`project = ${proj.key} AND statusCategory = "In Progress"`),
-        jiraCount(`project = ${proj.key} AND statusCategory = Done`),
-        jiraCount(`project = ${proj.key}`),
-      ]);
-      funnel.push({
-        key: proj.key,
-        name: proj.name,
-        todo,
-        inprogress,
-        inreview: 0,
-        blocked: 0,
-        done,
-        total,
-      });
-    } catch (e) {
-      console.log(`Funnel query failed for ${proj.key}: ${e.message}`);
+  // 3) Ticket funnel — mirrors the saved Jira filter directly (dohands.atlassian.net/issues/?filter=10973),
+  // grouped by project, with a dynamic per-status breakdown (statuses in this filter aren't a fixed set).
+  try {
+    const json = await jiraSearch(`filter=${FUNNEL_FILTER_ID}`, ['summary', 'status', 'project'], 100);
+    const byProject = new Map();
+    for (const issue of json.issues || []) {
+      const projKey = issue.fields?.project?.key || '기타';
+      const projName = issue.fields?.project?.name || projKey;
+      const statusName = issue.fields?.status?.name || '알 수 없음';
+      if (!byProject.has(projKey)) byProject.set(projKey, { key: projKey, name: projName, total: 0, statuses: new Map() });
+      const entry = byProject.get(projKey);
+      entry.total += 1;
+      entry.statuses.set(statusName, (entry.statuses.get(statusName) || 0) + 1);
     }
+    out.funnel = [...byProject.values()]
+      .map((p) => ({ key: p.key, name: p.name, total: p.total, statuses: [...p.statuses.entries()].map(([name, count]) => ({ name, count })) }))
+      .sort((a, b) => b.total - a.total);
+    out.funnel_filter_id = FUNNEL_FILTER_ID;
+    out.funnel_filter_url = `${JIRA_SITE}/issues/?filter=${FUNNEL_FILTER_ID}`;
+  } catch (e) {
+    console.log(`Funnel query failed: ${e.message}`);
   }
-  if (funnel.length) out.funnel = funnel;
 
   // 4) Weekly bug inflow by severity (last 8 weeks)
   try {
@@ -171,11 +172,13 @@ async function buildJiraData() {
     console.log(`Weekly severity query failed: ${e.message}`);
   }
 
-  // 5) Calendar events from issues with a due date set (any project)
+  // 5) Calendar events from issues with a due date set, restricted to specific people's items
+  // (베스현승 / 최라온 / 김태재) rather than every due-dated issue org-wide.
   try {
+    const assigneeList = CALENDAR_ASSIGNEE_ACCOUNT_IDS.map((id) => `"${id}"`).join(',');
     const json = await jiraSearch(
-      `duedate >= -7d AND duedate <= 45d ORDER BY duedate ASC`,
-      ['summary', 'duedate', 'issuetype', 'priority'],
+      `assignee in (${assigneeList}) AND duedate >= -7d AND duedate <= 45d ORDER BY duedate ASC`,
+      ['summary', 'duedate', 'issuetype', 'priority', 'assignee'],
       50
     );
     out.calendar_events_live = (json.issues || []).map((issue) => ({
@@ -184,6 +187,7 @@ async function buildJiraData() {
       type: priorityBucket(issue.fields?.priority?.name) === 'P0' ? 'bug' : 'deadline',
       source: 'jira',
       key: issue.key,
+      assignee: issue.fields?.assignee?.displayName || null,
     }));
   } catch (e) {
     console.log(`Calendar due-date query failed: ${e.message}`);
@@ -255,12 +259,22 @@ async function buildSlackData() {
         const res = await fetch(`https://slack.com/api/users.info?user=${id}`, { headers });
         const json = await res.json();
         if (json.ok) {
-          const name = json.user?.profile?.display_name || json.user?.real_name || json.user?.name || id;
+          const name = json.user?.profile?.display_name || json.user?.real_name || json.user?.name || '알 수 없음';
           userMap[id] = name;
           return name;
         }
       } catch {}
-      return id;
+      return '알 수 없음'; // never surface a raw Slack user ID
+    }
+
+    // Resolve <@U12345> / <@U12345|label> mention syntax inside message bodies
+    // to real display names, so raw user IDs never leak into the feed text either.
+    async function resolveMentions(text) {
+      const ids = [...new Set([...text.matchAll(/<@([UW][A-Z0-9]+)(?:\|[^>]*)?>/g)].map((mm) => mm[1]))];
+      if (!ids.length) return text;
+      const names = {};
+      for (const id of ids) names[id] = await resolveUser(id);
+      return text.replace(/<@([UW][A-Z0-9]+)(?:\|[^>]*)?>/g, (_, id) => `@${names[id] || '알 수 없음'}`);
     }
 
     // List channels (public + private the bot is a member of) and keep only the
@@ -341,14 +355,17 @@ async function buildSlackData() {
         }
         for (const m of json.messages || []) {
           if (!m.text) continue;
-          if (m.subtype) continue; // skip channel_join/leave/bot/system messages
-          if (qaTeamIds && m.user && !qaTeamIds.has(m.user)) continue; // QA-team-only filter
+          if (m.subtype) continue; // skip channel_join/leave/topic/system messages
+          if (m.bot_id) continue; // skip bot/integration messages (Jira, Confluence, etc.)
+          if (!m.user) continue; // no human author to check against the QA roster
           if (!qaTeamIds) continue; // no verified QA roster yet -> don't show anyone's messages
+          if (!qaTeamIds.has(m.user)) continue; // QA-team-only filter
+          const resolvedText = await resolveMentions(m.text);
           allMessages.push({
             channel: ch.name,
             user: await resolveUser(m.user),
             ts: m.ts,
-            text: m.text.slice(0, 200),
+            text: resolvedText.slice(0, 200),
           });
         }
       } catch (e) {
@@ -385,7 +402,9 @@ async function main() {
     generated_at: new Date().toISOString(),
     source: 'live-sync',
     jira: jira ? { ...current.jira, ...jira } : current.jira,
-    confluence: confluence || current.confluence,
+    // spread so manually-curated fields (e.g. the Confluence QA-pipeline snapshot
+    // in `tasks`) survive being overwritten by the live `docs` list each sync
+    confluence: confluence ? { ...current.confluence, ...confluence } : current.confluence,
     slack: slack || current.slack,
   };
 
