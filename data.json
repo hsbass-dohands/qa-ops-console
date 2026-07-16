@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T08:41:07.324Z",
+  "generated_at": "2026-07-16T08:49:03.865Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -14,52 +14,108 @@
     "closed_this_week": 0,
     "funnel": [
       {
-        "key": "TECH",
-        "name": "기술",
-        "total": 7,
-        "statuses": [
-          {
-            "name": "QA 필요",
-            "count": 2
-          },
-          {
-            "name": "QA 중",
-            "count": 5
-          }
-        ]
+        "key": "TECH-1376",
+        "url": "https://dohands.atlassian.net/browse/TECH-1376",
+        "summary": "[PRE QA] 트랙스로지스(투함)",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "최라온"
       },
       {
-        "key": "SPRINT",
-        "name": "스프린트 백로그",
-        "total": 4,
-        "statuses": [
-          {
-            "name": "QA 필요",
-            "count": 4
-          }
-        ]
+        "key": "TECH-1444",
+        "url": "https://dohands.atlassian.net/browse/TECH-1444",
+        "summary": "[바이스 프론트] N직 사은품/교환/수기 출고 ",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "최라온"
       },
       {
-        "key": "INT",
-        "name": "연동",
-        "total": 1,
-        "statuses": [
-          {
-            "name": "QA 필요",
-            "count": 1
-          }
-        ]
+        "key": "TECH-1486",
+        "url": "https://dohands.atlassian.net/browse/TECH-1486",
+        "summary": "[바이스 백엔드] 트랙스로지스(투함)",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "최라온"
       },
       {
-        "key": "ROBOT",
-        "name": "로보틱스",
-        "total": 1,
-        "statuses": [
-          {
-            "name": "QA 필요",
-            "count": 1
-          }
-        ]
+        "key": "TECH-1552",
+        "url": "https://dohands.atlassian.net/browse/TECH-1552",
+        "summary": "[궁중비책] 영세율 및 과세 세금계산서 동시 발행 시 바로빌 관리번호 중복 오류 해결",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "최라온"
+      },
+      {
+        "key": "TECH-1576",
+        "url": "https://dohands.atlassian.net/browse/TECH-1576",
+        "summary": "[QA] 격리 재고",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "김태재"
+      },
+      {
+        "key": "INT-261",
+        "url": "https://dohands.atlassian.net/browse/INT-261",
+        "summary": "배송 완료 스케줄러 개선 2차",
+        "status": "QA 필요",
+        "project": "INT",
+        "assignee": "최라온"
+      },
+      {
+        "key": "ROBOT-138",
+        "url": "https://dohands.atlassian.net/browse/ROBOT-138",
+        "summary": "[품고 출고 / B2B] 마이그레이션 ",
+        "status": "QA 필요",
+        "project": "ROBOT",
+        "assignee": "김태재"
+      },
+      {
+        "key": "SPRINT-553",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-553",
+        "summary": "[VISE] 사용자 초대할 때, 고객사 관련 역할 부여 가능하도록 수정",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "김태재"
+      },
+      {
+        "key": "SPRINT-675",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-675",
+        "summary": "[VISE] 바이스>주문>판매채널>연동키 입력란 오픈 요청",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "최라온"
+      },
+      {
+        "key": "SPRINT-760",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-760",
+        "summary": "[VISE][프론트] 시스템 태그 값 노출",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "최라온"
+      },
+      {
+        "key": "SPRINT-761",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-761",
+        "summary": "[VISE][백엔드] 카페24 주문에 대한 배송 속성별 동적할당 설정",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "최라온"
+      },
+      {
+        "key": "TECH-1216",
+        "url": "https://dohands.atlassian.net/browse/TECH-1216",
+        "summary": "[프론트] 오피스 헤더 센터 드롭다운 authCenter 기준 변경",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "이희영"
+      },
+      {
+        "key": "TECH-1577",
+        "url": "https://dohands.atlassian.net/browse/TECH-1577",
+        "summary": "[QA] 재고 등록/차감 조회",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "김태재"
       }
     ],
     "weekly_severity": [
