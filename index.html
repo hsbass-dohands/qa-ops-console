@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QA 관제 대시보드</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg-void:#0a0d0a;
+    --bg-panel:#10140f;
+    --bg-raised:#151a12;
+    --bg-chip:#171d15;
+    --line:#1e251c;
+    --line-soft:#171d15;
+    --text-primary:#eef1ec;
+    --text-muted:#8a938c;
+    --text-dim:#576058;
+
+    --brand:#5ed98d;
+    --brand-soft:rgba(94,217,141,.12);
+    --c-red:#e0715c;
+    --c-red-soft:rgba(224,113,92,.14);
+    --c-orange:#e0a15c;
+    --c-orange-soft:rgba(224,161,92,.14);
+    --c-gold:#dfc95c;
+    --c-gold-soft:rgba(223,201,92,.13);
+    --c-blue:#6f9ce0;
+    --c-blue-soft:rgba(111,156,224,.14);
+    --c-purple:#b28ee6;
+    --c-purple-soft:rgba(178,142,230,.14);
+    --c-lightblue:#74c2e0;
+    --c-lightblue-soft:rgba(116,194,224,.14);
+    --c-gray:#9aa39c;
+
+    --font-mono:'IBM Plex Mono', ui-monospace, monospace;
+    --font-sans:'IBM Plex Sans KR','IBM Plex Sans', -apple-system, 'Apple SD Gothic Neo', sans-serif;
+  }
+
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html,body{background:var(--bg-void); color:var(--text-primary); font-family:var(--font-sans); font-size:14px;}
+  body{ min-height:100vh; padding-bottom:52px; }
+
+  @media (prefers-reduced-motion: reduce){
+    *{animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important;}
+  }
+
+  .sample-banner{
+    padding:9px 32px;
+    border-bottom:1px dashed rgba(223,201,92,.35);
+    background:rgba(223,201,92,.05);
+    font-family:var(--font-mono); font-size:11.5px; color:#f0dd94;
+    display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap;
+  }
+  .sample-banner .ts{color:var(--text-dim);}
+
+  .badge{
+    display:inline-block; font-family:var(--font-mono); font-size:9px; font-weight:700;
+    letter-spacing:.06em; padding:1.5px 6px; border-radius:10px; margin-left:7px; vertical-align:middle;
+  }
+  .badge.live{background:var(--brand-soft); color:var(--brand); border:1px solid rgba(94,217,141,.4);}
+  .badge.manual{background:var(--bg-raised); color:var(--text-dim); border:1px solid var(--line);}
+
+  .header{
+    display:flex; align-items:flex-start; justify-content:space-between;
+    padding:26px 32px 20px; gap:40px; flex-wrap:wrap;
+  }
+  .header-left .eyebrow{
+    font-family:var(--font-mono); font-size:11px; letter-spacing:.16em; color:var(--text-dim); text-transform:uppercase; margin-bottom:10px;
+  }
+  .header-left h1{font-size:23px; font-weight:700; letter-spacing:-.01em; margin-bottom:8px;}
+  .header-left .sub{font-size:12.5px; color:var(--text-muted);}
+
+  .header-right{min-width:340px;}
+  .header-right .eyebrow{
+    font-family:var(--font-mono); font-size:11px; letter-spacing:.14em; color:var(--text-dim); text-transform:uppercase;
+    text-align:right; margin-bottom:12px;
+  }
+  .status-row{display:flex; align-items:center; gap:14px; margin-bottom:9px;}
+  .status-row:last-child{margin-bottom:0;}
+  .status-label{font-size:12px; color:var(--text-muted); width:118px; text-align:right; flex:none;}
+  .seg-bar{display:flex; gap:3px;}
+  .seg-bar i{width:15px; height:13px; border-radius:2px; background:var(--line); display:block;}
+  .seg-bar i.on{background:var(--brand);}
+  .status-val{font-family:var(--font-mono); font-weight:700; font-size:14px; color:var(--brand); width:52px; flex:none;}
+
+  .filter-row{
+    display:flex; align-items:center; gap:16px; padding:14px 32px; border-top:1px solid var(--line); flex-wrap:wrap;
+  }
+  .filter-label{font-family:var(--font-mono); font-size:11px; letter-spacing:.1em; color:var(--text-dim); text-transform:uppercase;}
+  .filter-select{
+    font-family:var(--font-sans); font-size:13px; color:var(--text-primary);
+    background:var(--bg-panel); border:1px solid var(--line); border-radius:8px; padding:7px 34px 7px 14px;
+    position:relative; display:flex; align-items:center; gap:10px; min-width:90px;
+  }
+  .filter-select::after{content:'▾'; position:absolute; right:12px; color:var(--text-dim); font-size:10px;}
+  .filter-note{font-size:12px; color:var(--text-dim);}
+  .filter-note b{color:var(--text-muted); font-weight:600;}
+
+  .tabs{
+    display:flex; gap:30px; padding:2px 32px 0; border-bottom:1px solid var(--line); overflow-x:auto;
+  }
+  .tab{
+    font-size:13px; color:var(--text-dim); padding:11px 0 13px; white-space:nowrap; position:relative; cursor:default;
+  }
+  .tab b{font-family:var(--font-mono); font-weight:600; margin-right:7px; font-size:11.5px;}
+  .tab.active{color:var(--text-primary); font-weight:600;}
+  .tab.active::after{
+    content:''; position:absolute; left:0; right:0; bottom:0; height:2px; background:var(--brand); border-radius:2px;
+  }
+
+  .shell{padding:22px 32px 0; display:flex; flex-direction:column; gap:20px;}
+
+  .kpi-row{display:grid; grid-template-columns:repeat(5, 1fr); gap:12px;}
+  .kpi{
+    background:var(--bg-panel); border:1px solid var(--line); border-radius:10px;
+    padding:15px 16px 13px; opacity:0; animation:rise .5s ease forwards; position:relative;
+  }
+  .kpi.hero{border-color:var(--brand); box-shadow:0 0 0 1px rgba(94,217,141,.15) inset;}
+  .kpi.hero .value{color:var(--brand);}
+  .kpi .label{font-size:11px; color:var(--text-muted); margin-bottom:9px;}
+  .kpi .value{font-family:var(--font-mono); font-size:23px; font-weight:600; letter-spacing:-.02em;}
+  .kpi .value .unit{font-size:13px; font-weight:500; color:var(--text-muted); margin-left:1px;}
+  .kpi .sub{font-size:11.5px; color:var(--text-muted); margin-top:6px;}
+  .kpi .sub.good{color:var(--brand);}
+  .kpi .sub.bad{color:var(--c-red);}
+
+  @keyframes rise{ from{opacity:0; transform:translateY(8px);} to{opacity:1; transform:translateY(0);} }
+  .kpi:nth-child(1){animation-delay:.02s} .kpi:nth-child(2){animation-delay:.06s}
+  .kpi:nth-child(3){animation-delay:.10s} .kpi:nth-child(4){animation-delay:.14s}
+  .kpi:nth-child(5){animation-delay:.18s}
+
+  .panel{
+    background:var(--bg-panel); border:1px solid var(--line); border-radius:12px;
+    opacity:0; animation:rise .55s ease forwards;
+  }
+  .panel-head{
+    display:flex; align-items:flex-start; justify-content:space-between; padding:16px 18px 12px; gap:12px;
+  }
+  .panel-head .titles .eyebrow{
+    font-family:var(--font-mono); font-size:10.5px; letter-spacing:.12em; color:var(--text-dim); text-transform:uppercase; margin-bottom:5px;
+  }
+  .panel-head .titles h2{font-size:14.5px; font-weight:700; letter-spacing:-.005em;}
+  .panel-head .meta{font-family:var(--font-mono); font-size:10.5px; color:var(--text-dim); padding-top:2px;}
+
+  .toggle{
+    display:flex; background:var(--bg-raised); border:1px solid var(--line); border-radius:7px; overflow:hidden; flex:none;
+  }
+  .toggle span{
+    font-family:var(--font-mono); font-size:11px; padding:6px 12px; color:var(--text-dim);
+  }
+  .toggle span.on{background:var(--text-primary); color:#0a0d0a; font-weight:700;}
+
+  .legend{display:flex; flex-wrap:wrap; gap:8px; padding:2px 18px 14px;}
+  .legend span{
+    display:inline-flex; align-items:center; gap:6px; font-size:11.5px; color:var(--text-muted);
+    background:var(--bg-raised); border:1px solid var(--line); border-radius:20px; padding:4px 11px 4px 8px;
+  }
+  .legend i{width:7px; height:7px; border-radius:2px; display:inline-block;}
+
+  .panel-body{padding:16px 18px 18px;}
+
+  .col-left, .col-right{display:flex; flex-direction:column; gap:20px;}
+  .charts-row{display:grid; grid-template-columns:1fr 1fr; gap:20px;}
+  .main-grid{display:grid; grid-template-columns:1.7fr 1fr; gap:20px; align-items:start;}
+
+  .charts-row .panel:nth-child(1){animation-delay:.08s}
+  .charts-row .panel:nth-child(2){animation-delay:.13s}
+  .col-left .panel:nth-child(1){animation-delay:.16s}
+  .col-left .panel:nth-child(2){animation-delay:.22s}
+  .col-right .panel:nth-child(1){animation-delay:.10s}
+  .col-right .panel:nth-child(2){animation-delay:.16s}
+  .col-right .panel:nth-child(3){animation-delay:.22s}
+  .col-right .panel:nth-child(4){animation-delay:.28s}
+
+  .bar-chart{display:flex; align-items:flex-end; gap:14px; height:150px; padding:0 4px;}
+  .bar-col{flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; height:100%;}
+  .bar-stack{width:100%; max-width:34px; display:flex; flex-direction:column; border-radius:3px 3px 2px 2px; overflow:hidden;}
+  .bar-stack div{width:100%;}
+  .bar-wk{font-family:var(--font-mono); font-size:9.5px; color:var(--text-dim); margin-top:8px;}
+  .bar-wk.now{color:var(--brand); font-weight:700;}
+
+  .cal-grid{display:grid; grid-template-columns:repeat(7,1fr);}
+  .cal-dow{
+    font-family:var(--font-mono); font-size:10px; color:var(--text-dim); text-transform:uppercase;
+    text-align:left; padding:6px 8px; border-bottom:1px solid var(--line-soft);
+  }
+  .cal-cell{
+    min-height:92px; border-right:1px solid var(--line-soft); border-bottom:1px solid var(--line-soft);
+    padding:7px 7px 8px; position:relative; transition:background .15s ease;
+  }
+  .cal-cell:nth-child(7n){border-right:none;}
+  .cal-cell:hover{background:rgba(255,255,255,.012);}
+  .cal-cell.out{color:var(--text-dim);}
+  .cal-cell.out .daynum{color:var(--text-dim);}
+  .cal-cell.today{background:var(--brand-soft);}
+  .cal-cell.today::before{content:''; position:absolute; left:0; top:0; bottom:0; width:2px; background:var(--brand); box-shadow:0 0 8px var(--brand);}
+  .daynum{font-family:var(--font-mono); font-size:11.5px; color:var(--text-muted); display:flex; align-items:center; gap:6px; margin-bottom:6px;}
+  .today .daynum b{
+    background:var(--brand); color:#0a0d0a; width:18px; height:18px; border-radius:50%;
+    display:inline-flex; align-items:center; justify-content:center; font-weight:700; position:relative;
+  }
+  .today .daynum b::after{
+    content:''; position:absolute; inset:-3px; border-radius:50%; border:1px solid var(--brand);
+    animation:pulse 2.2s ease-out infinite;
+  }
+  @keyframes pulse{ 0%{transform:scale(.85); opacity:.9;} 100%{transform:scale(1.5); opacity:0;} }
+
+  .evt{
+    font-family:var(--font-mono); font-size:9.5px; font-weight:500; letter-spacing:.01em;
+    border-radius:4px; padding:2.5px 5px; margin-bottom:3px; white-space:nowrap; overflow:hidden;
+    text-overflow:ellipsis; border-left:2px solid transparent;
+  }
+  .evt.bug{background:var(--c-red-soft); color:#f3b8ac; border-color:var(--c-red);}
+  .evt.hotfix{background:var(--c-purple-soft); color:#e2cef8; border-color:var(--c-purple);}
+  .evt.regression{background:var(--c-blue-soft); color:#c3d6f5; border-color:var(--c-blue);}
+  .evt.release{background:var(--brand-soft); color:#b8f0d1; border-color:var(--brand);}
+  .evt.freeze{background:var(--c-lightblue-soft); color:#bfe9f5; border-color:var(--c-lightblue);}
+  .evt.deadline{background:var(--c-gold-soft); color:#f2e5ab; border-color:var(--c-gold);}
+  .evt.misc{background:var(--bg-chip); color:var(--text-muted); border-color:var(--text-dim);}
+
+  .funnel-row{margin-bottom:14px;}
+  .funnel-row:last-child{margin-bottom:0;}
+  .funnel-top{display:flex; justify-content:space-between; font-size:12.5px; margin-bottom:6px;}
+  .funnel-top .proj{font-weight:600;}
+  .funnel-top .total{font-family:var(--font-mono); color:var(--text-muted); font-size:11px;}
+  .funnel-bar{display:flex; height:8px; border-radius:4px; overflow:hidden; background:var(--bg-raised);}
+  .funnel-bar span{height:100%;}
+  .fb-todo{background:var(--text-dim);}
+  .fb-progress{background:var(--c-blue);}
+  .fb-review{background:var(--c-purple);}
+  .fb-blocked{background:var(--c-red);}
+  .fb-done{background:var(--brand);}
+
+  .feed-item{display:flex; gap:10px; padding:10px 0; border-bottom:1px solid var(--line-soft);}
+  .feed-item:last-child{border-bottom:none; padding-bottom:0;}
+  .feed-item:first-child{padding-top:0;}
+  .avatar{
+    width:26px; height:26px; border-radius:6px; flex:none;
+    display:flex; align-items:center; justify-content:center;
+    font-family:var(--font-mono); font-size:10px; font-weight:700; color:#0a0d0a;
+  }
+  .feed-body{min-width:0;}
+  .feed-top{display:flex; align-items:baseline; gap:7px; font-size:12px;}
+  .feed-top .name{font-weight:600;}
+  .feed-top .time{font-family:var(--font-mono); font-size:10px; color:var(--text-dim);}
+  .feed-text{font-size:12px; color:var(--text-muted); margin-top:3px; line-height:1.5; word-break:break-word;}
+  .tag{
+    display:inline-block; font-family:var(--font-mono); font-size:9.5px; font-weight:600;
+    padding:1px 5px; border-radius:3px; margin-right:5px;
+  }
+  .tag.p0{background:var(--c-red-soft); color:#f3b8ac;}
+  .tag.deploy{background:var(--brand-soft); color:#b8f0d1;}
+  .tag.hotfix{background:var(--c-purple-soft); color:#e2cef8;}
+  .tag.ch{background:var(--bg-raised); color:var(--text-dim);}
+
+  .doc-item{
+    display:flex; align-items:center; gap:10px; padding:9px 0; border-bottom:1px solid var(--line-soft);
+    font-size:12.5px; color:var(--text-primary); cursor:pointer; text-decoration:none;
+  }
+  .doc-item:last-child{border-bottom:none;}
+  .doc-icon{
+    width:22px; height:22px; border-radius:5px; background:var(--bg-raised); flex:none;
+    display:flex; align-items:center; justify-content:center; font-size:11px; color:var(--c-blue);
+  }
+  .doc-item .doc-meta{margin-left:auto; font-family:var(--font-mono); font-size:10px; color:var(--text-dim); white-space:nowrap;}
+
+  .oncall-row{display:flex; align-items:center; gap:12px; margin-bottom:14px;}
+  .oncall-avatar{
+    width:38px; height:38px; border-radius:50%; background:linear-gradient(135deg, var(--brand), var(--c-lightblue));
+    display:flex; align-items:center; justify-content:center; font-family:var(--font-mono); font-weight:700; color:#0a0d0a; font-size:13px;
+  }
+  .oncall-name{font-weight:600; font-size:13px;}
+  .oncall-sub{font-size:11px; color:var(--text-muted);}
+  .mini-stat{display:flex; justify-content:space-between; padding:7px 0; border-bottom:1px solid var(--line-soft); font-size:12.5px;}
+  .mini-stat:last-child{border-bottom:none;}
+  .mini-stat .k{color:var(--text-muted);}
+  .mini-stat .v{font-family:var(--font-mono); font-weight:600;}
+  .mini-stat .v.good{color:var(--brand);}
+  .mini-stat .v.bad{color:var(--c-red);}
+
+  .env-strip{display:flex; gap:10px; margin-bottom:14px;}
+  .env-card{flex:1; background:var(--bg-raised); border:1px solid var(--line); border-radius:8px; padding:10px 12px;}
+  .env-card .name{font-size:11px; color:var(--text-muted); margin-bottom:6px;}
+  .env-card .state{font-family:var(--font-mono); font-size:12px; font-weight:600; display:flex; align-items:center; gap:6px;}
+  .env-card .state .dot{width:7px; height:7px; border-radius:50%;}
+  .state.pass .dot{background:var(--brand); box-shadow:0 0 6px var(--brand);}
+  .state.degraded .dot{background:var(--c-orange); box-shadow:0 0 6px var(--c-orange);}
+  .state.fail .dot{background:var(--c-red); box-shadow:0 0 6px var(--c-red);}
+
+  .flaky-row{display:flex; justify-content:space-between; align-items:center; padding:8px 0; border-bottom:1px solid var(--line-soft); font-size:12px;}
+  .flaky-row:last-child{border-bottom:none;}
+  .flaky-name{font-family:var(--font-mono); font-size:11.5px; color:var(--text-primary);}
+  .flaky-rate{font-family:var(--font-mono); font-size:11px; color:var(--c-orange); font-weight:600;}
+
+  footer{ text-align:center; padding:26px 0 0; font-family:var(--font-mono); font-size:10.5px; color:var(--text-dim); }
+
+  @media (max-width:1180px){
+    .kpi-row{grid-template-columns:repeat(3,1fr);}
+    .kpi-row .kpi:nth-child(n+4){display:none;}
+    .charts-row{grid-template-columns:1fr;}
+  }
+  @media (max-width:960px){ .main-grid{grid-template-columns:1fr;} }
+</style>
+</head>
+<body>
+
+<div class="sample-banner">
+  <span>⚠ <span id="banner-text">데이터 불러오는 중…</span></span>
+  <span class="ts" id="banner-ts"></span>
+</div>
+
+<div class="header">
+  <div class="header-left">
+    <div class="eyebrow">QA OPS CONSOLE · 2026-06 – 2026-07</div>
+    <h1>QA 관제 대시보드</h1>
+    <div class="sub">버그 트래커 · 회귀/릴리즈 캘린더 · Hotfix 대응 현황 · Jira · Slack · Confluence 연동</div>
+  </div>
+  <div class="header-right">
+    <div class="eyebrow">STATUS · 전체 · <span id="status-date"></span></div>
+    <div class="status-row">
+      <span class="status-label">회귀 통과율</span>
+      <span class="seg-bar" data-pct="96" id="seg-regression"></span>
+      <span class="status-val" id="status-regression">–</span>
+    </div>
+    <div class="status-row">
+      <span class="status-label">P0 SLA 준수율</span>
+      <span class="seg-bar" data-pct="92" id="seg-sla"></span>
+      <span class="status-val" id="status-sla">–</span>
+    </div>
+    <div class="status-row">
+      <span class="status-label">테스트 커버리지</span>
+      <span class="seg-bar" data-pct="78" id="seg-coverage"></span>
+      <span class="status-val" id="status-coverage">–</span>
+    </div>
+  </div>
+</div>
+
+<div class="filter-row">
+  <span class="filter-label">Project Filter</span>
+  <span class="filter-select">전체</span>
+  <span class="filter-note">심각도(P0~P3) 가중치 기준 지표에 적용 · <b>04 Jira 퍼널</b> 탭과 SLA 준수율은 전사 기준 고정</span>
+</div>
+
+<div class="tabs">
+  <div class="tab active"><b>01</b>오늘 현황</div>
+  <div class="tab"><b>02</b>버그 트래커</div>
+  <div class="tab"><b>03</b>회귀 · 릴리즈 캘린더</div>
+  <div class="tab"><b>04</b>Jira 퍼널</div>
+  <div class="tab"><b>05</b>Slack · Confluence</div>
+  <div class="tab"><b>06</b>온콜 · 환경</div>
+  <div class="tab"><b>07</b>리포트</div>
+</div>
+
+<div class="shell">
+
+  <div class="kpi-row" id="kpi-row">
+    <div class="kpi hero">
+      <div class="label">회귀 테스트 통과율 · <span class="badge manual">MANUAL</span></div>
+      <div class="value" id="kpi-regression-value">–</div>
+      <div class="sub" id="kpi-regression-sub"></div>
+    </div>
+    <div class="kpi hero">
+      <div class="label">P0 SLA 준수율 · <span class="badge manual">MANUAL</span></div>
+      <div class="value" id="kpi-sla-value">–</div>
+      <div class="sub" id="kpi-sla-sub"></div>
+    </div>
+    <div class="kpi">
+      <div class="label">Open Bugs 총계 <span class="badge live">LIVE</span></div>
+      <div class="value" id="kpi-openbugs-value">–</div>
+      <div class="sub" id="kpi-openbugs-sub"></div>
+    </div>
+    <div class="kpi">
+      <div class="label">이번 달 Hotfix <span class="badge manual">MANUAL</span></div>
+      <div class="value" id="kpi-hotfix-value">–</div>
+      <div class="sub" id="kpi-hotfix-sub"></div>
+    </div>
+    <div class="kpi">
+      <div class="label">Escaped Defects (월) <span class="badge manual">MANUAL</span></div>
+      <div class="value" id="kpi-escaped-value">–</div>
+      <div class="sub" id="kpi-escaped-sub"></div>
+    </div>
+  </div>
+
+  <div class="charts-row">
+    <div class="panel">
+      <div class="panel-head">
+        <div class="titles">
+          <div class="eyebrow">WEEKLY REGRESSION TREND <span class="badge manual">MANUAL</span></div>
+          <h2>주간 회귀 테스트 결과</h2>
+        </div>
+        <div class="toggle"><span class="on">건수</span><span>통과율 %</span></div>
+      </div>
+      <div class="legend">
+        <span><i style="background:var(--brand)"></i>Pass</span>
+        <span><i style="background:var(--c-red)"></i>Fail</span>
+        <span><i style="background:var(--c-gray)"></i>Skipped</span>
+      </div>
+      <div class="panel-body">
+        <div class="bar-chart" id="chart-regression"></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head">
+        <div class="titles">
+          <div class="eyebrow">BUG INFLOW BY SEVERITY <span class="badge live">LIVE</span></div>
+          <h2>주간 버그 유입 · 심각도별</h2>
+        </div>
+        <div class="toggle"><span class="on">건수</span><span>비중 %</span></div>
+      </div>
+      <div class="legend">
+        <span><i style="background:var(--c-red)"></i>P0</span>
+        <span><i style="background:var(--c-orange)"></i>P1</span>
+        <span><i style="background:var(--c-gold)"></i>P2</span>
+        <span><i style="background:var(--c-blue)"></i>P3</span>
+      </div>
+      <div class="panel-body">
+        <div class="bar-chart" id="chart-severity"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-grid">
+    <div class="col-left">
+
+      <div class="panel">
+        <div class="panel-head">
+          <div class="titles">
+            <div class="eyebrow">RELEASE & INCIDENT CALENDAR <span class="badge manual">MANUAL + JIRA 마감일</span></div>
+            <h2>릴리즈 · 인시던트 캘린더</h2>
+          </div>
+          <div class="meta" id="cal-title">2026년 7월</div>
+        </div>
+        <div class="legend">
+          <span><i style="background:var(--c-red)"></i>P0/Bug</span>
+          <span><i style="background:var(--c-purple)"></i>Hotfix</span>
+          <span><i style="background:var(--c-blue)"></i>Regression</span>
+          <span><i style="background:var(--brand)"></i>Release</span>
+          <span><i style="background:var(--c-lightblue)"></i>Code Freeze</span>
+          <span><i style="background:var(--c-gold)"></i>Deadline</span>
+          <span><i style="background:var(--text-dim)"></i>기타</span>
+        </div>
+        <div class="cal-grid" id="cal-dow"></div>
+        <div class="cal-grid" id="cal-body"></div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-head">
+          <div class="titles">
+            <div class="eyebrow">JIRA TICKET FUNNEL <span class="badge live">LIVE</span></div>
+            <h2>Jira 티켓 퍼널 · 프로젝트별</h2>
+          </div>
+          <div class="meta">project in (QA,BE,FE,PRODUCT)</div>
+        </div>
+        <div class="panel-body" id="funnel-body"></div>
+      </div>
+
+    </div>
+
+    <div class="col-right">
+
+      <div class="panel">
+        <div class="panel-head">
+          <div class="titles">
+            <div class="eyebrow">ON-CALL & FREEZE <span class="badge manual">MANUAL</span></div>
+            <h2>온콜 · 프리즈 일정</h2>
+          </div>
+          <div class="meta">이번 주</div>
+        </div>
+        <div class="panel-body" id="oncall-body"></div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-head">
+          <div class="titles">
+            <div class="eyebrow">SLACK <span class="badge live">LIVE</span></div>
+            <h2>Slack 실시간 피드</h2>
+          </div>
+          <div class="meta">기술- · 기술과제- · sig*</div>
+        </div>
+        <div class="panel-body" id="slack-body"></div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-head">
+          <div class="titles">
+            <div class="eyebrow">CONFLUENCE · QA SPACE <span class="badge live">LIVE</span></div>
+            <h2>Confluence 문서</h2>
+          </div>
+        </div>
+        <div class="panel-body" id="confluence-body"></div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-head">
+          <div class="titles">
+            <div class="eyebrow">ENVIRONMENT & STABILITY <span class="badge manual">MANUAL</span></div>
+            <h2>환경 상태 · 안정성 지표</h2>
+          </div>
+        </div>
+        <div class="panel-body" id="env-body"></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<footer>QA 관제 대시보드 — <span id="footer-source"></span></footer>
+
+<script>
+function pad(n){ return n.toString().padStart(2,'0'); }
+function esc(s){ const d=document.createElement('div'); d.textContent = s ?? ''; return d.innerHTML; }
+
+function setSegBar(id, pct){
+  const bar = document.getElementById(id);
+  bar.innerHTML = '';
+  const total = 10;
+  const on = Math.round((pct/100)*total);
+  for(let i=0;i<total;i++){
+    const seg = document.createElement('i');
+    if(i < on) seg.classList.add('on');
+    bar.appendChild(seg);
+  }
+}
+
+function renderBarChart(elId, rows, keys, colorVar){
+  const el = document.getElementById(elId);
+  el.innerHTML = '';
+  const maxVal = Math.max(1, ...rows.map(r => keys.reduce((s,k)=> s + (r[k]||0), 0)));
+  const scale = 150 / (maxVal * 1.12);
+  rows.forEach((r, i) => {
+    const col = document.createElement('div');
+    col.className = 'bar-col';
+    const stack = document.createElement('div');
+    stack.className = 'bar-stack';
+    // reverse order so first key ends up at the bottom (largest/most important)
+    [...keys].reverse().forEach(k => {
+      const seg = document.createElement('div');
+      seg.style.height = Math.max(1, (r[k]||0) * scale) + 'px';
+      seg.style.background = colorVar(k);
+      stack.appendChild(seg);
+    });
+    const label = document.createElement('div');
+    const isNow = i === rows.length - 1;
+    label.className = 'bar-wk' + (isNow ? ' now' : '');
+    label.textContent = isNow ? '이번주' : (r.week || r.wk || `W${i+1}`);
+    col.appendChild(stack);
+    col.appendChild(label);
+    el.appendChild(col);
+  });
+}
+
+function renderCalendar(events){
+  const YEAR = 2026, MONTH = 6; // July
+  const TODAY = new Date();
+
+  const byDate = {};
+  events.forEach(ev => {
+    if(!ev.date) return;
+    const key = ev.date.slice(0,10);
+    byDate[key] = byDate[key] || [];
+    byDate[key].push(ev);
+  });
+
+  const dowNames = ['일','월','화','수','목','금','토'];
+  const dowEl = document.getElementById('cal-dow');
+  dowEl.innerHTML = '';
+  dowNames.forEach(d => {
+    const el = document.createElement('div');
+    el.className = 'cal-dow';
+    el.textContent = d;
+    dowEl.appendChild(el);
+  });
+
+  const body = document.getElementById('cal-body');
+  body.innerHTML = '';
+  const firstOfMonth = new Date(YEAR, MONTH, 1);
+  const startOffset = firstOfMonth.getDay();
+  const daysInMonth = new Date(YEAR, MONTH+1, 0).getDate();
+  const daysInPrevMonth = new Date(YEAR, MONTH, 0).getDate();
+  const totalCells = Math.ceil((startOffset + daysInMonth) / 7) * 7;
+
+  for(let i=0; i<totalCells; i++){
+    const cell = document.createElement('div');
+    cell.className = 'cal-cell';
+    let dayNum, inMonth = true, cellDate;
+
+    if(i < startOffset){
+      dayNum = daysInPrevMonth - startOffset + i + 1;
+      inMonth = false;
+      cellDate = new Date(YEAR, MONTH-1, dayNum);
+    } else if(i >= startOffset + daysInMonth){
+      dayNum = i - (startOffset + daysInMonth) + 1;
+      inMonth = false;
+      cellDate = new Date(YEAR, MONTH+1, dayNum);
+    } else {
+      dayNum = i - startOffset + 1;
+      cellDate = new Date(YEAR, MONTH, dayNum);
+    }
+
+    if(!inMonth) cell.classList.add('out');
+    const isToday = cellDate.getFullYear()===TODAY.getFullYear() && cellDate.getMonth()===TODAY.getMonth() && cellDate.getDate()===TODAY.getDate();
+    if(isToday) cell.classList.add('today');
+
+    const dn = document.createElement('div');
+    dn.className = 'daynum';
+    dn.innerHTML = isToday ? `<b>${dayNum}</b>` : dayNum;
+    cell.appendChild(dn);
+
+    const key = `${cellDate.getFullYear()}-${pad(cellDate.getMonth()+1)}-${pad(cellDate.getDate())}`;
+    if(inMonth && byDate[key]){
+      byDate[key].forEach(ev => {
+        const e = document.createElement('div');
+        e.className = 'evt ' + (ev.type || 'misc');
+        e.textContent = ev.title;
+        e.title = ev.title;
+        cell.appendChild(e);
+      });
+    }
+    body.appendChild(cell);
+  }
+}
+
+function renderFunnel(funnel){
+  const el = document.getElementById('funnel-body');
+  el.innerHTML = '';
+  funnel.forEach(f => {
+    const total = f.total || (f.todo + f.inprogress + f.inreview + f.blocked + f.done) || 1;
+    const pct = (n) => (100 * (n||0) / total).toFixed(1) + '%';
+    const row = document.createElement('div');
+    row.className = 'funnel-row';
+    row.innerHTML = `
+      <div class="funnel-top"><span class="proj">${esc(f.key)} — ${esc(f.name)}</span><span class="total">${f.total}건</span></div>
+      <div class="funnel-bar">
+        <span class="fb-todo" style="width:${pct(f.todo)}"></span>
+        <span class="fb-progress" style="width:${pct(f.inprogress)}"></span>
+        <span class="fb-review" style="width:${pct(f.inreview)}"></span>
+        <span class="fb-blocked" style="width:${pct(f.blocked)}"></span>
+        <span class="fb-done" style="width:${pct(f.done)}"></span>
+      </div>`;
+    el.appendChild(row);
+  });
+  const legend = document.createElement('div');
+  legend.className = 'legend';
+  legend.style.padding = '16px 0 0';
+  legend.innerHTML = `
+    <span><i style="background:var(--text-dim)"></i>To Do</span>
+    <span><i style="background:var(--c-blue)"></i>In Progress</span>
+    <span><i style="background:var(--c-purple)"></i>In Review</span>
+    <span><i style="background:var(--c-red)"></i>Blocked</span>
+    <span><i style="background:var(--brand)"></i>Done</span>`;
+  el.appendChild(legend);
+}
+
+const AVATAR_COLORS = ['var(--c-red)','var(--brand)','var(--c-purple)','var(--c-blue)','var(--c-orange)','var(--c-lightblue)'];
+function initials(name){
+  return (name||'?').trim().slice(0,2).toUpperCase();
+}
+function timeAgo(ts){
+  if(!ts) return '';
+  const diffMs = Date.now() - Number(ts) * 1000;
+  const min = Math.floor(diffMs / 60000);
+  if(min < 1) return '방금 전';
+  if(min < 60) return `${min}분 전`;
+  const hr = Math.floor(min/60);
+  if(hr < 24) return `${hr}시간 전`;
+  return `${Math.floor(hr/24)}일 전`;
+}
+
+function renderSlack(messages){
+  const el = document.getElementById('slack-body');
+  el.innerHTML = '';
+  if(!messages || !messages.length){
+    el.innerHTML = '<div style="color:var(--text-dim); font-size:12px;">표시할 메시지가 없습니다. Slack 연동 시크릿이 설정되면 자동으로 채워집니다.</div>';
+    return;
+  }
+  messages.forEach((m, i) => {
+    const item = document.createElement('div');
+    item.className = 'feed-item';
+    item.innerHTML = `
+      <div class="avatar" style="background:${AVATAR_COLORS[i % AVATAR_COLORS.length]}">${esc(initials(m.user))}</div>
+      <div class="feed-body">
+        <div class="feed-top"><span class="name">${esc(m.user)}</span><span class="tag ch">#${esc(m.channel)}</span><span class="time">${timeAgo(m.ts)}</span></div>
+        <div class="feed-text">${esc(m.text)}</div>
+      </div>`;
+    el.appendChild(item);
+  });
+}
+
+function renderConfluence(docs){
+  const el = document.getElementById('confluence-body');
+  el.innerHTML = '';
+  (docs||[]).forEach(d => {
+    const a = document.createElement('a');
+    a.className = 'doc-item';
+    a.href = d.url || '#';
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.innerHTML = `<div class="doc-icon">▤</div>${esc(d.title)}<span class="doc-meta">${esc(d.updated || '')}</span>`;
+    el.appendChild(a);
+  });
+}
+
+function renderOncall(m){
+  const el = document.getElementById('oncall-body');
+  el.innerHTML = `
+    <div class="oncall-row">
+      <div class="oncall-avatar">${esc(initials(m.oncall.name))}</div>
+      <div>
+        <div class="oncall-name">${esc(m.oncall.name)}</div>
+        <div class="oncall-sub">${esc(m.oncall.range)}</div>
+      </div>
+    </div>
+    <div class="mini-stat"><span class="k">다음 핸드오프</span><span class="v">${esc(m.oncall.next_handoff)}</span></div>
+    <div class="mini-stat"><span class="k">다음 Code Freeze까지</span><span class="v">${esc(m.oncall.next_freeze)}</span></div>
+    <div class="mini-stat"><span class="k">다음 릴리즈 예정일</span><span class="v">${esc(m.oncall.next_release)}</span></div>`;
+}
+
+function renderEnv(m){
+  const el = document.getElementById('env-body');
+  const stateLabel = {pass:'Pass', degraded:'Degraded', fail:'Fail'};
+  const envs = [['Staging','staging'], ['Production','production'], ['Sandbox','sandbox']];
+  const cards = envs.map(([label,key]) => {
+    const state = m.env_status?.[key] || 'pass';
+    return `<div class="env-card"><div class="name">${label}</div><div class="state ${state}"><span class="dot"></span>${stateLabel[state]}</div></div>`;
+  }).join('');
+  const flaky = (m.flaky_tests||[]).map(f => `<div class="flaky-row"><span class="flaky-name">${esc(f.name)}</span><span class="flaky-rate">${esc(f.rate)}</span></div>`).join('');
+  el.innerHTML = `
+    <div class="env-strip">${cards}</div>
+    <div class="mini-stat"><span class="k">테스트 커버리지</span><span class="v good">${m.coverage}% (${esc(m.coverage_delta||'')})</span></div>
+    <div class="mini-stat"><span class="k">MTTR (P0/P1)</span><span class="v">${m.mttr_hours}h</span></div>
+    <div class="mini-stat"><span class="k">이번 주 신규 / 종료</span><span class="v" id="env-new-closed">–</span></div>
+    <div style="margin-top:6px">${flaky}</div>`;
+}
+
+async function boot(){
+  let data;
+  try{
+    const res = await fetch('./data.json', { cache: 'no-store' });
+    data = await res.json();
+  }catch(e){
+    document.getElementById('banner-text').textContent = 'data.json을 불러오지 못했습니다. GitHub Pages 배포/Actions 실행 상태를 확인하세요.';
+    return;
+  }
+
+  const j = data.jira || {};
+  const m = data.manual || {};
+  const c = data.confluence || {};
+  const s = data.slack || {};
+
+  // banner
+  const bannerEl = document.getElementById('banner-text');
+  bannerEl.textContent = data.source === 'live-sync'
+    ? 'Jira/Confluence/Slack 실시간 연동 · 회귀 통과율/커버리지/온콜 등 일부 항목은 수동 값입니다.'
+    : '샘플 시드 데이터 표시 중 — GitHub Actions 첫 실행 후 실 데이터로 교체됩니다.';
+  document.getElementById('banner-ts').textContent = data.generated_at ? new Date(data.generated_at).toLocaleString('ko-KR') : '';
+  document.getElementById('footer-source').textContent = `source: ${data.source || 'unknown'} · updated ${data.generated_at ? new Date(data.generated_at).toLocaleString('ko-KR') : '-'}`;
+  document.getElementById('status-date').textContent = new Date().toISOString().slice(0,10);
+
+  // status bars + KPI hero
+  setSegBar('seg-regression', m.regression_pass_rate || 0);
+  document.getElementById('status-regression').textContent = (m.regression_pass_rate ?? '-') + '%';
+  setSegBar('seg-sla', m.p0_sla_rate || 0);
+  document.getElementById('status-sla').textContent = (m.p0_sla_rate ?? '-') + '%';
+  setSegBar('seg-coverage', m.coverage || 0);
+  document.getElementById('status-coverage').textContent = (m.coverage ?? '-') + '%';
+
+  document.getElementById('kpi-regression-value').innerHTML = `${m.regression_pass_rate}<span class="unit">%</span>`;
+  document.getElementById('kpi-regression-sub').textContent = m.regression_pass_rate_delta || '';
+  document.getElementById('kpi-regression-sub').classList.add((m.regression_pass_rate_delta||'').startsWith('-') ? 'bad' : 'good');
+
+  document.getElementById('kpi-sla-value').innerHTML = `${m.p0_sla_rate}<span class="unit">%</span>`;
+  document.getElementById('kpi-sla-sub').textContent = m.p0_sla_rate_delta || '';
+  document.getElementById('kpi-sla-sub').classList.add((m.p0_sla_rate_delta||'').startsWith('-') ? 'bad' : 'good');
+
+  const bp = j.open_by_priority || {};
+  document.getElementById('kpi-openbugs-value').innerHTML = `${j.total_open ?? '-'}<span class="unit">건</span>`;
+  document.getElementById('kpi-openbugs-sub').textContent = `P0 ${bp.P0||0} · P1 ${bp.P1||0} · P2 ${bp.P2||0} · P3 ${bp.P3||0}`;
+
+  document.getElementById('kpi-hotfix-value').innerHTML = `${m.hotfix_count_month ?? '-'}<span class="unit">건</span>`;
+  document.getElementById('kpi-hotfix-sub').textContent = `평균 배포 리드타임 ${m.hotfix_lead_time || '-'}`;
+
+  document.getElementById('kpi-escaped-value').innerHTML = `${m.escaped_defects_month ?? '-'}<span class="unit">건</span>`;
+  document.getElementById('kpi-escaped-sub').textContent = m.escaped_defects_delta || '';
+  document.getElementById('kpi-escaped-sub').classList.add('good');
+
+  const newClosed = document.getElementById('env-new-closed');
+  if(newClosed) newClosed.textContent = `${j.new_this_week ?? '-'} / ${j.closed_this_week ?? '-'}`;
+
+  // charts
+  const regressionRows = [
+    {wk:'W1',pass:117,fail:6,skip:3},{wk:'W2',pass:129,fail:5,skip:2},{wk:'W3',pass:133,fail:4,skip:2},
+    {wk:'W4',pass:135,fail:3,skip:2},{wk:'W5',pass:136,fail:3,skip:2},{wk:'W6',pass:139,fail:4,skip:2},
+    {wk:'W7',pass:137,fail:4,skip:2},{wk:'W8',pass:141,fail:3,skip:2},
+  ];
+  renderBarChart('chart-regression', regressionRows, ['pass','fail','skip'], (k) => ({pass:'var(--brand)',fail:'var(--c-red)',skip:'var(--c-gray)'}[k]));
+
+  const severityRows = j.weekly_severity && j.weekly_severity.length ? j.weekly_severity : [];
+  renderBarChart('chart-severity', severityRows, ['p3','p2','p1','p0'], (k) => ({p3:'var(--c-blue)',p2:'var(--c-gold)',p1:'var(--c-orange)',p0:'var(--c-red)'}[k]));
+
+  // calendar: merge manual + jira due-date events
+  const events = [...(j.calendar_events || []), ...(j.calendar_events_live || [])];
+  renderCalendar(events);
+
+  // funnel
+  renderFunnel(j.funnel || []);
+
+  // slack / confluence / oncall / env
+  renderSlack(s.messages || []);
+  renderConfluence(c.docs || []);
+  renderOncall(m);
+  renderEnv(m);
+}
+
+boot();
+</script>
+
+</body>
+</html>
