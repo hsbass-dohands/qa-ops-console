@@ -128,23 +128,20 @@ async function buildJiraData() {
   out.new_this_week = await jiraCount(`issuetype = 버그 AND created >= -7d`);
   out.closed_this_week = await jiraCount(`issuetype = 버그 AND statusCategory = Done AND resolutiondate >= -7d`);
 
-  // 3) Ticket funnel — mirrors the saved Jira filter directly (dohands.atlassian.net/issues/?filter=10973),
-  // grouped by project, with a dynamic per-status breakdown (statuses in this filter aren't a fixed set).
+  // 3) Ticket list — mirrors the saved Jira filter directly (dohands.atlassian.net/issues/?filter=10973).
+  // Shown as an actual issue list (key, title, assignee), not an aggregated funnel/bar chart.
   try {
-    const json = await jiraSearch(`filter=${FUNNEL_FILTER_ID}`, ['summary', 'status', 'project'], 100);
-    const byProject = new Map();
-    for (const issue of json.issues || []) {
-      const projKey = issue.fields?.project?.key || '기타';
-      const projName = issue.fields?.project?.name || projKey;
-      const statusName = issue.fields?.status?.name || '알 수 없음';
-      if (!byProject.has(projKey)) byProject.set(projKey, { key: projKey, name: projName, total: 0, statuses: new Map() });
-      const entry = byProject.get(projKey);
-      entry.total += 1;
-      entry.statuses.set(statusName, (entry.statuses.get(statusName) || 0) + 1);
-    }
-    out.funnel = [...byProject.values()]
-      .map((p) => ({ key: p.key, name: p.name, total: p.total, statuses: [...p.statuses.entries()].map(([name, count]) => ({ name, count })) }))
-      .sort((a, b) => b.total - a.total);
+    const json = await jiraSearch(`filter=${FUNNEL_FILTER_ID}`, ['summary', 'status', 'project', 'assignee'], 100);
+    out.funnel = (json.issues || [])
+      .map((issue) => ({
+        key: issue.key,
+        url: `${JIRA_SITE}/browse/${issue.key}`,
+        summary: issue.fields?.summary || '',
+        status: issue.fields?.status?.name || '알 수 없음',
+        project: issue.fields?.project?.key || '기타',
+        assignee: issue.fields?.assignee?.displayName || '미배정',
+      }))
+      .sort((a, b) => a.status.localeCompare(b.status) || a.key.localeCompare(b.key));
     out.funnel_filter_id = FUNNEL_FILTER_ID;
     out.funnel_filter_url = `${JIRA_SITE}/issues/?filter=${FUNNEL_FILTER_ID}`;
   } catch (e) {

@@ -330,29 +330,6 @@
     <div class="eyebrow">QA OPS CONSOLE · 2026-06 – 2026-07</div>
     <h1>QA 대시보드</h1>
   </div>
-  <div class="header-right">
-    <div class="eyebrow">STATUS · 전체 · <span id="status-date"></span></div>
-    <div class="status-row">
-      <span class="status-label">테스트 커버리지</span>
-      <span class="seg-bar" data-pct="78" id="seg-coverage"></span>
-      <span class="status-val" id="status-coverage">–</span>
-    </div>
-  </div>
-</div>
-
-<div class="filter-row">
-  <span class="filter-label">Scope</span>
-  <span class="filter-static">전체 프로젝트</span>
-</div>
-
-<div class="tabs">
-  <div class="tab active"><b>01</b>오늘 현황</div>
-  <div class="tab"><b>02</b>버그 트래커</div>
-  <div class="tab"><b>03</b>회귀 · 릴리즈 캘린더</div>
-  <div class="tab"><b>04</b>Jira 퍼널</div>
-  <div class="tab"><b>05</b>Slack · Confluence</div>
-  <div class="tab"><b>06</b>온콜 · 환경</div>
-  <div class="tab"><b>07</b>리포트</div>
 </div>
 
 <div class="shell">
@@ -376,19 +353,9 @@
       <div class="panel">
         <div class="panel-head">
           <div class="titles">
-            <div class="eyebrow">RELEASE & INCIDENT CALENDAR <span class="badge manual">MANUAL + JIRA 마감일</span></div>
-            <h2>릴리즈 · 인시던트 캘린더</h2>
+            <h2>캘린더</h2>
           </div>
           <div class="meta" id="cal-title">2026년 7월</div>
-        </div>
-        <div class="legend">
-          <span><i style="background:var(--c-red)"></i>P0/Bug</span>
-          <span><i style="background:var(--c-purple)"></i>Hotfix</span>
-          <span><i style="background:var(--c-blue)"></i>Regression</span>
-          <span><i style="background:var(--brand)"></i>Release</span>
-          <span><i style="background:var(--c-lightblue)"></i>Code Freeze</span>
-          <span><i style="background:var(--c-gold)"></i>Deadline</span>
-          <span><i style="background:var(--text-dim)"></i>기타</span>
         </div>
         <div class="cal-grid" id="cal-dow"></div>
         <div class="cal-grid" id="cal-body"></div>
@@ -397,10 +364,10 @@
       <div class="panel">
         <div class="panel-head">
           <div class="titles">
-            <div class="eyebrow">JIRA TICKET FUNNEL <span class="badge live">LIVE</span></div>
-            <h2>Jira 티켓 퍼널 · 프로젝트별</h2>
+            <div class="eyebrow">JIRA TICKET LIST <span class="badge live">LIVE</span></div>
+            <h2>Jira 티켓 리스트 · 필터 #10973</h2>
           </div>
-          <a class="meta" href="https://dohands.atlassian.net/issues/?filter=10973" target="_blank" rel="noopener" style="color:inherit; text-decoration:underline;">Jira 필터 #10973</a>
+          <a class="meta" href="https://dohands.atlassian.net/issues/?filter=10973" target="_blank" rel="noopener" style="color:inherit; text-decoration:underline;">필터 열기</a>
         </div>
         <div class="panel-body" id="funnel-body"></div>
       </div>
@@ -423,7 +390,7 @@
       <div class="panel">
         <div class="panel-head">
           <div class="titles">
-            <div class="eyebrow">ON-CALL & FREEZE <span class="badge manual">MANUAL</span></div>
+            <div class="eyebrow">ON-CALL <span class="badge manual">MANUAL</span></div>
             <h2>호출대기</h2>
           </div>
           <div class="meta">이번 주</div>
@@ -450,16 +417,6 @@
           </div>
         </div>
         <div class="panel-body" id="confluence-body"></div>
-      </div>
-
-      <div class="panel">
-        <div class="panel-head">
-          <div class="titles">
-            <div class="eyebrow">ENVIRONMENT & STABILITY <span class="badge manual">MANUAL</span></div>
-            <h2>환경 상태 · 안정성 지표</h2>
-          </div>
-        </div>
-        <div class="panel-body" id="env-body"></div>
       </div>
 
     </div>
@@ -557,39 +514,33 @@ function renderCalendar(events){
   }
 }
 
-const FUNNEL_STATUS_COLORS = ['var(--c-blue)','var(--c-purple)','var(--c-gold)','var(--c-red)','var(--brand)','var(--c-lightblue)','var(--text-dim)','var(--c-orange)'];
-function renderFunnel(funnel){
+function renderFunnel(issues){
   const el = document.getElementById('funnel-body');
   el.innerHTML = '';
-  if(!funnel || !funnel.length){
-    el.innerHTML = '<div style="color:var(--text-dim); font-size:12.5px;">필터 #10973에 해당하는 티켓이 없습니다.</div>';
+  if(!issues || !issues.length){
+    el.innerHTML = '<div style="color:var(--text-dim); font-size:13px;">필터 #10973에 해당하는 티켓이 없습니다.</div>';
     return;
   }
-  // stable color per status name across every project row
-  const statusColor = {};
-  let colorI = 0;
-  funnel.forEach(f => (f.statuses||[]).forEach(s => {
-    if(!(s.name in statusColor)) statusColor[s.name] = FUNNEL_STATUS_COLORS[colorI++ % FUNNEL_STATUS_COLORS.length];
-  }));
-
-  funnel.forEach(f => {
-    const total = f.total || 1;
-    const pct = (n) => (100 * (n||0) / total).toFixed(1) + '%';
-    const bars = (f.statuses||[]).map(s => `<span style="width:${pct(s.count)}; background:${statusColor[s.name]}" title="${esc(s.name)}: ${s.count}건"></span>`).join('');
+  let lastStatus = null;
+  issues.forEach(f => {
+    if(f.status !== lastStatus){
+      const count = issues.filter(x => x.status === f.status).length;
+      const sh = document.createElement('div');
+      sh.className = 'task-month';
+      sh.textContent = `${f.status} · ${count}건`;
+      el.appendChild(sh);
+      lastStatus = f.status;
+    }
     const row = document.createElement('div');
-    row.className = 'funnel-row';
+    row.className = 'task-row';
     row.innerHTML = `
-      <div class="funnel-top"><span class="proj">${esc(f.key)} — ${esc(f.name)}</span><span class="total">${f.total}건</span></div>
-      <div class="funnel-bar">${bars}</div>`;
+      <div class="task-top">
+        <span class="tag ch">${esc(f.project)}</span>
+        <span class="task-title"><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.key)} · ${esc(f.summary)}</a></span>
+      </div>
+      <div class="task-meta">담당 ${esc(f.assignee || '미배정')}</div>`;
     el.appendChild(row);
   });
-
-  const legend = document.createElement('div');
-  legend.className = 'legend';
-  legend.style.padding = '16px 0 0';
-  legend.innerHTML = Object.entries(statusColor).map(([name, color]) =>
-    `<span><i style="background:${color}"></i>${esc(name)}</span>`).join('');
-  el.appendChild(legend);
 }
 
 const AVATAR_COLORS = ['var(--c-red)','var(--brand)','var(--c-purple)','var(--c-blue)','var(--c-orange)','var(--c-lightblue)'];
@@ -701,23 +652,6 @@ function renderOncall(m){
     </div>`;
 }
 
-function renderEnv(m){
-  const el = document.getElementById('env-body');
-  const stateLabel = {pass:'Pass', degraded:'Degraded', fail:'Fail'};
-  const envs = [['Staging','staging'], ['Production','production'], ['Sandbox','sandbox']];
-  const cards = envs.map(([label,key]) => {
-    const state = m.env_status?.[key] || 'pass';
-    return `<div class="env-card"><div class="name">${label}</div><div class="state ${state}"><span class="dot"></span>${stateLabel[state]}</div></div>`;
-  }).join('');
-  const flaky = (m.flaky_tests||[]).map(f => `<div class="flaky-row"><span class="flaky-name">${esc(f.name)}</span><span class="flaky-rate">${esc(f.rate)}</span></div>`).join('');
-  el.innerHTML = `
-    <div class="env-strip">${cards}</div>
-    <div class="mini-stat"><span class="k">테스트 커버리지</span><span class="v good">${m.coverage}% (${esc(m.coverage_delta||'')})</span></div>
-    <div class="mini-stat"><span class="k">MTTR (P0/P1)</span><span class="v">${m.mttr_hours}h</span></div>
-    <div class="mini-stat"><span class="k">이번 주 신규 / 종료</span><span class="v" id="env-new-closed">–</span></div>
-    <div style="margin-top:6px">${flaky}</div>`;
-}
-
 async function boot(){
   let data;
   try{
@@ -740,11 +674,6 @@ async function boot(){
     : '샘플 시드 데이터 표시 중 — GitHub Actions 첫 실행 후 실 데이터로 교체됩니다.';
   document.getElementById('banner-ts').textContent = data.generated_at ? new Date(data.generated_at).toLocaleString('ko-KR') : '';
   document.getElementById('footer-source').textContent = `source: ${data.source || 'unknown'} · updated ${data.generated_at ? new Date(data.generated_at).toLocaleString('ko-KR') : '-'}`;
-  document.getElementById('status-date').textContent = new Date().toISOString().slice(0,10);
-
-  // status bar
-  setSegBar('seg-coverage', m.coverage || 0);
-  document.getElementById('status-coverage').textContent = (m.coverage ?? '-') + '%';
 
   const bp = j.open_by_priority || {};
   document.getElementById('kpi-openbugs-value').innerHTML = `${j.total_open ?? '-'}<span class="unit">건</span>`;
@@ -752,9 +681,6 @@ async function boot(){
 
   document.getElementById('kpi-hotfix-value').innerHTML = `${m.hotfix_count_month ?? '-'}<span class="unit">건</span>`;
   document.getElementById('kpi-hotfix-sub').textContent = `평균 배포 리드타임 ${m.hotfix_lead_time || '-'}`;
-
-  const newClosed = document.getElementById('env-new-closed');
-  if(newClosed) newClosed.textContent = `${j.new_this_week ?? '-'} / ${j.closed_this_week ?? '-'}`;
 
   // calendar: merge manual + jira due-date events
   const events = [...(j.calendar_events || []), ...(j.calendar_events_live || [])];
@@ -766,11 +692,10 @@ async function boot(){
   // QA pipeline (manual Confluence snapshot)
   renderPipeline(c.tasks || [], c.tasks_source_url);
 
-  // slack / confluence / oncall / env
+  // slack / confluence / oncall
   renderSlack(s.messages || []);
   renderConfluence(c.docs || []);
   renderOncall(m);
-  renderEnv(m);
 }
 
 boot();
