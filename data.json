@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T08:49:03.865Z",
+  "generated_at": "2026-07-16T10:35:35.998Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -462,13 +462,13 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "격리재고",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/260669483",
+        "title": "PDA 기본기능",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/268238910/PDA",
         "updated": "2026-07-16"
       },
       {
-        "title": "PDA 기본기능",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/268238910/PDA",
+        "title": "격리재고",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/260669483",
         "updated": "2026-07-16"
       },
       {
@@ -767,6 +767,12 @@
     ],
     "messages": [
       {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1784192036.148779",
+        "text": "<!here> <https://hsbass-dohands.github.io/qa-ops-console/|hsbass-dohands.github.io/qa-ops-console>\n\n여러 창/브라우저 탭 열고 왔다 갔다하기 힘드시죠? 저도 힘들어서 한눈에 다 볼 수 있는 QA 대시보드를 만들고 있습니다.\n개인적으로 보고싶거나 추가 하고싶은게 있으면 말씀해주세요"
+      },
+      {
         "channel": "기술과제-트랙스로지스",
         "user": "최라온 (기술/QA팀)",
         "ts": "1784186218.128899",
@@ -807,12 +813,6 @@
         "user": "김태재 (기술/QA팀)",
         "ts": "1784109081.161329",
         "text": "<!here> 래원님 오시고"
-      },
-      {
-        "channel": "기술-로보틱스팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1784101328.700509",
-        "text": "@우창수 (기술/로보틱스팀) 운영 기준 마감 API"
       }
     ]
   },
