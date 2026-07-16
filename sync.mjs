@@ -6,9 +6,14 @@
 //   JIRA_EMAIL        - Atlassian account email
 //   JIRA_API_TOKEN     - Atlassian API token (id.atlassian.com/manage-profile/security/api-tokens)
 //   SLACK_BOT_TOKEN     - Slack bot token (xoxb-...) from a Slack app with scopes:
-//                         channels:history, channels:read, groups:history, groups:read, users:read
-//                         The bot must be invited into any *private* channels it should read
-//                         (e.g. #기술-qa팀, #sigint, #sigvise, and any other private 기술-/기술과제- channels).
+//                         channels:history, channels:read, channels:join, groups:history,
+//                         groups:read, users:read
+//                         Channels synced: 기술-로보틱스팀, 기술-휴가, 기술-qa팀, 기술조직,
+//                         sigint, sigvise, and any 기술과제-* channel.
+//                         Private channels (기술-qa팀, sigint, sigvise) can't be auto-joined —
+//                         the bot must be invited manually (/invite @qa-ops-console-sync).
+//                         The live feed only shows messages from #기술-qa팀 members (the QA
+//                         team roster), so the bot must be in #기술-qa팀 for the feed to work.
 //
 // Any step that is missing its secret, or that errors, is skipped gracefully —
 // the site keeps showing the last known value rather than breaking.
@@ -27,7 +32,15 @@ const FUNNEL_PROJECTS = [
   { key: 'PRODUCT', name: '제품' },
 ];
 
-const SLACK_CHANNEL_PREFIXES = ['기술-', '기술과제-', 'sig'];
+// Exact channel names to pull from, plus any channel starting with "기술과제-".
+// #기술-리더 and every other 기술-/sig channel not listed here are intentionally excluded.
+const SLACK_CHANNEL_NAMES = ['기술-로보틱스팀', '기술-휴가', '기술-qa팀', '기술조직', 'sigint', 'sigvise'];
+const SLACK_CHANNEL_PREFIXES = ['기술과제-'];
+const QA_TEAM_CHANNEL_NAME = '기술-qa팀'; // membership of this channel defines "QA team" for message filtering
+
+function isTargetChannel(name) {
+  return SLACK_CHANNEL_NAMES.includes(name) || SLACK_CHANNEL_PREFIXES.some((p) => name.startsWith(p));
+}
 
 function jiraAuthHeader() {
   const token = Buffer.from(`${JIRA_EMAIL}:${JIRA_TOKEN}`).toString('base64');
@@ -218,17 +231,40 @@ async function buildSlackData() {
   const headers = { Authorization: `Bearer ${SLACK_TOKEN}` };
 
   try {
-    // Build a user id -> name map (best effort, ignore failures)
+    // Build a user id -> name map (best effort, ignore failures). Paginate fully
+    // so bot users / recently-added members near the end of the list resolve too.
     const userMap = {};
     try {
-      const usersRes = await fetch('https://slack.com/api/users.list?limit=200', { headers });
-      const usersJson = await usersRes.json();
-      for (const u of usersJson.members || []) {
-        userMap[u.id] = u.real_name || u.name || u.id;
-      }
+      let ucursor = '';
+      do {
+        const url = `https://slack.com/api/users.list?limit=200${ucursor ? `&cursor=${ucursor}` : ''}`;
+        const usersRes = await fetch(url, { headers });
+        const usersJson = await usersRes.json();
+        if (!usersJson.ok) break;
+        for (const u of usersJson.members || []) {
+          userMap[u.id] = u.profile?.display_name || u.real_name || u.name || u.id;
+        }
+        ucursor = usersJson.response_metadata?.next_cursor || '';
+      } while (ucursor);
     } catch {}
 
-    // List channels (public + private the bot is a member of) and filter by prefix
+    async function resolveUser(id) {
+      if (!id) return '알 수 없음';
+      if (userMap[id]) return userMap[id];
+      try {
+        const res = await fetch(`https://slack.com/api/users.info?user=${id}`, { headers });
+        const json = await res.json();
+        if (json.ok) {
+          const name = json.user?.profile?.display_name || json.user?.real_name || json.user?.name || id;
+          userMap[id] = name;
+          return name;
+        }
+      } catch {}
+      return id;
+    }
+
+    // List channels (public + private the bot is a member of) and keep only the
+    // explicitly requested ones (see SLACK_CHANNEL_NAMES / SLACK_CHANNEL_PREFIXES above).
     const channels = [];
     let cursor = '';
     do {
@@ -237,12 +273,43 @@ async function buildSlackData() {
       const json = await res.json();
       if (!json.ok) throw new Error(`conversations.list failed: ${json.error}`);
       for (const c of json.channels || []) {
-        if (SLACK_CHANNEL_PREFIXES.some((p) => c.name.startsWith(p))) {
+        if (isTargetChannel(c.name)) {
           channels.push({ id: c.id, name: c.name, is_private: !!c.is_private, is_member: !!c.is_member });
         }
       }
       cursor = json.response_metadata?.next_cursor || '';
     } while (cursor);
+
+    // QA team = members of #기술-qa팀. Only messages authored by these people
+    // are surfaced in the feed, even from channels with a wider audience
+    // (e.g. 기술과제- channels). If the bot isn't in #기술-qa팀 yet (private
+    // channel, needs manual /invite), this comes back empty and no messages
+    // are shown rather than showing everyone's.
+    let qaTeamIds = null;
+    const qaChannel = channels.find((c) => c.name === QA_TEAM_CHANNEL_NAME);
+    if (qaChannel) {
+      try {
+        qaTeamIds = new Set();
+        let mcursor = '';
+        do {
+          const url = `https://slack.com/api/conversations.members?channel=${qaChannel.id}&limit=200${mcursor ? `&cursor=${mcursor}` : ''}`;
+          const res = await fetch(url, { headers });
+          const json = await res.json();
+          if (!json.ok) {
+            console.log(`Could not read #${QA_TEAM_CHANNEL_NAME} members: ${json.error} (bot likely needs a manual /invite)`);
+            qaTeamIds = null;
+            break;
+          }
+          for (const id of json.members || []) qaTeamIds.add(id);
+          mcursor = json.response_metadata?.next_cursor || '';
+        } while (mcursor);
+      } catch (e) {
+        console.log(`QA team membership lookup failed: ${e.message}`);
+        qaTeamIds = null;
+      }
+    } else {
+      console.log(`#${QA_TEAM_CHANNEL_NAME} not visible to the bot yet — needs a manual /invite. Slack feed will be empty until then.`);
+    }
 
     // Pull recent messages from each matched channel; skip ones the bot can't access
     const allMessages = [];
@@ -264,7 +331,7 @@ async function buildSlackData() {
         }
 
         const res = await fetch(
-          `https://slack.com/api/conversations.history?channel=${ch.id}&limit=5`,
+          `https://slack.com/api/conversations.history?channel=${ch.id}&limit=20`,
           { headers }
         );
         const json = await res.json();
@@ -274,9 +341,12 @@ async function buildSlackData() {
         }
         for (const m of json.messages || []) {
           if (!m.text) continue;
+          if (m.subtype) continue; // skip channel_join/leave/bot/system messages
+          if (qaTeamIds && m.user && !qaTeamIds.has(m.user)) continue; // QA-team-only filter
+          if (!qaTeamIds) continue; // no verified QA roster yet -> don't show anyone's messages
           allMessages.push({
             channel: ch.name,
-            user: userMap[m.user] || m.user || '알 수 없음',
+            user: await resolveUser(m.user),
             ts: m.ts,
             text: m.text.slice(0, 200),
           });
@@ -287,7 +357,13 @@ async function buildSlackData() {
     }
     allMessages.sort((a, b) => Number(b.ts) - Number(a.ts));
 
-    return { channel_prefixes: SLACK_CHANNEL_PREFIXES, channels, messages: allMessages.slice(0, 8) };
+    return {
+      channel_names: SLACK_CHANNEL_NAMES,
+      channel_prefixes: SLACK_CHANNEL_PREFIXES,
+      qa_team_size: qaTeamIds ? qaTeamIds.size : null,
+      channels,
+      messages: allMessages.slice(0, 8),
+    };
   } catch (e) {
     console.log(`Slack sync failed: ${e.message}`);
     return null;
