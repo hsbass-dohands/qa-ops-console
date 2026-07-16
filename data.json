@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T06:48:05.215Z",
+  "generated_at": "2026-07-16T07:17:32.812Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -223,6 +223,11 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "PDA 기본기능",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/268238910/PDA",
+        "updated": "2026-07-16"
+      },
+      {
         "title": "격리재고",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/260669483",
         "updated": "2026-07-16"
@@ -231,11 +236,6 @@
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-07-16"
-      },
-      {
-        "title": "PDA 기본기능",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/268238910/PDA",
-        "updated": "2026-07-15"
       },
       {
         "title": "[QA] 로케이션 등록 – 유형별 격리구분 활성화 검증",
@@ -263,74 +263,157 @@
     "channels": [
       {
         "id": "C02NXU9PZPB",
-        "name": "기술-문의-대응-영웅들"
+        "name": "기술-문의-대응-영웅들",
+        "is_private": false,
+        "is_member": false
       },
       {
         "id": "C0533H477QQ",
-        "name": "기술-모니터-개발"
+        "name": "기술-모니터-개발",
+        "is_private": false,
+        "is_member": false
       },
       {
         "id": "C0533H4CAGG",
-        "name": "기술-모니터"
+        "name": "기술-모니터",
+        "is_private": false,
+        "is_member": false
       },
       {
         "id": "C0914TWKCAU",
-        "name": "기술-문의"
+        "name": "기술-문의",
+        "is_private": false,
+        "is_member": false
       },
       {
         "id": "C09471BM5L6",
-        "name": "기술과제-n직재고"
+        "name": "기술과제-n직재고",
+        "is_private": false,
+        "is_member": false
       },
       {
         "id": "C094QGRN0FK",
-        "name": "기술과제-큐텐-배송지연api"
+        "name": "기술과제-큐텐-배송지연api",
+        "is_private": false,
+        "is_member": false
       },
       {
         "id": "C097TJ1R7EX",
-        "name": "기술-문의-외주"
+        "name": "기술-문의-외주",
+        "is_private": false,
+        "is_member": false
       },
       {
         "id": "C09AZUJ7Y10",
-        "name": "기술-문의-체계화"
+        "name": "기술-문의-체계화",
+        "is_private": false,
+        "is_member": false
       },
       {
         "id": "C09EFB500K0",
-        "name": "기술과제-카페24"
+        "name": "기술과제-카페24",
+        "is_private": false,
+        "is_member": false
       },
       {
         "id": "C09SV9WDM18",
-        "name": "기술-칭찬방"
+        "name": "기술-칭찬방",
+        "is_private": false,
+        "is_member": false
       },
       {
         "id": "C0A3GFJ4FNZ",
-        "name": "기술-문의-파트너스_더리커머스"
+        "name": "기술-문의-파트너스_더리커머스",
+        "is_private": false,
+        "is_member": false
       },
       {
         "id": "C0A3GFMUKGD",
-        "name": "기술-문의-파트너스_로지비"
+        "name": "기술-문의-파트너스_로지비",
+        "is_private": false,
+        "is_member": false
       },
       {
         "id": "C0A3PFT7012",
-        "name": "기술-문의-파트너스_비에스엘에스"
+        "name": "기술-문의-파트너스_비에스엘에스",
+        "is_private": false,
+        "is_member": false
       },
       {
         "id": "C0A9K11QEBV",
-        "name": "기술과제-개발팀-pii"
+        "name": "기술과제-개발팀-pii",
+        "is_private": false,
+        "is_member": false
       },
       {
         "id": "C0ADLQC98R0",
-        "name": "기술과제-바이스이관-알림"
+        "name": "기술과제-바이스이관-알림",
+        "is_private": false,
+        "is_member": false
       },
       {
         "id": "C0AUJRB710U",
-        "name": "siginf-notification"
+        "name": "siginf-notification",
+        "is_private": false,
+        "is_member": false
       },
       {
         "id": "C0B3JEMP8QZ",
-        "name": "기술과제-정산오류모니터링"
+        "name": "기술과제-정산오류모니터링",
+        "is_private": false,
+        "is_member": false
       }
     ],
-    "messages": []
+    "messages": [
+      {
+        "channel": "기술과제-정산오류모니터링",
+        "user": "U0BH92VVANB",
+        "ts": "1784186252.476939",
+        "text": "<@U0BH92VVANB> 님이 채널에 참여함"
+      },
+      {
+        "channel": "siginf-notification",
+        "user": "U0BH92VVANB",
+        "ts": "1784186251.920359",
+        "text": "<@U0BH92VVANB> 님이 채널에 참여함"
+      },
+      {
+        "channel": "기술과제-바이스이관-알림",
+        "user": "U0BH92VVANB",
+        "ts": "1784186251.300199",
+        "text": "<@U0BH92VVANB> 님이 채널에 참여함"
+      },
+      {
+        "channel": "기술-문의-체계화",
+        "user": "U0BH92VVANB",
+        "ts": "1784186247.618989",
+        "text": "<@U0BH92VVANB> 님이 채널에 참여함"
+      },
+      {
+        "channel": "기술-모니터-개발",
+        "user": "U0BH92VVANB",
+        "ts": "1784186244.139219",
+        "text": "<@U0BH92VVANB> 님이 채널에 참여함"
+      },
+      {
+        "channel": "기술-문의",
+        "user": "U08UHQ18MK5",
+        "ts": "1784186066.720689",
+        "text": "주문수량상이 - 기타 기타 &gt; 고객사 / 브랜드 / 채널 : 크리에이티브제트\n&gt; 관련 번호: 2026071586901341\n해당 주문건\n\n```딸기 560g 1통 / 맛 선택2: 딸기 560g 1통 총 2통 주문```\n인데 주문상세 확인시 1개만 노출이됩니다 확인부탁드립니다 _2026-07-16 16:14:26 - <@U044ZC38M7U> 제출"
+      },
+      {
+        "channel": "기술과제-바이스이관-알림",
+        "user": "Jira",
+        "ts": "1784185862.534779",
+        "text": "@정수아 (기술/제품팀) updated the description TECH-1506 Font 토큰 수정 및 동기화"
+      },
+      {
+        "channel": "기술과제-바이스이관-알림",
+        "user": "Jira",
+        "ts": "1784185837.164049",
+        "text": "@정수아 (기술/제품팀) updated the 마감일 TECH-1506 Font 토큰 수정 및 동기화"
+      }
+    ]
   },
   "manual": {
     "regression_pass_rate": 96.4,
