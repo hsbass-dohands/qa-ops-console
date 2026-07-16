@@ -34,19 +34,29 @@ function jiraAuthHeader() {
   return { Authorization: `Basic ${token}`, Accept: 'application/json' };
 }
 
+// NOTE: Atlassian retired the classic GET /rest/api/3/search endpoint (it now
+// returns HTTP 410 Gone). All issue search goes through the newer
+// "enhanced JQL search" endpoint, which pages via nextPageToken instead of
+// startAt/total, and has no built-in exact count.
 async function jiraSearch(jql, fields, maxResults = 100) {
-  const url = `${JIRA_SITE}/rest/api/3/search?jql=${encodeURIComponent(jql)}&maxResults=${maxResults}&fields=${fields.join(',')}`;
+  const url = `${JIRA_SITE}/rest/api/3/search/jql?jql=${encodeURIComponent(jql)}&maxResults=${maxResults}&fields=${fields.join(',')}`;
   const res = await fetch(url, { headers: jiraAuthHeader() });
   if (!res.ok) throw new Error(`Jira search failed (${res.status}): ${jql}`);
   return res.json();
 }
 
+// Exact counts are no longer returned by /search/jql, so use the dedicated
+// approximate-count endpoint (POST, JSON body) instead.
 async function jiraCount(jql) {
-  const url = `${JIRA_SITE}/rest/api/3/search?jql=${encodeURIComponent(jql)}&maxResults=0`;
-  const res = await fetch(url, { headers: jiraAuthHeader() });
+  const url = `${JIRA_SITE}/rest/api/3/search/approximate-count`;
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: { ...jiraAuthHeader(), 'Content-Type': 'application/json' },
+    body: JSON.stringify({ jql }),
+  });
   if (!res.ok) throw new Error(`Jira count failed (${res.status}): ${jql}`);
   const json = await res.json();
-  return json.total ?? 0;
+  return json.count ?? 0;
 }
 
 function priorityBucket(name) {
@@ -75,10 +85,13 @@ async function buildJiraData() {
   let totalOpen = 0;
   {
     const jql = `issuetype = 버그 AND statusCategory != Done ORDER BY created DESC`;
-    let startAt = 0;
+    let nextPageToken;
     const pageSize = 100;
-    for (;;) {
-      const url = `${JIRA_SITE}/rest/api/3/search?jql=${encodeURIComponent(jql)}&maxResults=${pageSize}&startAt=${startAt}&fields=priority`;
+    const MAX_PAGES = 20; // safety cap (~2000 issues) so a bad query can't loop forever
+    for (let page = 0; page < MAX_PAGES; page++) {
+      const params = new URLSearchParams({ jql, maxResults: String(pageSize), fields: 'priority' });
+      if (nextPageToken) params.set('nextPageToken', nextPageToken);
+      const url = `${JIRA_SITE}/rest/api/3/search/jql?${params.toString()}`;
       const res = await fetch(url, { headers: jiraAuthHeader() });
       if (!res.ok) throw new Error(`Jira open-bug search failed (${res.status})`);
       const json = await res.json();
@@ -87,8 +100,8 @@ async function buildJiraData() {
         if (bucket) openByPriority[bucket] = (openByPriority[bucket] || 0) + 1;
       }
       totalOpen += (json.issues || []).length;
-      startAt += pageSize;
-      if (startAt >= (json.total ?? 0) || (json.issues || []).length === 0) break;
+      nextPageToken = json.nextPageToken;
+      if (json.isLast || !nextPageToken || (json.issues || []).length === 0) break;
     }
   }
   out.open_by_priority = openByPriority;
