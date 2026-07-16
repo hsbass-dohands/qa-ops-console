@@ -1,64 +1,272 @@
 {
-  "generated_at": "2026-07-16T09:00:00+09:00",
-  "source": "seed-sample",
+  "generated_at": "2026-07-16T06:34:14.998Z",
+  "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
-    "open_by_priority": { "P0": 3, "P1": 14, "P2": 41, "P3": 29 },
-    "total_open": 87,
-    "new_this_week": 23,
-    "closed_this_week": 19,
+    "open_by_priority": {
+      "P0": 0,
+      "P1": 1,
+      "P2": 9,
+      "P3": 43
+    },
+    "total_open": 53,
+    "new_this_week": 7,
+    "closed_this_week": 0,
     "funnel": [
-      { "key": "QA", "name": "QA 검증", "todo": 26, "inprogress": 37, "inreview": 17, "blocked": 9, "done": 54, "total": 143 },
-      { "key": "BE", "name": "Back-end", "todo": 6, "inprogress": 22, "inreview": 5, "blocked": 9, "done": 22, "total": 64 },
-      { "key": "FE", "name": "Front-end", "todo": 24, "inprogress": 18, "inreview": 10, "blocked": 4, "done": 43, "total": 99 },
-      { "key": "PRODUCT", "name": "제품", "todo": 10, "inprogress": 11, "inreview": 7, "blocked": 4, "done": 19, "total": 51 }
+      {
+        "key": "QA",
+        "name": "QA 검증",
+        "todo": 3,
+        "inprogress": 0,
+        "inreview": 0,
+        "blocked": 0,
+        "done": 2,
+        "total": 5
+      },
+      {
+        "key": "BE",
+        "name": "Back-end",
+        "todo": 14,
+        "inprogress": 8,
+        "inreview": 0,
+        "blocked": 0,
+        "done": 96,
+        "total": 118
+      },
+      {
+        "key": "FE",
+        "name": "Front-end",
+        "todo": 34,
+        "inprogress": 8,
+        "inreview": 0,
+        "blocked": 0,
+        "done": 81,
+        "total": 123
+      },
+      {
+        "key": "PRODUCT",
+        "name": "제품",
+        "todo": 13,
+        "inprogress": 4,
+        "inreview": 0,
+        "blocked": 0,
+        "done": 21,
+        "total": 38
+      }
     ],
     "weekly_severity": [
-      { "week": "W1", "p0": 5, "p1": 20, "p2": 55, "p3": 38 },
-      { "week": "W2", "p0": 3, "p1": 15, "p2": 50, "p3": 35 },
-      { "week": "W3", "p0": 8, "p1": 23, "p2": 63, "p3": 40 },
-      { "week": "W4", "p0": 5, "p1": 18, "p2": 53, "p3": 33 },
-      { "week": "W5", "p0": 3, "p1": 13, "p2": 48, "p3": 30 },
-      { "week": "W6", "p0": 5, "p1": 20, "p2": 58, "p3": 38 },
-      { "week": "W7", "p0": 8, "p1": 25, "p2": 60, "p3": 43 },
-      { "week": "W8", "p0": 8, "p1": 23, "p2": 65, "p3": 45 }
+      {
+        "week": "W1",
+        "p0": 0,
+        "p1": 1,
+        "p2": 0,
+        "p3": 3
+      },
+      {
+        "week": "W2",
+        "p0": 0,
+        "p1": 1,
+        "p2": 1,
+        "p3": 7
+      },
+      {
+        "week": "W3",
+        "p0": 0,
+        "p1": 2,
+        "p2": 9,
+        "p3": 9
+      },
+      {
+        "week": "W4",
+        "p0": 0,
+        "p1": 1,
+        "p2": 6,
+        "p3": 9
+      },
+      {
+        "week": "W5",
+        "p0": 0,
+        "p1": 0,
+        "p2": 6,
+        "p3": 7
+      },
+      {
+        "week": "W6",
+        "p0": 0,
+        "p1": 2,
+        "p2": 2,
+        "p3": 4
+      },
+      {
+        "week": "W7",
+        "p0": 0,
+        "p1": 0,
+        "p2": 3,
+        "p3": 5
+      },
+      {
+        "week": "W8",
+        "p0": 0,
+        "p1": 0,
+        "p2": 0,
+        "p3": 6
+      }
     ],
     "calendar_events": [
-      { "date": "2026-07-01", "title": "CODE FREEZE 시작", "type": "freeze", "source": "manual" },
-      { "date": "2026-07-03", "title": "v4.2 릴리즈", "type": "release", "source": "manual" },
-      { "date": "2026-07-06", "title": "Hotfix · 결제 타임아웃", "type": "hotfix", "source": "manual" },
-      { "date": "2026-07-08", "title": "회귀 테스트 시작", "type": "regression", "source": "manual" },
-      { "date": "2026-07-10", "title": "회귀 사인오프", "type": "regression", "source": "manual" },
-      { "date": "2026-07-13", "title": "P0 · 체크아웃 크래시", "type": "bug", "source": "manual" },
-      { "date": "2026-07-14", "title": "Hotfix v4.2.1 배포", "type": "hotfix", "source": "manual" },
-      { "date": "2026-07-16", "title": "스모크 테스트", "type": "misc", "source": "manual" },
-      { "date": "2026-07-17", "title": "버그 배시", "type": "misc", "source": "manual" },
-      { "date": "2026-07-20", "title": "Sprint14 QA 사인오프", "type": "deadline", "source": "manual" },
-      { "date": "2026-07-22", "title": "CODE FREEZE · v4.3", "type": "freeze", "source": "manual" },
-      { "date": "2026-07-24", "title": "v4.3 릴리즈", "type": "release", "source": "manual" },
-      { "date": "2026-07-27", "title": "자동화 스위트 리뷰", "type": "regression", "source": "manual" },
-      { "date": "2026-07-29", "title": "온콜 핸드오프", "type": "misc", "source": "manual" },
-      { "date": "2026-07-31", "title": "월간 QA 회고", "type": "misc", "source": "manual" }
+      {
+        "date": "2026-07-01",
+        "title": "CODE FREEZE 시작",
+        "type": "freeze",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-03",
+        "title": "v4.2 릴리즈",
+        "type": "release",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-06",
+        "title": "Hotfix · 결제 타임아웃",
+        "type": "hotfix",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-08",
+        "title": "회귀 테스트 시작",
+        "type": "regression",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-10",
+        "title": "회귀 사인오프",
+        "type": "regression",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-13",
+        "title": "P0 · 체크아웃 크래시",
+        "type": "bug",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-14",
+        "title": "Hotfix v4.2.1 배포",
+        "type": "hotfix",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-16",
+        "title": "스모크 테스트",
+        "type": "misc",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-17",
+        "title": "버그 배시",
+        "type": "misc",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-20",
+        "title": "Sprint14 QA 사인오프",
+        "type": "deadline",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-22",
+        "title": "CODE FREEZE · v4.3",
+        "type": "freeze",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-24",
+        "title": "v4.3 릴리즈",
+        "type": "release",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-27",
+        "title": "자동화 스위트 리뷰",
+        "type": "regression",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-29",
+        "title": "온콜 핸드오프",
+        "type": "misc",
+        "source": "manual"
+      },
+      {
+        "date": "2026-07-31",
+        "title": "월간 QA 회고",
+        "type": "misc",
+        "source": "manual"
+      }
+    ],
+    "calendar_events_live": [
+      {
+        "title": "[VISE] 고객사 웹 열기 대체",
+        "type": "deadline",
+        "source": "jira",
+        "key": "TECH-205"
+      },
+      {
+        "title": "[VISE] 역할/권한에 따른 조회 점검",
+        "type": "deadline",
+        "source": "jira",
+        "key": "TECH-187"
+      }
     ]
   },
   "confluence": {
     "space_key": "qa",
     "docs": [
-      { "title": "v4.3 릴리즈 체크리스트", "url": "https://dohands.atlassian.net/wiki/spaces/qa", "updated": "어제 수정" },
-      { "title": "결제 타임아웃 인시던트 RCA", "url": "https://dohands.atlassian.net/wiki/spaces/qa", "updated": "3일 전" },
-      { "title": "회귀 테스트 스위트 가이드", "url": "https://dohands.atlassian.net/wiki/spaces/qa", "updated": "1주 전" },
-      { "title": "QA 온보딩 위키", "url": "https://dohands.atlassian.net/wiki/spaces/qa", "updated": "2주 전" }
+      {
+        "title": "격리재고",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/260669483",
+        "updated": "2026-07-16"
+      },
+      {
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-07-16"
+      },
+      {
+        "title": "PDA 기본기능",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/268238910/PDA",
+        "updated": "2026-07-15"
+      },
+      {
+        "title": "[QA] 로케이션 등록 – 유형별 격리구분 활성화 검증",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264994834/QA",
+        "updated": "2026-07-14"
+      },
+      {
+        "title": "PDA 안드로이드 특성 QA 체크리스트",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/270368775/PDA+QA",
+        "updated": "2026-07-14"
+      },
+      {
+        "title": "고객사/브랜드 조회 권한",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/267911195",
+        "updated": "2026-07-13"
+      }
     ]
   },
   "slack": {
-    "channel_prefixes": ["기술-", "기술과제-", "sig"],
+    "channel_prefixes": [
+      "기술-",
+      "기술과제-",
+      "sig"
+    ],
     "channels": [],
     "messages": []
   },
   "manual": {
     "regression_pass_rate": 96.4,
     "regression_pass_rate_delta": "+0.8%p (전주비)",
-    "p0_sla_rate": 92.0,
+    "p0_sla_rate": 92,
     "p0_sla_rate_delta": "-3.0%p (전주비)",
     "coverage": 78.3,
     "coverage_delta": "+1.1%p",
@@ -68,11 +276,24 @@
     "escaped_defects_month": 5,
     "escaped_defects_delta": "전월비 -2건",
     "flaky_tests": [
-      { "name": "CheckoutFlow.e2e", "rate": "14% flake" },
-      { "name": "PaymentRetry.spec", "rate": "9% flake" },
-      { "name": "OrderSync.integration", "rate": "7% flake" }
+      {
+        "name": "CheckoutFlow.e2e",
+        "rate": "14% flake"
+      },
+      {
+        "name": "PaymentRetry.spec",
+        "rate": "9% flake"
+      },
+      {
+        "name": "OrderSync.integration",
+        "rate": "7% flake"
+      }
     ],
-    "env_status": { "staging": "pass", "production": "degraded", "sandbox": "pass" },
+    "env_status": {
+      "staging": "pass",
+      "production": "degraded",
+      "sandbox": "pass"
+    },
     "oncall": {
       "qa_name": "김태재",
       "qa_role": "제품/QA팀 호출대기",
