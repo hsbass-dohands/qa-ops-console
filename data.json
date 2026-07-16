@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T06:34:14.998Z",
+  "generated_at": "2026-07-16T06:48:05.215Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -260,7 +260,76 @@
       "기술과제-",
       "sig"
     ],
-    "channels": [],
+    "channels": [
+      {
+        "id": "C02NXU9PZPB",
+        "name": "기술-문의-대응-영웅들"
+      },
+      {
+        "id": "C0533H477QQ",
+        "name": "기술-모니터-개발"
+      },
+      {
+        "id": "C0533H4CAGG",
+        "name": "기술-모니터"
+      },
+      {
+        "id": "C0914TWKCAU",
+        "name": "기술-문의"
+      },
+      {
+        "id": "C09471BM5L6",
+        "name": "기술과제-n직재고"
+      },
+      {
+        "id": "C094QGRN0FK",
+        "name": "기술과제-큐텐-배송지연api"
+      },
+      {
+        "id": "C097TJ1R7EX",
+        "name": "기술-문의-외주"
+      },
+      {
+        "id": "C09AZUJ7Y10",
+        "name": "기술-문의-체계화"
+      },
+      {
+        "id": "C09EFB500K0",
+        "name": "기술과제-카페24"
+      },
+      {
+        "id": "C09SV9WDM18",
+        "name": "기술-칭찬방"
+      },
+      {
+        "id": "C0A3GFJ4FNZ",
+        "name": "기술-문의-파트너스_더리커머스"
+      },
+      {
+        "id": "C0A3GFMUKGD",
+        "name": "기술-문의-파트너스_로지비"
+      },
+      {
+        "id": "C0A3PFT7012",
+        "name": "기술-문의-파트너스_비에스엘에스"
+      },
+      {
+        "id": "C0A9K11QEBV",
+        "name": "기술과제-개발팀-pii"
+      },
+      {
+        "id": "C0ADLQC98R0",
+        "name": "기술과제-바이스이관-알림"
+      },
+      {
+        "id": "C0AUJRB710U",
+        "name": "siginf-notification"
+      },
+      {
+        "id": "C0B3JEMP8QZ",
+        "name": "기술과제-정산오류모니터링"
+      }
+    ],
     "messages": []
   },
   "manual": {
