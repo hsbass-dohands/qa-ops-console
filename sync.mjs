@@ -238,7 +238,7 @@ async function buildSlackData() {
       if (!json.ok) throw new Error(`conversations.list failed: ${json.error}`);
       for (const c of json.channels || []) {
         if (SLACK_CHANNEL_PREFIXES.some((p) => c.name.startsWith(p))) {
-          channels.push({ id: c.id, name: c.name });
+          channels.push({ id: c.id, name: c.name, is_private: !!c.is_private, is_member: !!c.is_member });
         }
       }
       cursor = json.response_metadata?.next_cursor || '';
@@ -248,6 +248,21 @@ async function buildSlackData() {
     const allMessages = [];
     for (const ch of channels) {
       try {
+        // Public channels: auto-join with channels:join so history reads work
+        // without someone manually inviting the bot. Private channels can't be
+        // auto-joined — those still need a manual /invite from a channel member.
+        if (!ch.is_private && !ch.is_member) {
+          const joinRes = await fetch('https://slack.com/api/conversations.join', {
+            method: 'POST',
+            headers: { ...headers, 'Content-Type': 'application/json' },
+            body: JSON.stringify({ channel: ch.id }),
+          });
+          const joinJson = await joinRes.json();
+          if (!joinJson.ok) {
+            console.log(`Could not join #${ch.name}: ${joinJson.error}`);
+          }
+        }
+
         const res = await fetch(
           `https://slack.com/api/conversations.history?channel=${ch.id}&limit=5`,
           { headers }
