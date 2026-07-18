@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T05:08:44.100Z",
+  "generated_at": "2026-07-18T07:08:57.207Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -462,13 +462,13 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "PDA 기본기능",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/268238910/PDA",
-        "updated": "2026-07-16"
-      },
-      {
         "title": "격리재고",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/260669483",
+        "updated": "2026-07-18"
+      },
+      {
+        "title": "PDA 기본기능",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/268238910/PDA",
         "updated": "2026-07-16"
       },
       {
