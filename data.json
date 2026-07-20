@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T03:16:44.384Z",
+  "generated_at": "2026-07-20T06:32:23.375Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,10 +7,10 @@
       "P0": 0,
       "P1": 0,
       "P2": 10,
-      "P3": 43
+      "P3": 44
     },
-    "total_open": 53,
-    "new_this_week": 4,
+    "total_open": 54,
+    "new_this_week": 5,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -94,14 +94,6 @@
         "assignee": "김태재"
       },
       {
-        "key": "TECH-1216",
-        "url": "https://dohands.atlassian.net/browse/TECH-1216",
-        "summary": "[프론트] 오피스 헤더 센터 드롭다운 authCenter 기준 변경",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "이희영"
-      },
-      {
         "key": "TECH-1577",
         "url": "https://dohands.atlassian.net/browse/TECH-1577",
         "summary": "[QA] 재고 등록/차감 조회",
@@ -123,57 +115,57 @@
         "week": "W1",
         "p0": 0,
         "p1": 1,
-        "p2": 0,
-        "p3": 3
-      },
-      {
-        "week": "W2",
-        "p0": 0,
-        "p1": 1,
         "p2": 1,
         "p3": 7
       },
       {
-        "week": "W3",
+        "week": "W2",
         "p0": 0,
         "p1": 2,
         "p2": 9,
         "p3": 9
       },
       {
-        "week": "W4",
+        "week": "W3",
         "p0": 0,
         "p1": 1,
         "p2": 6,
         "p3": 9
       },
       {
-        "week": "W5",
+        "week": "W4",
         "p0": 0,
         "p1": 0,
         "p2": 6,
         "p3": 7
       },
       {
-        "week": "W6",
+        "week": "W5",
         "p0": 0,
         "p1": 2,
         "p2": 2,
         "p3": 4
       },
       {
-        "week": "W7",
+        "week": "W6",
         "p0": 0,
         "p1": 0,
         "p2": 3,
         "p3": 5
       },
       {
-        "week": "W8",
+        "week": "W7",
         "p0": 0,
         "p1": 0,
         "p2": 0,
         "p3": 6
+      },
+      {
+        "week": "W8",
+        "p0": 0,
+        "p1": 0,
+        "p2": 0,
+        "p3": 1
       }
     ],
     "calendar_events": [
@@ -767,6 +759,12 @@
     ],
     "messages": [
       {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784518535.554419",
+        "text": "@베스현승 (기술/QA팀) @김태재 (기술/QA팀) STG에서 계약서 데이터 정리하려고 하는데 실제로 사용하고 계신 고객사의 계약서 번호들 추려주시면 감사드리겠습니다~!"
+      },
+      {
         "channel": "기술과제-재고증차감-이관",
         "user": "김태재 (기술/QA팀)",
         "ts": "1784513415.818079",
@@ -807,12 +805,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1784182407.291859",
         "text": "@이대한 (기술/개발팀) @이희영 (기술/개발팀) PRE 환경 관련 확인 요청 드립니다~!\n현재 PRE에서 Office 진입 시 아래와 같은 에러 토스트메세지가 뜨고 있어서 STG, PROD만 적용되고 PRE는 미적용되어있는 작업 내용이 있을지 확인 부탁드립니다!\n\n```column \"addressDetail\" does not exist\ncolumn Par"
-      },
-      {
-        "channel": "기술과제-재고증차감-이관",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1784173094.875269",
-        "text": "@이승우 (기술/개발팀) 격리 로케이션 -&gt; 출고 로케이션 이동"
       }
     ]
   },
