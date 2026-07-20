@@ -1,18 +1,42 @@
 {
-  "generated_at": "2026-07-19T23:56:05.585Z",
+  "generated_at": "2026-07-20T03:16:44.384Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
-      "P1": 1,
-      "P2": 9,
+      "P1": 0,
+      "P2": 10,
       "P3": 43
     },
     "total_open": 53,
-    "new_this_week": 6,
+    "new_this_week": 4,
     "closed_this_week": 0,
     "funnel": [
+      {
+        "key": "SPRINT-675",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-675",
+        "summary": "[VISE] 바이스>주문>판매채널>연동키 입력란 오픈 요청",
+        "status": "QA 중",
+        "project": "SPRINT",
+        "assignee": "최라온"
+      },
+      {
+        "key": "SPRINT-760",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-760",
+        "summary": "[VISE][프론트] 시스템 태그 값 노출",
+        "status": "QA 중",
+        "project": "SPRINT",
+        "assignee": "최라온"
+      },
+      {
+        "key": "SPRINT-761",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-761",
+        "summary": "[VISE][백엔드] 카페24 주문에 대한 배송 속성별 동적할당 설정",
+        "status": "QA 중",
+        "project": "SPRINT",
+        "assignee": "최라온"
+      },
       {
         "key": "TECH-1376",
         "url": "https://dohands.atlassian.net/browse/TECH-1376",
@@ -54,14 +78,6 @@
         "assignee": "김태재"
       },
       {
-        "key": "INT-261",
-        "url": "https://dohands.atlassian.net/browse/INT-261",
-        "summary": "배송 완료 스케줄러 개선 2차",
-        "status": "QA 필요",
-        "project": "INT",
-        "assignee": "최라온"
-      },
-      {
         "key": "ROBOT-138",
         "url": "https://dohands.atlassian.net/browse/ROBOT-138",
         "summary": "[품고 출고 / B2B] 마이그레이션 ",
@@ -78,30 +94,6 @@
         "assignee": "김태재"
       },
       {
-        "key": "SPRINT-675",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-675",
-        "summary": "[VISE] 바이스>주문>판매채널>연동키 입력란 오픈 요청",
-        "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "최라온"
-      },
-      {
-        "key": "SPRINT-760",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-760",
-        "summary": "[VISE][프론트] 시스템 태그 값 노출",
-        "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "최라온"
-      },
-      {
-        "key": "SPRINT-761",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-761",
-        "summary": "[VISE][백엔드] 카페24 주문에 대한 배송 속성별 동적할당 설정",
-        "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "최라온"
-      },
-      {
         "key": "TECH-1216",
         "url": "https://dohands.atlassian.net/browse/TECH-1216",
         "summary": "[프론트] 오피스 헤더 센터 드롭다운 authCenter 기준 변경",
@@ -116,6 +108,14 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "김태재"
+      },
+      {
+        "key": "TECH-1641",
+        "url": "https://dohands.atlassian.net/browse/TECH-1641",
+        "summary": "[VISE][백엔드] 토스쇼핑",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "황성민"
       }
     ],
     "weekly_severity": [
@@ -464,7 +464,12 @@
       {
         "title": "격리재고",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/260669483",
-        "updated": "2026-07-18"
+        "updated": "2026-07-20"
+      },
+      {
+        "title": "[7월20일] Weekly QA",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/275743215/7+20+Weekly+QA",
+        "updated": "2026-07-20"
       },
       {
         "title": "PDA 기본기능",
@@ -485,11 +490,6 @@
         "title": "PDA 안드로이드 특성 QA 체크리스트",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/270368775/PDA+QA",
         "updated": "2026-07-14"
-      },
-      {
-        "title": "고객사/브랜드 조회 권한",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/267911195",
-        "updated": "2026-07-13"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
@@ -767,6 +767,30 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-재고증차감-이관",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1784513415.818079",
+        "text": "@이승우 (기술/개발팀) 격리 재고 노출 건"
+      },
+      {
+        "channel": "기술과제-트랙스로지스",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784510441.057179",
+        "text": "@이찬민 (기술/제품팀) 트랙스로지스 실발송테스트 협조 요청 스레드"
+      },
+      {
+        "channel": "기술조직",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784509783.270559",
+        "text": "@이희영 (기술/개발팀) 레드TF 작업 중 STG &gt; 고객사 데이터 정리 작업도 있었는지 알 수 있을까용?!"
+      },
+      {
+        "channel": "기술조직",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1784507555.089189",
+        "text": ":bar_chart: _QA 주간 리포트, 2026-07-20_ — 전체 제품 버그 종합\n\n:file_folder: <https://dohandsworkspace.slack.com/docs/TSX4YQ8EB/F0BFS79MXUM|QA 주간 리포트 — 전체 모음> :page_facing_up: 이번 주: <https://dohandsworkspace.slac"
+      },
+      {
         "channel": "기술-qa팀",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1784192036.148779",
@@ -789,30 +813,6 @@
         "user": "김태재 (기술/QA팀)",
         "ts": "1784173094.875269",
         "text": "@이승우 (기술/개발팀) 격리 로케이션 -&gt; 출고 로케이션 이동"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1784168875.520619",
-        "text": "@김태재 (기술/QA팀) 23일 인사평가 면담 5시에서 11시로 옮겼습니다. 23일 반반차때문에 4시에 퇴근입니다."
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1784168280.410529",
-        "text": "@베스현승 (기술/QA팀) zscaler 켜면 컴이 너무 느려지는거같네요"
-      },
-      {
-        "channel": "기술과제-트랙스로지스",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1784164801.510729",
-        "text": "@황성민 (기술/개발팀) @이덕희 (기술/개발팀) @한상협 (기술/개발팀) 트랙스로지스(투함) 코드 PRE 배포 여부 확인 부탁드립니다~!!"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1784109081.161329",
-        "text": "<!here> 래원님 오시고"
       }
     ]
   },
