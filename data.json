@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T07:20:28.387Z",
+  "generated_at": "2026-07-21T10:01:16.848Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,10 +7,10 @@
       "P0": 0,
       "P1": 0,
       "P2": 10,
-      "P3": 43
+      "P3": 45
     },
-    "total_open": 53,
-    "new_this_week": 5,
+    "total_open": 55,
+    "new_this_week": 7,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -62,19 +62,27 @@
         "assignee": "김태재"
       },
       {
+        "key": "TECH-1663",
+        "url": "https://dohands.atlassian.net/browse/TECH-1663",
+        "summary": "[QA] 바이스 역할/권한에 따른 조회 점검 및 수정 1차",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "김태재"
+      },
+      {
+        "key": "BE-125",
+        "url": "https://dohands.atlassian.net/browse/BE-125",
+        "summary": "[셀러] 트렌드 - 판매처별 판매 현황 - 쿼리 성능 개선 (trend-sales-channel)",
+        "status": "QA 필요",
+        "project": "BE",
+        "assignee": "베스현승"
+      },
+      {
         "key": "ROBOT-138",
         "url": "https://dohands.atlassian.net/browse/ROBOT-138",
         "summary": "[품고 출고 / B2B] 마이그레이션 ",
         "status": "QA 필요",
         "project": "ROBOT",
-        "assignee": "김태재"
-      },
-      {
-        "key": "SPRINT-660",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-660",
-        "summary": "Open API 입고요청서 목록 조회 시 done_quantity와 type_code_key 포함되도록 변경",
-        "status": "QA 필요",
-        "project": "SPRINT",
         "assignee": "김태재"
       },
       {
@@ -86,20 +94,28 @@
         "assignee": "김태재"
       },
       {
+        "key": "SPRINT-728",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-728",
+        "summary": "주소·반품주소 싱크 정상화 (backend<->auth 상세주소 컬럼·싱크·매핑 전면 정리)",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "베스현승"
+      },
+      {
+        "key": "SPRINT-772",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-772",
+        "summary": "송장번호 공란인 입고회차 삭제 후 수정 저장 불가 오류 수정",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "베스현승"
+      },
+      {
         "key": "TECH-1641",
         "url": "https://dohands.atlassian.net/browse/TECH-1641",
         "summary": "[VISE][백엔드] 토스쇼핑",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "최라온"
-      },
-      {
-        "key": "TECH-1663",
-        "url": "https://dohands.atlassian.net/browse/TECH-1663",
-        "summary": "[QA] 바이스 역할/권한에 따른 조회 점검 및 수정",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "김태재"
       }
     ],
     "weekly_severity": [
@@ -157,7 +173,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 1,
-        "p3": 2
+        "p3": 4
       }
     ],
     "calendar_events": [
