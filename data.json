@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T12:00:37.367Z",
+  "generated_at": "2026-07-21T14:21:53.250Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -105,14 +105,6 @@
         "key": "SPRINT-728",
         "url": "https://dohands.atlassian.net/browse/SPRINT-728",
         "summary": "주소·반품주소 싱크 정상화 (backend<->auth 상세주소 컬럼·싱크·매핑 전면 정리)",
-        "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "베스현승"
-      },
-      {
-        "key": "SPRINT-772",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-772",
-        "summary": "송장번호 공란인 입고회차 삭제 후 수정 저장 불가 오류 수정",
         "status": "QA 필요",
         "project": "SPRINT",
         "assignee": "베스현승"
