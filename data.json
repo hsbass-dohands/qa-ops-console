@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T23:40:57.004Z",
+  "generated_at": "2026-07-21T01:09:51.216Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -13,6 +13,14 @@
     "new_this_week": 4,
     "closed_this_week": 0,
     "funnel": [
+      {
+        "key": "SPRINT-722",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-722",
+        "summary": "[연동] 카페24 시스템 태그 추가",
+        "status": "QA 중",
+        "project": "SPRINT",
+        "assignee": "최라온"
+      },
       {
         "key": "SPRINT-761",
         "url": "https://dohands.atlassian.net/browse/SPRINT-761",
@@ -84,14 +92,6 @@
         "status": "QA 필요",
         "project": "SPRINT",
         "assignee": "김태재"
-      },
-      {
-        "key": "SPRINT-722",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-722",
-        "summary": "[연동] 카페24 시스템 태그 추가",
-        "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "조수아"
       },
       {
         "key": "TECH-1641",
@@ -751,6 +751,12 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-트랙스로지스",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784595901.861589",
+        "text": "@한상협 (기술/개발팀) PRE 환경은 트랙스로지스 운영을 바라보게끔 배포되어있을까요~?!"
+      },
+      {
         "channel": "기술-qa팀",
         "user": "김태재 (기술/QA팀)",
         "ts": "1784536757.303439",
@@ -791,12 +797,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1784529399.680109",
         "text": "<!here> Testiny 정리중입니다. Testiny 작업하시는 중이시면 잠시 멈춰!"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1784518535.554419",
-        "text": "@베스현승 (기술/QA팀) @김태재 (기술/QA팀) STG에서 계약서 데이터 정리하려고 하는데 실제로 사용하고 계신 고객사의 계약서 번호들 추려주시면 감사드리겠습니다~!"
       }
     ]
   },
