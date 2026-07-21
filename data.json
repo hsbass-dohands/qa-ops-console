@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-07-21T04:32:37.138Z",
+  "generated_at": "2026-07-21T07:20:28.387Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
       "P1": 0,
-      "P2": 11,
+      "P2": 10,
       "P3": 43
     },
-    "total_open": 54,
-    "new_this_week": 6,
+    "total_open": 53,
+    "new_this_week": 5,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "SPRINT-761",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-761",
-        "summary": "[VISE][백엔드] 카페24 주문에 대한 배송 속성별 동적할당 설정",
-        "status": "QA 중",
-        "project": "SPRINT",
-        "assignee": "손조성"
-      },
       {
         "key": "TECH-1376",
         "url": "https://dohands.atlassian.net/browse/TECH-1376",
@@ -83,7 +75,7 @@
         "summary": "Open API 입고요청서 목록 조회 시 done_quantity와 type_code_key 포함되도록 변경",
         "status": "QA 필요",
         "project": "SPRINT",
-        "assignee": "문현호"
+        "assignee": "김태재"
       },
       {
         "key": "SPRINT-713",
@@ -99,7 +91,15 @@
         "summary": "[VISE][백엔드] 토스쇼핑",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "황성민"
+        "assignee": "최라온"
+      },
+      {
+        "key": "TECH-1663",
+        "url": "https://dohands.atlassian.net/browse/TECH-1663",
+        "summary": "[QA] 바이스 역할/권한에 따른 조회 점검 및 수정",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "김태재"
       }
     ],
     "weekly_severity": [
@@ -751,6 +751,24 @@
     ],
     "messages": [
       {
+        "channel": "기술조직",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1784615327.762039",
+        "text": "@한병두 (기술/제품팀) 품고 API 가이드"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1784613423.027929",
+        "text": "@김태재 (기술/QA팀) 님 역할 권한 티켓"
+      },
+      {
+        "channel": "sigvise",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1784612237.755079",
+        "text": "~@이현수 (기술/개발팀)~ E2E 씽크 @이덕희 (기술/개발팀)"
+      },
+      {
         "channel": "sigvise",
         "user": "최라온 (기술/QA팀)",
         "ts": "1784606212.745889",
@@ -779,24 +797,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1784596808.132179",
         "text": "*<!here> 트랙스로지스 운영 배포일 공식 땅땅땅* :judge::skin-tone-2:\n참고로, 7/27까지는 PRE 테스트 기간으로 완전히 QA 종료 선언은 아닌 점 참고 부탁드려요~!!\n\n• 7/28 운영 배포 (배포 시간은 요 스레드에서 논의 부탁드립니다!)\n• 8/1 이후부터 트랙스로지스 실사용 예정\n    ◦ 그 전에, 병두님께서 트랙스로지스"
-      },
-      {
-        "channel": "기술과제-트랙스로지스",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1784595901.861589",
-        "text": "@한상협 (기술/개발팀) PRE 환경은 트랙스로지스 운영을 바라보게끔 배포되어있을까요~?!"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1784536757.303439",
-        "text": "<https://dohands.atlassian.net/browse/ROBOT-114?search_id=8666e7d2-21be-4d6f-a47d-2cd1489722a5|dohands.atlassian.net/browse/ROBOT-114?search_id=8666e7d2-21be-4d6f-a…>"
-      },
-      {
-        "channel": "sigint",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1784533945.133769",
-        "text": "<!subteam^S088LS39A69> STG &gt; 두산베어스 주문 배송속성 변경해주실 분을 찾습니다~!\n\n주문번호 : 카페24 시스템 태그 테스트 매일용 -&gt; 카페24 매일배송 속성"
       }
     ]
   },
