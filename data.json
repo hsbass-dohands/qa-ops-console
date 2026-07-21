@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-07-21T01:09:51.216Z",
+  "generated_at": "2026-07-21T04:32:37.138Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
       "P1": 0,
-      "P2": 10,
+      "P2": 11,
       "P3": 43
     },
-    "total_open": 53,
-    "new_this_week": 4,
+    "total_open": 54,
+    "new_this_week": 6,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "SPRINT-722",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-722",
-        "summary": "[연동] 카페24 시스템 태그 추가",
-        "status": "QA 중",
-        "project": "SPRINT",
-        "assignee": "최라온"
-      },
       {
         "key": "SPRINT-761",
         "url": "https://dohands.atlassian.net/browse/SPRINT-761",
@@ -86,9 +78,17 @@
         "assignee": "김태재"
       },
       {
-        "key": "SPRINT-553",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-553",
-        "summary": "[VISE] 사용자 초대할 때, 고객사 관련 역할 부여 가능하도록 수정",
+        "key": "SPRINT-660",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-660",
+        "summary": "Open API 입고요청서 목록 조회 시 done_quantity와 type_code_key 포함되도록 변경",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "문현호"
+      },
+      {
+        "key": "SPRINT-713",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-713",
+        "summary": "[VISE] 고객사/브랜드 검색필터 드롭다운 변경",
         "status": "QA 필요",
         "project": "SPRINT",
         "assignee": "김태재"
@@ -156,8 +156,8 @@
         "week": "W8",
         "p0": 0,
         "p1": 0,
-        "p2": 0,
-        "p3": 1
+        "p2": 1,
+        "p3": 2
       }
     ],
     "calendar_events": [
@@ -448,7 +448,7 @@
       {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
-        "updated": "2026-07-20"
+        "updated": "2026-07-21"
       },
       {
         "title": "재고증차감",
@@ -751,6 +751,36 @@
     ],
     "messages": [
       {
+        "channel": "sigvise",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784606212.745889",
+        "text": "<!subteam^S089CG0M23S> PRE &gt; 브랜드 수정 시도 시 에러가 발생하고 있습니다.\nreturnAddress, returnPostcode 가 null로 가는게 문제인 것 같은데, 운영에서는 발생하고 있지 않은 내용이라 관련해서 작업하시거나 알고 계신 분 있을까요~?\n\n요청 URL : <https://api.pre.poomgo.com/n"
+      },
+      {
+        "channel": "기술과제-트랙스로지스",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784603810.161479",
+        "text": "@황성민 (기술/개발팀) PRE 동적할당 스케줄러 잘 돌고 있나요?"
+      },
+      {
+        "channel": "기술과제-트랙스로지스",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784598755.695039",
+        "text": "@우창수 (기술/로보틱스팀) 쨍슈님! PRE 실발송 테스트 시, 사업팀에서 운송장 PDF로 전달해달라는데 도움 가넝하신가요?\n<https://dohandsworkspace.slack.com/archives/C0B486JGX0F/p1784598654137789?thread_ts=1784510441.057179&amp;cid=C0B486JGX0F|https:/"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1784597125.398329",
+        "text": "저 라온님하고 3년, 태재님하고 1년 반은 같이 일한 거 같은데 이제 겨우 1년이네요. 앞으로도 잘 부탁드리겠습니다. 이젠 좀 하드코어하게 팀 운영해도 괜찮죠?"
+      },
+      {
+        "channel": "기술과제-트랙스로지스",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784596808.132179",
+        "text": "*<!here> 트랙스로지스 운영 배포일 공식 땅땅땅* :judge::skin-tone-2:\n참고로, 7/27까지는 PRE 테스트 기간으로 완전히 QA 종료 선언은 아닌 점 참고 부탁드려요~!!\n\n• 7/28 운영 배포 (배포 시간은 요 스레드에서 논의 부탁드립니다!)\n• 8/1 이후부터 트랙스로지스 실사용 예정\n    ◦ 그 전에, 병두님께서 트랙스로지스"
+      },
+      {
         "channel": "기술과제-트랙스로지스",
         "user": "최라온 (기술/QA팀)",
         "ts": "1784595901.861589",
@@ -767,36 +797,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1784533945.133769",
         "text": "<!subteam^S088LS39A69> STG &gt; 두산베어스 주문 배송속성 변경해주실 분을 찾습니다~!\n\n주문번호 : 카페24 시스템 태그 테스트 매일용 -&gt; 카페24 매일배송 속성"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1784533742.484249",
-        "text": "Testiny 정리 완료. VISE가 크긴 크네요. 조금 더 세분화가 필요할 듯"
-      },
-      {
-        "channel": "기술과제-재고증차감-이관",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1784531107.383849",
-        "text": "@한병두 (기술/제품팀) @반수정 (기술/제품팀) 재고 차감 모달 &gt; '출고 로케이션' 컬럼 명칭"
-      },
-      {
-        "channel": "기술과제-재고증차감-이관",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1784530815.008909",
-        "text": "@반수정 (기술/제품팀) 재고 증/차감 모달"
-      },
-      {
-        "channel": "기술과제-토스쇼핑",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1784529963.844869",
-        "text": "@이근한 (기술/개발팀) @한상협 (기술/개발팀) 개발자테스트 케이스 관련 스레드"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1784529399.680109",
-        "text": "<!here> Testiny 정리중입니다. Testiny 작업하시는 중이시면 잠시 멈춰!"
       }
     ]
   },
