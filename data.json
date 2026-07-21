@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T10:01:16.848Z",
+  "generated_at": "2026-07-21T12:00:37.367Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -76,6 +76,14 @@
         "status": "QA 필요",
         "project": "BE",
         "assignee": "베스현승"
+      },
+      {
+        "key": "ROBOT-127",
+        "url": "https://dohands.atlassian.net/browse/ROBOT-127",
+        "summary": "[품고 출고/B2C][개발] 송장 목록 노출 및 자가 재출력 팝업",
+        "status": "QA 필요",
+        "project": "ROBOT",
+        "assignee": "우창수"
       },
       {
         "key": "ROBOT-138",
