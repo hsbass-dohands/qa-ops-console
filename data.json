@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T07:21:36.977Z",
+  "generated_at": "2026-07-22T09:58:54.942Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -14,17 +14,9 @@
     "closed_this_week": 0,
     "funnel": [
       {
-        "key": "ROBOT-138",
-        "url": "https://dohands.atlassian.net/browse/ROBOT-138",
-        "summary": "[품고 출고 / B2B] 마이그레이션 ",
-        "status": "QA 중",
-        "project": "ROBOT",
-        "assignee": "김태재"
-      },
-      {
-        "key": "SPRINT-728",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-728",
-        "summary": "주소·반품주소 싱크 정상화 (backend<->auth 상세주소 컬럼·싱크·매핑 전면 정리)",
+        "key": "SPRINT-712",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-712",
+        "summary": "[Seller] SKU 개별 등록/개별 수정 시, 일부 미관리 필드 제거",
         "status": "QA 중",
         "project": "SPRINT",
         "assignee": "베스현승"
@@ -86,6 +78,14 @@
         "assignee": "김태재"
       },
       {
+        "key": "INT-271",
+        "url": "https://dohands.atlassian.net/browse/INT-271",
+        "summary": "getOrders 페이지네이션 방식에 따른 count 분리, 사은품 지급 채널 조회 방식 변경",
+        "status": "QA 필요",
+        "project": "INT",
+        "assignee": "최라온"
+      },
+      {
         "key": "ROBOT-127",
         "url": "https://dohands.atlassian.net/browse/ROBOT-127",
         "summary": "[품고 출고/B2C][개발] 송장 목록 노출 및 자가 재출력 팝업",
@@ -94,20 +94,28 @@
         "assignee": "김태재"
       },
       {
-        "key": "SPRINT-712",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-712",
-        "summary": "[Seller] SKU 개별 등록/개별 수정 시, 일부 미관리 필드 제거",
-        "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "베스현승"
-      },
-      {
         "key": "SPRINT-713",
         "url": "https://dohands.atlassian.net/browse/SPRINT-713",
         "summary": "[VISE] 고객사/브랜드 검색필터 드롭다운 변경",
         "status": "QA 필요",
         "project": "SPRINT",
         "assignee": "김태재"
+      },
+      {
+        "key": "TECH-1624",
+        "url": "https://dohands.atlassian.net/browse/TECH-1624",
+        "summary": "[VISE] 송장 시스템태그 필터 — 트랙스로지스(TRACX) 주석 해제 (트랙스로지스 배포 시)",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "최라온"
+      },
+      {
+        "key": "TECH-1625",
+        "url": "https://dohands.atlassian.net/browse/TECH-1625",
+        "summary": "[Office] 송장 시스템태그 필터 — 트랙스로지스(TRACX) 주석 해제 (트랙스로지스 배포 시)",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "최라온"
       },
       {
         "key": "TECH-1641",
@@ -767,6 +775,30 @@
     ],
     "messages": [
       {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784713788.397689",
+        "text": "@베스현승 (기술/QA팀) 현승님 혹시 퇴근하셨을까용?!"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1784710919.945649",
+        "text": "<!here> 내일 인사평가 면담은 커피 챗으로 하겠습니다! 잠깐 나가서 커피/스무디 같은거 한잔 사오면서 짧게!"
+      },
+      {
+        "channel": "sigvise",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784707027.750189",
+        "text": "<!subteam^S088S7692RJ> STG &gt; OFFICE &gt; 재고 이동 시 에러!\npartnerIds가 string으로 가서 문제로 보이는데 확인 부탁드려요~!\n\n요청 URL : <https://api.stg.poomgo.com/handybot/partner-resources-dialog>\n요청 페이로드 : {\"page\":1,\"pageSi"
+      },
+      {
+        "channel": "기술과제-토스쇼핑",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784705888.291739",
+        "text": "@이찬민 (기술/제품팀) @이근한 (기술/개발팀) @한상협 (기술/개발팀) STG &gt; 토스쇼핑 전용 테스트 고객사로 `STG 토스쇼핑` 고객사 만들어두었습니다!\n\n오늘 중으로 SKU 3개 생성 후 재고 및 출고 로케이션 세팅까지 완료해두려고 합니다~! 참고 부탁드립니다!"
+      },
+      {
         "channel": "sigvise",
         "user": "김태재 (기술/QA팀)",
         "ts": "1784701307.428769",
@@ -789,30 +821,6 @@
         "user": "김태재 (기술/QA팀)",
         "ts": "1784689352.311699",
         "text": "상준님 입사 8/18 어떠신가요?"
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1784689194.858439",
-        "text": "<!here> QA 엔지니어 한상준님 8월 24일 입사 확정되었습니다~!"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1784687217.949049",
-        "text": "@김태재 (기술/QA팀) 사원증 QR"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1784686639.708319",
-        "text": "@최라온 (기술/QA팀) 목요일 면담"
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1784683901.157219",
-        "text": "<!here> 안녕하세요! 7월 27일 월요일 *QA 엔지니어 박래원님* 입사일이여서 기술조직 풀 출근입니다! 참고 부탁드립니다. 감사합니다!"
       }
     ]
   },
