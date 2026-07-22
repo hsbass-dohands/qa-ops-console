@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T01:08:05.948Z",
+  "generated_at": "2026-07-22T04:34:01.377Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,10 +7,10 @@
       "P0": 0,
       "P1": 0,
       "P2": 10,
-      "P3": 45
+      "P3": 44
     },
-    "total_open": 55,
-    "new_this_week": 7,
+    "total_open": 54,
+    "new_this_week": 6,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -83,7 +83,7 @@
         "summary": "[품고 출고/B2C][개발] 송장 목록 노출 및 자가 재출력 팝업",
         "status": "QA 필요",
         "project": "ROBOT",
-        "assignee": "우창수"
+        "assignee": "김태재"
       },
       {
         "key": "ROBOT-138",
@@ -92,6 +92,14 @@
         "status": "QA 필요",
         "project": "ROBOT",
         "assignee": "김태재"
+      },
+      {
+        "key": "SPRINT-712",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-712",
+        "summary": "[Seller] SKU 개별 등록/개별 수정 시, 일부 미관리 필드 제거",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "베스현승"
       },
       {
         "key": "SPRINT-713",
@@ -462,6 +470,16 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "b2b 출고앱 기본기능",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259653690/b2b",
+        "updated": "2026-07-22"
+      },
+      {
+        "title": "래원님 온보딩",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259194911",
+        "updated": "2026-07-22"
+      },
+      {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-07-21"
@@ -477,19 +495,9 @@
         "updated": "2026-07-20"
       },
       {
-        "title": "b2b 출고앱 기본기능",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259653690/b2b",
-        "updated": "2026-07-20"
-      },
-      {
         "title": "[7월20일] Weekly QA",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/275743215/7+20+Weekly+QA",
         "updated": "2026-07-20"
-      },
-      {
-        "title": "PDA 기본기능",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/268238910/PDA",
-        "updated": "2026-07-16"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
@@ -767,52 +775,52 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-토스쇼핑",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784690647.101119",
+        "text": "@이찬민 (기술/제품팀) 저희가 직접 주문 상태 변경하게 되면 계정은 필요없으시다네요!"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1784689706.677719",
+        "text": "드디어 내가 꿈에 그리던 QA팀이 완성되고있네요"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1784689352.311699",
+        "text": "상준님 입사 8/18 어떠신가요?"
+      },
+      {
         "channel": "기술조직",
         "user": "베스현승 (기술/QA팀)",
-        "ts": "1784615327.762039",
-        "text": "@한병두 (기술/제품팀) 품고 API 가이드"
+        "ts": "1784689194.858439",
+        "text": "<!here> QA 엔지니어 한상준님 8월 24일 입사 확정되었습니다~!"
       },
       {
         "channel": "기술-qa팀",
         "user": "베스현승 (기술/QA팀)",
-        "ts": "1784613423.027929",
-        "text": "@김태재 (기술/QA팀) 님 역할 권한 티켓"
-      },
-      {
-        "channel": "sigvise",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1784612237.755079",
-        "text": "~@이현수 (기술/개발팀)~ E2E 씽크 @이덕희 (기술/개발팀)"
-      },
-      {
-        "channel": "sigvise",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1784606212.745889",
-        "text": "<!subteam^S089CG0M23S> PRE &gt; 브랜드 수정 시도 시 에러가 발생하고 있습니다.\nreturnAddress, returnPostcode 가 null로 가는게 문제인 것 같은데, 운영에서는 발생하고 있지 않은 내용이라 관련해서 작업하시거나 알고 계신 분 있을까요~?\n\n요청 URL : <https://api.pre.poomgo.com/n"
-      },
-      {
-        "channel": "기술과제-트랙스로지스",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1784603810.161479",
-        "text": "@황성민 (기술/개발팀) PRE 동적할당 스케줄러 잘 돌고 있나요?"
-      },
-      {
-        "channel": "기술과제-트랙스로지스",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1784598755.695039",
-        "text": "@우창수 (기술/로보틱스팀) 쨍슈님! PRE 실발송 테스트 시, 사업팀에서 운송장 PDF로 전달해달라는데 도움 가넝하신가요?\n<https://dohandsworkspace.slack.com/archives/C0B486JGX0F/p1784598654137789?thread_ts=1784510441.057179&amp;cid=C0B486JGX0F|https:/"
+        "ts": "1784687217.949049",
+        "text": "@김태재 (기술/QA팀) 사원증 QR"
       },
       {
         "channel": "기술-qa팀",
         "user": "베스현승 (기술/QA팀)",
-        "ts": "1784597125.398329",
-        "text": "저 라온님하고 3년, 태재님하고 1년 반은 같이 일한 거 같은데 이제 겨우 1년이네요. 앞으로도 잘 부탁드리겠습니다. 이젠 좀 하드코어하게 팀 운영해도 괜찮죠?"
+        "ts": "1784686639.708319",
+        "text": "@최라온 (기술/QA팀) 목요일 면담"
       },
       {
-        "channel": "기술과제-트랙스로지스",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1784596808.132179",
-        "text": "*<!here> 트랙스로지스 운영 배포일 공식 땅땅땅* :judge::skin-tone-2:\n참고로, 7/27까지는 PRE 테스트 기간으로 완전히 QA 종료 선언은 아닌 점 참고 부탁드려요~!!\n\n• 7/28 운영 배포 (배포 시간은 요 스레드에서 논의 부탁드립니다!)\n• 8/1 이후부터 트랙스로지스 실사용 예정\n    ◦ 그 전에, 병두님께서 트랙스로지스"
+        "channel": "기술조직",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1784683901.157219",
+        "text": "<!here> 안녕하세요! 7월 27일 월요일 *QA 엔지니어 박래원님* 입사일이여서 기술조직 풀 출근입니다! 참고 부탁드립니다. 감사합니다!"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1784683057.326789",
+        "text": "10시 30분에 게더 여름방에서 잠깐 회의 하겠습니다! 짧게"
       }
     ]
   },
