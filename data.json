@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T04:34:01.377Z",
+  "generated_at": "2026-07-22T07:21:36.977Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -10,9 +10,25 @@
       "P3": 44
     },
     "total_open": 54,
-    "new_this_week": 6,
+    "new_this_week": 5,
     "closed_this_week": 0,
     "funnel": [
+      {
+        "key": "ROBOT-138",
+        "url": "https://dohands.atlassian.net/browse/ROBOT-138",
+        "summary": "[품고 출고 / B2B] 마이그레이션 ",
+        "status": "QA 중",
+        "project": "ROBOT",
+        "assignee": "김태재"
+      },
+      {
+        "key": "SPRINT-728",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-728",
+        "summary": "주소·반품주소 싱크 정상화 (backend<->auth 상세주소 컬럼·싱크·매핑 전면 정리)",
+        "status": "QA 중",
+        "project": "SPRINT",
+        "assignee": "베스현승"
+      },
       {
         "key": "TECH-1376",
         "url": "https://dohands.atlassian.net/browse/TECH-1376",
@@ -70,25 +86,9 @@
         "assignee": "김태재"
       },
       {
-        "key": "BE-125",
-        "url": "https://dohands.atlassian.net/browse/BE-125",
-        "summary": "[셀러] 트렌드 - 판매처별 판매 현황 - 쿼리 성능 개선 (trend-sales-channel)",
-        "status": "QA 필요",
-        "project": "BE",
-        "assignee": "베스현승"
-      },
-      {
         "key": "ROBOT-127",
         "url": "https://dohands.atlassian.net/browse/ROBOT-127",
         "summary": "[품고 출고/B2C][개발] 송장 목록 노출 및 자가 재출력 팝업",
-        "status": "QA 필요",
-        "project": "ROBOT",
-        "assignee": "김태재"
-      },
-      {
-        "key": "ROBOT-138",
-        "url": "https://dohands.atlassian.net/browse/ROBOT-138",
-        "summary": "[품고 출고 / B2B] 마이그레이션 ",
         "status": "QA 필요",
         "project": "ROBOT",
         "assignee": "김태재"
@@ -108,14 +108,6 @@
         "status": "QA 필요",
         "project": "SPRINT",
         "assignee": "김태재"
-      },
-      {
-        "key": "SPRINT-728",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-728",
-        "summary": "주소·반품주소 싱크 정상화 (backend<->auth 상세주소 컬럼·싱크·매핑 전면 정리)",
-        "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "베스현승"
       },
       {
         "key": "TECH-1641",
@@ -775,6 +767,12 @@
     ],
     "messages": [
       {
+        "channel": "sigvise",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1784701307.428769",
+        "text": "@박소영 (기술/개발팀) A/B 테스트 관련"
+      },
+      {
         "channel": "기술과제-토스쇼핑",
         "user": "최라온 (기술/QA팀)",
         "ts": "1784690647.101119",
@@ -815,12 +813,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1784683901.157219",
         "text": "<!here> 안녕하세요! 7월 27일 월요일 *QA 엔지니어 박래원님* 입사일이여서 기술조직 풀 출근입니다! 참고 부탁드립니다. 감사합니다!"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1784683057.326789",
-        "text": "10시 30분에 게더 여름방에서 잠깐 회의 하겠습니다! 짧게"
       }
     ]
   },
