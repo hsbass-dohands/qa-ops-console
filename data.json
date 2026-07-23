@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T07:18:57.784Z",
+  "generated_at": "2026-07-23T09:57:49.280Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -13,6 +13,14 @@
     "new_this_week": 6,
     "closed_this_week": 0,
     "funnel": [
+      {
+        "key": "SPRINT-757",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-757",
+        "summary": "office 출고 정보 수정을 할 때 동기화가 안되는 문제",
+        "status": "QA 중",
+        "project": "SPRINT",
+        "assignee": "김태재"
+      },
       {
         "key": "TECH-1376",
         "url": "https://dohands.atlassian.net/browse/TECH-1376",
@@ -78,12 +86,12 @@
         "assignee": "김태재"
       },
       {
-        "key": "SPRINT-757",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-757",
-        "summary": "office 출고 정보 수정을 할 때 동기화가 안되는 문제",
+        "key": "ROBOT-40",
+        "url": "https://dohands.atlassian.net/browse/ROBOT-40",
+        "summary": "[개발] [운송장] 판매 플랫폼별 송장 배송 유형 식별 표기 추가 (매일배송/스타배송)",
         "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "김태재"
+        "project": "ROBOT",
+        "assignee": "김동완"
       },
       {
         "key": "TECH-1624",
@@ -759,6 +767,24 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-토스쇼핑",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784796020.258059",
+        "text": "@이근한 (기술/개발팀) 아래 내용 관련 질문 스레드\n\n*[SKU]*\n• 토스쇼핑 연동 채널 SKU 단건 등록 -&gt; 토스 SKU 생성\n• 토스쇼핑 연동 채널 SKU 단건 수정 -&gt; 토스 SKU 수정\n• 토스쇼핑 연동 채널 SKU 단건 삭제 -&gt; 토스 SKU 삭제\n• SKU 피드 실행 확인 -&gt; 품고/토스 SKU 일치 확인"
+      },
+      {
+        "channel": "기술과제-토스쇼핑",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784794909.434189",
+        "text": "@이근한 (기술/개발팀) 아래 내용 관련 질문 스레드\n\n*[재고]*\n• 주문 할당 성공 -&gt; 토스재고 차감\n• 주문 할당 취소 -&gt; 토스재고 복원\n• 재고 피드 실행 확인 -&gt; 품고/토스 재고 일치 확인"
+      },
+      {
+        "channel": "기술과제-토스쇼핑",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784794501.636999",
+        "text": "@이근한 (기술/개발팀) @한상협 (기술/개발팀) <https://docs.google.com/spreadsheets/d/1CywV75dEL08HGlirau4hP6MD2fgKgeiSDnbDZmoQjag/edit?usp=sharing|[품고] 토스쇼핑 연동 TC> 권한 드렸는데 열리시나요~!?"
+      },
+      {
         "channel": "기술조직",
         "user": "최라온 (기술/QA팀)",
         "ts": "1784789946.217329",
@@ -787,24 +813,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1784707027.750189",
         "text": "<!subteam^S088S7692RJ> STG &gt; OFFICE &gt; 재고 이동 시 에러!\npartnerIds가 string으로 가서 문제로 보이는데 확인 부탁드려요~!\n\n요청 URL : <https://api.stg.poomgo.com/handybot/partner-resources-dialog>\n요청 페이로드 : {\"page\":1,\"pageSi"
-      },
-      {
-        "channel": "기술과제-토스쇼핑",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1784705888.291739",
-        "text": "@이찬민 (기술/제품팀) @이근한 (기술/개발팀) @한상협 (기술/개발팀) STG &gt; 토스쇼핑 전용 테스트 고객사로 `STG 토스쇼핑` 고객사 만들어두었습니다!\n\n오늘 중으로 SKU 3개 생성 후 재고 및 출고 로케이션 세팅까지 완료해두려고 합니다~! 참고 부탁드립니다!"
-      },
-      {
-        "channel": "sigvise",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1784701307.428769",
-        "text": "@박소영 (기술/개발팀) A/B 테스트 관련"
-      },
-      {
-        "channel": "기술과제-토스쇼핑",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1784690647.101119",
-        "text": "@이찬민 (기술/제품팀) 저희가 직접 주문 상태 변경하게 되면 계정은 필요없으시다네요!"
       }
     ]
   },
