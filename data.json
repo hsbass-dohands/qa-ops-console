@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T01:13:59.047Z",
+  "generated_at": "2026-07-23T04:37:04.879Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -14,12 +14,12 @@
     "closed_this_week": 0,
     "funnel": [
       {
-        "key": "SPRINT-712",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-712",
-        "summary": "[Seller] SKU 개별 등록/개별 수정 시, 일부 미관리 필드 제거",
+        "key": "SPRINT-713",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-713",
+        "summary": "[VISE] 고객사/브랜드 검색필터 드롭다운 변경",
         "status": "QA 중",
         "project": "SPRINT",
-        "assignee": "베스현승"
+        "assignee": "김태재"
       },
       {
         "key": "TECH-1376",
@@ -78,6 +78,14 @@
         "assignee": "김태재"
       },
       {
+        "key": "TECH-1696",
+        "url": "https://dohands.atlassian.net/browse/TECH-1696",
+        "summary": "[SKU 관리] 기술조직 관리자도 테이블 컬럼에 '센터 보관 유형' 노출되어야 함",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "박소영"
+      },
+      {
         "key": "INT-271",
         "url": "https://dohands.atlassian.net/browse/INT-271",
         "summary": "getOrders 페이지네이션 방식에 따른 count 분리, 사은품 지급 채널 조회 방식 변경",
@@ -91,14 +99,6 @@
         "summary": "[품고 출고/B2C][개발] 송장 목록 노출 및 자가 재출력 팝업",
         "status": "QA 필요",
         "project": "ROBOT",
-        "assignee": "김태재"
-      },
-      {
-        "key": "SPRINT-713",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-713",
-        "summary": "[VISE] 고객사/브랜드 검색필터 드롭다운 변경",
-        "status": "QA 필요",
-        "project": "SPRINT",
         "assignee": "김태재"
       },
       {
@@ -470,19 +470,19 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "b2b 출고앱 기본기능",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259653690/b2b",
-        "updated": "2026-07-22"
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-07-23"
       },
       {
         "title": "래원님 온보딩",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259194911",
-        "updated": "2026-07-22"
+        "updated": "2026-07-23"
       },
       {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
-        "updated": "2026-07-21"
+        "title": "b2b 출고앱 기본기능",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259653690/b2b",
+        "updated": "2026-07-22"
       },
       {
         "title": "재고증차감",
@@ -776,6 +776,12 @@
     "messages": [
       {
         "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1784776757.449459",
+        "text": "보안 모의 훈련 신고 했더니, gs25 5천원 쿠폰주네요:ㅋㅋㅋㅋ_ㅋㅋㅋㅋ_ㅋㅋㅋㅋ_ㅋㅋㅋㅋ::+1:"
+      },
+      {
+        "channel": "기술-qa팀",
         "user": "최라온 (기술/QA팀)",
         "ts": "1784713788.397689",
         "text": "@베스현승 (기술/QA팀) 현승님 혹시 퇴근하셨을까용?!"
@@ -815,12 +821,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1784689706.677719",
         "text": "드디어 내가 꿈에 그리던 QA팀이 완성되고있네요"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1784689352.311699",
-        "text": "상준님 입사 8/18 어떠신가요?"
       }
     ]
   },
