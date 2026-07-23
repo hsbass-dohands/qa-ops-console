@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-07-23T04:37:04.879Z",
+  "generated_at": "2026-07-23T07:18:57.784Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
       "P1": 0,
-      "P2": 10,
+      "P2": 9,
       "P3": 44
     },
-    "total_open": 54,
-    "new_this_week": 5,
+    "total_open": 53,
+    "new_this_week": 6,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "SPRINT-713",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-713",
-        "summary": "[VISE] 고객사/브랜드 검색필터 드롭다운 변경",
-        "status": "QA 중",
-        "project": "SPRINT",
-        "assignee": "김태재"
-      },
       {
         "key": "TECH-1376",
         "url": "https://dohands.atlassian.net/browse/TECH-1376",
@@ -70,22 +62,6 @@
         "assignee": "김태재"
       },
       {
-        "key": "TECH-1663",
-        "url": "https://dohands.atlassian.net/browse/TECH-1663",
-        "summary": "[QA] 바이스 역할/권한에 따른 조회 점검 및 수정 1차",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "김태재"
-      },
-      {
-        "key": "TECH-1696",
-        "url": "https://dohands.atlassian.net/browse/TECH-1696",
-        "summary": "[SKU 관리] 기술조직 관리자도 테이블 컬럼에 '센터 보관 유형' 노출되어야 함",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "박소영"
-      },
-      {
         "key": "INT-271",
         "url": "https://dohands.atlassian.net/browse/INT-271",
         "summary": "getOrders 페이지네이션 방식에 따른 count 분리, 사은품 지급 채널 조회 방식 변경",
@@ -99,6 +75,14 @@
         "summary": "[품고 출고/B2C][개발] 송장 목록 노출 및 자가 재출력 팝업",
         "status": "QA 필요",
         "project": "ROBOT",
+        "assignee": "김태재"
+      },
+      {
+        "key": "SPRINT-757",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-757",
+        "summary": "office 출고 정보 수정을 할 때 동기화가 안되는 문제",
+        "status": "QA 필요",
+        "project": "SPRINT",
         "assignee": "김태재"
       },
       {
@@ -181,7 +165,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 1,
-        "p3": 4
+        "p3": 5
       }
     ],
     "calendar_events": [
@@ -775,6 +759,12 @@
     ],
     "messages": [
       {
+        "channel": "기술조직",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784789946.217329",
+        "text": "@황성민 (기술/개발팀) 성민님 혹시 지금 시간되시나요?\n어젠다 : 운영 &gt; VISE 데이터(ex. 인사이트) 예쁘게 쌓기 입니다 cc. @한병두 (기술/제품팀)"
+      },
+      {
         "channel": "기술-qa팀",
         "user": "김태재 (기술/QA팀)",
         "ts": "1784776757.449459",
@@ -815,12 +805,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1784690647.101119",
         "text": "@이찬민 (기술/제품팀) 저희가 직접 주문 상태 변경하게 되면 계정은 필요없으시다네요!"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1784689706.677719",
-        "text": "드디어 내가 꿈에 그리던 QA팀이 완성되고있네요"
       }
     ]
   },
