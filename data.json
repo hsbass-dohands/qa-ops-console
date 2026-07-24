@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-24T07:18:27.643Z",
+  "generated_at": "2026-07-24T09:54:29.485Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
-      "P1": 0,
+      "P1": 1,
       "P2": 9,
       "P3": 44
     },
-    "total_open": 53,
-    "new_this_week": 7,
+    "total_open": 54,
+    "new_this_week": 8,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -46,28 +46,28 @@
         "assignee": "최라온"
       },
       {
-        "key": "TECH-1552",
-        "url": "https://dohands.atlassian.net/browse/TECH-1552",
-        "summary": "[궁중비책] 영세율 및 과세 세금계산서 동시 발행 시 바로빌 관리번호 중복 오류 해결",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "최라온"
-      },
-      {
-        "key": "TECH-1576",
-        "url": "https://dohands.atlassian.net/browse/TECH-1576",
-        "summary": "[QA] 격리 재고",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "김태재"
-      },
-      {
         "key": "TECH-1577",
         "url": "https://dohands.atlassian.net/browse/TECH-1577",
         "summary": "[QA] 재고 등록/차감 조회",
         "status": "QA 중",
         "project": "TECH",
         "assignee": "김태재"
+      },
+      {
+        "key": "TECH-1624",
+        "url": "https://dohands.atlassian.net/browse/TECH-1624",
+        "summary": "[VISE] 송장 시스템태그 필터 — 트랙스로지스(TRACX) 주석 해제 (트랙스로지스 배포 시)",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "최라온"
+      },
+      {
+        "key": "TECH-1625",
+        "url": "https://dohands.atlassian.net/browse/TECH-1625",
+        "summary": "[Office] 송장 시스템태그 필터 — 트랙스로지스(TRACX) 주석 해제 (트랙스로지스 배포 시)",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "최라온"
       },
       {
         "key": "TECH-186",
@@ -94,17 +94,9 @@
         "assignee": "최라온"
       },
       {
-        "key": "TECH-1624",
-        "url": "https://dohands.atlassian.net/browse/TECH-1624",
-        "summary": "[VISE] 송장 시스템태그 필터 — 트랙스로지스(TRACX) 주석 해제 (트랙스로지스 배포 시)",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "최라온"
-      },
-      {
-        "key": "TECH-1625",
-        "url": "https://dohands.atlassian.net/browse/TECH-1625",
-        "summary": "[Office] 송장 시스템태그 필터 — 트랙스로지스(TRACX) 주석 해제 (트랙스로지스 배포 시)",
+        "key": "TECH-1637",
+        "url": "https://dohands.atlassian.net/browse/TECH-1637",
+        "summary": "[VISE][프론트] 토스쇼핑",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "최라온"
@@ -171,7 +163,7 @@
       {
         "week": "W8",
         "p0": 0,
-        "p1": 0,
+        "p1": 1,
         "p2": 1,
         "p3": 6
       }
@@ -462,6 +454,11 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "격리재고",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/260669483",
+        "updated": "2026-07-24"
+      },
+      {
         "title": "재고증차감",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264503361",
         "updated": "2026-07-24"
@@ -480,11 +477,6 @@
         "title": "b2b 출고앱 기본기능",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259653690/b2b",
         "updated": "2026-07-22"
-      },
-      {
-        "title": "격리재고",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/260669483",
-        "updated": "2026-07-20"
       },
       {
         "title": "[7월20일] Weekly QA",
@@ -767,6 +759,30 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-토스쇼핑",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784885879.275639",
+        "text": "@한상협 (기술/개발팀) 토스쇼핑 안드로이드 앱 환경 관련 확인 스레드"
+      },
+      {
+        "channel": "기술과제-재고증차감-이관",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1784882788.399959",
+        "text": "@도혜원 (기술/개발팀) b2b 쪽 격리로케이션"
+      },
+      {
+        "channel": "기술과제-토스쇼핑",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784878977.197029",
+        "text": "@이찬민 (기술/제품팀) @한상협 (기술/개발팀) 질문 스레드"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1784878147.981139",
+        "text": "리마인더: <!subteam^S096ZRAAKFY> 주간 개인 업무 요약 작성 부탁드립니다! (쓰레드)\n• RED 이슈 (1개 또는 없음)\n    ◦ [이슈 내용] / [현재 상태] / [필요한 것]\n• 이번 주 핵심 목표 (1~2개)\n    ◦ [목표] / [완료 기준]\n    ◦ [목표] / [완료 기준]\n• 지난주 액션 셀프 체크\n    ◦ [지난주 "
+      },
+      {
         "channel": "기술-qa팀",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1784877467.355329",
@@ -789,30 +805,6 @@
         "user": "김태재 (기술/QA팀)",
         "ts": "1784875264.088199",
         "text": "@최라온 (기술/QA팀) <https://dohandsworkspace.slack.com/archives/CSK3B4PGR/p1784874296834979?thread_ts=1784874013.469209&amp;cid=CSK3B4PGR|https://dohandsworkspace.slack.com/archives/CSK3B4PGR/p178487429683"
-      },
-      {
-        "channel": "sigvise",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1784864567.312039",
-        "text": "@이승우 (기술/개발팀) 재고"
-      },
-      {
-        "channel": "기술조직",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1784861153.670129",
-        "text": "@이찬민 (기술/제품팀) STG &gt; 배송계약 + 시스템 태그 정리 스레드"
-      },
-      {
-        "channel": "기술-휴가",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1784857096.007839",
-        "text": "[점두점두] :rice: 금일 점두 사용하겠습니다~! (13:00 ~ 15:00) :rice:"
-      },
-      {
-        "channel": "sigint",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1784855961.138429",
-        "text": "<!subteam^S088LS39A69> STG &gt; 두산베어스 &gt; 주문번호 : 스타배송 운송장 테스트용\n\n위 주문 스타배송으로 주문속성 변경해주실 분을 찾습니다..!"
       }
     ]
   },
