@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T23:39:24.865Z",
+  "generated_at": "2026-07-24T01:09:08.976Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -91,7 +91,7 @@
         "summary": "[개발] [운송장] 판매 플랫폼별 송장 배송 유형 식별 표기 추가 (매일배송/스타배송)",
         "status": "QA 필요",
         "project": "ROBOT",
-        "assignee": "김동완"
+        "assignee": "김태재"
       },
       {
         "key": "TECH-1624",
@@ -767,6 +767,12 @@
     ],
     "messages": [
       {
+        "channel": "기술-로보틱스팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1784855192.315679",
+        "text": "@우창수 (기술/로보틱스팀) QA 티켓 관련"
+      },
+      {
         "channel": "기술과제-토스쇼핑",
         "user": "최라온 (기술/QA팀)",
         "ts": "1784796020.258059",
@@ -807,12 +813,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1784710919.945649",
         "text": "<!here> 내일 인사평가 면담은 커피 챗으로 하겠습니다! 잠깐 나가서 커피/스무디 같은거 한잔 사오면서 짧게!"
-      },
-      {
-        "channel": "sigvise",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1784707027.750189",
-        "text": "<!subteam^S088S7692RJ> STG &gt; OFFICE &gt; 재고 이동 시 에러!\npartnerIds가 string으로 가서 문제로 보이는데 확인 부탁드려요~!\n\n요청 URL : <https://api.stg.poomgo.com/handybot/partner-resources-dialog>\n요청 페이로드 : {\"page\":1,\"pageSi"
       }
     ]
   },
