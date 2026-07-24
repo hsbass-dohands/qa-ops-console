@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T01:09:08.976Z",
+  "generated_at": "2026-07-24T04:32:11.178Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -10,15 +10,15 @@
       "P3": 44
     },
     "total_open": 53,
-    "new_this_week": 6,
+    "new_this_week": 7,
     "closed_this_week": 0,
     "funnel": [
       {
-        "key": "SPRINT-757",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-757",
-        "summary": "office 출고 정보 수정을 할 때 동기화가 안되는 문제",
+        "key": "ROBOT-127",
+        "url": "https://dohands.atlassian.net/browse/ROBOT-127",
+        "summary": "[품고 출고/B2C][개발] 송장 목록 노출 및 자가 재출력 팝업",
         "status": "QA 중",
-        "project": "SPRINT",
+        "project": "ROBOT",
         "assignee": "김태재"
       },
       {
@@ -78,20 +78,12 @@
         "assignee": "최라온"
       },
       {
-        "key": "ROBOT-127",
-        "url": "https://dohands.atlassian.net/browse/ROBOT-127",
-        "summary": "[품고 출고/B2C][개발] 송장 목록 노출 및 자가 재출력 팝업",
+        "key": "INT-276",
+        "url": "https://dohands.atlassian.net/browse/INT-276",
+        "summary": "카페24 토큰 갱신 실패 보완",
         "status": "QA 필요",
-        "project": "ROBOT",
-        "assignee": "김태재"
-      },
-      {
-        "key": "ROBOT-40",
-        "url": "https://dohands.atlassian.net/browse/ROBOT-40",
-        "summary": "[개발] [운송장] 판매 플랫폼별 송장 배송 유형 식별 표기 추가 (매일배송/스타배송)",
-        "status": "QA 필요",
-        "project": "ROBOT",
-        "assignee": "김태재"
+        "project": "INT",
+        "assignee": "최라온"
       },
       {
         "key": "TECH-1624",
@@ -108,6 +100,14 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "최라온"
+      },
+      {
+        "key": "TECH-1630",
+        "url": "https://dohands.atlassian.net/browse/TECH-1630",
+        "summary": "로케이션 일괄 변경 grid 필수 badge",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "반수정"
       },
       {
         "key": "TECH-1641",
@@ -173,7 +173,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 1,
-        "p3": 5
+        "p3": 6
       }
     ],
     "calendar_events": [
@@ -767,6 +767,30 @@
     ],
     "messages": [
       {
+        "channel": "sigvise",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1784864567.312039",
+        "text": "@이승우 (기술/개발팀) 재고"
+      },
+      {
+        "channel": "기술조직",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784861153.670129",
+        "text": "@이찬민 (기술/제품팀) STG &gt; 배송계약 + 시스템 태그 정리 스레드"
+      },
+      {
+        "channel": "기술-휴가",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784857096.007839",
+        "text": "[점두점두] :rice: 금일 점두 사용하겠습니다~! (13:00 ~ 15:00) :rice:"
+      },
+      {
+        "channel": "sigint",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1784855961.138429",
+        "text": "<!subteam^S088LS39A69> STG &gt; 두산베어스 &gt; 주문번호 : 스타배송 운송장 테스트용\n\n위 주문 스타배송으로 주문속성 변경해주실 분을 찾습니다..!"
+      },
+      {
         "channel": "기술-로보틱스팀",
         "user": "김태재 (기술/QA팀)",
         "ts": "1784855192.315679",
@@ -789,30 +813,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1784794501.636999",
         "text": "@이근한 (기술/개발팀) @한상협 (기술/개발팀) <https://docs.google.com/spreadsheets/d/1CywV75dEL08HGlirau4hP6MD2fgKgeiSDnbDZmoQjag/edit?usp=sharing|[품고] 토스쇼핑 연동 TC> 권한 드렸는데 열리시나요~!?"
-      },
-      {
-        "channel": "기술조직",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1784789946.217329",
-        "text": "@황성민 (기술/개발팀) 성민님 혹시 지금 시간되시나요?\n어젠다 : 운영 &gt; VISE 데이터(ex. 인사이트) 예쁘게 쌓기 입니다 cc. @한병두 (기술/제품팀)"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1784776757.449459",
-        "text": "보안 모의 훈련 신고 했더니, gs25 5천원 쿠폰주네요:ㅋㅋㅋㅋ_ㅋㅋㅋㅋ_ㅋㅋㅋㅋ_ㅋㅋㅋㅋ::+1:"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1784713788.397689",
-        "text": "@베스현승 (기술/QA팀) 현승님 혹시 퇴근하셨을까용?!"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1784710919.945649",
-        "text": "<!here> 내일 인사평가 면담은 커피 챗으로 하겠습니다! 잠깐 나가서 커피/스무디 같은거 한잔 사오면서 짧게!"
       }
     ]
   },
