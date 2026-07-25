@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T14:36:55.000Z",
+  "generated_at": "2026-07-25T15:46:41.136Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,10 +7,10 @@
       "P0": 0,
       "P1": 1,
       "P2": 9,
-      "P3": 44
+      "P3": 45
     },
-    "total_open": 54,
-    "new_this_week": 9,
+    "total_open": 55,
+    "new_this_week": 10,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -114,58 +114,58 @@
       {
         "week": "W1",
         "p0": 0,
-        "p1": 1,
-        "p2": 1,
-        "p3": 7
-      },
-      {
-        "week": "W2",
-        "p0": 0,
         "p1": 2,
         "p2": 9,
         "p3": 9
       },
       {
-        "week": "W3",
+        "week": "W2",
         "p0": 0,
         "p1": 1,
         "p2": 6,
         "p3": 9
       },
       {
-        "week": "W4",
+        "week": "W3",
         "p0": 0,
         "p1": 0,
         "p2": 6,
         "p3": 7
       },
       {
-        "week": "W5",
+        "week": "W4",
         "p0": 0,
         "p1": 2,
         "p2": 2,
         "p3": 4
       },
       {
-        "week": "W6",
+        "week": "W5",
         "p0": 0,
         "p1": 0,
         "p2": 3,
         "p3": 5
       },
       {
-        "week": "W7",
+        "week": "W6",
         "p0": 0,
         "p1": 0,
         "p2": 0,
         "p3": 6
       },
       {
-        "week": "W8",
+        "week": "W7",
         "p0": 1,
         "p1": 1,
         "p2": 1,
         "p3": 6
+      },
+      {
+        "week": "W8",
+        "p0": 0,
+        "p1": 0,
+        "p2": 0,
+        "p3": 1
       }
     ],
     "calendar_events": [
