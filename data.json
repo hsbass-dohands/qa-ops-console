@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T19:53:59.819Z",
+  "generated_at": "2026-07-27T21:09:09.350Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -631,12 +631,6 @@
         "name": "기술과제-카페24",
         "is_private": false,
         "is_member": false
-      },
-      {
-        "id": "C09HREEDUJ0",
-        "name": "기술-휴가",
-        "is_private": true,
-        "is_member": true
       },
       {
         "id": "C0A69Q00Y15",
