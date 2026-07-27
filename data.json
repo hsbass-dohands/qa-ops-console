@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T23:13:31.304Z",
+  "generated_at": "2026-07-27T00:13:58.290Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -52,30 +52,6 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "김태재"
-      },
-      {
-        "key": "TECH-1624",
-        "url": "https://dohands.atlassian.net/browse/TECH-1624",
-        "summary": "[VISE] 송장 시스템태그 필터 — 트랙스로지스(TRACX) 주석 해제 (트랙스로지스 배포 시)",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "최라온"
-      },
-      {
-        "key": "TECH-1625",
-        "url": "https://dohands.atlassian.net/browse/TECH-1625",
-        "summary": "[Office] 송장 시스템태그 필터 — 트랙스로지스(TRACX) 주석 해제 (트랙스로지스 배포 시)",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "최라온"
-      },
-      {
-        "key": "TECH-186",
-        "url": "https://dohands.atlassian.net/browse/TECH-186",
-        "summary": "[VISE] 재고 등록/차감 조회",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "한병두"
       },
       {
         "key": "INT-271",
@@ -454,6 +430,11 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-07-27"
+      },
+      {
         "title": "격리재고",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/260669483",
         "updated": "2026-07-24"
@@ -462,11 +443,6 @@
         "title": "재고증차감",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264503361",
         "updated": "2026-07-24"
-      },
-      {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
-        "updated": "2026-07-23"
       },
       {
         "title": "래원님 온보딩",
@@ -759,6 +735,12 @@
     ],
     "messages": [
       {
+        "channel": "기술조직",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1785111132.509089",
+        "text": ":bar_chart: _QA 주간 리포트, 2026-07-27_ — 전체 제품 버그 종합\n\n:file_folder: <https://dohandsworkspace.slack.com/docs/TSX4YQ8EB/F0BFS79MXUM|QA 주간 리포트 — 전체 모음> :page_facing_up: 이번 주: <https://dohandsworkspace.slac"
+      },
+      {
         "channel": "기술과제-토스쇼핑",
         "user": "최라온 (기술/QA팀)",
         "ts": "1784885879.275639",
@@ -799,12 +781,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1784876916.768519",
         "text": "*<!here> 토스쇼핑 측에 품고 TC 전달 완료했으며, 토스쇼핑 TC도 전달 받아 공유 드립니다!*\n보시다가 궁금한 점 있으시면 스레드에 남겨주세요~!"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1784875264.088199",
-        "text": "@최라온 (기술/QA팀) <https://dohandsworkspace.slack.com/archives/CSK3B4PGR/p1784874296834979?thread_ts=1784874013.469209&amp;cid=CSK3B4PGR|https://dohandsworkspace.slack.com/archives/CSK3B4PGR/p178487429683"
       }
     ]
   },
