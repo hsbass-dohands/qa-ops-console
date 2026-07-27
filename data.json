@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T04:05:49.837Z",
+  "generated_at": "2026-07-27T07:51:05.606Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -83,7 +83,7 @@
         "summary": "[VISE] 네이버 단수 청구 로직 수정",
         "status": "QA 필요",
         "project": "SPRINT",
-        "assignee": "황성민"
+        "assignee": "최라온"
       }
     ],
     "weekly_severity": [
@@ -141,7 +141,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 0,
-        "p3": 1
+        "p3": 2
       }
     ],
     "calendar_events": [
@@ -430,6 +430,11 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "래원님 온보딩",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259194911",
+        "updated": "2026-07-27"
+      },
+      {
         "title": "[7월27일] Weekly QA",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/286654967/7+27+Weekly+QA",
         "updated": "2026-07-27"
@@ -448,11 +453,6 @@
         "title": "격리재고",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/260669483",
         "updated": "2026-07-24"
-      },
-      {
-        "title": "래원님 온보딩",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259194911",
-        "updated": "2026-07-23"
       },
       {
         "title": "b2b 출고앱 기본기능",
@@ -736,51 +736,51 @@
     "messages": [
       {
         "channel": "기술조직",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1785135346.620219",
+        "text": "@김서경 (기술/제품팀) figma 권한"
+      },
+      {
+        "channel": "기술-qa팀",
         "user": "베스현승 (기술/QA팀)",
-        "ts": "1785121957.486509",
-        "text": "@전우영 (기술/AI팀) VI 과제"
+        "ts": "1785133886.184809",
+        "text": "<!here> 오늘 weekly QA: HG#2 M5-6A (5층 6인실)"
       },
       {
         "channel": "기술-qa팀",
         "user": "김태재 (기술/QA팀)",
-        "ts": "1785121924.244869",
-        "text": "@박래원 (기술/QA팀) <https://drive.google.com/drive/folders/1tCDffrigmvAkMbIBz9JKxzCO9NabMLQ2|drive.google.com/drive/folders/…>"
+        "ts": "1785132977.330929",
+        "text": "@박래원 (기술/QA팀) 님 온보딩 관련 쓰레드"
+      },
+      {
+        "channel": "기술조직",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1785130796.582899",
+        "text": "@문성수 (기술) 성수님 testiny"
+      },
+      {
+        "channel": "기술조직",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1785130656.527209",
+        "text": "@이희영 (기술/개발팀) 이히히영님 testiny"
       },
       {
         "channel": "기술-qa팀",
         "user": "김태재 (기술/QA팀)",
-        "ts": "1785121462.313419",
-        "text": "<https://dohandsworkspace.slack.com/archives/C046PF86X7Z/p1778578968814259|https://dohandsworkspace.slack.com/archives/C046PF86X7Z/p1778578968814259>"
+        "ts": "1785130519.198469",
+        "text": "<https://app.gather.town/app/xwBH7YgVOvVNtpc2/dohands|app.gather.town/app/…/dohands>"
       },
       {
         "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1785119795.188429",
-        "text": "@김태재 (기술/QA팀) 태재님께 배정되어있던 PII Phase2는 제가 들고 가는게 맞을 것 같아서! 제가 들고 가는걸로 땅땅땅 하시죵"
-      },
-      {
-        "channel": "기술-로보틱스팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1785117284.872349",
-        "text": "디자인 qa 티켓이 있다면, 수정님께서 디자인 확인 후에 완료 처리해주셔도 될 것 같긴합니다!"
-      },
-      {
-        "channel": "sigvise",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1785115958.694489",
-        "text": "@황성민 (기술/개발팀) <https://dohands.atlassian.net/browse/SPRINT-587|연동 재고 관리에 센터 컬럼 추가 요청> 이슈 관련"
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1785130466.819679",
+        "text": "testiny 초대 함"
       },
       {
         "channel": "기술-qa팀",
         "user": "김태재 (기술/QA팀)",
-        "ts": "1785115683.733429",
-        "text": "래원님 설문조사: <https://docs.google.com/forms/d/e/1FAIpQLSfb69-Lv3DeaIb8bshI4-N3tcm95G_UD6MlY3wrEKe2ECUY-A/viewform?usp=sharing&amp;ouid=103462422515159989723|docs.google.com/forms/…/viewform?usp=sharing&a"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1785115620.063349",
-        "text": "@박래원 (기술/QA팀)\n래원님 온보딩 문서:  <https://dohands.atlassian.net/wiki/spaces/qa/pages/259194911|dohands.atlassian.net/wiki/…/259194911>"
+        "ts": "1785130100.304909",
+        "text": "@최라온 (기술/QA팀) weekly에 래원님도 초대부탁드립니다!"
       }
     ]
   },
