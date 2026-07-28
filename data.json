@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T07:17:25.478Z",
+  "generated_at": "2026-07-28T10:05:39.314Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,10 +7,10 @@
       "P0": 0,
       "P1": 1,
       "P2": 9,
-      "P3": 43
+      "P3": 42
     },
-    "total_open": 53,
-    "new_this_week": 8,
+    "total_open": 52,
+    "new_this_week": 6,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -430,6 +430,16 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "재고증차감",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264503361",
+        "updated": "2026-07-28"
+      },
+      {
+        "title": "이천 XFC 휴머노이드 패킹 로봇 PoC - QA 테스트 케이스 목록 (167건)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/289865735/XFC+PoC+-+QA+167",
+        "updated": "2026-07-28"
+      },
+      {
         "title": "래원님 온보딩",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259194911",
         "updated": "2026-07-28"
@@ -440,11 +450,6 @@
         "updated": "2026-07-28"
       },
       {
-        "title": "재고증차감",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264503361",
-        "updated": "2026-07-28"
-      },
-      {
         "title": "qa-smoke-test",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/286295444/qa-smoke-test",
         "updated": "2026-07-28"
@@ -452,11 +457,6 @@
       {
         "title": "qa-verify",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/287605104/qa-verify",
-        "updated": "2026-07-28"
-      },
-      {
-        "title": "QA팀 홈",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/overview",
         "updated": "2026-07-28"
       }
     ],
@@ -729,6 +729,24 @@
     ],
     "messages": [
       {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1785227484.136929",
+        "text": "@최라온 (기술/QA팀) <https://dohandsworkspace.slack.com/archives/C01TUDS2SGY/p1785227293289189|https://dohandsworkspace.slack.com/archives/C01TUDS2SGY/p1785227293289189> 요거 원인 파악이 된것인가요? 일단 공지먼저 나간건가요??"
+      },
+      {
+        "channel": "기술과제-재고증차감-이관",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1785226220.545529",
+        "text": "@한병두 (기술/제품팀) 재고 증가 관련"
+      },
+      {
+        "channel": "기술과제-패킹로봇-poc",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1785223861.108019",
+        "text": "@김태재 (기술/QA팀) cc"
+      },
+      {
         "channel": "기술과제-패킹로봇-poc",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1785222862.938279",
@@ -757,24 +775,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1785217285.507989",
         "text": "즐거웠ㅇ"
-      },
-      {
-        "channel": "기술-로보틱스팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785217277.672089",
-        "text": "저.. 가요"
-      },
-      {
-        "channel": "기술-로보틱스팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785217215.942699",
-        "text": "넵! 그럼 QA팀은 채널에서 나가겠습니다~! cc <!subteam^S096ZRAAKFY>"
-      },
-      {
-        "channel": "기술과제-패킹로봇-poc",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785211119.678489",
-        "text": "이 과제 어느정도 타임라인 틀이 잡혀있을까요?"
       }
     ]
   },
