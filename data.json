@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T01:03:41.664Z",
+  "generated_at": "2026-07-28T04:28:18.333Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,20 +7,12 @@
       "P0": 0,
       "P1": 1,
       "P2": 9,
-      "P3": 44
+      "P3": 43
     },
-    "total_open": 54,
-    "new_this_week": 10,
+    "total_open": 53,
+    "new_this_week": 8,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "TECH-1376",
-        "url": "https://dohands.atlassian.net/browse/TECH-1376",
-        "summary": "[PRE QA] 트랙스로지스(투함)",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "최라온"
-      },
       {
         "key": "TECH-1444",
         "url": "https://dohands.atlassian.net/browse/TECH-1444",
@@ -60,6 +52,22 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "최라온"
+      },
+      {
+        "key": "BE-126",
+        "url": "https://dohands.atlassian.net/browse/BE-126",
+        "summary": "[셀러] 재고변동내역 속도 개선 (/seller/stock/range)",
+        "status": "QA 필요",
+        "project": "BE",
+        "assignee": "베스현승"
+      },
+      {
+        "key": "SPRINT-587",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-587",
+        "summary": "연동 재고 관리에 센터 컬럼 추가 요청",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "황성민"
       },
       {
         "key": "SPRINT-681",
@@ -419,13 +427,18 @@
         "updated": "2026-07-28"
       },
       {
-        "title": "qa-verify",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/287605104/qa-verify",
+        "title": "래원님 온보딩",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259194911",
         "updated": "2026-07-28"
       },
       {
-        "title": "래원님 온보딩",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259194911",
+        "title": "qa-smoke-test",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/286295444/qa-smoke-test",
+        "updated": "2026-07-28"
+      },
+      {
+        "title": "qa-verify",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/287605104/qa-verify",
         "updated": "2026-07-28"
       },
       {
@@ -436,11 +449,6 @@
       {
         "title": "[7월27일] Weekly QA",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/286654967/7+27+Weekly+QA",
-        "updated": "2026-07-27"
-      },
-      {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-07-27"
       }
     ],
@@ -713,6 +721,36 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-패킹로봇-poc",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1785211119.678489",
+        "text": "이 과제 어느정도 타임라인 틀이 잡혀있을까요?"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1785208759.701489",
+        "text": "<!here> 점메추 쓰레드"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1785206484.300049",
+        "text": "<!here>\n<https://dohands.atlassian.net/wiki/spaces/qa/folder/288227333|dohands.atlassian.net/wiki/…/288227333>\n\n스킬 관련 컨플루언스 페이지 생성했습니다.\n• 이전 QA-Request 스킬은 더욱 고도화되어 QA-Verify라는 스킬로 업데이트되었습니다. \n• QA-Sm"
+      },
+      {
+        "channel": "sigvise",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1785201779.466689",
+        "text": "<!subteam^S088S7692RJ> STG &gt; VISE &gt; SKU 등록처럼, 새탭 열릴 때 최초에는 로딩 안되고 새로고침 해야만 정상적으로 화면이 뜨는데 혹시 요 내용 알고 계실까요~?!"
+      },
+      {
+        "channel": "기술-로보틱스팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1785201495.205319",
+        "text": "<!subteam^S0A60A538VD> 기술 문의 - 품고 소터 redis 연결안됨 관련 문의"
+      },
+      {
         "channel": "기술-qa팀",
         "user": "김태재 (기술/QA팀)",
         "ts": "1785198528.131909",
@@ -729,36 +767,6 @@
         "user": "김태재 (기술/QA팀)",
         "ts": "1785135346.620219",
         "text": "@김서경 (기술/제품팀) figma 권한"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785133886.184809",
-        "text": "<!here> 오늘 weekly QA: HG#2 M5-6A (5층 6인실)"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1785132977.330929",
-        "text": "@박래원 (기술/QA팀) 님 온보딩 관련 쓰레드"
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785130796.582899",
-        "text": "@문성수 (기술) 성수님 testiny"
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785130656.527209",
-        "text": "@이희영 (기술/개발팀) 이히히영님 testiny"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1785130519.198469",
-        "text": "<https://app.gather.town/app/xwBH7YgVOvVNtpc2/dohands|app.gather.town/app/…/dohands>"
       }
     ]
   },
