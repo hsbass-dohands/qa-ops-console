@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T04:28:18.333Z",
+  "generated_at": "2026-07-28T07:17:25.478Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -14,17 +14,25 @@
     "closed_this_week": 0,
     "funnel": [
       {
-        "key": "TECH-1444",
-        "url": "https://dohands.atlassian.net/browse/TECH-1444",
-        "summary": "[바이스 프론트] N직 사은품/교환/수기 출고 ",
+        "key": "SPRINT-587",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-587",
+        "summary": "연동 재고 관리에 센터 컬럼 추가 요청",
         "status": "QA 중",
-        "project": "TECH",
+        "project": "SPRINT",
         "assignee": "최라온"
       },
       {
-        "key": "TECH-1486",
-        "url": "https://dohands.atlassian.net/browse/TECH-1486",
-        "summary": "[바이스 백엔드] 트랙스로지스(투함)",
+        "key": "SPRINT-681",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-681",
+        "summary": "[VISE] 네이버 단수 청구 로직 수정",
+        "status": "QA 중",
+        "project": "SPRINT",
+        "assignee": "최라온"
+      },
+      {
+        "key": "TECH-1444",
+        "url": "https://dohands.atlassian.net/browse/TECH-1444",
+        "summary": "[바이스 프론트] N직 사은품/교환/수기 출고 ",
         "status": "QA 중",
         "project": "TECH",
         "assignee": "최라온"
@@ -62,20 +70,20 @@
         "assignee": "베스현승"
       },
       {
-        "key": "SPRINT-587",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-587",
-        "summary": "연동 재고 관리에 센터 컬럼 추가 요청",
+        "key": "SPRINT-779",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-779",
+        "summary": "총량 피킹지시서 출력 후 다이얼로그 닫힘 현상 개선",
         "status": "QA 필요",
         "project": "SPRINT",
-        "assignee": "황성민"
+        "assignee": "김태재"
       },
       {
-        "key": "SPRINT-681",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-681",
-        "summary": "[VISE] 네이버 단수 청구 로직 수정",
+        "key": "TECH-1707",
+        "url": "https://dohands.atlassian.net/browse/TECH-1707",
+        "summary": "상단 검색필터 > 항목명 500 -> 400으로 수정 필요",
         "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "최라온"
+        "project": "TECH",
+        "assignee": "정수아"
       }
     ],
     "weekly_severity": [
@@ -422,13 +430,18 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "재고증차감",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264503361",
+        "title": "래원님 온보딩",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259194911",
         "updated": "2026-07-28"
       },
       {
-        "title": "래원님 온보딩",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259194911",
+        "title": "QA Shift Left 계획 - 이천 XFC 휴머노이드 패킹 로봇 PoC",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/289832965/QA+Shift+Left+-+XFC+PoC",
+        "updated": "2026-07-28"
+      },
+      {
+        "title": "재고증차감",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264503361",
         "updated": "2026-07-28"
       },
       {
@@ -445,11 +458,6 @@
         "title": "QA팀 홈",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/overview",
         "updated": "2026-07-28"
-      },
-      {
-        "title": "[7월27일] Weekly QA",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/286654967/7+27+Weekly+QA",
-        "updated": "2026-07-27"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
@@ -723,50 +731,50 @@
       {
         "channel": "기술과제-패킹로봇-poc",
         "user": "베스현승 (기술/QA팀)",
-        "ts": "1785211119.678489",
-        "text": "이 과제 어느정도 타임라인 틀이 잡혀있을까요?"
+        "ts": "1785222862.938279",
+        "text": "<https://dohands.atlassian.net/wiki/spaces/robot/embed/288850033?showPermissionsBanner=true|dohands.atlassian.net/wiki/…/288850033?…>\nQA 시프트 레프트 계획서 만들었습니다."
       },
       {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1785208759.701489",
-        "text": "<!here> 점메추 쓰레드"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785206484.300049",
-        "text": "<!here>\n<https://dohands.atlassian.net/wiki/spaces/qa/folder/288227333|dohands.atlassian.net/wiki/…/288227333>\n\n스킬 관련 컨플루언스 페이지 생성했습니다.\n• 이전 QA-Request 스킬은 더욱 고도화되어 QA-Verify라는 스킬로 업데이트되었습니다. \n• QA-Sm"
-      },
-      {
-        "channel": "sigvise",
+        "channel": "기술과제-토스쇼핑",
         "user": "최라온 (기술/QA팀)",
-        "ts": "1785201779.466689",
-        "text": "<!subteam^S088S7692RJ> STG &gt; VISE &gt; SKU 등록처럼, 새탭 열릴 때 최초에는 로딩 안되고 새로고침 해야만 정상적으로 화면이 뜨는데 혹시 요 내용 알고 계실까요~?!"
+        "ts": "1785218013.635049",
+        "text": "@이근한 (기술/개발팀) SKU 피드 전송, 재고 피드 전송 관련 질문"
       },
       {
-        "channel": "기술-로보틱스팀",
+        "channel": "기술과제-재고증차감-이관",
         "user": "김태재 (기술/QA팀)",
-        "ts": "1785201495.205319",
-        "text": "<!subteam^S0A60A538VD> 기술 문의 - 품고 소터 redis 연결안됨 관련 문의"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1785198528.131909",
-        "text": "<!channel> 커피나 음료 드실 분 메뉴 알려주세요~!"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785198239.208929",
-        "text": "@김태재 (기술/QA팀) 님 오늘 출근 몇시에 하시나요?"
+        "ts": "1785217917.242809",
+        "text": "@이승우 (기술/개발팀) @도혜원 (기술/개발팀) 재고 조정 차감/증가 페이지 접근 시, 에러 토스트 노출"
       },
       {
         "channel": "기술조직",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1785135346.620219",
-        "text": "@김서경 (기술/제품팀) figma 권한"
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1785217872.969809",
+        "text": "@정수아 (기술/제품팀) 디자인 QA"
+      },
+      {
+        "channel": "기술-로보틱스팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1785217285.507989",
+        "text": "즐거웠ㅇ"
+      },
+      {
+        "channel": "기술-로보틱스팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1785217277.672089",
+        "text": "저.. 가요"
+      },
+      {
+        "channel": "기술-로보틱스팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1785217215.942699",
+        "text": "넵! 그럼 QA팀은 채널에서 나가겠습니다~! cc <!subteam^S096ZRAAKFY>"
+      },
+      {
+        "channel": "기술과제-패킹로봇-poc",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1785211119.678489",
+        "text": "이 과제 어느정도 타임라인 틀이 잡혀있을까요?"
       }
     ]
   },
