@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T23:34:15.081Z",
+  "generated_at": "2026-07-28T01:03:41.664Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -416,12 +416,22 @@
       {
         "title": "재고증차감",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264503361",
-        "updated": "2026-07-27"
+        "updated": "2026-07-28"
+      },
+      {
+        "title": "qa-verify",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/287605104/qa-verify",
+        "updated": "2026-07-28"
       },
       {
         "title": "래원님 온보딩",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259194911",
-        "updated": "2026-07-27"
+        "updated": "2026-07-28"
+      },
+      {
+        "title": "QA팀 홈",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/overview",
+        "updated": "2026-07-28"
       },
       {
         "title": "[7월27일] Weekly QA",
@@ -432,16 +442,6 @@
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-07-27"
-      },
-      {
-        "title": "격리재고",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/260669483",
-        "updated": "2026-07-24"
-      },
-      {
-        "title": "b2b 출고앱 기본기능",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259653690/b2b",
-        "updated": "2026-07-22"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
@@ -713,6 +713,18 @@
     ],
     "messages": [
       {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1785198528.131909",
+        "text": "<!channel> 커피나 음료 드실 분 메뉴 알려주세요~!"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1785198239.208929",
+        "text": "@김태재 (기술/QA팀) 님 오늘 출근 몇시에 하시나요?"
+      },
+      {
         "channel": "기술조직",
         "user": "김태재 (기술/QA팀)",
         "ts": "1785135346.620219",
@@ -747,18 +759,6 @@
         "user": "김태재 (기술/QA팀)",
         "ts": "1785130519.198469",
         "text": "<https://app.gather.town/app/xwBH7YgVOvVNtpc2/dohands|app.gather.town/app/…/dohands>"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785130466.819679",
-        "text": "testiny 초대 함"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1785130100.304909",
-        "text": "@최라온 (기술/QA팀) weekly에 래원님도 초대부탁드립니다!"
       }
     ]
   },
