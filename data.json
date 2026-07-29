@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T03:38:22.038Z",
+  "generated_at": "2026-07-29T06:18:40.360Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,10 +7,10 @@
       "P0": 0,
       "P1": 1,
       "P2": 9,
-      "P3": 42
+      "P3": 43
     },
-    "total_open": 52,
-    "new_this_week": 6,
+    "total_open": 53,
+    "new_this_week": 7,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -54,12 +54,36 @@
         "assignee": "최라온"
       },
       {
+        "key": "BE-118",
+        "url": "https://dohands.atlassian.net/browse/BE-118",
+        "summary": "인증서버 고객사 & 브랜드 로그 관리추가 ",
+        "status": "QA 필요",
+        "project": "BE",
+        "assignee": "손조성"
+      },
+      {
+        "key": "ROBOT-151",
+        "url": "https://dohands.atlassian.net/browse/ROBOT-151",
+        "summary": "[운송장][개발] 토스 쇼핑 연동에 따른, 토스 쇼핑 운송장 추가",
+        "status": "QA 필요",
+        "project": "ROBOT",
+        "assignee": "우창수"
+      },
+      {
         "key": "ROBOT-172",
         "url": "https://dohands.atlassian.net/browse/ROBOT-172",
         "summary": "[B2B 출고] 출고 지시 생성 시, 배송 유형이 품고 택배인 경우에만 송장 정보 생성",
         "status": "QA 필요",
         "project": "ROBOT",
         "assignee": "김태재"
+      },
+      {
+        "key": "SPRINT-771",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-771",
+        "summary": "고객사(Seller) B2C 취소철회 시 매핑 오류 발생",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "최라온"
       },
       {
         "key": "SPRINT-779",
@@ -125,7 +149,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 0,
-        "p3": 2
+        "p3": 3
       }
     ],
     "calendar_events": [
@@ -414,13 +438,13 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "title": "재고증차감",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264503361",
         "updated": "2026-07-29"
       },
       {
-        "title": "재고증차감",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264503361",
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-07-29"
       },
       {
@@ -713,6 +737,18 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-토스쇼핑",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1785303894.479109",
+        "text": "@이근한 (기술/개발팀) 님! 혹시 재고 피드 전송 요청 부탁드려도 될까용~?!"
+      },
+      {
+        "channel": "기술과제-재고증차감-이관",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1785303467.755689",
+        "text": "@도혜원 (기술/개발팀) 기대 동작 질문"
+      },
+      {
         "channel": "기술과제-재고증차감-이관",
         "user": "김태재 (기술/QA팀)",
         "ts": "1785292785.279589",
@@ -747,18 +783,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1785227484.136929",
         "text": "@최라온 (기술/QA팀) <https://dohandsworkspace.slack.com/archives/C01TUDS2SGY/p1785227293289189|https://dohandsworkspace.slack.com/archives/C01TUDS2SGY/p1785227293289189> 요거 원인 파악이 된것인가요? 일단 공지먼저 나간건가요??"
-      },
-      {
-        "channel": "기술과제-재고증차감-이관",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1785226220.545529",
-        "text": "@한병두 (기술/제품팀) 재고 증가 관련"
-      },
-      {
-        "channel": "기술과제-패킹로봇-poc",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785223861.108019",
-        "text": "@김태재 (기술/QA팀) cc"
       }
     ]
   },
