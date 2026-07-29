@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T06:18:40.360Z",
+  "generated_at": "2026-07-29T09:21:37.410Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,9 +7,9 @@
       "P0": 0,
       "P1": 1,
       "P2": 9,
-      "P3": 43
+      "P3": 42
     },
-    "total_open": 53,
+    "total_open": 52,
     "new_this_week": 7,
     "closed_this_week": 0,
     "funnel": [
@@ -54,14 +54,6 @@
         "assignee": "최라온"
       },
       {
-        "key": "BE-118",
-        "url": "https://dohands.atlassian.net/browse/BE-118",
-        "summary": "인증서버 고객사 & 브랜드 로그 관리추가 ",
-        "status": "QA 필요",
-        "project": "BE",
-        "assignee": "손조성"
-      },
-      {
         "key": "ROBOT-151",
         "url": "https://dohands.atlassian.net/browse/ROBOT-151",
         "summary": "[운송장][개발] 토스 쇼핑 연동에 따른, 토스 쇼핑 운송장 추가",
@@ -84,6 +76,14 @@
         "status": "QA 필요",
         "project": "SPRINT",
         "assignee": "최라온"
+      },
+      {
+        "key": "SPRINT-773",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-773",
+        "summary": "[연동] 재고리포트 전송 시 NSID가 페타소스에 존재하는 경우에만 전송",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "조수아"
       },
       {
         "key": "SPRINT-779",
@@ -443,6 +443,11 @@
         "updated": "2026-07-29"
       },
       {
+        "title": "QA팀 2025 회고 및 2026 개선 방향 공유",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/35913789/QA+2025+2026",
+        "updated": "2026-07-29"
+      },
+      {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-07-29"
@@ -460,11 +465,6 @@
       {
         "title": "QA Shift Left 계획 - 이천 XFC 휴머노이드 패킹 로봇 PoC",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/289832965/QA+Shift+Left+-+XFC+PoC",
-        "updated": "2026-07-28"
-      },
-      {
-        "title": "qa-smoke-test",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/286295444/qa-smoke-test",
         "updated": "2026-07-28"
       }
     ],
@@ -737,6 +737,30 @@
     ],
     "messages": [
       {
+        "channel": "기술조직",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1785315147.739569",
+        "text": "@우창수 (기술/로보틱스팀) 디버그 앱"
+      },
+      {
+        "channel": "sigvise",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1785309803.393119",
+        "text": "@정승아 (기술/개발팀) 검색 초성"
+      },
+      {
+        "channel": "기술과제-네이버새벽배송",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1785308377.919379",
+        "text": "@김서경 (기술/제품팀) @이찬민 (기술/제품팀) 서경님, 찬민님 안녕하세요\n현재 새벽배송 배포 후 실 운영이 대략 한달쯤 넘어가고 있고, 추가 요청사항이 있을 수 있다는 내용은 타 스레드에서 확인하여 인지하고 있습니다.\n\n당시 새벽배송 작업했던 구성원들이 `당배,새배 오픈 대응방` 카톡방에 남아있는 상황인데요!\n계속 남아있으면 될지, 나와도 되는지 확인 "
+      },
+      {
+        "channel": "sigvise",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1785307898.004409",
+        "text": "@한병두 (기술/제품팀) Seller 페이지 운영 중단 일자"
+      },
+      {
         "channel": "기술과제-토스쇼핑",
         "user": "최라온 (기술/QA팀)",
         "ts": "1785303894.479109",
@@ -759,30 +783,6 @@
         "user": "김태재 (기술/QA팀)",
         "ts": "1785291387.011739",
         "text": "@최라온 (기술/QA팀) stg 동적할당"
-      },
-      {
-        "channel": "기술조직",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1785291270.878189",
-        "text": "*<!here>* :memo: *Tech Sync 세션 중 CTO Q&amp;A에서 답변* 받으실 수 있습니다. 편하게 질문 남겨주세요~!\n• *7월 CTO Q&amp;A 설문지 :*<https://docs.google.com/forms/d/e/1FAIpQLSeGHrXdp3PoaMCMz9jn334TccGIOnZIpnON6tnPE3aS8qLlIw/viewfo"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1785291114.945489",
-        "text": "@베스현승 (기술/QA팀) 현승님 요거 스케줄표 정리 오늘 중으로만 하면 되는거죵~?!!"
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785287747.282239",
-        "text": "@이대한 (기술/개발팀) @최지수 (기술/로보틱스팀) 우리 이동/적치 과제 채널 따로 만든거 있나요?"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785227484.136929",
-        "text": "@최라온 (기술/QA팀) <https://dohandsworkspace.slack.com/archives/C01TUDS2SGY/p1785227293289189|https://dohandsworkspace.slack.com/archives/C01TUDS2SGY/p1785227293289189> 요거 원인 파악이 된것인가요? 일단 공지먼저 나간건가요??"
       }
     ]
   },
