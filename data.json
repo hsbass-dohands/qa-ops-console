@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-30T09:43:12.279Z",
+  "generated_at": "2026-07-30T11:33:59.262Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
-      "P1": 1,
+      "P1": 0,
       "P2": 9,
       "P3": 43
     },
-    "total_open": 53,
+    "total_open": 52,
     "new_this_week": 11,
     "closed_this_week": 0,
     "funnel": [
