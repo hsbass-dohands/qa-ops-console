@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T04:20:52.000Z",
+  "generated_at": "2026-07-30T07:12:10.922Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -10,7 +10,7 @@
       "P3": 43
     },
     "total_open": 53,
-    "new_this_week": 9,
+    "new_this_week": 8,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -446,6 +446,16 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "🎮 Break Everything: 주니어 QA 온보딩 퀘스트",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264896552/Break+Everything+QA",
+        "updated": "2026-07-30"
+      },
+      {
+        "title": "래원님 온보딩",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259194911",
+        "updated": "2026-07-30"
+      },
+      {
         "title": "재고증차감",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264503361",
         "updated": "2026-07-29"
@@ -463,16 +473,6 @@
       {
         "title": "이천 XFC 휴머노이드 패킹 로봇 PoC - QA 테스트 케이스 목록 (167건)",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/289865735/XFC+PoC+-+QA+167",
-        "updated": "2026-07-28"
-      },
-      {
-        "title": "래원님 온보딩",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259194911",
-        "updated": "2026-07-28"
-      },
-      {
-        "title": "QA Shift Left 계획 - 이천 XFC 휴머노이드 패킹 로봇 PoC",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/289832965/QA+Shift+Left+-+XFC+PoC",
         "updated": "2026-07-28"
       }
     ],
@@ -747,6 +747,12 @@
       {
         "channel": "기술과제-토스쇼핑",
         "user": "최라온 (기술/QA팀)",
+        "ts": "1785394236.083669",
+        "text": "@이근한 (기술/개발팀) @한상협 (기술/개발팀) 잔여 작업 체크 스레드\n\n1. *계약/SKU/재고 연동* \n    a. ~계약 생성/해제시 SKU/재고 초기연동/초기화 (코드리뷰 중)~\n        i. ~품고 &lt;-&gt; 토스쇼핑 연동 시 전체 SKU와 재고에 대해서 연동하는 작업~\n        ii. ~품고 &lt;-&gt; 토스쇼핑 연동 해"
+      },
+      {
+        "channel": "기술과제-토스쇼핑",
+        "user": "최라온 (기술/QA팀)",
         "ts": "1785384056.535799",
         "text": "@이근한 (기술/개발팀) @한상협 (기술/개발팀) 점심 드시고 확인 부탁드립니다!"
       },
@@ -785,12 +791,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1785308377.919379",
         "text": "@김서경 (기술/제품팀) @이찬민 (기술/제품팀) 서경님, 찬민님 안녕하세요\n현재 새벽배송 배포 후 실 운영이 대략 한달쯤 넘어가고 있고, 추가 요청사항이 있을 수 있다는 내용은 타 스레드에서 확인하여 인지하고 있습니다.\n\n당시 새벽배송 작업했던 구성원들이 `당배,새배 오픈 대응방` 카톡방에 남아있는 상황인데요!\n계속 남아있으면 될지, 나와도 되는지 확인 "
-      },
-      {
-        "channel": "sigvise",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785307898.004409",
-        "text": "@한병두 (기술/제품팀) Seller 페이지 운영 중단 일자"
       }
     ]
   },
