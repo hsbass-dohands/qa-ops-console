@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T01:02:59.899Z",
+  "generated_at": "2026-07-30T04:20:52.000Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -10,7 +10,7 @@
       "P3": 43
     },
     "total_open": 53,
-    "new_this_week": 8,
+    "new_this_week": 9,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -54,20 +54,20 @@
         "assignee": "최라온"
       },
       {
+        "key": "BE-127",
+        "url": "https://dohands.atlassian.net/browse/BE-127",
+        "summary": "[VISE] 반출대장 카운트 조회(count) API 응답 지연 개선 (carry-out-list/count)",
+        "status": "QA 필요",
+        "project": "BE",
+        "assignee": "베스현승"
+      },
+      {
         "key": "ROBOT-151",
         "url": "https://dohands.atlassian.net/browse/ROBOT-151",
         "summary": "[운송장][개발] 토스 쇼핑 연동에 따른, 토스 쇼핑 운송장 추가",
         "status": "QA 필요",
         "project": "ROBOT",
         "assignee": "우창수"
-      },
-      {
-        "key": "ROBOT-172",
-        "url": "https://dohands.atlassian.net/browse/ROBOT-172",
-        "summary": "[B2B 출고] 출고 지시 생성 시, 배송 유형이 품고 택배인 경우에만 송장 정보 생성",
-        "status": "QA 필요",
-        "project": "ROBOT",
-        "assignee": "김태재"
       },
       {
         "key": "SPRINT-771",
@@ -157,7 +157,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 0,
-        "p3": 4
+        "p3": 5
       }
     ],
     "calendar_events": [
@@ -747,6 +747,18 @@
       {
         "channel": "기술과제-토스쇼핑",
         "user": "최라온 (기술/QA팀)",
+        "ts": "1785384056.535799",
+        "text": "@이근한 (기술/개발팀) @한상협 (기술/개발팀) 점심 드시고 확인 부탁드립니다!"
+      },
+      {
+        "channel": "sigvise",
+        "user": "박래원 (기술/QA팀)",
+        "ts": "1785380093.181729",
+        "text": "<!subteam^S089CG0M23S>\nSTG Vise &gt; SKU 등록/수정시, 원가 &amp; 판매가 반영 문의"
+      },
+      {
+        "channel": "기술과제-토스쇼핑",
+        "user": "최라온 (기술/QA팀)",
         "ts": "1785372794.449259",
         "text": "@한상협 (기술/개발팀) STG &gt; STG 토스쇼핑 2 고객사 &gt; 주문 처리 할당실패 탭 &gt; `order sheet 등록에러: 판매처 주문번호=343555 합배송번호=343555 판매처 개별 주문번호=422699`\n\n주문번호 : 343555"
       },
@@ -779,18 +791,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1785307898.004409",
         "text": "@한병두 (기술/제품팀) Seller 페이지 운영 중단 일자"
-      },
-      {
-        "channel": "기술과제-토스쇼핑",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1785303894.479109",
-        "text": "@이근한 (기술/개발팀) 님! 혹시 재고 피드 전송 요청 부탁드려도 될까용~?!"
-      },
-      {
-        "channel": "기술과제-재고증차감-이관",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1785303467.755689",
-        "text": "@도혜원 (기술/개발팀) 기대 동작 질문"
       }
     ]
   },
