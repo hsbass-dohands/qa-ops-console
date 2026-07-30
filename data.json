@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T23:42:14.303Z",
+  "generated_at": "2026-07-30T01:02:59.899Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,10 +7,10 @@
       "P0": 0,
       "P1": 1,
       "P2": 9,
-      "P3": 42
+      "P3": 43
     },
-    "total_open": 52,
-    "new_this_week": 7,
+    "total_open": 53,
+    "new_this_week": 8,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -92,6 +92,14 @@
         "status": "QA 필요",
         "project": "SPRINT",
         "assignee": "김태재"
+      },
+      {
+        "key": "SPRINT-788",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-788",
+        "summary": "remainQuantity가 0일 때 취소로 판단하도록 변경",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "최라온"
       }
     ],
     "weekly_severity": [
@@ -149,7 +157,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 0,
-        "p3": 3
+        "p3": 4
       }
     ],
     "calendar_events": [
@@ -737,6 +745,12 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-토스쇼핑",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1785372794.449259",
+        "text": "@한상협 (기술/개발팀) STG &gt; STG 토스쇼핑 2 고객사 &gt; 주문 처리 할당실패 탭 &gt; `order sheet 등록에러: 판매처 주문번호=343555 합배송번호=343555 판매처 개별 주문번호=422699`\n\n주문번호 : 343555"
+      },
+      {
         "channel": "기술-qa팀",
         "user": "김태재 (기술/QA팀)",
         "ts": "1785367778.518019",
@@ -777,12 +791,6 @@
         "user": "김태재 (기술/QA팀)",
         "ts": "1785303467.755689",
         "text": "@도혜원 (기술/개발팀) 기대 동작 질문"
-      },
-      {
-        "channel": "기술과제-재고증차감-이관",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1785292785.279589",
-        "text": "@한병두 (기술/제품팀) 로트 관련 -ing"
       }
     ]
   },
