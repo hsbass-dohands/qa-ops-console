@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T03:49:15.927Z",
+  "generated_at": "2026-07-31T06:42:31.991Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,18 +7,18 @@
       "P0": 0,
       "P1": 1,
       "P2": 10,
-      "P3": 43
+      "P3": 44
     },
-    "total_open": 54,
-    "new_this_week": 12,
+    "total_open": 55,
+    "new_this_week": 13,
     "closed_this_week": 0,
     "funnel": [
       {
-        "key": "TECH-1444",
-        "url": "https://dohands.atlassian.net/browse/TECH-1444",
-        "summary": "[바이스 프론트] N직 사은품/교환/수기 출고 ",
+        "key": "SPRINT-771",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-771",
+        "summary": "고객사(Seller) B2C 취소철회 시 매핑 오류 발생",
         "status": "QA 중",
-        "project": "TECH",
+        "project": "SPRINT",
         "assignee": "최라온"
       },
       {
@@ -51,14 +51,6 @@
         "summary": "[운송장][개발] 토스 쇼핑 연동에 따른, 토스 쇼핑 운송장 추가",
         "status": "QA 필요",
         "project": "ROBOT",
-        "assignee": "최라온"
-      },
-      {
-        "key": "SPRINT-771",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-771",
-        "summary": "고객사(Seller) B2C 취소철회 시 매핑 오류 발생",
-        "status": "QA 필요",
-        "project": "SPRINT",
         "assignee": "최라온"
       },
       {
@@ -141,7 +133,7 @@
         "p0": 0,
         "p1": 1,
         "p2": 4,
-        "p3": 5
+        "p3": 6
       }
     ],
     "calendar_events": [
@@ -430,6 +422,11 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-07-31"
+      },
+      {
         "title": "[8월3일] Weekly QA",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/293896355/8+3+Weekly+QA",
         "updated": "2026-07-31"
@@ -437,11 +434,6 @@
       {
         "title": "래원님 온보딩",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259194911",
-        "updated": "2026-07-31"
-      },
-      {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-07-31"
       },
       {
