@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T06:42:31.991Z",
+  "generated_at": "2026-07-31T09:33:14.062Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -52,6 +52,14 @@
         "status": "QA 필요",
         "project": "ROBOT",
         "assignee": "최라온"
+      },
+      {
+        "key": "SPRINT-756",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-756",
+        "summary": "총량피킹지시서 생성 API SKU 노출 오류 수정",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "문현호"
       },
       {
         "key": "SPRINT-773",
@@ -133,7 +141,7 @@
         "p0": 0,
         "p1": 1,
         "p2": 4,
-        "p3": 6
+        "p3": 7
       }
     ],
     "calendar_events": [
@@ -721,6 +729,18 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-토스쇼핑",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1785484596.201309",
+        "text": "@한상협 (기술/개발팀) 긴급 헬프 요청,, 어드민 &gt; 판매처 연동 스케줄러 Y 변경 시 에러\n\n요청 URL : <https://api.stg.poomgo.com/now/channel/18526>\n요청 페이로드 : {\"linkageStatus\":\"available\",\"validAfter\":\"2026-07-31T07:54:52.719Z\"}\n\n응답값\n``"
+      },
+      {
+        "channel": "기술조직",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1785482480.536259",
+        "text": "*<!here>* :loudspeaker: :bangbang: *STG에서 테스트 하시는 모든 유관 구성원분들께 필독 공지* 하나 전달 드립니다 :bangbang: :woman-bowing::skin-tone-2:\n현재 바이스백엔드파트 @이승우 (기술/개발팀) 님과 함께 STG 기준으로 *동적할당 E2E 자동화 테스트*를 구현하고 있습니다.\n이에 따라 아래"
+      },
+      {
         "channel": "sigvise",
         "user": "최라온 (기술/QA팀)",
         "ts": "1785469102.134149",
@@ -755,18 +775,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1785384056.535799",
         "text": "@이근한 (기술/개발팀) @한상협 (기술/개발팀) 점심 드시고 확인 부탁드립니다!"
-      },
-      {
-        "channel": "sigvise",
-        "user": "박래원 (기술/QA팀)",
-        "ts": "1785380093.181729",
-        "text": "<!subteam^S089CG0M23S>\nSTG Vise &gt; SKU 등록/수정시, 원가 &amp; 판매가 반영 문의"
-      },
-      {
-        "channel": "기술과제-토스쇼핑",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1785372794.449259",
-        "text": "@한상협 (기술/개발팀) STG &gt; STG 토스쇼핑 2 고객사 &gt; 주문 처리 할당실패 탭 &gt; `order sheet 등록에러: 판매처 주문번호=343555 합배송번호=343555 판매처 개별 주문번호=422699`\n\n주문번호 : 343555"
       }
     ]
   },
