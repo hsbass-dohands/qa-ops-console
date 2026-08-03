@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T03:38:23.709Z",
+  "generated_at": "2026-08-03T06:47:05.067Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,9 +7,9 @@
       "P0": 0,
       "P1": 1,
       "P2": 10,
-      "P3": 45
+      "P3": 44
     },
-    "total_open": 56,
+    "total_open": 55,
     "new_this_week": 12,
     "closed_this_week": 0,
     "funnel": [
@@ -19,14 +19,6 @@
         "summary": "[운송장][개발] 토스 쇼핑 연동에 따른, 토스 쇼핑 운송장 추가",
         "status": "QA 중",
         "project": "ROBOT",
-        "assignee": "최라온"
-      },
-      {
-        "key": "SPRINT-771",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-771",
-        "summary": "고객사(Seller) B2C 취소철회 시 매핑 오류 발생",
-        "status": "QA 중",
-        "project": "SPRINT",
         "assignee": "최라온"
       },
       {
@@ -84,6 +76,30 @@
         "status": "QA 필요",
         "project": "SPRINT",
         "assignee": "김태재"
+      },
+      {
+        "key": "TECH-1709",
+        "url": "https://dohands.atlassian.net/browse/TECH-1709",
+        "summary": "[QA] 바이스 역할/권한에 따른 조회 점검 및 수정 2차",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "김태재"
+      },
+      {
+        "key": "TECH-1746",
+        "url": "https://dohands.atlassian.net/browse/TECH-1746",
+        "summary": "[디자인-QA] 바이스 역할/권한에 따른 조회 점검 및 수정 2차",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "정수아"
+      },
+      {
+        "key": "TECH-1796",
+        "url": "https://dohands.atlassian.net/browse/TECH-1796",
+        "summary": "[오피스] 시스템 > Open API Key 메뉴 제거",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "베스현승"
       }
     ],
     "weekly_severity": [
@@ -430,6 +446,16 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "[7월20일] Weekly QA",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/275743215/7+20+Weekly+QA",
+        "updated": "2026-08-03"
+      },
+      {
+        "title": "[7월27일] Weekly QA",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/286654967/7+27+Weekly+QA",
+        "updated": "2026-08-03"
+      },
+      {
         "title": "[8월3일] Weekly QA",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/293896355/8+3+Weekly+QA",
         "updated": "2026-08-03"
@@ -448,16 +474,6 @@
         "title": "재고증차감",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264503361",
         "updated": "2026-07-29"
-      },
-      {
-        "title": "QA팀 2025 회고 및 2026 개선 방향 공유",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/35913789/QA+2025+2026",
-        "updated": "2026-07-29"
-      },
-      {
-        "title": "이천 XFC 휴머노이드 패킹 로봇 PoC - QA 테스트 케이스 목록 (167건)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/289865735/XFC+PoC+-+QA+167",
-        "updated": "2026-07-28"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
@@ -729,6 +745,30 @@
     ],
     "messages": [
       {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1785735493.841909",
+        "text": "@박래원 (기술/QA팀) 역할/권한에 따른 조회 점검 2차 qa"
+      },
+      {
+        "channel": "기술과제-토스쇼핑",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1785734121.591629",
+        "text": "@정승아 (기술/개발팀) :정승아기사님: 지라 티켓 하나 올려두었습니다!\n\n<https://dohands.atlassian.net/browse/TECH-1797|dohands.atlassian.net/browse/TECH-1797>"
+      },
+      {
+        "channel": "sigvise",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1785733765.460649",
+        "text": "@정승아 (기술/개발팀) b2b 출고요청서 등록 페이지 &gt; 출고 sku 정보"
+      },
+      {
+        "channel": "기술과제-재고증차감-이관",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1785733575.614809",
+        "text": "@도혜원 (기술/개발팀) 재고 차감 등록 &gt; sku 추가"
+      },
+      {
         "channel": "기술과제-재고증차감-이관",
         "user": "김태재 (기술/QA팀)",
         "ts": "1785727444.023899",
@@ -751,30 +791,6 @@
         "user": "김태재 (기술/QA팀)",
         "ts": "1785719074.524549",
         "text": "@박래원 (기술/QA팀) 질문 쓰레드 ver.2"
-      },
-      {
-        "channel": "기술과제-토스쇼핑",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1785484596.201309",
-        "text": "@한상협 (기술/개발팀) 긴급 헬프 요청,, 어드민 &gt; 판매처 연동 스케줄러 Y 변경 시 에러\n\n요청 URL : <https://api.stg.poomgo.com/now/channel/18526>\n요청 페이로드 : {\"linkageStatus\":\"available\",\"validAfter\":\"2026-07-31T07:54:52.719Z\"}\n\n응답값\n``"
-      },
-      {
-        "channel": "기술조직",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1785482480.536259",
-        "text": "*<!here>* :loudspeaker: :bangbang: *STG에서 테스트 하시는 모든 유관 구성원분들께 필독 공지* 하나 전달 드립니다 :bangbang: :woman-bowing::skin-tone-2:\n현재 바이스백엔드파트 @이승우 (기술/개발팀) 님과 함께 STG 기준으로 *동적할당 E2E 자동화 테스트*를 구현하고 있습니다.\n이에 따라 아래"
-      },
-      {
-        "channel": "sigvise",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1785469102.134149",
-        "text": "@한병두 (기술/제품팀) @황성민 (기술/개발팀) <https://dohands.atlassian.net/browse/SPRINT-681|[VISE] 네이버 단수 청구 로직 수정> *8/1 (토) 13시 ~ 14시* 배포 스레드\n멘션 없지만 지나가시는 분들도 토요일에 배포하는 성민님을 위해 힘찬 함성 5초간 발사 부탁드리겠습니다 :화이팅:"
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785468842.192629",
-        "text": "@한병두 (기술/제품팀) 재고 데이터 정합성 이슈"
       }
     ]
   },
