@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T23:58:22.503Z",
+  "generated_at": "2026-08-03T03:38:23.709Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,16 +7,32 @@
       "P0": 0,
       "P1": 1,
       "P2": 10,
-      "P3": 44
+      "P3": 45
     },
-    "total_open": 55,
-    "new_this_week": 11,
+    "total_open": 56,
+    "new_this_week": 12,
     "closed_this_week": 0,
     "funnel": [
+      {
+        "key": "ROBOT-151",
+        "url": "https://dohands.atlassian.net/browse/ROBOT-151",
+        "summary": "[운송장][개발] 토스 쇼핑 연동에 따른, 토스 쇼핑 운송장 추가",
+        "status": "QA 중",
+        "project": "ROBOT",
+        "assignee": "최라온"
+      },
       {
         "key": "SPRINT-771",
         "url": "https://dohands.atlassian.net/browse/SPRINT-771",
         "summary": "고객사(Seller) B2C 취소철회 시 매핑 오류 발생",
+        "status": "QA 중",
+        "project": "SPRINT",
+        "assignee": "최라온"
+      },
+      {
+        "key": "SPRINT-788",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-788",
+        "summary": "remainQuantity가 0일 때 취소로 판단하도록 변경",
         "status": "QA 중",
         "project": "SPRINT",
         "assignee": "최라온"
@@ -46,20 +62,12 @@
         "assignee": "최라온"
       },
       {
-        "key": "ROBOT-151",
-        "url": "https://dohands.atlassian.net/browse/ROBOT-151",
-        "summary": "[운송장][개발] 토스 쇼핑 연동에 따른, 토스 쇼핑 운송장 추가",
-        "status": "QA 필요",
-        "project": "ROBOT",
-        "assignee": "최라온"
-      },
-      {
         "key": "SPRINT-756",
         "url": "https://dohands.atlassian.net/browse/SPRINT-756",
         "summary": "총량피킹지시서 생성 API SKU 노출 오류 수정",
         "status": "QA 필요",
         "project": "SPRINT",
-        "assignee": "문현호"
+        "assignee": "박래원"
       },
       {
         "key": "SPRINT-773",
@@ -67,7 +75,7 @@
         "summary": "[연동] 재고리포트 전송 시 NSID가 페타소스에 존재하는 경우에만 전송",
         "status": "QA 필요",
         "project": "SPRINT",
-        "assignee": "조수아"
+        "assignee": "김태재"
       },
       {
         "key": "SPRINT-779",
@@ -76,72 +84,64 @@
         "status": "QA 필요",
         "project": "SPRINT",
         "assignee": "김태재"
-      },
-      {
-        "key": "SPRINT-788",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-788",
-        "summary": "remainQuantity가 0일 때 취소로 판단하도록 변경",
-        "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "최라온"
       }
     ],
     "weekly_severity": [
       {
         "week": "W1",
         "p0": 0,
-        "p1": 2,
-        "p2": 9,
-        "p3": 9
-      },
-      {
-        "week": "W2",
-        "p0": 0,
         "p1": 1,
         "p2": 6,
         "p3": 9
       },
       {
-        "week": "W3",
+        "week": "W2",
         "p0": 0,
         "p1": 0,
         "p2": 6,
         "p3": 7
       },
       {
-        "week": "W4",
+        "week": "W3",
         "p0": 0,
         "p1": 2,
         "p2": 2,
         "p3": 4
       },
       {
-        "week": "W5",
+        "week": "W4",
         "p0": 0,
         "p1": 0,
         "p2": 3,
         "p3": 5
       },
       {
-        "week": "W6",
+        "week": "W5",
         "p0": 0,
         "p1": 0,
         "p2": 0,
         "p3": 6
       },
       {
-        "week": "W7",
+        "week": "W6",
         "p0": 1,
         "p1": 1,
         "p2": 1,
         "p3": 6
       },
       {
-        "week": "W8",
+        "week": "W7",
         "p0": 0,
         "p1": 1,
         "p2": 4,
         "p3": 7
+      },
+      {
+        "week": "W8",
+        "p0": 0,
+        "p1": 0,
+        "p2": 0,
+        "p3": 1
       }
     ],
     "calendar_events": [
@@ -430,18 +430,18 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "[8월3일] Weekly QA",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/293896355/8+3+Weekly+QA",
+        "updated": "2026-08-03"
+      },
+      {
         "title": "래원님 온보딩",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259194911",
-        "updated": "2026-08-01"
+        "updated": "2026-08-03"
       },
       {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
-        "updated": "2026-07-31"
-      },
-      {
-        "title": "[8월3일] Weekly QA",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/293896355/8+3+Weekly+QA",
         "updated": "2026-07-31"
       },
       {
@@ -729,6 +729,30 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-재고증차감-이관",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1785727444.023899",
+        "text": "@한병두 (기술/제품팀) 적치 로케이션 미사용 관련"
+      },
+      {
+        "channel": "기술과제-개발팀-pii",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1785727119.624649",
+        "text": "@신혜수 (기술/개발팀) PII Phase 2 개발 &lt;-&gt; QA 협업 스레드\n\n참고 스레드 : <https://dohandsworkspace.slack.com/archives/C0A9K11QEBV/p1785134145628949|https://dohandsworkspace.slack.com/archives/C0A9K11QEBV/p178513414"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1785724787.178369",
+        "text": "<https://dohands.atlassian.net/wiki/spaces/qa/pages/293896355/8+3+Weekly+QA|dohands.atlassian.net/wiki/…/…>\n\n<!here>"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1785719074.524549",
+        "text": "@박래원 (기술/QA팀) 질문 쓰레드 ver.2"
+      },
+      {
         "channel": "기술과제-토스쇼핑",
         "user": "최라온 (기술/QA팀)",
         "ts": "1785484596.201309",
@@ -751,30 +775,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1785468842.192629",
         "text": "@한병두 (기술/제품팀) 재고 데이터 정합성 이슈"
-      },
-      {
-        "channel": "sigvise",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1785402276.883649",
-        "text": "@황성민 (기술/개발팀) 네이버 단수 관련 정산 왜 안됐는지 확인 부탁...드립니다..\n\nSTG &gt; 직계약 센터 &gt; [직계약] 수기주문 자동 생성 고객사\n\n송장번호 기준\n• 660034327650\n• 660034327646"
-      },
-      {
-        "channel": "sigvise",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1785396252.448279",
-        "text": "<!subteam^S089CG0M23S> 운영 &gt; 다이렉트센터 &gt; 적치 대기 로케이션 만들어주실 천사분 선착순 1명 빠르게 구해봅니다..."
-      },
-      {
-        "channel": "기술과제-토스쇼핑",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1785394236.083669",
-        "text": "@이근한 (기술/개발팀) @한상협 (기술/개발팀) 잔여 작업 체크 스레드\n\n1. *계약/SKU/재고 연동* \n    a. ~계약 생성/해제시 SKU/재고 초기연동/초기화 (코드리뷰 중)~\n        i. ~품고 &lt;-&gt; 토스쇼핑 연동 시 전체 SKU와 재고에 대해서 연동하는 작업~\n        ii. ~품고 &lt;-&gt; 토스쇼핑 연동 해"
-      },
-      {
-        "channel": "기술과제-토스쇼핑",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1785384056.535799",
-        "text": "@이근한 (기술/개발팀) @한상협 (기술/개발팀) 점심 드시고 확인 부탁드립니다!"
       }
     ]
   },
