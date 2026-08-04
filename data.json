@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T01:06:27.550Z",
+  "generated_at": "2026-08-04T04:30:35.290Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,28 +7,12 @@
       "P0": 0,
       "P1": 1,
       "P2": 10,
-      "P3": 46
+      "P3": 48
     },
-    "total_open": 57,
-    "new_this_week": 14,
+    "total_open": 59,
+    "new_this_week": 16,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "ROBOT-151",
-        "url": "https://dohands.atlassian.net/browse/ROBOT-151",
-        "summary": "[운송장][개발] 토스 쇼핑 연동에 따른, 토스 쇼핑 운송장 추가",
-        "status": "QA 중",
-        "project": "ROBOT",
-        "assignee": "최라온"
-      },
-      {
-        "key": "SPRINT-788",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-788",
-        "summary": "remainQuantity가 0일 때 취소로 판단하도록 변경",
-        "status": "QA 중",
-        "project": "SPRINT",
-        "assignee": "최라온"
-      },
       {
         "key": "TECH-1577",
         "url": "https://dohands.atlassian.net/browse/TECH-1577",
@@ -54,6 +38,14 @@
         "assignee": "최라온"
       },
       {
+        "key": "TECH-1677",
+        "url": "https://dohands.atlassian.net/browse/TECH-1677",
+        "summary": "[VI] 고객사 상세 > 슬랙 기재란(VI 사용·전담 슬랙 채널) 설정 화면 생성",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "이대한"
+      },
+      {
         "key": "TECH-1709",
         "url": "https://dohands.atlassian.net/browse/TECH-1709",
         "summary": "[QA] 바이스 역할/권한에 따른 조회 점검 및 수정 2차",
@@ -70,17 +62,33 @@
         "assignee": "정수아"
       },
       {
-        "key": "SPRINT-773",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-773",
-        "summary": "[연동] 재고리포트 전송 시 NSID가 페타소스에 존재하는 경우에만 전송",
+        "key": "TECH-1256",
+        "url": "https://dohands.atlassian.net/browse/TECH-1256",
+        "summary": "[PII Phase 2] OMS pii 무결성 확보",
         "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "김태재"
+        "project": "TECH",
+        "assignee": "최라온"
       },
       {
-        "key": "TECH-1796",
-        "url": "https://dohands.atlassian.net/browse/TECH-1796",
-        "summary": "[오피스] 시스템 > Open API Key 메뉴 제거",
+        "key": "TECH-1259",
+        "url": "https://dohands.atlassian.net/browse/TECH-1259",
+        "summary": "[PII Phase 2] 개인정보 파기",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "최라온"
+      },
+      {
+        "key": "TECH-1737",
+        "url": "https://dohands.atlassian.net/browse/TECH-1737",
+        "summary": "[프론트] 총 출고 비용 툴팁 변경",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "베스현승"
+      },
+      {
+        "key": "TECH-1811",
+        "url": "https://dohands.atlassian.net/browse/TECH-1811",
+        "summary": "[QA] 바이 > 고객사 슬랙 채널 설정",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "베스현승"
@@ -141,7 +149,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 0,
-        "p3": 4
+        "p3": 6
       }
     ],
     "calendar_events": [
@@ -430,6 +438,11 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "페이지 2026-08-04 11:02ㄴㄴㅇ",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/298254343/2026-08-04+11+02",
+        "updated": "2026-08-04"
+      },
+      {
         "title": "[7월20일] Weekly QA",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/275743215/7+20+Weekly+QA",
         "updated": "2026-08-03"
@@ -453,11 +466,6 @@
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-07-31"
-      },
-      {
-        "title": "재고증차감",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264503361",
-        "updated": "2026-07-29"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
@@ -729,6 +737,42 @@
     ],
     "messages": [
       {
+        "channel": "기술조직",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1785812100.860969",
+        "text": "<!subteam^S0A60A538VD> 송장 문제"
+      },
+      {
+        "channel": "기술과제-토스쇼핑",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1785811478.206999",
+        "text": "@황성민 (기술/개발팀) @정승아 (기술/개발팀) @우창수 (기술/로보틱스팀)\n\n배포 시점 확인 부탁드립니다~!\n내일까지 <https://dohandsworkspace.slack.com/archives/C0BAVD6MUSD/p1785809971721809|운영 배포>가 필요하다고 하네요!\n\ncc. @ 최지수 (기술/로보틱스팀)"
+      },
+      {
+        "channel": "sigint",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1785809557.559349",
+        "text": "@김준기 (기술/개발팀) <https://dohands.atlassian.net/browse/SPRINT-788|remainQuantity가 0일 때 취소로 판단하도록 변경> 테스트 스레드"
+      },
+      {
+        "channel": "sigint",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1785808269.762109",
+        "text": "<!subteam^S088LS39A69> STG 기준으로 테스트 가능한 스마트스토어 물류사 직계약 계정을 받아볼 수 있을까요?\n연동된 고객사명도 함께 전달주시면 감사드리겠습니다 :woman-bowing::skin-tone-2: cc. @김태재 (기술/QA팀)\n\n<https://dohands.atlassian.net/browse/SPRINT-773|[연동] "
+      },
+      {
+        "channel": "sigvise",
+        "user": "박래원 (기술/QA팀)",
+        "ts": "1785808056.364599",
+        "text": "<!subteam^S089CG0M23S>\n오피스 운영환경 계정 권한 요청"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1785805916.187799",
+        "text": "@김태재 (기술/QA팀) <https://dohands.atlassian.net/browse/SPRINT-773|[연동] 재고리포트 전송 시 NSID가 페타소스에 존재하는 경우에만 전송> 스프린트 스레드"
+      },
+      {
         "channel": "sigvise",
         "user": "김태재 (기술/QA팀)",
         "ts": "1785744107.313959",
@@ -739,42 +783,6 @@
         "user": "김태재 (기술/QA팀)",
         "ts": "1785735493.841909",
         "text": "@박래원 (기술/QA팀) 역할/권한에 따른 조회 점검 2차 qa"
-      },
-      {
-        "channel": "기술과제-토스쇼핑",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1785734121.591629",
-        "text": "@정승아 (기술/개발팀) :정승아기사님: 지라 티켓 하나 올려두었습니다!\n\n<https://dohands.atlassian.net/browse/TECH-1797|dohands.atlassian.net/browse/TECH-1797>"
-      },
-      {
-        "channel": "sigvise",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1785733765.460649",
-        "text": "@정승아 (기술/개발팀) b2b 출고요청서 등록 페이지 &gt; 출고 sku 정보"
-      },
-      {
-        "channel": "기술과제-재고증차감-이관",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1785733575.614809",
-        "text": "@도혜원 (기술/개발팀) 재고 차감 등록 &gt; sku 추가"
-      },
-      {
-        "channel": "기술과제-재고증차감-이관",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1785727444.023899",
-        "text": "@한병두 (기술/제품팀) 적치 로케이션 미사용 관련"
-      },
-      {
-        "channel": "기술과제-개발팀-pii",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1785727119.624649",
-        "text": "@신혜수 (기술/개발팀) PII Phase 2 개발 &lt;-&gt; QA 협업 스레드\n\n참고 스레드 : <https://dohandsworkspace.slack.com/archives/C0A9K11QEBV/p1785134145628949|https://dohandsworkspace.slack.com/archives/C0A9K11QEBV/p178513414"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785724787.178369",
-        "text": "<https://dohands.atlassian.net/wiki/spaces/qa/pages/293896355/8+3+Weekly+QA|dohands.atlassian.net/wiki/…/…>\n\n<!here>"
       }
     ]
   },
