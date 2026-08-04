@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T07:24:09.987Z",
+  "generated_at": "2026-08-04T10:09:28.123Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,10 +7,10 @@
       "P0": 0,
       "P1": 1,
       "P2": 9,
-      "P3": 47
+      "P3": 48
     },
-    "total_open": 57,
-    "new_this_week": 16,
+    "total_open": 58,
+    "new_this_week": 17,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -44,14 +44,6 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "정수아"
-      },
-      {
-        "key": "TECH-1256",
-        "url": "https://dohands.atlassian.net/browse/TECH-1256",
-        "summary": "[PII Phase 2] OMS pii 무결성 확보",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "최라온"
       },
       {
         "key": "TECH-1259",
@@ -125,7 +117,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 0,
-        "p3": 6
+        "p3": 7
       }
     ],
     "calendar_events": [
@@ -714,6 +706,30 @@
     "messages": [
       {
         "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1785829543.454369",
+        "text": "@김태재 (기술/QA팀) @박래원 (기술/QA팀) @최라온 (기술/QA팀) 다음주에 센터 가려고 했는데 폭염중 폭염이라서 9월 초 쯤으로 미뤘습니다. 그 때 상준님오시면 QA 팀 전체 센터 방문 하는게 좋을거같습니다. 참고."
+      },
+      {
+        "channel": "sigvise",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1785829157.832069",
+        "text": "@정승아 (기술/개발팀) 위젯 오너"
+      },
+      {
+        "channel": "기술과제-개발팀-pii",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1785828957.291539",
+        "text": "@한병두 (기술/제품팀) pii 개인정보 조회/DL 기획 확정 리뷰"
+      },
+      {
+        "channel": "sigvise",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1785828468.941239",
+        "text": "@이덕희 (기술/개발팀) <https://dohands.atlassian.net/browse/FE-105|VISE E2E 테스트 하네스 도입 — 크리티컬 플로우 + 자가개선 루프 + CI 게이트 (Playwright)> 및 바이스 프론트 E2E 자동화 스레드"
+      },
+      {
+        "channel": "기술-qa팀",
         "user": "최라온 (기술/QA팀)",
         "ts": "1785827134.950669",
         "text": "@베스현승 (기술/QA팀) QA팀 OKR &gt; 자동화 관련 스레드"
@@ -735,30 +751,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1785823377.644539",
         "text": "@이덕희 (기술/개발팀) 안녕하세요. 현재 STG에서는 QA가 해당 기능을 사용하지 않고 있는데, 계속 유지가 필요한지 확인 부탁드립니다."
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785822342.152239",
-        "text": ":bar_chart: _QA 주간 리포트, 2026-08-04_ — 전체 제품 버그 종합\n\n:file_folder: <https://dohandsworkspace.slack.com/docs/TSX4YQ8EB/F0BFS79MXUM|QA 주간 리포트 — 전체 모음> :page_facing_up: 이번 주: <https://dohandsworkspace.slac"
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785812100.860969",
-        "text": "<!subteam^S0A60A538VD> 송장 문제"
-      },
-      {
-        "channel": "기술과제-토스쇼핑",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1785811478.206999",
-        "text": "@황성민 (기술/개발팀) @정승아 (기술/개발팀) @우창수 (기술/로보틱스팀)\n\n배포 시점 확인 부탁드립니다~!\n내일까지 <https://dohandsworkspace.slack.com/archives/C0BAVD6MUSD/p1785809971721809|운영 배포>가 필요하다고 하네요!\n\ncc. @ 최지수 (기술/로보틱스팀)"
-      },
-      {
-        "channel": "sigint",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1785809557.559349",
-        "text": "@김준기 (기술/개발팀) <https://dohands.atlassian.net/browse/SPRINT-788|remainQuantity가 0일 때 취소로 판단하도록 변경> 테스트 스레드"
       }
     ]
   },
