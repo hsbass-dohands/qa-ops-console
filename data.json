@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T03:37:20.345Z",
+  "generated_at": "2026-08-05T06:11:54.164Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,10 +7,10 @@
       "P0": 0,
       "P1": 1,
       "P2": 9,
-      "P3": 50
+      "P3": 48
     },
-    "total_open": 60,
-    "new_this_week": 19,
+    "total_open": 58,
+    "new_this_week": 17,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -86,12 +86,28 @@
         "assignee": "김태재"
       },
       {
+        "key": "TECH-1755",
+        "url": "https://dohands.atlassian.net/browse/TECH-1755",
+        "summary": "[재고증차감] 재고 차감 시 총 재고가 0인 SKU 추가 시 동작 수정",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "김태재"
+      },
+      {
         "key": "TECH-1811",
         "url": "https://dohands.atlassian.net/browse/TECH-1811",
         "summary": "[QA] 바이 > 고객사 슬랙 채널 설정",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "베스현승"
+      },
+      {
+        "key": "TECH-1815",
+        "url": "https://dohands.atlassian.net/browse/TECH-1815",
+        "summary": "[재고증차감] 네이버 직계약 고객사 재고 추가 모달 토스트 메시지 타입 변경 (Warning -> Error)",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "김태재"
       }
     ],
     "weekly_severity": [
@@ -149,7 +165,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 0,
-        "p3": 9
+        "p3": 8
       }
     ],
     "calendar_events": [
