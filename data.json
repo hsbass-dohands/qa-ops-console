@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T00:14:31.594Z",
+  "generated_at": "2026-08-05T03:37:20.345Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -13,6 +13,14 @@
     "new_this_week": 19,
     "closed_this_week": 0,
     "funnel": [
+      {
+        "key": "TECH-1259",
+        "url": "https://dohands.atlassian.net/browse/TECH-1259",
+        "summary": "[PII Phase 2] 개인정보 파기",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "최라온"
+      },
       {
         "key": "TECH-1577",
         "url": "https://dohands.atlassian.net/browse/TECH-1577",
@@ -46,12 +54,36 @@
         "assignee": "정수아"
       },
       {
-        "key": "TECH-1259",
-        "url": "https://dohands.atlassian.net/browse/TECH-1259",
-        "summary": "[PII Phase 2] 개인정보 파기",
+        "key": "INT-282",
+        "url": "https://dohands.atlassian.net/browse/INT-282",
+        "summary": "[연동]한진-딜리버스 서비스코드 변경",
+        "status": "QA 필요",
+        "project": "INT",
+        "assignee": "최라온"
+      },
+      {
+        "key": "INT-283",
+        "url": "https://dohands.atlassian.net/browse/INT-283",
+        "summary": "[연동]한진-딜리 당일배송·새벽배송 COM_PIC_YMD 전송 방식 변경",
+        "status": "QA 필요",
+        "project": "INT",
+        "assignee": "최라온"
+      },
+      {
+        "key": "INT-286",
+        "url": "https://dohands.atlassian.net/browse/INT-286",
+        "summary": "[바백] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스) ",
+        "status": "QA 필요",
+        "project": "INT",
+        "assignee": "최라온"
+      },
+      {
+        "key": "TECH-1609",
+        "url": "https://dohands.atlassian.net/browse/TECH-1609",
+        "summary": "B2B 출고요청서 SKU 변경 이력에 대상 SKU/수량 기록 (다품목 수정 로그 누락 포함)",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "최라온"
+        "assignee": "김태재"
       },
       {
         "key": "TECH-1811",
@@ -408,16 +440,16 @@
       {
         "title": "재고증차감",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264503361",
-        "updated": "2026-08-04"
-      },
-      {
-        "title": "Poomgo API 자동화 테스트 구축 (2026 Q3)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/257982706/Poomgo+API+2026+Q3",
-        "updated": "2026-08-04"
+        "updated": "2026-08-05"
       },
       {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-08-05"
+      },
+      {
+        "title": "Poomgo API 자동화 테스트 구축 (2026 Q3)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/257982706/Poomgo+API+2026+Q3",
         "updated": "2026-08-04"
       },
       {
