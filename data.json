@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T09:06:47.034Z",
+  "generated_at": "2026-08-05T11:28:58.831Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,10 +7,10 @@
       "P0": 0,
       "P1": 1,
       "P2": 9,
-      "P3": 47
+      "P3": 48
     },
-    "total_open": 57,
-    "new_this_week": 17,
+    "total_open": 58,
+    "new_this_week": 19,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -70,6 +70,14 @@
         "assignee": "최라온"
       },
       {
+        "key": "INT-285",
+        "url": "https://dohands.atlassian.net/browse/INT-285",
+        "summary": "[연동] N직 직계약 사은품 주문 수집 기준 변경",
+        "status": "QA 필요",
+        "project": "INT",
+        "assignee": "최라온"
+      },
+      {
         "key": "INT-286",
         "url": "https://dohands.atlassian.net/browse/INT-286",
         "summary": "[바백] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스) ",
@@ -84,6 +92,14 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "김태재"
+      },
+      {
+        "key": "TECH-1612",
+        "url": "https://dohands.atlassian.net/browse/TECH-1612",
+        "summary": "[백엔드] handybot 셀러 재고(stock) 조회 API authBrandId 우선 수신 (동반)",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "베스현승"
       },
       {
         "key": "TECH-1671",
@@ -116,6 +132,38 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "박래원"
+      },
+      {
+        "key": "TECH-1822",
+        "url": "https://dohands.atlassian.net/browse/TECH-1822",
+        "summary": "[BE] VISE 인증 보안 개발자테스트 잔여 결함 수정 — 재발송 txId 수명·계정생성 비번이력·PII 파기·이메일 템플릿",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "이현수"
+      },
+      {
+        "key": "TECH-1823",
+        "url": "https://dohands.atlassian.net/browse/TECH-1823",
+        "summary": "[백엔드] poomgo_api(NOW) partner-resource READ authBrandId 수신 (GET /sku·/inventory)",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "베스현승"
+      },
+      {
+        "key": "TECH-1824",
+        "url": "https://dohands.atlassian.net/browse/TECH-1824",
+        "summary": "[백엔드] poomgo_api(NOW) trend-out-by-invoice-summary authBrandId 수신",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "베스현승"
+      },
+      {
+        "key": "TECH-1826",
+        "url": "https://dohands.atlassian.net/browse/TECH-1826",
+        "summary": "[백엔드] handybot 품목(partner-resource) 조회 API authBrandId 우선 수신 (동반)",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "베스현승"
       }
     ],
     "weekly_severity": [
@@ -173,7 +221,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 0,
-        "p3": 8
+        "p3": 10
       }
     ],
     "calendar_events": [
