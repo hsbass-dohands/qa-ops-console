@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-08-06T03:35:56.691Z",
+  "generated_at": "2026-08-06T06:15:04.702Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
       "P1": 1,
-      "P2": 9,
+      "P2": 10,
       "P3": 47
     },
-    "total_open": 57,
+    "total_open": 58,
     "new_this_week": 18,
     "closed_this_week": 0,
     "funnel": [
+      {
+        "key": "SPRINT-817",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-817",
+        "summary": "신규 고객사 등록 및 수정 시 대표자명 특수문자 허용 범위 확대",
+        "status": "QA 중",
+        "project": "SPRINT",
+        "assignee": "최라온"
+      },
       {
         "key": "TECH-1259",
         "url": "https://dohands.atlassian.net/browse/TECH-1259",
@@ -46,14 +54,6 @@
         "assignee": "정수아"
       },
       {
-        "key": "TECH-1758",
-        "url": "https://dohands.atlassian.net/browse/TECH-1758",
-        "summary": "송장 조회 컬럼 추가",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "박래원"
-      },
-      {
         "key": "TECH-1820",
         "url": "https://dohands.atlassian.net/browse/TECH-1820",
         "summary": "[QA] 고객사 이관 최종 점검",
@@ -70,12 +70,28 @@
         "assignee": "이희영"
       },
       {
+        "key": "TECH-1827",
+        "url": "https://dohands.atlassian.net/browse/TECH-1827",
+        "summary": "[백엔드] handybot SKU 목록(sku-list) 조회 API authBrandId 우선 수신 (동반)",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "베스현승"
+      },
+      {
         "key": "TECH-1833",
         "url": "https://dohands.atlassian.net/browse/TECH-1833",
         "summary": "[백엔드] order-sheet (GET /now/order-sheet) 조회 API authBrandId 우선 수신 (동반)",
         "status": "QA 중",
         "project": "TECH",
         "assignee": "베스현승"
+      },
+      {
+        "key": "FE-163",
+        "url": "https://dohands.atlassian.net/browse/FE-163",
+        "summary": "[VISE] DataTable 제거",
+        "status": "QA 필요",
+        "project": "FE",
+        "assignee": "김태재"
       },
       {
         "key": "INT-282",
@@ -100,6 +116,30 @@
         "status": "QA 필요",
         "project": "INT",
         "assignee": "최라온"
+      },
+      {
+        "key": "ROBOT-190",
+        "url": "https://dohands.atlassian.net/browse/ROBOT-190",
+        "summary": "[로보틱스] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스) 에 따른 운송장/출고 B2C 앱 작업",
+        "status": "QA 필요",
+        "project": "ROBOT",
+        "assignee": "우창수"
+      },
+      {
+        "key": "ROBOT-191",
+        "url": "https://dohands.atlassian.net/browse/ROBOT-191",
+        "summary": "[로보틱스] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스) 에 따른 소터 작업",
+        "status": "QA 필요",
+        "project": "ROBOT",
+        "assignee": "우창수"
+      },
+      {
+        "key": "ROBOT-193",
+        "url": "https://dohands.atlassian.net/browse/ROBOT-193",
+        "summary": "[로보틱스] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스) 에 따른 송장재출력 앱 작업",
+        "status": "QA 필요",
+        "project": "ROBOT",
+        "assignee": "우창수"
       },
       {
         "key": "TECH-1609",
@@ -153,22 +193,6 @@
         "key": "TECH-1826",
         "url": "https://dohands.atlassian.net/browse/TECH-1826",
         "summary": "[백엔드] handybot 품목(partner-resource) 조회 API authBrandId 우선 수신 (동반)",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "베스현승"
-      },
-      {
-        "key": "TECH-1827",
-        "url": "https://dohands.atlassian.net/browse/TECH-1827",
-        "summary": "[백엔드] handybot SKU 목록(sku-list) 조회 API authBrandId 우선 수신 (동반)",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "베스현승"
-      },
-      {
-        "key": "TECH-1828",
-        "url": "https://dohands.atlassian.net/browse/TECH-1828",
-        "summary": "[백엔드] handybot 판매채널 트렌드(trend-sales-channel) 조회 API authBrandId 우선 수신 (동반)",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "베스현승"
@@ -228,7 +252,7 @@
         "week": "W8",
         "p0": 0,
         "p1": 0,
-        "p2": 0,
+        "p2": 1,
         "p3": 10
       }
     ],
@@ -817,6 +841,18 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-토스쇼핑",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1785996189.014879",
+        "text": "@이근한 (기술/개발팀) 님, 재고 피드 전송 여부 확인 부탁드립니다!"
+      },
+      {
+        "channel": "기술과제-트랙스로지스",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1785993144.623389",
+        "text": "@한병두 (기술/제품팀) @이찬민 (기술/제품팀) 트랙스로지스 실사용 계획 스레드"
+      },
+      {
         "channel": "기술-qa팀",
         "user": "최라온 (기술/QA팀)",
         "ts": "1785977760.250719",
@@ -851,18 +887,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1785914787.871329",
         "text": "@최라온 (기술/QA팀) 투함/토스 QA 리드타임"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1785912281.209959",
-        "text": "~@박래원 (기술/QA팀) 님 <https://dohands.atlassian.net/browse/TECH-1815|[재고증차감] 네이버 직계약 고객사 재고 추가 모달 토스트 메시지 타입 변경 (Warning -> Error)>~\n~요거 한번 경험해보시겠어요?~"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785829543.454369",
-        "text": "@김태재 (기술/QA팀) @박래원 (기술/QA팀) @최라온 (기술/QA팀) 다음주에 센터 가려고 했는데 폭염중 폭염이라서 9월 초 쯤으로 미뤘습니다. 그 때 상준님오시면 QA 팀 전체 센터 방문 하는게 좋을거같습니다. 참고."
       }
     ]
   },
