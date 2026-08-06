@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T06:15:04.702Z",
+  "generated_at": "2026-08-06T09:10:12.597Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -10,29 +10,21 @@
       "P3": 47
     },
     "total_open": 58,
-    "new_this_week": 18,
+    "new_this_week": 15,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "SPRINT-817",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-817",
-        "summary": "신규 고객사 등록 및 수정 시 대표자명 특수문자 허용 범위 확대",
-        "status": "QA 중",
-        "project": "SPRINT",
-        "assignee": "최라온"
-      },
-      {
-        "key": "TECH-1259",
-        "url": "https://dohands.atlassian.net/browse/TECH-1259",
-        "summary": "[PII Phase 2] 개인정보 파기",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "최라온"
-      },
       {
         "key": "TECH-1577",
         "url": "https://dohands.atlassian.net/browse/TECH-1577",
         "summary": "[QA] 재고 등록/차감 조회",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "김태재"
+      },
+      {
+        "key": "TECH-1609",
+        "url": "https://dohands.atlassian.net/browse/TECH-1609",
+        "summary": "B2B 출고요청서 SKU 변경 이력에 대상 SKU/수량 기록 (다품목 수정 로그 누락 포함)",
         "status": "QA 중",
         "project": "TECH",
         "assignee": "김태재"
@@ -68,22 +60,6 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "이희영"
-      },
-      {
-        "key": "TECH-1827",
-        "url": "https://dohands.atlassian.net/browse/TECH-1827",
-        "summary": "[백엔드] handybot SKU 목록(sku-list) 조회 API authBrandId 우선 수신 (동반)",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "베스현승"
-      },
-      {
-        "key": "TECH-1833",
-        "url": "https://dohands.atlassian.net/browse/TECH-1833",
-        "summary": "[백엔드] order-sheet (GET /now/order-sheet) 조회 API authBrandId 우선 수신 (동반)",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "베스현승"
       },
       {
         "key": "FE-163",
@@ -142,14 +118,6 @@
         "assignee": "우창수"
       },
       {
-        "key": "TECH-1609",
-        "url": "https://dohands.atlassian.net/browse/TECH-1609",
-        "summary": "B2B 출고요청서 SKU 변경 이력에 대상 SKU/수량 기록 (다품목 수정 로그 누락 포함)",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "김태재"
-      },
-      {
         "key": "TECH-1671",
         "url": "https://dohands.atlassian.net/browse/TECH-1671",
         "summary": "할당 실패 위젯 링크 경로 변경",
@@ -185,14 +153,6 @@
         "key": "TECH-1790",
         "url": "https://dohands.atlassian.net/browse/TECH-1790",
         "summary": "[백엔드] poomgo_api(NOW) Sequelize brand include 전환 - partner-resource",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "베스현승"
-      },
-      {
-        "key": "TECH-1826",
-        "url": "https://dohands.atlassian.net/browse/TECH-1826",
-        "summary": "[백엔드] handybot 품목(partner-resource) 조회 API authBrandId 우선 수신 (동반)",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "베스현승"
@@ -542,14 +502,14 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "재고증차감",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264503361",
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-08-06"
       },
       {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
-        "updated": "2026-08-05"
+        "title": "재고증차감",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264503361",
+        "updated": "2026-08-06"
       },
       {
         "title": "Poomgo API 자동화 테스트 구축 (2026 Q3)",
@@ -841,6 +801,24 @@
     ],
     "messages": [
       {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786006612.520689",
+        "text": "@베스현승 (기술/QA팀) 8/18 감곡 B2B 심각성 싱크업 캘린더 잡혀있는 것 내용 대략적으로 혹시 알 수 있을까요~!?"
+      },
+      {
+        "channel": "기술과제-판매처-연동-설정이관",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786005324.748589",
+        "text": "@이찬민 (기술/제품팀) 컨플루언스 문서 &lt;-&gt; 피그마 상충되는 부분 최신 버전 확인 및 최신화 요청 스레드 cc. @반수정 (기술/디자인팀)\n\n1. 미연동/연동해제 상태인 채널의 판매 채널 상세 내 연동 진행을 위한 버튼\n    a. <https://dohands.atlassian.net/wiki/spaces/TECH/pages/19415042"
+      },
+      {
+        "channel": "sigvise",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1785998175.816729",
+        "text": "@황성민 (기술/개발팀) 운영 &gt; 다이렉트 센터 &gt; (주)두핸즈\n\n```SKU 바코드 | 총 재고 | 예약 재고 | 가용 재고 | 피킹 가능 수량 | 보관 수량 | 격리 재고\n8821002436619 | 265 | 13 | -13 | -13 | 0 | 265\n8821002432741 | 10,082 | 1 | -1 | -1 | 0 | 10,082"
+      },
+      {
         "channel": "기술과제-토스쇼핑",
         "user": "최라온 (기술/QA팀)",
         "ts": "1785996189.014879",
@@ -869,24 +847,6 @@
         "user": "김태재 (기술/QA팀)",
         "ts": "1785974606.088689",
         "text": "<https://dohands.atlassian.net/issues/?filter=10973|dohands.atlassian.net/issues?filter=10973>"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785917199.164619",
-        "text": "tech-1578"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785916864.103759",
-        "text": "<!here> 2026년 7월까지의 OKR 공유\n목표 대비 결과가 좋습니다. 항상 화이팅입니다!"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785914787.871329",
-        "text": "@최라온 (기술/QA팀) 투함/토스 QA 리드타임"
       }
     ]
   },
