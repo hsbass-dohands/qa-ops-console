@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T00:02:50.793Z",
+  "generated_at": "2026-08-06T03:35:56.691Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,10 +7,10 @@
       "P0": 0,
       "P1": 1,
       "P2": 9,
-      "P3": 48
+      "P3": 47
     },
-    "total_open": 58,
-    "new_this_week": 19,
+    "total_open": 57,
+    "new_this_week": 18,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -54,6 +54,30 @@
         "assignee": "박래원"
       },
       {
+        "key": "TECH-1820",
+        "url": "https://dohands.atlassian.net/browse/TECH-1820",
+        "summary": "[QA] 고객사 이관 최종 점검",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "김태재"
+      },
+      {
+        "key": "TECH-1824",
+        "url": "https://dohands.atlassian.net/browse/TECH-1824",
+        "summary": "[백엔드] poomgo_api(NOW) trend-out-by-invoice-summary authBrandId 수신",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "이희영"
+      },
+      {
+        "key": "TECH-1833",
+        "url": "https://dohands.atlassian.net/browse/TECH-1833",
+        "summary": "[백엔드] order-sheet (GET /now/order-sheet) 조회 API authBrandId 우선 수신 (동반)",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "베스현승"
+      },
+      {
         "key": "INT-282",
         "url": "https://dohands.atlassian.net/browse/INT-282",
         "summary": "[연동]한진-딜리버스 서비스코드 변경",
@@ -65,14 +89,6 @@
         "key": "INT-283",
         "url": "https://dohands.atlassian.net/browse/INT-283",
         "summary": "[연동]한진-딜리 당일배송·새벽배송 COM_PIC_YMD 전송 방식 변경",
-        "status": "QA 필요",
-        "project": "INT",
-        "assignee": "최라온"
-      },
-      {
-        "key": "INT-285",
-        "url": "https://dohands.atlassian.net/browse/INT-285",
-        "summary": "[연동] N직 직계약 사은품 주문 수집 기준 변경",
         "status": "QA 필요",
         "project": "INT",
         "assignee": "최라온"
@@ -92,14 +108,6 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "김태재"
-      },
-      {
-        "key": "TECH-1612",
-        "url": "https://dohands.atlassian.net/browse/TECH-1612",
-        "summary": "[백엔드] handybot 셀러 재고(stock) 조회 API authBrandId 우선 수신 (동반)",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "베스현승"
       },
       {
         "key": "TECH-1671",
@@ -134,25 +142,9 @@
         "assignee": "박래원"
       },
       {
-        "key": "TECH-1822",
-        "url": "https://dohands.atlassian.net/browse/TECH-1822",
-        "summary": "[BE] VISE 인증 보안 개발자테스트 잔여 결함 수정 — 재발송 txId 수명·계정생성 비번이력·PII 파기·이메일 템플릿",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "이현수"
-      },
-      {
-        "key": "TECH-1823",
-        "url": "https://dohands.atlassian.net/browse/TECH-1823",
-        "summary": "[백엔드] poomgo_api(NOW) partner-resource READ authBrandId 수신 (GET /sku·/inventory)",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "베스현승"
-      },
-      {
-        "key": "TECH-1824",
-        "url": "https://dohands.atlassian.net/browse/TECH-1824",
-        "summary": "[백엔드] poomgo_api(NOW) trend-out-by-invoice-summary authBrandId 수신",
+        "key": "TECH-1790",
+        "url": "https://dohands.atlassian.net/browse/TECH-1790",
+        "summary": "[백엔드] poomgo_api(NOW) Sequelize brand include 전환 - partner-resource",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "베스현승"
@@ -161,6 +153,22 @@
         "key": "TECH-1826",
         "url": "https://dohands.atlassian.net/browse/TECH-1826",
         "summary": "[백엔드] handybot 품목(partner-resource) 조회 API authBrandId 우선 수신 (동반)",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "베스현승"
+      },
+      {
+        "key": "TECH-1827",
+        "url": "https://dohands.atlassian.net/browse/TECH-1827",
+        "summary": "[백엔드] handybot SKU 목록(sku-list) 조회 API authBrandId 우선 수신 (동반)",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "베스현승"
+      },
+      {
+        "key": "TECH-1828",
+        "url": "https://dohands.atlassian.net/browse/TECH-1828",
+        "summary": "[백엔드] handybot 판매채널 트렌드(trend-sales-channel) 조회 API authBrandId 우선 수신 (동반)",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "베스현승"
@@ -512,7 +520,7 @@
       {
         "title": "재고증차감",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264503361",
-        "updated": "2026-08-05"
+        "updated": "2026-08-06"
       },
       {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
@@ -810,6 +818,24 @@
     "messages": [
       {
         "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1785977760.250719",
+        "text": "<!here> 맥북/갤럭시북 모두 지참해오셨죠...?!"
+      },
+      {
+        "channel": "sigint",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1785975129.214409",
+        "text": "@김준기 (기술/개발팀) <https://dohands.atlassian.net/browse/INT-285|[연동] N직 직계약 사은품 주문 수집 기준 변경> 테스트 스레드"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1785974606.088689",
+        "text": "<https://dohands.atlassian.net/issues/?filter=10973|dohands.atlassian.net/issues?filter=10973>"
+      },
+      {
+        "channel": "기술-qa팀",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1785917199.164619",
         "text": "tech-1578"
@@ -837,24 +863,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1785829543.454369",
         "text": "@김태재 (기술/QA팀) @박래원 (기술/QA팀) @최라온 (기술/QA팀) 다음주에 센터 가려고 했는데 폭염중 폭염이라서 9월 초 쯤으로 미뤘습니다. 그 때 상준님오시면 QA 팀 전체 센터 방문 하는게 좋을거같습니다. 참고."
-      },
-      {
-        "channel": "sigvise",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785829157.832069",
-        "text": "@정승아 (기술/개발팀) 위젯 오너"
-      },
-      {
-        "channel": "기술과제-개발팀-pii",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1785828957.291539",
-        "text": "@한병두 (기술/제품팀) pii 개인정보 조회/DL 기획 확정 리뷰"
-      },
-      {
-        "channel": "sigvise",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1785828468.941239",
-        "text": "@이덕희 (기술/개발팀) <https://dohands.atlassian.net/browse/FE-105|VISE E2E 테스트 하네스 도입 — 크리티컬 플로우 + 자가개선 루프 + CI 게이트 (Playwright)> 및 바이스 프론트 E2E 자동화 스레드"
       }
     ]
   },
