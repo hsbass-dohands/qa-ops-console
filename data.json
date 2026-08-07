@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T06:45:43.755Z",
+  "generated_at": "2026-08-07T08:12:49.138Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -10,7 +10,7 @@
       "P3": 47
     },
     "total_open": 58,
-    "new_this_week": 12,
+    "new_this_week": 11,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -60,6 +60,14 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "김태재"
+      },
+      {
+        "key": "TECH-1871",
+        "url": "https://dohands.atlassian.net/browse/TECH-1871",
+        "summary": "[VISE/프론트] 각 채널별 연동 단계 모달 > 단계 영역 > 볼드체 적용 필요",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "최라온"
       },
       {
         "key": "INT-282",
@@ -486,14 +494,14 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "title": "재고증차감",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264503361",
         "updated": "2026-08-07"
       },
       {
-        "title": "재고증차감",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264503361",
-        "updated": "2026-08-06"
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-08-07"
       },
       {
         "title": "Poomgo API 자동화 테스트 구축 (2026 Q3)",
