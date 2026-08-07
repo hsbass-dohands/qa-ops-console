@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T08:12:49.138Z",
+  "generated_at": "2026-08-07T09:16:22.702Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -60,14 +60,6 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "김태재"
-      },
-      {
-        "key": "TECH-1871",
-        "url": "https://dohands.atlassian.net/browse/TECH-1871",
-        "summary": "[VISE/프론트] 각 채널별 연동 단계 모달 > 단계 영역 > 볼드체 적용 필요",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "최라온"
       },
       {
         "key": "INT-282",
@@ -148,6 +140,38 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "박래원"
+      },
+      {
+        "key": "TECH-1699",
+        "url": "https://dohands.atlassian.net/browse/TECH-1699",
+        "summary": "[QA] PII 인증 보안 강화",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "베스현승"
+      },
+      {
+        "key": "TECH-1834",
+        "url": "https://dohands.atlassian.net/browse/TECH-1834",
+        "summary": "공간 재고등록 불가",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "황성민"
+      },
+      {
+        "key": "TECH-1846",
+        "url": "https://dohands.atlassian.net/browse/TECH-1846",
+        "summary": "가용재고 계산 오류 수정",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "황성민"
+      },
+      {
+        "key": "TECH-1891",
+        "url": "https://dohands.atlassian.net/browse/TECH-1891",
+        "summary": "[디자인-QA] PII 인증 보안 강화",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "정수아"
       }
     ],
     "weekly_severity": [
@@ -789,9 +813,27 @@
         "name": "기술과제-토스쇼핑",
         "is_private": true,
         "is_member": true
+      },
+      {
+        "id": "C0BNNAR7RML",
+        "name": "기술과제-직계약-혼합운용",
+        "is_private": false,
+        "is_member": false
       }
     ],
     "messages": [
+      {
+        "channel": "기술과제-직계약-혼합운용",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786094136.754459",
+        "text": "@이대한 (기술/개발팀) 님, 택배사 관련해서 고려해야 할 케이스는 없을지 확인차 여쭤봅니다!\n상황 예시 : 품고 코어 고객사(기존 CJ 택배사로 출고) / 직계약 고객사(당일배송/새벽배송 주문건으로 인해 한진 택배사로 출고 필수)"
+      },
+      {
+        "channel": "기술조직",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1786092189.919049",
+        "text": "STG VISE에 인증 기능이 배포되었습니다.\n<https://vise.stg.poomgo.com/login/verify|vise.stg.poomgo.com/login/verify>\n보안을 위한 기능이라 번거로우시겠지만 VISE 이용 시 인증 절차를 거쳐주시면 감사하겠습니다. 사용에 참고 부탁드립니다."
+      },
       {
         "channel": "기술과제-판매처-연동-설정이관",
         "user": "최라온 (기술/QA팀)",
@@ -827,18 +869,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1786082030.209629",
         "text": "@최라온 (기술/QA팀) 님 새로운 과제가 들어왔는데 QA 부탁드립니다.\nPII도 필요하다면 파트를 더 세분화해서 개발 작업을 진행하는 방향으로 보고 있고, VISE 이관 작업과 맞물려 진행되는 과제로 보시면 될 것 같습니다.\n\n대한님이 곧 지라 및 과제 채널 생성하시면 공유드리겠습니다.\n\n과제: 직계약 혼합운영\n• 한줄 요약: *기존 네이버 연동은 유지하"
-      },
-      {
-        "channel": "기술조직",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786075056.742509",
-        "text": "<!subteam^S0APSDR9893> STG 15분째 524 에러 나고 있어서 확인 부탁드립니다~! cc. <!subteam^S096ZRAAKFY>"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "박래원 (기술/QA팀)",
-        "ts": "1786074163.937259",
-        "text": "계정 접근 불가"
       }
     ]
   },
