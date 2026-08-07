@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T00:40:03.662Z",
+  "generated_at": "2026-08-07T03:38:49.446Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -10,7 +10,7 @@
       "P3": 47
     },
     "total_open": 58,
-    "new_this_week": 15,
+    "new_this_week": 13,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -99,7 +99,7 @@
         "summary": "[로보틱스] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스) 에 따른 소터 작업",
         "status": "QA 필요",
         "project": "ROBOT",
-        "assignee": "최라온"
+        "assignee": "우창수"
       },
       {
         "key": "ROBOT-193",
@@ -107,7 +107,7 @@
         "summary": "[로보틱스] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스) 에 따른 송장재출력 앱 작업",
         "status": "QA 필요",
         "project": "ROBOT",
-        "assignee": "최라온"
+        "assignee": "우창수"
       },
       {
         "key": "TECH-1671",
@@ -785,6 +785,18 @@
     ],
     "messages": [
       {
+        "channel": "기술조직",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1786066546.870599",
+        "text": "@우창수 (기술/로보틱스팀) firebase app tester 초대메일 요청"
+      },
+      {
+        "channel": "sigvise",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1786065899.511989",
+        "text": "@정승아 (기술/개발팀) 비투비 관련"
+      },
+      {
         "channel": "기술-qa팀",
         "user": "최라온 (기술/QA팀)",
         "ts": "1786006612.520689",
@@ -819,18 +831,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1785977760.250719",
         "text": "<!here> 맥북/갤럭시북 모두 지참해오셨죠...?!"
-      },
-      {
-        "channel": "sigint",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1785975129.214409",
-        "text": "@김준기 (기술/개발팀) <https://dohands.atlassian.net/browse/INT-285|[연동] N직 직계약 사은품 주문 수집 기준 변경> 테스트 스레드"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1785974606.088689",
-        "text": "<https://dohands.atlassian.net/issues/?filter=10973|dohands.atlassian.net/issues?filter=10973>"
       }
     ]
   },
