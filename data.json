@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T08:17:23.849Z",
+  "generated_at": "2026-08-10T09:57:39.617Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -10,7 +10,7 @@
       "P3": 48
     },
     "total_open": 59,
-    "new_this_week": 10,
+    "new_this_week": 8,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -134,6 +134,14 @@
         "assignee": "정수아"
       },
       {
+        "key": "TECH-1895",
+        "url": "https://dohands.atlassian.net/browse/TECH-1895",
+        "summary": "PDA 입고 단건 조회 시 잘못된 요청서가 조회되는 오류 수정",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "김태재"
+      },
+      {
         "key": "INT-279",
         "url": "https://dohands.atlassian.net/browse/INT-279",
         "summary": "bull fallback 처리 고도화",
@@ -166,20 +174,28 @@
         "assignee": "우창수"
       },
       {
-        "key": "TECH-1766",
-        "url": "https://dohands.atlassian.net/browse/TECH-1766",
-        "summary": "시스템 내 공간 데이터(CONTAINER_TYPE_SPACE_%) 노출 지점 전수 조사 및 정리",
+        "key": "ROBOT-213",
+        "url": "https://dohands.atlassian.net/browse/ROBOT-213",
+        "summary": "[프론트] 바이스",
         "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "최라온"
+        "project": "ROBOT",
+        "assignee": "도혜원"
       },
       {
-        "key": "TECH-1895",
-        "url": "https://dohands.atlassian.net/browse/TECH-1895",
-        "summary": "PDA 입고 단건 조회 시 잘못된 요청서가 조회되는 오류 수정",
+        "key": "TECH-1781",
+        "url": "https://dohands.atlassian.net/browse/TECH-1781",
+        "summary": "[백엔드] poomgo_api(NOW) invoice — 조회 키 + brand JOIN 전환",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "김태재"
+        "assignee": "베스현승"
+      },
+      {
+        "key": "TECH-1782",
+        "url": "https://dohands.atlassian.net/browse/TECH-1782",
+        "summary": "[백엔드] poomgo_api(NOW) 재고/운영 master.brands 전환 (raw SQL JOIN + inventory2 include)",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "베스현승"
       }
     ],
     "weekly_severity": [
@@ -831,6 +847,12 @@
     ],
     "messages": [
       {
+        "channel": "sigint",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786349927.132249",
+        "text": "@이찬민 (기술/제품팀) V2V -&gt; 딜리 전환 작업 중 ND 드랍 대상 확인 스레드\n\n• 당일배송\n• 새벽배송"
+      },
+      {
         "channel": "기술과제-직계약-혼합운용",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1786349224.508879",
@@ -871,12 +893,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1786341174.671059",
         "text": "@최라온 (기술/QA팀)\n<https://dohandsworkspace.slack.com/archives/C046PF86X7Z/p1786337815858129?thread_ts=1785469450.326629&amp;cid=C046PF86X7Z|https://dohandsworkspace.slack.com/archives/C046PF86X7Z/p178633"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786338602.855509",
-        "text": "@김태재 (기술/QA팀) 온보딩 자료 공유 스레드"
       }
     ]
   },
