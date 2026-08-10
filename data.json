@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T03:30:25.681Z",
+  "generated_at": "2026-08-10T05:10:01.522Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -30,6 +30,14 @@
         "assignee": "최라온"
       },
       {
+        "key": "INT-283",
+        "url": "https://dohands.atlassian.net/browse/INT-283",
+        "summary": "[연동]한진-딜리 당일배송·새벽배송 COM_PIC_YMD 전송 방식 변경",
+        "status": "QA 중",
+        "project": "INT",
+        "assignee": "최라온"
+      },
+      {
         "key": "INT-286",
         "url": "https://dohands.atlassian.net/browse/INT-286",
         "summary": "[바백] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스) ",
@@ -52,6 +60,38 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "김태재"
+      },
+      {
+        "key": "TECH-1671",
+        "url": "https://dohands.atlassian.net/browse/TECH-1671",
+        "summary": "할당 실패 위젯 링크 경로 변경",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "박래원"
+      },
+      {
+        "key": "TECH-1672",
+        "url": "https://dohands.atlassian.net/browse/TECH-1672",
+        "summary": "B2C 출고현황 위젯 내, 아이콘 교체",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "박래원"
+      },
+      {
+        "key": "TECH-1673",
+        "url": "https://dohands.atlassian.net/browse/TECH-1673",
+        "summary": "위젯 추가 작업, B2B출고 현황",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "박래원"
+      },
+      {
+        "key": "TECH-1678",
+        "url": "https://dohands.atlassian.net/browse/TECH-1678",
+        "summary": "위젯 추가 작업, CS 반출 대장",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "박래원"
       },
       {
         "key": "TECH-1709",
@@ -78,28 +118,12 @@
         "assignee": "김태재"
       },
       {
-        "key": "TECH-1846",
-        "url": "https://dohands.atlassian.net/browse/TECH-1846",
-        "summary": "가용재고 계산 오류 수정",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "김태재"
-      },
-      {
         "key": "TECH-186",
         "url": "https://dohands.atlassian.net/browse/TECH-186",
         "summary": "[VISE] 재고 등록/차감 조회",
         "status": "QA 중",
         "project": "TECH",
         "assignee": "한병두"
-      },
-      {
-        "key": "INT-283",
-        "url": "https://dohands.atlassian.net/browse/INT-283",
-        "summary": "[연동]한진-딜리 당일배송·새벽배송 COM_PIC_YMD 전송 방식 변경",
-        "status": "QA 필요",
-        "project": "INT",
-        "assignee": "최라온"
       },
       {
         "key": "ROBOT-190",
@@ -124,38 +148,6 @@
         "status": "QA 필요",
         "project": "ROBOT",
         "assignee": "우창수"
-      },
-      {
-        "key": "TECH-1671",
-        "url": "https://dohands.atlassian.net/browse/TECH-1671",
-        "summary": "할당 실패 위젯 링크 경로 변경",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "박래원"
-      },
-      {
-        "key": "TECH-1672",
-        "url": "https://dohands.atlassian.net/browse/TECH-1672",
-        "summary": "B2C 출고현황 위젯 내, 아이콘 교체",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "박래원"
-      },
-      {
-        "key": "TECH-1673",
-        "url": "https://dohands.atlassian.net/browse/TECH-1673",
-        "summary": "위젯 추가 작업, B2B출고 현황",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "박래원"
-      },
-      {
-        "key": "TECH-1678",
-        "url": "https://dohands.atlassian.net/browse/TECH-1678",
-        "summary": "위젯 추가 작업, CS 반출 대장",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "박래원"
       },
       {
         "key": "TECH-1699",
@@ -188,6 +180,14 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "정수아"
+      },
+      {
+        "key": "TECH-1895",
+        "url": "https://dohands.atlassian.net/browse/TECH-1895",
+        "summary": "PDA 입고 단건 조회 시 잘못된 요청서가 조회되는 오류 수정",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "황성민"
       }
     ],
     "weekly_severity": [
