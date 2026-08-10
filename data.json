@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T05:10:01.522Z",
+  "generated_at": "2026-08-10T06:41:36.402Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -94,6 +94,14 @@
         "assignee": "박래원"
       },
       {
+        "key": "TECH-1699",
+        "url": "https://dohands.atlassian.net/browse/TECH-1699",
+        "summary": "[QA] PII 인증 보안 강화",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "베스현승"
+      },
+      {
         "key": "TECH-1709",
         "url": "https://dohands.atlassian.net/browse/TECH-1709",
         "summary": "[QA] 바이스 역할/권한에 따른 조회 점검 및 수정 2차",
@@ -126,6 +134,30 @@
         "assignee": "한병두"
       },
       {
+        "key": "TECH-1882",
+        "url": "https://dohands.atlassian.net/browse/TECH-1882",
+        "summary": "B2B 변경이력 SKU 상세 내역 확인을 위한 상세 다이얼로그 구현",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "김태재"
+      },
+      {
+        "key": "TECH-1891",
+        "url": "https://dohands.atlassian.net/browse/TECH-1891",
+        "summary": "[디자인-QA] PII 인증 보안 강화",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "정수아"
+      },
+      {
+        "key": "INT-279",
+        "url": "https://dohands.atlassian.net/browse/INT-279",
+        "summary": "bull fallback 처리 고도화",
+        "status": "QA 필요",
+        "project": "INT",
+        "assignee": "최라온"
+      },
+      {
         "key": "ROBOT-190",
         "url": "https://dohands.atlassian.net/browse/ROBOT-190",
         "summary": "[로보틱스] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스) 에 따른 운송장/출고 B2C 앱 작업",
@@ -150,36 +182,12 @@
         "assignee": "우창수"
       },
       {
-        "key": "TECH-1699",
-        "url": "https://dohands.atlassian.net/browse/TECH-1699",
-        "summary": "[QA] PII 인증 보안 강화",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "베스현승"
-      },
-      {
         "key": "TECH-1766",
         "url": "https://dohands.atlassian.net/browse/TECH-1766",
         "summary": "시스템 내 공간 데이터(CONTAINER_TYPE_SPACE_%) 노출 지점 전수 조사 및 정리",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "황성민"
-      },
-      {
-        "key": "TECH-1882",
-        "url": "https://dohands.atlassian.net/browse/TECH-1882",
-        "summary": "B2B 변경이력 SKU 상세 내역 확인을 위한 상세 다이얼로그 구현",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "김태재"
-      },
-      {
-        "key": "TECH-1891",
-        "url": "https://dohands.atlassian.net/browse/TECH-1891",
-        "summary": "[디자인-QA] PII 인증 보안 강화",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "정수아"
+        "assignee": "최라온"
       },
       {
         "key": "TECH-1895",
@@ -187,7 +195,7 @@
         "summary": "PDA 입고 단건 조회 시 잘못된 요청서가 조회되는 오류 수정",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "황성민"
+        "assignee": "김태재"
       }
     ],
     "weekly_severity": [
@@ -534,13 +542,23 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "[8월10일] Weekly QA",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/305365437/8+10+Weekly+QA",
+        "title": "26.08.13 QA를 위한 VISE 물류시스템 이해 높이기",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/305889348/26.08.13+QA+VISE",
+        "updated": "2026-08-10"
+      },
+      {
+        "title": "Edge Case 질문 — 기획 리뷰 / QA 설계 체크리스트",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/254083135/Edge+Case+QA",
         "updated": "2026-08-10"
       },
       {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-08-10"
+      },
+      {
+        "title": "[8월10일] Weekly QA",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/305365437/8+10+Weekly+QA",
         "updated": "2026-08-10"
       },
       {
@@ -551,16 +569,6 @@
       {
         "title": "Poomgo API 자동화 테스트 구축 (2026 Q3)",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/257982706/Poomgo+API+2026+Q3",
-        "updated": "2026-08-04"
-      },
-      {
-        "title": "VISE 로컬 실행 가이드 (QA용) — poomgo_web_apps",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/297828620/VISE+QA+poomgo_web_apps",
-        "updated": "2026-08-04"
-      },
-      {
-        "title": "페이지 2026-08-04 11:02ㄴㄴㅇ",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/298254343/2026-08-04+11+02",
         "updated": "2026-08-04"
       }
     ],
@@ -839,6 +847,30 @@
     ],
     "messages": [
       {
+        "channel": "기술조직",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1786342111.688389",
+        "text": "@이대한 (기술/개발팀) 래원님 깃헙 초대"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1786341949.811649",
+        "text": "@박래원 (기술/QA팀) github"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1786341174.671059",
+        "text": "@최라온 (기술/QA팀)\n<https://dohandsworkspace.slack.com/archives/C046PF86X7Z/p1786337815858129?thread_ts=1785469450.326629&amp;cid=C046PF86X7Z|https://dohandsworkspace.slack.com/archives/C046PF86X7Z/p178633"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786338602.855509",
+        "text": "@김태재 (기술/QA팀) 온보딩 자료 공유 스레드"
+      },
+      {
         "channel": "기술과제-토스쇼핑",
         "user": "최라온 (기술/QA팀)",
         "ts": "1786332368.207719",
@@ -861,30 +893,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1786327768.761129",
         "text": "@황성민 (기술/개발팀) STG &gt; <mailto:lo.choi@dohands.com|lo.choi@dohands.com> -&gt; <mailto:laon.choi+master@dohand.sc|laon.choi+master@dohand><http://s.com|s.com> 으로 바꿔주실 성민님 찾습니다"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1786326301.894709",
-        "text": "<!here> 누가 오늘자 weekly QA 컨플루언스 생성 부탁드립니다."
-      },
-      {
-        "channel": "sigvise",
-        "user": "박래원 (기술/QA팀)",
-        "ts": "1786096739.445669",
-        "text": "B2B 출고 관리 테이블 '센터', '고객사' 스펙 문의 (월요일 답변 주셔도 됩니다!)"
-      },
-      {
-        "channel": "기술과제-직계약-혼합운용",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786094136.754459",
-        "text": "@이대한 (기술/개발팀) 님, 택배사 관련해서 고려해야 할 케이스는 없을지 확인차 여쭤봅니다!\n상황 예시 : 품고 코어 고객사(기존 CJ 택배사로 출고) / 직계약 고객사(당일배송/새벽배송 주문건으로 인해 한진 택배사로 출고 필수)"
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1786092189.919049",
-        "text": "STG VISE에 인증 기능이 배포되었습니다.\n<https://vise.stg.poomgo.com/login/verify|vise.stg.poomgo.com/login/verify>\n보안을 위한 기능이라 번거로우시겠지만 VISE 이용 시 인증 절차를 거쳐주시면 감사하겠습니다. 사용에 참고 부탁드립니다."
       }
     ]
   },
