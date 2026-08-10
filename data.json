@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T09:57:39.617Z",
+  "generated_at": "2026-08-10T11:12:29.420Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -172,14 +172,6 @@
         "status": "QA 필요",
         "project": "ROBOT",
         "assignee": "우창수"
-      },
-      {
-        "key": "ROBOT-213",
-        "url": "https://dohands.atlassian.net/browse/ROBOT-213",
-        "summary": "[프론트] 바이스",
-        "status": "QA 필요",
-        "project": "ROBOT",
-        "assignee": "도혜원"
       },
       {
         "key": "TECH-1781",
