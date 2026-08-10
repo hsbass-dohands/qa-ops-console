@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T06:41:36.402Z",
+  "generated_at": "2026-08-10T08:17:23.849Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -10,7 +10,7 @@
       "P3": 48
     },
     "total_open": 59,
-    "new_this_week": 11,
+    "new_this_week": 10,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -49,14 +49,6 @@
         "key": "TECH-1577",
         "url": "https://dohands.atlassian.net/browse/TECH-1577",
         "summary": "[QA] 재고 등록/차감 조회",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "김태재"
-      },
-      {
-        "key": "TECH-1609",
-        "url": "https://dohands.atlassian.net/browse/TECH-1609",
-        "summary": "B2B 출고요청서 SKU 변경 이력에 대상 SKU/수량 기록 (다품목 수정 로그 누락 포함)",
         "status": "QA 중",
         "project": "TECH",
         "assignee": "김태재"
@@ -132,14 +124,6 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "한병두"
-      },
-      {
-        "key": "TECH-1882",
-        "url": "https://dohands.atlassian.net/browse/TECH-1882",
-        "summary": "B2B 변경이력 SKU 상세 내역 확인을 위한 상세 다이얼로그 구현",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "김태재"
       },
       {
         "key": "TECH-1891",
@@ -542,18 +526,18 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "26.08.13 QA를 위한 VISE 물류시스템 이해 높이기",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/305889348/26.08.13+QA+VISE",
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-08-10"
+      },
+      {
+        "title": "QA를 위한 VISE 물류시스템 이해 높이기 (26.08.13 기준)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/305889348/QA+VISE+26.08.13",
         "updated": "2026-08-10"
       },
       {
         "title": "Edge Case 질문 — 기획 리뷰 / QA 설계 체크리스트",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/254083135/Edge+Case+QA",
-        "updated": "2026-08-10"
-      },
-      {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-08-10"
       },
       {
@@ -847,6 +831,30 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-직계약-혼합운용",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1786349224.508879",
+        "text": "@최라온 (기술/QA팀) 라온님, 직계약 혼합운영 QA 진행 방향 공유드립니다\n\n이번 과제는 B안(고객사 분리)으로 확정됐고, 핵심은 3개입니다.\n• 기존 네이버 연동은 그대로 유지 (변경 없음이 전제라서 regression이 오히려 중요)\n• 재고를 코어/직계약 고객사로 분리 운영\n• 코어 → 직계약 재고 이동은 요청서 기반 (품고가 요청서 생성 → 셀러"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1786347704.119019",
+        "text": "<!here> 고객사 뷰 웹 열기"
+      },
+      {
+        "channel": "sigvise",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786347402.904339",
+        "text": "@손조성 (기술/개발팀) <https://dohands.atlassian.net/browse/INT-286|[바백] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스)&gt; 테스트 스레드"
+      },
+      {
+        "channel": "sigint",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786344309.430849",
+        "text": "@김준기 (기술/개발팀) V2V -&gt; 딜리 전환 테스트 스레드"
+      },
+      {
         "channel": "기술조직",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1786342111.688389",
@@ -869,30 +877,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1786338602.855509",
         "text": "@김태재 (기술/QA팀) 온보딩 자료 공유 스레드"
-      },
-      {
-        "channel": "기술과제-토스쇼핑",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786332368.207719",
-        "text": "@이근한 (기술/개발팀) @한상협 (기술/개발팀) 근한님, 상협님 안녕하세요.\n현재 아래 이슈 제외하고 추가 작업이 필요한 내용이 있을지 더블체크 부탁드립니다~!\n\n• 계약 조건 필터 수정 필요\n    ◦ <https://dohandsworkspace.slack.com/archives/C0BAVD6MUSD/p1786326041760179?thread_ts="
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1786330515.623119",
-        "text": "Weekly는 12:10분쯤 시작할게요"
-      },
-      {
-        "channel": "sigvise",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786329811.600039",
-        "text": "<!subteam^S088S7692RJ> 524 에러 페이지 내에 있는 새로고침 버튼(Not 브라우저 새로고침 버튼) 누르면 vise가 아니라 구글 홈 화면으로 가는 현상"
-      },
-      {
-        "channel": "sigvise",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786327768.761129",
-        "text": "@황성민 (기술/개발팀) STG &gt; <mailto:lo.choi@dohands.com|lo.choi@dohands.com> -&gt; <mailto:laon.choi+master@dohand.sc|laon.choi+master@dohand><http://s.com|s.com> 으로 바꿔주실 성민님 찾습니다"
       }
     ]
   },
