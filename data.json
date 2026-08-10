@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T23:46:06.382Z",
+  "generated_at": "2026-08-10T01:41:59.377Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -20,6 +20,22 @@
         "status": "QA 중",
         "project": "FE",
         "assignee": "김태재"
+      },
+      {
+        "key": "INT-282",
+        "url": "https://dohands.atlassian.net/browse/INT-282",
+        "summary": "[연동]한진-딜리버스 서비스코드 변경",
+        "status": "QA 중",
+        "project": "INT",
+        "assignee": "최라온"
+      },
+      {
+        "key": "INT-286",
+        "url": "https://dohands.atlassian.net/browse/INT-286",
+        "summary": "[바백] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스) ",
+        "status": "QA 중",
+        "project": "INT",
+        "assignee": "최라온"
       },
       {
         "key": "TECH-1577",
@@ -62,25 +78,17 @@
         "assignee": "김태재"
       },
       {
-        "key": "INT-282",
-        "url": "https://dohands.atlassian.net/browse/INT-282",
-        "summary": "[연동]한진-딜리버스 서비스코드 변경",
-        "status": "QA 필요",
-        "project": "INT",
-        "assignee": "최라온"
+        "key": "TECH-1846",
+        "url": "https://dohands.atlassian.net/browse/TECH-1846",
+        "summary": "가용재고 계산 오류 수정",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "김태재"
       },
       {
         "key": "INT-283",
         "url": "https://dohands.atlassian.net/browse/INT-283",
         "summary": "[연동]한진-딜리 당일배송·새벽배송 COM_PIC_YMD 전송 방식 변경",
-        "status": "QA 필요",
-        "project": "INT",
-        "assignee": "최라온"
-      },
-      {
-        "key": "INT-286",
-        "url": "https://dohands.atlassian.net/browse/INT-286",
-        "summary": "[바백] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스) ",
         "status": "QA 필요",
         "project": "INT",
         "assignee": "최라온"
@@ -150,9 +158,17 @@
         "assignee": "베스현승"
       },
       {
-        "key": "TECH-1846",
-        "url": "https://dohands.atlassian.net/browse/TECH-1846",
-        "summary": "가용재고 계산 오류 수정",
+        "key": "TECH-1766",
+        "url": "https://dohands.atlassian.net/browse/TECH-1766",
+        "summary": "시스템 내 공간 데이터(CONTAINER_TYPE_SPACE_%) 노출 지점 전수 조사 및 정리",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "황성민"
+      },
+      {
+        "key": "TECH-1882",
+        "url": "https://dohands.atlassian.net/browse/TECH-1882",
+        "summary": "B2B 변경이력 SKU 상세 내역 확인을 위한 상세 다이얼로그 구현",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "김태재"
@@ -171,7 +187,7 @@
         "week": "W1",
         "p0": 0,
         "p1": 1,
-        "p2": 6,
+        "p2": 5,
         "p3": 9
       },
       {
@@ -510,13 +526,13 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "재고증차감",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264503361",
-        "updated": "2026-08-07"
-      },
-      {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-08-10"
+      },
+      {
+        "title": "재고증차감",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264503361",
         "updated": "2026-08-07"
       },
       {
