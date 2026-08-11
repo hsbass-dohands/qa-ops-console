@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T06:30:13.182Z",
+  "generated_at": "2026-08-11T07:47:57.485Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,10 +7,10 @@
       "P0": 0,
       "P1": 1,
       "P2": 10,
-      "P3": 47
+      "P3": 45
     },
-    "total_open": 58,
-    "new_this_week": 6,
+    "total_open": 56,
+    "new_this_week": 7,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -25,14 +25,6 @@
         "key": "INT-283",
         "url": "https://dohands.atlassian.net/browse/INT-283",
         "summary": "[연동]한진-딜리 당일배송·새벽배송 COM_PIC_YMD 전송 방식 변경",
-        "status": "QA 중",
-        "project": "INT",
-        "assignee": "최라온"
-      },
-      {
-        "key": "INT-286",
-        "url": "https://dohands.atlassian.net/browse/INT-286",
-        "summary": "[바백] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스) ",
         "status": "QA 중",
         "project": "INT",
         "assignee": "최라온"
@@ -84,14 +76,6 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "김태재"
-      },
-      {
-        "key": "TECH-1746",
-        "url": "https://dohands.atlassian.net/browse/TECH-1746",
-        "summary": "[디자인-QA] 바이스 역할/권한에 따른 조회 점검 및 수정 2차",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "정수아"
       },
       {
         "key": "TECH-1820",
@@ -158,36 +142,12 @@
         "assignee": "우창수"
       },
       {
-        "key": "TECH-1800",
-        "url": "https://dohands.atlassian.net/browse/TECH-1800",
-        "summary": "[QA] 주문 > 판매 채널 > 사용 여부 검색필터, 디폴트 값 기획서와 상이하게 노출됨 ",
+        "key": "SPRINT-818",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-818",
+        "summary": "송장 재발행 및 분할 처리 시 동시성 이슈로 인한 중복 출고 방지 로직 구현",
         "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "박래원"
-      },
-      {
-        "key": "TECH-1802",
-        "url": "https://dohands.atlassian.net/browse/TECH-1802",
-        "summary": "[디자인-QA] 버튼 Pressed 상태가 계속 유지됨",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "도혜원"
-      },
-      {
-        "key": "TECH-1808",
-        "url": "https://dohands.atlassian.net/browse/TECH-1808",
-        "summary": "[QA] b2b 출고 관리 > 일괄 등록 > 파일 등록 > 센터 수정 > 고객사 유지 되지만 확인 버튼 딤처리 됨 > 고객사 선택시 돌아옴",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "박래원"
-      },
-      {
-        "key": "TECH-1809",
-        "url": "https://dohands.atlassian.net/browse/TECH-1809",
-        "summary": "[QA] b2b 출고 관리 > 등록 > 수취인 정보 입력 > 현재 고객사로 다시 클릭 > 수취인 정보 초기화됨",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "박래원"
+        "project": "SPRINT",
+        "assignee": "김태재"
       },
       {
         "key": "TECH-1918",
@@ -253,7 +213,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 0,
-        "p3": 1
+        "p3": 2
       }
     ],
     "calendar_events": [
@@ -542,6 +502,11 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "재고 조정 차감 QA 결과 (2026-08-11)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/308314148/QA+2026-08-11",
+        "updated": "2026-08-11"
+      },
+      {
         "title": "QA를 위한 VISE 물류시스템 이해 높이기 (26.08.13 기준)",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/305889348/QA+VISE+26.08.13",
         "updated": "2026-08-11"
@@ -565,11 +530,6 @@
         "title": "[8월10일] Weekly QA",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/305365437/8+10+Weekly+QA",
         "updated": "2026-08-10"
-      },
-      {
-        "title": "재고증차감",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264503361",
-        "updated": "2026-08-07"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
