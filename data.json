@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T08:53:48.061Z",
+  "generated_at": "2026-08-11T09:59:07.606Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -148,6 +148,14 @@
         "status": "QA 필요",
         "project": "SPRINT",
         "assignee": "김태재"
+      },
+      {
+        "key": "TECH-1919",
+        "url": "https://dohands.atlassian.net/browse/TECH-1919",
+        "summary": "[프론트] 조회 - 고객사 컬럼 노출 1차",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "최라온"
       }
     ],
     "weekly_severity": [
@@ -805,6 +813,12 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-재고증차감-이관",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1786439309.723259",
+        "text": "@도혜원 (기술/개발팀) 재고 증가 모달 &gt; 입고 로케이션 노출"
+      },
+      {
         "channel": "기술조직",
         "user": "김태재 (기술/QA팀)",
         "ts": "1786428538.234239",
@@ -845,12 +859,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1786410785.637969",
         "text": "@황성민 (기술/개발팀) <https://dohands.atlassian.net/browse/TECH-1766|시스템 내 공간 데이터(CONTAINER_TYPE_SPACE_%) 노출 지점 전수 조사 및 정리> 스레드"
-      },
-      {
-        "channel": "기술과제-바코",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1786350884.712319",
-        "text": "@도혜원 (기술/개발팀) 이상한 현상"
       }
     ]
   },
