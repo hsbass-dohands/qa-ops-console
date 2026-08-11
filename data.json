@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T00:06:11.490Z",
+  "generated_at": "2026-08-11T02:27:14.512Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -22,9 +22,9 @@
         "assignee": "김태재"
       },
       {
-        "key": "INT-282",
-        "url": "https://dohands.atlassian.net/browse/INT-282",
-        "summary": "[연동]한진-딜리버스 서비스코드 변경",
+        "key": "INT-279",
+        "url": "https://dohands.atlassian.net/browse/INT-279",
+        "summary": "bull fallback 처리 고도화",
         "status": "QA 중",
         "project": "INT",
         "assignee": "최라온"
@@ -52,14 +52,6 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "김태재"
-      },
-      {
-        "key": "TECH-1671",
-        "url": "https://dohands.atlassian.net/browse/TECH-1671",
-        "summary": "할당 실패 위젯 링크 경로 변경",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "박래원"
       },
       {
         "key": "TECH-1672",
@@ -142,14 +134,6 @@
         "assignee": "김태재"
       },
       {
-        "key": "INT-279",
-        "url": "https://dohands.atlassian.net/browse/INT-279",
-        "summary": "bull fallback 처리 고도화",
-        "status": "QA 필요",
-        "project": "INT",
-        "assignee": "최라온"
-      },
-      {
         "key": "ROBOT-190",
         "url": "https://dohands.atlassian.net/browse/ROBOT-190",
         "summary": "[로보틱스] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스) 에 따른 운송장/출고 B2C 앱 작업",
@@ -174,20 +158,12 @@
         "assignee": "우창수"
       },
       {
-        "key": "TECH-1781",
-        "url": "https://dohands.atlassian.net/browse/TECH-1781",
-        "summary": "[백엔드] poomgo_api(NOW) invoice — 조회 키 + brand JOIN 전환",
+        "key": "ROBOT-211",
+        "url": "https://dohands.atlassian.net/browse/ROBOT-211",
+        "summary": "입고 요청서 스캔시 다른 입고 요청서 출력건",
         "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "베스현승"
-      },
-      {
-        "key": "TECH-1782",
-        "url": "https://dohands.atlassian.net/browse/TECH-1782",
-        "summary": "[백엔드] poomgo_api(NOW) 재고/운영 master.brands 전환 (raw SQL JOIN + inventory2 include)",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "베스현승"
+        "project": "ROBOT",
+        "assignee": "김태재"
       }
     ],
     "weekly_severity": [
@@ -534,13 +510,18 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
-        "updated": "2026-08-10"
-      },
-      {
         "title": "QA를 위한 VISE 물류시스템 이해 높이기 (26.08.13 기준)",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/305889348/QA+VISE+26.08.13",
+        "updated": "2026-08-11"
+      },
+      {
+        "title": "래원님 온보딩",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259194911",
+        "updated": "2026-08-11"
+      },
+      {
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-08-10"
       },
       {
@@ -557,11 +538,6 @@
         "title": "재고증차감",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264503361",
         "updated": "2026-08-07"
-      },
-      {
-        "title": "Poomgo API 자동화 테스트 구축 (2026 Q3)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/257982706/Poomgo+API+2026+Q3",
-        "updated": "2026-08-04"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
@@ -765,6 +741,12 @@
         "is_member": true
       },
       {
+        "id": "C0AC7J1P269",
+        "name": "기술과제-바코",
+        "is_private": false,
+        "is_member": false
+      },
+      {
         "id": "C0ADLQC98R0",
         "name": "기술과제-바이스이관-알림",
         "is_private": false,
@@ -839,6 +821,30 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-판매처-연동-설정이관",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786414898.867599",
+        "text": "@이찬민 (기술/제품팀) @반수정 (기술/디자인팀) @정승아 (기술/개발팀) @박소영 (기술/개발팀) 큐텐(일본) 연동 안내 팝업 문구 스레드\n\n기획 문서 / Figma 기준\n```판매처명이 큐텐(일본)인 경우에만 연동을 지원하며, 큐텐(JP), 큐텐(해외) 등 다른 판매처명은 연동이 불가능합니다.```\n개발 기준\n```판매 플랫폼명이 큐텐(일본)인 경우에"
+      },
+      {
+        "channel": "sigvise",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786410785.637969",
+        "text": "@황성민 (기술/개발팀) <https://dohands.atlassian.net/browse/TECH-1766|시스템 내 공간 데이터(CONTAINER_TYPE_SPACE_%) 노출 지점 전수 조사 및 정리> 스레드"
+      },
+      {
+        "channel": "기술과제-바코",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1786350884.712319",
+        "text": "@도혜원 (기술/개발팀) 이상한 현상"
+      },
+      {
+        "channel": "기술과제-바코",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1786350372.963909",
+        "text": "@강진영 (기술/제품팀) 어떤 고객사가 문의 했는지 슬랙 스레드에서 바로 볼 수 있으면 좋을거같아요."
+      },
+      {
         "channel": "sigint",
         "user": "최라온 (기술/QA팀)",
         "ts": "1786349927.132249",
@@ -861,30 +867,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1786347402.904339",
         "text": "@손조성 (기술/개발팀) <https://dohands.atlassian.net/browse/INT-286|[바백] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스)&gt; 테스트 스레드"
-      },
-      {
-        "channel": "sigint",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786344309.430849",
-        "text": "@김준기 (기술/개발팀) V2V -&gt; 딜리 전환 테스트 스레드"
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1786342111.688389",
-        "text": "@이대한 (기술/개발팀) 래원님 깃헙 초대"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1786341949.811649",
-        "text": "@박래원 (기술/QA팀) github"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1786341174.671059",
-        "text": "@최라온 (기술/QA팀)\n<https://dohandsworkspace.slack.com/archives/C046PF86X7Z/p1786337815858129?thread_ts=1785469450.326629&amp;cid=C046PF86X7Z|https://dohandsworkspace.slack.com/archives/C046PF86X7Z/p178633"
       }
     ]
   },
