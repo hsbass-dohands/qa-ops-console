@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T07:47:57.485Z",
+  "generated_at": "2026-08-11T08:53:48.061Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -20,14 +20,6 @@
         "status": "QA 중",
         "project": "FE",
         "assignee": "김태재"
-      },
-      {
-        "key": "INT-283",
-        "url": "https://dohands.atlassian.net/browse/INT-283",
-        "summary": "[연동]한진-딜리 당일배송·새벽배송 COM_PIC_YMD 전송 방식 변경",
-        "status": "QA 중",
-        "project": "INT",
-        "assignee": "최라온"
       },
       {
         "key": "TECH-1577",
@@ -110,6 +102,14 @@
         "assignee": "정수아"
       },
       {
+        "key": "TECH-1918",
+        "url": "https://dohands.atlassian.net/browse/TECH-1918",
+        "summary": "헤더 → 고객사 셀렉터를 상시 노출하는 방향으로 작업",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "최라온"
+      },
+      {
         "key": "ROBOT-166",
         "url": "https://dohands.atlassian.net/browse/ROBOT-166",
         "summary": "[품고 반품][개발] 태블릿 반품 앱 검품 상태 선택지 화면 개편 (버튼 추가)",
@@ -148,14 +148,6 @@
         "status": "QA 필요",
         "project": "SPRINT",
         "assignee": "김태재"
-      },
-      {
-        "key": "TECH-1918",
-        "url": "https://dohands.atlassian.net/browse/TECH-1918",
-        "summary": "헤더 → 고객사 셀렉터를 상시 노출하는 방향으로 작업",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "최라온"
       }
     ],
     "weekly_severity": [
