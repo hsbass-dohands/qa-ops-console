@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T07:44:43.669Z",
+  "generated_at": "2026-08-12T08:53:46.201Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,9 +7,9 @@
       "P0": 0,
       "P1": 1,
       "P2": 10,
-      "P3": 45
+      "P3": 44
     },
-    "total_open": 56,
+    "total_open": 55,
     "new_this_week": 5,
     "closed_this_week": 0,
     "funnel": [
@@ -78,14 +78,6 @@
         "assignee": "정수아"
       },
       {
-        "key": "TECH-1918",
-        "url": "https://dohands.atlassian.net/browse/TECH-1918",
-        "summary": "헤더 → 고객사 셀렉터를 상시 노출하는 방향으로 작업",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "최라온"
-      },
-      {
         "key": "ROBOT-166",
         "url": "https://dohands.atlassian.net/browse/ROBOT-166",
         "summary": "[품고 반품][개발] 태블릿 반품 앱 검품 상태 선택지 화면 개편 (버튼 추가)",
@@ -118,9 +110,33 @@
         "assignee": "김태재"
       },
       {
+        "key": "TECH-1858",
+        "url": "https://dohands.atlassian.net/browse/TECH-1858",
+        "summary": "바이스 드롭다운 검색 변경",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "박래원"
+      },
+      {
         "key": "TECH-1919",
         "url": "https://dohands.atlassian.net/browse/TECH-1919",
         "summary": "[프론트] 조회 - 고객사 컬럼 노출 1차",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "최라온"
+      },
+      {
+        "key": "TECH-1939",
+        "url": "https://dohands.atlassian.net/browse/TECH-1939",
+        "summary": "[VISE/프론트] 큐텐(일본) 연동 안내 팝업 Figma와 동일한 가독성 적용 필요",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "최라온"
+      },
+      {
+        "key": "TECH-1943",
+        "url": "https://dohands.atlassian.net/browse/TECH-1943",
+        "summary": "[VISE/프론트] 큐텐(일본) 연동 단계 모달 > 탭 3 영역 내 문구 칸댯슈 -> 칸닷슈 변경 필요",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "최라온"
@@ -781,6 +797,30 @@
     ],
     "messages": [
       {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786521764.212419",
+        "text": "@베스현승 (기술/QA팀) 직계약 혼합운용 과제 TC 중 프론트의 경우 잘게 잘린 작업 단위(스프린트와 비슷한 작업량)더라도 TC 모두 작성해서, QA팀에서 확인한 케이스를 명확히 남기고자 합니다.\n<https://app.testiny.io/p/1/testcases/tcf/588|app.testiny.io/p/1/…/588> 이렇게 남기는 방향으로 고려중인"
+      },
+      {
+        "channel": "기술과제-직계약-혼합운용",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786521365.392139",
+        "text": "@한병두 (기술/제품팀) @도혜원 (기술/개발팀) 프론트 작업 중 <https://dohands.atlassian.net/browse/TECH-1918|헤더 → 고객사 셀렉터를 상시 노출하는 방향으로 작업> TC 작성 및 수행 중 특이사항 발견되어 확인 부탁드립니다.\n기존에 고객사 셀렉터 상시 노출 전, 박스 인쇄 관리 화면이 헤더 내 고객사 미선택 시 어"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1786521111.630399",
+        "text": "@최라온 (기술/QA팀) 상준님 온보딩"
+      },
+      {
+        "channel": "sigvise",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786520827.131019",
+        "text": "@이현수 (기술/개발팀) 어디에 올려야 할지 몰라 우선 sigvise에 올립니다..! 2차 인증 중 400 에러 떴지만 정상 로그인 되는 내용 확인 부탁드립니다!\n타 과제 진행 중 로그인 시 에러가 발생했는데, 정상적으로 로그인 및 시스템 사용이 가능해서 제보드립니다.\n\n현재 동일 계정으로 재현 가능하며, 해당 계정에서만 발생하는 내용인지, 아니면 2차 인"
+      },
+      {
         "channel": "기술과제-직계약-혼합운용",
         "user": "최라온 (기술/QA팀)",
         "ts": "1786518200.390279",
@@ -803,30 +843,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1786515265.771569",
         "text": "@최라온 (기술/QA팀) 토스"
-      },
-      {
-        "channel": "sigvise",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1786514511.399249",
-        "text": "@한병두 (기술/제품팀) b2b 기능 요청건 확인 부탁드립니다."
-      },
-      {
-        "channel": "기술조직",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786506525.642589",
-        "text": "맥북 재부팅하고 오겠습니다!"
-      },
-      {
-        "channel": "기술과제-토스쇼핑",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786504533.374339",
-        "text": "@이찬민 (기술/제품팀) @이근한 (기술/개발팀) @한상협 (기술/개발팀) 8/14 운영 배포 스레드"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1786503430.671089",
-        "text": "@베스현승 (기술/QA팀) 래원님 온보딩"
       }
     ]
   },
