@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T04:28:28.201Z",
+  "generated_at": "2026-08-12T05:59:59.733Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -13,14 +13,6 @@
     "new_this_week": 5,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "FE-163",
-        "url": "https://dohands.atlassian.net/browse/FE-163",
-        "summary": "[VISE] DataTable 제거",
-        "status": "QA 중",
-        "project": "FE",
-        "assignee": "김태재"
-      },
       {
         "key": "ROBOT-190",
         "url": "https://dohands.atlassian.net/browse/ROBOT-190",
