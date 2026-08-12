@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T05:59:59.733Z",
+  "generated_at": "2026-08-12T07:44:43.669Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -41,22 +41,6 @@
         "key": "TECH-1672",
         "url": "https://dohands.atlassian.net/browse/TECH-1672",
         "summary": "B2C 출고현황 위젯 내, 아이콘 교체",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "박래원"
-      },
-      {
-        "key": "TECH-1673",
-        "url": "https://dohands.atlassian.net/browse/TECH-1673",
-        "summary": "위젯 추가 작업, B2B출고 현황",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "박래원"
-      },
-      {
-        "key": "TECH-1678",
-        "url": "https://dohands.atlassian.net/browse/TECH-1678",
-        "summary": "위젯 추가 작업, CS 반출 대장",
         "status": "QA 중",
         "project": "TECH",
         "assignee": "박래원"
@@ -124,6 +108,14 @@
         "status": "QA 필요",
         "project": "ROBOT",
         "assignee": "우창수"
+      },
+      {
+        "key": "SPRINT-824",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-824",
+        "summary": "품고셀러 · VISE > 연락처 입력 영역 송장 노출 관련 개인정보 안내 문구 추가",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "김태재"
       },
       {
         "key": "TECH-1919",
@@ -478,8 +470,23 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "[태재] 2026.04.07 QA 테크노트 & 포럼(2)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/143196229/2026.04.07+QA+2",
+        "updated": "2026-08-12"
+      },
+      {
+        "title": "[태재] 2026.04.07 QA 테크노트 & 포럼(1)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/143720449/2026.04.07+QA+1",
+        "updated": "2026-08-12"
+      },
+      {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-08-12"
+      },
+      {
+        "title": "에뮬레이터로 품고탭 앱 띄우기 (설치 가이드)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/309330036",
         "updated": "2026-08-12"
       },
       {
@@ -491,21 +498,6 @@
         "title": "QA를 위한 VISE 물류시스템 이해 높이기 (26.08.13 기준)",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/305889348/QA+VISE+26.08.13",
         "updated": "2026-08-11"
-      },
-      {
-        "title": "래원님 온보딩",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259194911",
-        "updated": "2026-08-11"
-      },
-      {
-        "title": "Edge Case 질문 — 기획 리뷰 / QA 설계 체크리스트",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/254083135/Edge+Case+QA",
-        "updated": "2026-08-10"
-      },
-      {
-        "title": "[8월10일] Weekly QA",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/305365437/8+10+Weekly+QA",
-        "updated": "2026-08-10"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
@@ -789,6 +781,36 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-직계약-혼합운용",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786518200.390279",
+        "text": "@이대한 (기술/개발팀) @베스현승 (기술/QA팀) 직계약 혼합운용 과제 &gt; PRE 운영 여부 확인 스레드"
+      },
+      {
+        "channel": "기술과제-판매처-연동-설정이관",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786517853.135769",
+        "text": "@박소영 (기술/개발팀) 프론트 티켓 2개 곧 STG 올라오나용~?!"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "박래원 (기술/QA팀)",
+        "ts": "1786517792.435109",
+        "text": "<https://dohands.atlassian.net/wiki/spaces/TECH/pages/308904522|위젯 관련 기획서> 페이지 따로 만들어서 정리해주셔서 공유드립니다!"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1786515265.771569",
+        "text": "@최라온 (기술/QA팀) 토스"
+      },
+      {
+        "channel": "sigvise",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1786514511.399249",
+        "text": "@한병두 (기술/제품팀) b2b 기능 요청건 확인 부탁드립니다."
+      },
+      {
         "channel": "기술조직",
         "user": "최라온 (기술/QA팀)",
         "ts": "1786506525.642589",
@@ -805,36 +827,6 @@
         "user": "김태재 (기술/QA팀)",
         "ts": "1786503430.671089",
         "text": "@베스현승 (기술/QA팀) 래원님 온보딩"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786499538.678089",
-        "text": "@베스현승 (기술/QA팀) 직계약 혼합운용 TC 관련 스레드"
-      },
-      {
-        "channel": "기술과제-재고증차감-이관",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1786439309.723259",
-        "text": "@도혜원 (기술/개발팀) 재고 증가 모달 &gt; 입고 로케이션 노출"
-      },
-      {
-        "channel": "기술조직",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1786428538.234239",
-        "text": "맥북 재부팅하고 오겠습니다!"
-      },
-      {
-        "channel": "기술과제-판매처-연동-설정이관",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786426722.533539",
-        "text": "*<!here> [QA 중간 공유] TC 총 수행률 91% 완료*\n\n• 통과 82% - 62건\n• 실패 1% - 1건\n    ◦ <https://dohands.atlassian.net/browse/TECH-1939|[VISE/프론트] 큐텐(일본) 연동 안내 팝업 Figma와 동일한 가독성 적용 필요> \n• 실행 전 9% - 7건\n    ◦ 큐텐(일본) 판매"
-      },
-      {
-        "channel": "sigvise",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1786417472.503429",
-        "text": "입고 데이터 변경 요청 건"
       }
     ]
   },
