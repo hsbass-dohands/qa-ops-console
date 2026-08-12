@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T02:43:41.791Z",
+  "generated_at": "2026-08-12T04:28:28.201Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -132,14 +132,6 @@
         "status": "QA 필요",
         "project": "ROBOT",
         "assignee": "우창수"
-      },
-      {
-        "key": "TECH-1791",
-        "url": "https://dohands.atlassian.net/browse/TECH-1791",
-        "summary": "[백엔드] poomgo_api(NOW) Sequelize brand include 전환 (~14곳, 도메인 통합)",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "베스현승"
       },
       {
         "key": "TECH-1919",
@@ -494,6 +486,11 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-08-12"
+      },
+      {
         "title": "재고 조정 차감 QA 결과 (2026-08-11)",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/308314148/QA+2026-08-11",
         "updated": "2026-08-11"
@@ -507,11 +504,6 @@
         "title": "래원님 온보딩",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259194911",
         "updated": "2026-08-11"
-      },
-      {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
-        "updated": "2026-08-10"
       },
       {
         "title": "Edge Case 질문 — 기획 리뷰 / QA 설계 체크리스트",
@@ -805,6 +797,24 @@
     ],
     "messages": [
       {
+        "channel": "기술조직",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786506525.642589",
+        "text": "맥북 재부팅하고 오겠습니다!"
+      },
+      {
+        "channel": "기술과제-토스쇼핑",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786504533.374339",
+        "text": "@이찬민 (기술/제품팀) @이근한 (기술/개발팀) @한상협 (기술/개발팀) 8/14 운영 배포 스레드"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1786503430.671089",
+        "text": "@베스현승 (기술/QA팀) 래원님 온보딩"
+      },
+      {
         "channel": "기술-qa팀",
         "user": "최라온 (기술/QA팀)",
         "ts": "1786499538.678089",
@@ -833,24 +843,6 @@
         "user": "김태재 (기술/QA팀)",
         "ts": "1786417472.503429",
         "text": "입고 데이터 변경 요청 건"
-      },
-      {
-        "channel": "기술과제-판매처-연동-설정이관",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786416939.308049",
-        "text": "@이찬민 (기술/제품팀) @반수정 (기술/디자인팀) 큐텐(일본) 연동 모달 스레드 cc. @정승아 (기술/개발팀) @박소영 (기술/개발팀)\n\n1. 기획서 또는 Figma 싱크 및 업데이트 필요\n    a. 큐텐(일본) 탭 1. 계약정보 입력\n        i. 안내 문구\n            1. 기획서 : 큐텐(일본) 판매 admin 페이지 로그인 아이디"
-      },
-      {
-        "channel": "기술과제-판매처-연동-설정이관",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786416222.432189",
-        "text": "@조수아 (기술/개발팀) STG &gt; 큐텐(일본) 도착보장 이용 여부 확인 탭에서 사용 안 함/사용함 둘 다 다음 단계로 이동이 불가한 상황이라 확인 부탁드립니다! cc. @정승아 (기술/개발팀) @박소영 (기술/개발팀)\n\n요청 URL : *`PATCH`* `<https://api.stg.poomgo.com/now/channel/18889>`\n요청 페이"
-      },
-      {
-        "channel": "기술과제-판매처-연동-설정이관",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786414898.867599",
-        "text": "@이찬민 (기술/제품팀) @반수정 (기술/디자인팀) @정승아 (기술/개발팀) @박소영 (기술/개발팀) 큐텐(일본) 연동 안내 팝업 문구 스레드\n\n기획 문서 / Figma 기준\n```판매처명이 큐텐(일본)인 경우에만 연동을 지원하며, 큐텐(JP), 큐텐(해외) 등 다른 판매처명은 연동이 불가능합니다.```\n개발 기준\n```판매 플랫폼명이 큐텐(일본)인 경우에"
       }
     ]
   },
