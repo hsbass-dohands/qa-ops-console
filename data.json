@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T00:00:55.412Z",
+  "generated_at": "2026-08-12T02:43:41.791Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -19,6 +19,22 @@
         "summary": "[VISE] DataTable 제거",
         "status": "QA 중",
         "project": "FE",
+        "assignee": "김태재"
+      },
+      {
+        "key": "ROBOT-190",
+        "url": "https://dohands.atlassian.net/browse/ROBOT-190",
+        "summary": "[로보틱스] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스) 에 따른 운송장/출고 B2C 앱 작업",
+        "status": "QA 중",
+        "project": "ROBOT",
+        "assignee": "최라온"
+      },
+      {
+        "key": "SPRINT-818",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-818",
+        "summary": "송장 재발행 및 분할 처리 시 동시성 이슈로 인한 중복 출고 방지 로직 구현",
+        "status": "QA 중",
+        "project": "SPRINT",
         "assignee": "김태재"
       },
       {
@@ -78,22 +94,6 @@
         "assignee": "김태재"
       },
       {
-        "key": "TECH-186",
-        "url": "https://dohands.atlassian.net/browse/TECH-186",
-        "summary": "[VISE] 재고 등록/차감 조회",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "한병두"
-      },
-      {
-        "key": "TECH-187",
-        "url": "https://dohands.atlassian.net/browse/TECH-187",
-        "summary": "[VISE] 역할/권한에 따른 조회 점검",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "한병두"
-      },
-      {
         "key": "TECH-1891",
         "url": "https://dohands.atlassian.net/browse/TECH-1891",
         "summary": "[디자인-QA] PII 인증 보안 강화",
@@ -115,15 +115,7 @@
         "summary": "[품고 반품][개발] 태블릿 반품 앱 검품 상태 선택지 화면 개편 (버튼 추가)",
         "status": "QA 필요",
         "project": "ROBOT",
-        "assignee": "우창수"
-      },
-      {
-        "key": "ROBOT-190",
-        "url": "https://dohands.atlassian.net/browse/ROBOT-190",
-        "summary": "[로보틱스] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스) 에 따른 운송장/출고 B2C 앱 작업",
-        "status": "QA 필요",
-        "project": "ROBOT",
-        "assignee": "최라온"
+        "assignee": "박래원"
       },
       {
         "key": "ROBOT-191",
@@ -142,12 +134,12 @@
         "assignee": "우창수"
       },
       {
-        "key": "SPRINT-818",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-818",
-        "summary": "송장 재발행 및 분할 처리 시 동시성 이슈로 인한 중복 출고 방지 로직 구현",
+        "key": "TECH-1791",
+        "url": "https://dohands.atlassian.net/browse/TECH-1791",
+        "summary": "[백엔드] poomgo_api(NOW) Sequelize brand include 전환 (~14곳, 도메인 통합)",
         "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "김태재"
+        "project": "TECH",
+        "assignee": "베스현승"
       },
       {
         "key": "TECH-1919",
@@ -813,6 +805,12 @@
     ],
     "messages": [
       {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786499538.678089",
+        "text": "@베스현승 (기술/QA팀) 직계약 혼합운용 TC 관련 스레드"
+      },
+      {
         "channel": "기술과제-재고증차감-이관",
         "user": "김태재 (기술/QA팀)",
         "ts": "1786439309.723259",
@@ -853,12 +851,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1786414898.867599",
         "text": "@이찬민 (기술/제품팀) @반수정 (기술/디자인팀) @정승아 (기술/개발팀) @박소영 (기술/개발팀) 큐텐(일본) 연동 안내 팝업 문구 스레드\n\n기획 문서 / Figma 기준\n```판매처명이 큐텐(일본)인 경우에만 연동을 지원하며, 큐텐(JP), 큐텐(해외) 등 다른 판매처명은 연동이 불가능합니다.```\n개발 기준\n```판매 플랫폼명이 큐텐(일본)인 경우에"
-      },
-      {
-        "channel": "sigvise",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786410785.637969",
-        "text": "@황성민 (기술/개발팀) <https://dohands.atlassian.net/browse/TECH-1766|시스템 내 공간 데이터(CONTAINER_TYPE_SPACE_%) 노출 지점 전수 조사 및 정리> 스레드"
       }
     ]
   },
