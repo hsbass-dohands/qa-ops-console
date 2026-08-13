@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-13T08:52:08.137Z",
+  "generated_at": "2026-08-13T10:03:50.996Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
-      "P1": 3,
+      "P1": 2,
       "P2": 12,
       "P3": 45
     },
-    "total_open": 60,
+    "total_open": 59,
     "new_this_week": 9,
     "closed_this_week": 0,
     "funnel": [
@@ -83,7 +83,7 @@
         "summary": "정산서 조회 > '정산 연월' 표기 통일",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "이덕희"
+        "assignee": "박래원"
       }
     ],
     "weekly_severity": [
@@ -743,6 +743,12 @@
       {
         "channel": "기술과제-개발팀-pii",
         "user": "베스현승 (기술/QA팀)",
+        "ts": "1786613854.060179",
+        "text": "@정승아 (기술/개발팀) *[보안 확인 요청] 액세스 토큰 localStorage 저장 및 2차 인증 우회 가능성*"
+      },
+      {
+        "channel": "기술과제-개발팀-pii",
+        "user": "베스현승 (기술/QA팀)",
         "ts": "1786602739.804249",
         "text": "@정수아 (기술/디자인팀) 계정 잠금 vs 계정 해제 디자인"
       },
@@ -781,12 +787,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1786599093.867539",
         "text": "새 비밀번호 설정 - 비밀번호 조건 @한병두 (기술/제품팀)"
-      },
-      {
-        "channel": "기술과제-개발팀-pii",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1786598669.688369",
-        "text": "2차인증 - xx초 후 재발송 가능에서 61~62초 본 썰 푼다"
       }
     ]
   },
