@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-08-12T23:57:50.471Z",
+  "generated_at": "2026-08-13T02:25:37.675Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
-      "P1": 1,
+      "P1": 2,
       "P2": 10,
       "P3": 44
     },
-    "total_open": 55,
-    "new_this_week": 3,
+    "total_open": 56,
+    "new_this_week": 4,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "ROBOT-190",
-        "url": "https://dohands.atlassian.net/browse/ROBOT-190",
-        "summary": "[로보틱스] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스) 에 따른 운송장/출고 B2C 앱 작업",
-        "status": "QA 중",
-        "project": "ROBOT",
-        "assignee": "최라온"
-      },
       {
         "key": "SPRINT-818",
         "url": "https://dohands.atlassian.net/browse/SPRINT-818",
@@ -102,6 +94,14 @@
         "assignee": "김태재"
       },
       {
+        "key": "TECH-1748",
+        "url": "https://dohands.atlassian.net/browse/TECH-1748",
+        "summary": "[바백] 송장 조회 마감됨 조회 속도 개선",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "베스현승"
+      },
+      {
         "key": "TECH-1858",
         "url": "https://dohands.atlassian.net/browse/TECH-1858",
         "summary": "바이스 드롭다운 검색 변경",
@@ -171,7 +171,7 @@
       {
         "week": "W8",
         "p0": 0,
-        "p1": 0,
+        "p1": 1,
         "p2": 0,
         "p3": 2
       }
@@ -462,6 +462,16 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-08-13"
+      },
+      {
+        "title": "상준님 온보딩",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/310608024",
+        "updated": "2026-08-13"
+      },
+      {
         "title": "[태재] 2026.04.07 QA 테크노트 & 포럼(2)",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/143196229/2026.04.07+QA+2",
         "updated": "2026-08-12"
@@ -472,11 +482,6 @@
         "updated": "2026-08-12"
       },
       {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
-        "updated": "2026-08-12"
-      },
-      {
         "title": "에뮬레이터로 품고탭 앱 띄우기 (설치 가이드)",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/309330036",
         "updated": "2026-08-12"
@@ -484,11 +489,6 @@
       {
         "title": "재고 조정 차감 QA 결과 (2026-08-11)",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/308314148/QA+2026-08-11",
-        "updated": "2026-08-11"
-      },
-      {
-        "title": "QA를 위한 VISE 물류시스템 이해 높이기 (26.08.13 기준)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/305889348/QA+VISE+26.08.13",
         "updated": "2026-08-11"
       }
     ],
@@ -773,6 +773,12 @@
     ],
     "messages": [
       {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786580759.077939",
+        "text": "@김태재 (기술/QA팀) @박래원 (기술/QA팀) 오늘 QA 세미나 *HG#2 M6-6C (6층 6인실)* 14:00 ~ 15:00 잡아두었습니다~!"
+      },
+      {
         "channel": "기술과제-판매처-연동-설정이관",
         "user": "최라온 (기술/QA팀)",
         "ts": "1786525135.033649",
@@ -813,12 +819,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1786517853.135769",
         "text": "@박소영 (기술/개발팀) 프론트 티켓 2개 곧 STG 올라오나용~?!"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "박래원 (기술/QA팀)",
-        "ts": "1786517792.435109",
-        "text": "<https://dohands.atlassian.net/wiki/spaces/TECH/pages/308904522|위젯 관련 기획서> 페이지 따로 만들어서 정리해주셔서 공유드립니다!"
       }
     ]
   },
