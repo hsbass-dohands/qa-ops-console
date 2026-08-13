@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-13T07:27:53.421Z",
+  "generated_at": "2026-08-13T08:52:08.137Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
       "P1": 3,
-      "P2": 13,
+      "P2": 12,
       "P3": 45
     },
-    "total_open": 61,
+    "total_open": 60,
     "new_this_week": 9,
     "closed_this_week": 0,
     "funnel": [
@@ -52,14 +52,6 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "김태재"
-      },
-      {
-        "key": "TECH-1748",
-        "url": "https://dohands.atlassian.net/browse/TECH-1748",
-        "summary": "[바백] 송장 조회 마감됨 조회 속도 개선",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "베스현승"
       },
       {
         "key": "TECH-1820",
