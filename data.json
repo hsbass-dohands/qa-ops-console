@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-13T05:56:16.861Z",
+  "generated_at": "2026-08-13T07:27:53.421Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
-      "P1": 2,
-      "P2": 11,
-      "P3": 44
+      "P1": 3,
+      "P2": 13,
+      "P3": 45
     },
-    "total_open": 57,
-    "new_this_week": 6,
+    "total_open": 61,
+    "new_this_week": 9,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -59,7 +59,7 @@
         "summary": "[바백] 송장 조회 마감됨 조회 속도 개선",
         "status": "QA 중",
         "project": "TECH",
-        "assignee": "윤송"
+        "assignee": "베스현승"
       },
       {
         "key": "TECH-1820",
@@ -70,35 +70,11 @@
         "assignee": "김태재"
       },
       {
-        "key": "TECH-1891",
-        "url": "https://dohands.atlassian.net/browse/TECH-1891",
-        "summary": "[디자인-QA] PII 인증 보안 강화",
+        "key": "TECH-1919",
+        "url": "https://dohands.atlassian.net/browse/TECH-1919",
+        "summary": "[프론트] 조회 - 고객사 컬럼 노출 1차",
         "status": "QA 중",
         "project": "TECH",
-        "assignee": "정수아"
-      },
-      {
-        "key": "ROBOT-166",
-        "url": "https://dohands.atlassian.net/browse/ROBOT-166",
-        "summary": "[품고 반품][개발] 태블릿 반품 앱 검품 상태 선택지 화면 개편 (버튼 추가)",
-        "status": "QA 필요",
-        "project": "ROBOT",
-        "assignee": "박래원"
-      },
-      {
-        "key": "SPRINT-824",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-824",
-        "summary": "품고셀러 · VISE > 연락처 입력 영역 송장 노출 관련 개인정보 안내 문구 추가",
-        "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "김태재"
-      },
-      {
-        "key": "SPRINT-829",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-829",
-        "summary": "세금계산서 발행 > 폐업 사업자 발행 차단 미동작 (바로빌 State 3 미처리)",
-        "status": "QA 필요",
-        "project": "SPRINT",
         "assignee": "최라온"
       },
       {
@@ -110,12 +86,12 @@
         "assignee": "박래원"
       },
       {
-        "key": "TECH-1919",
-        "url": "https://dohands.atlassian.net/browse/TECH-1919",
-        "summary": "[프론트] 조회 - 고객사 컬럼 노출 1차",
+        "key": "TECH-1955",
+        "url": "https://dohands.atlassian.net/browse/TECH-1955",
+        "summary": "정산서 조회 > '정산 연월' 표기 통일",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "최라온"
+        "assignee": "이덕희"
       }
     ],
     "weekly_severity": [
@@ -171,9 +147,9 @@
       {
         "week": "W8",
         "p0": 0,
-        "p1": 1,
-        "p2": 1,
-        "p3": 3
+        "p1": 2,
+        "p2": 3,
+        "p3": 4
       }
     ],
     "calendar_events": [
@@ -775,6 +751,42 @@
       {
         "channel": "기술과제-개발팀-pii",
         "user": "베스현승 (기술/QA팀)",
+        "ts": "1786602739.804249",
+        "text": "@정수아 (기술/디자인팀) 계정 잠금 vs 계정 해제 디자인"
+      },
+      {
+        "channel": "sigvise",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786602710.472459",
+        "text": "@황성민 (기술/개발팀) 도와줘요 카보황:bangbang:\n\nSTG &gt; <https://vise.stg.poomgo.com/billflow/bill/2580|vise.stg.poomgo.com/billflow/bill/2580> 확정 -&gt; 확인중으로 바꿔주실 수 있나요?"
+      },
+      {
+        "channel": "기술조직",
+        "user": "박래원 (기술/QA팀)",
+        "ts": "1786602252.221599",
+        "text": "@한병두 (기술/제품팀) @정수아 (기술/디자인팀) 셀러 &gt; CS조회 &gt; 상세보기 &gt; 회수 SKU &gt; 검품상태가 많을 경우, 좌우 스크롤 노출 문의"
+      },
+      {
+        "channel": "sigvise",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1786601273.667429",
+        "text": "@이덕희 (기술/개발팀) 이모티콘 글자 수"
+      },
+      {
+        "channel": "sigvise",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1786601144.866369",
+        "text": "계정 사용 정지하면 사용자 리스트에서 아예 사라지는건가요?"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786600637.230609",
+        "text": "@김태재 (기술/QA팀) @박래원 (기술/QA팀) 위젯 관련 노션 링크\n<https://app.notion.com/p/dohands/12d8aea076208037974fc6f33a439ae1?v=03d2180aa9f84641bde8764f47ba7a08&amp;source=copy_link|app.notion.com/p/dohands/…?v=…&amp;so"
+      },
+      {
+        "channel": "기술과제-개발팀-pii",
+        "user": "베스현승 (기술/QA팀)",
         "ts": "1786599093.867539",
         "text": "새 비밀번호 설정 - 비밀번호 조건 @한병두 (기술/제품팀)"
       },
@@ -783,42 +795,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1786598669.688369",
         "text": "2차인증 - xx초 후 재발송 가능에서 61~62초 본 썰 푼다"
-      },
-      {
-        "channel": "기술과제-개발팀-pii",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1786597608.177429",
-        "text": "@정승아 (기술/개발팀) <https://dohands.atlassian.net/browse/TECH-1992|dohands.atlassian.net/browse/TECH-1992>"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786592103.212139",
-        "text": "@베스현승 (기술/QA팀) PII 개인정보 조회/다운로드 과제 일정 조정 컨플루언스에 반영해두었습니다~!"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786591863.989059",
-        "text": "@베스현승 (기술/QA팀) 직계약 혼합 운용 과제 QA 전략 수립 스레드"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786591141.967789",
-        "text": "@김태재 (기술/QA팀) 오늘 3시 배포 관련 스레드"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786580759.077939",
-        "text": "@김태재 (기술/QA팀) @박래원 (기술/QA팀) 오늘 QA 세미나 *HG#2 M6-6C (6층 6인실)* 14:00 ~ 15:00 잡아두었습니다~!"
-      },
-      {
-        "channel": "기술과제-판매처-연동-설정이관",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786525135.033649",
-        "text": "*<!here> [QA 종료] TC 총 수행률 100% 완료*\n\n• 통과 92% - 70건\n• 차단됨(Blocked) 8% - 6건\n    ◦ 큐텐 4건\n        ▪︎ 큐텐 측 개발 서버 미제공으로 STG 검증 불가한 케이스\n    ◦ 라쿠텐 2건\n        ▪︎ 조회 가능 주문 없으며, 연동 키 실제 갱신이 불가한 계정만 있어 STG 검증 불가한"
       }
     ]
   },
