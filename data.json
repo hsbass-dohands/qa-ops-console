@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T02:25:37.675Z",
+  "generated_at": "2026-08-13T04:25:12.583Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -10,16 +10,24 @@
       "P3": 44
     },
     "total_open": 56,
-    "new_this_week": 4,
+    "new_this_week": 5,
     "closed_this_week": 0,
     "funnel": [
       {
-        "key": "SPRINT-818",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-818",
-        "summary": "송장 재발행 및 분할 처리 시 동시성 이슈로 인한 중복 출고 방지 로직 구현",
+        "key": "ROBOT-191",
+        "url": "https://dohands.atlassian.net/browse/ROBOT-191",
+        "summary": "[로보틱스] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스) 에 따른 소터 작업",
         "status": "QA 중",
-        "project": "SPRINT",
-        "assignee": "김태재"
+        "project": "ROBOT",
+        "assignee": "우창수"
+      },
+      {
+        "key": "ROBOT-193",
+        "url": "https://dohands.atlassian.net/browse/ROBOT-193",
+        "summary": "[로보틱스] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스) 에 따른 송장재출력 앱 작업",
+        "status": "QA 중",
+        "project": "ROBOT",
+        "assignee": "우창수"
       },
       {
         "key": "TECH-1577",
@@ -46,6 +54,14 @@
         "assignee": "김태재"
       },
       {
+        "key": "TECH-1748",
+        "url": "https://dohands.atlassian.net/browse/TECH-1748",
+        "summary": "[바백] 송장 조회 마감됨 조회 속도 개선",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "윤송"
+      },
+      {
         "key": "TECH-1820",
         "url": "https://dohands.atlassian.net/browse/TECH-1820",
         "summary": "[QA] 고객사 이관 최종 점검",
@@ -70,36 +86,12 @@
         "assignee": "박래원"
       },
       {
-        "key": "ROBOT-191",
-        "url": "https://dohands.atlassian.net/browse/ROBOT-191",
-        "summary": "[로보틱스] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스) 에 따른 소터 작업",
-        "status": "QA 필요",
-        "project": "ROBOT",
-        "assignee": "우창수"
-      },
-      {
-        "key": "ROBOT-193",
-        "url": "https://dohands.atlassian.net/browse/ROBOT-193",
-        "summary": "[로보틱스] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스) 에 따른 송장재출력 앱 작업",
-        "status": "QA 필요",
-        "project": "ROBOT",
-        "assignee": "우창수"
-      },
-      {
         "key": "SPRINT-824",
         "url": "https://dohands.atlassian.net/browse/SPRINT-824",
         "summary": "품고셀러 · VISE > 연락처 입력 영역 송장 노출 관련 개인정보 안내 문구 추가",
         "status": "QA 필요",
         "project": "SPRINT",
         "assignee": "김태재"
-      },
-      {
-        "key": "TECH-1748",
-        "url": "https://dohands.atlassian.net/browse/TECH-1748",
-        "summary": "[바백] 송장 조회 마감됨 조회 속도 개선",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "베스현승"
       },
       {
         "key": "TECH-1858",
@@ -173,7 +165,7 @@
         "p0": 0,
         "p1": 1,
         "p2": 0,
-        "p3": 2
+        "p3": 3
       }
     ],
     "calendar_events": [
@@ -775,6 +767,24 @@
       {
         "channel": "기술-qa팀",
         "user": "최라온 (기술/QA팀)",
+        "ts": "1786592103.212139",
+        "text": "@베스현승 (기술/QA팀) PII 개인정보 조회/다운로드 과제 일정 조정 컨플루언스에 반영해두었습니다~!"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786591863.989059",
+        "text": "@베스현승 (기술/QA팀) 직계약 혼합 운용 과제 QA 전략 수립 스레드"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786591141.967789",
+        "text": "@김태재 (기술/QA팀) 오늘 3시 배포 관련 스레드"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
         "ts": "1786580759.077939",
         "text": "@김태재 (기술/QA팀) @박래원 (기술/QA팀) 오늘 QA 세미나 *HG#2 M6-6C (6층 6인실)* 14:00 ~ 15:00 잡아두었습니다~!"
       },
@@ -801,24 +811,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1786521111.630399",
         "text": "@최라온 (기술/QA팀) 상준님 온보딩"
-      },
-      {
-        "channel": "sigvise",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786520827.131019",
-        "text": "@이현수 (기술/개발팀) 어디에 올려야 할지 몰라 우선 sigvise에 올립니다..! 2차 인증 중 400 에러 떴지만 정상 로그인 되는 내용 확인 부탁드립니다!\n타 과제 진행 중 로그인 시 에러가 발생했는데, 정상적으로 로그인 및 시스템 사용이 가능해서 제보드립니다.\n\n현재 동일 계정으로 재현 가능하며, 해당 계정에서만 발생하는 내용인지, 아니면 2차 인"
-      },
-      {
-        "channel": "기술과제-직계약-혼합운용",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786518200.390279",
-        "text": "@이대한 (기술/개발팀) @베스현승 (기술/QA팀) 직계약 혼합운용 과제 &gt; PRE 운영 여부 확인 스레드"
-      },
-      {
-        "channel": "기술과제-판매처-연동-설정이관",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786517853.135769",
-        "text": "@박소영 (기술/개발팀) 프론트 티켓 2개 곧 STG 올라오나용~?!"
       }
     ]
   },
