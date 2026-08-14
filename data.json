@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T05:55:42.141Z",
+  "generated_at": "2026-08-14T07:23:48.626Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,9 +7,9 @@
       "P0": 0,
       "P1": 2,
       "P2": 13,
-      "P3": 46
+      "P3": 45
     },
-    "total_open": 61,
+    "total_open": 60,
     "new_this_week": 11,
     "closed_this_week": 0,
     "funnel": [
@@ -86,22 +86,6 @@
         "assignee": "베스현승"
       },
       {
-        "key": "TECH-1911",
-        "url": "https://dohands.atlassian.net/browse/TECH-1911",
-        "summary": "[디자인-QA] 인증코드 입력 화면 상단 아이콘 확인 필요",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "정수아"
-      },
-      {
-        "key": "TECH-1912",
-        "url": "https://dohands.atlassian.net/browse/TECH-1912",
-        "summary": "[디자인-QA] 비밀번호 입력창 아이콘 노출 규칙",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "정수아"
-      },
-      {
         "key": "TECH-1931",
         "url": "https://dohands.atlassian.net/browse/TECH-1931",
         "summary": "[프론트] 조회 - 고객사 컬럼 노출 2차",
@@ -110,12 +94,12 @@
         "assignee": "최라온"
       },
       {
-        "key": "TECH-1995",
-        "url": "https://dohands.atlassian.net/browse/TECH-1995",
-        "summary": "[디자인-QA] 비밀번호 조건 추가 > 최근 사용한 비밀번호 입력 불가",
+        "key": "TECH-1988",
+        "url": "https://dohands.atlassian.net/browse/TECH-1988",
+        "summary": "[FE] 송장 조회 마감됨 탭 조회 기준 옵션 축소·순서·기본값 변경",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "정수아"
+        "assignee": "김태재"
       },
       {
         "key": "TECH-1996",
@@ -470,6 +454,16 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "N직 - 배송강제종료",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/313131022/N+-",
+        "updated": "2026-08-14"
+      },
+      {
+        "title": "재고 조정 차감 API 테스트 결과 (2026-08-14)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/313163791/API+2026-08-14",
+        "updated": "2026-08-14"
+      },
+      {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-08-14"
@@ -488,16 +482,6 @@
         "title": "[태재] 2026.04.07 QA 테크노트 & 포럼(1)",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/143720449/2026.04.07+QA+1",
         "updated": "2026-08-12"
-      },
-      {
-        "title": "에뮬레이터로 품고탭 앱 띄우기 (설치 가이드)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/309330036",
-        "updated": "2026-08-12"
-      },
-      {
-        "title": "재고 조정 차감 QA 결과 (2026-08-11)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/308314148/QA+2026-08-11",
-        "updated": "2026-08-11"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
