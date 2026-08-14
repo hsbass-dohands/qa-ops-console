@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-14T04:24:13.567Z",
+  "generated_at": "2026-08-14T05:55:42.141Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
       "P1": 2,
-      "P2": 12,
+      "P2": 13,
       "P3": 46
     },
-    "total_open": 60,
-    "new_this_week": 10,
+    "total_open": 61,
+    "new_this_week": 11,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -86,12 +86,36 @@
         "assignee": "베스현승"
       },
       {
+        "key": "TECH-1911",
+        "url": "https://dohands.atlassian.net/browse/TECH-1911",
+        "summary": "[디자인-QA] 인증코드 입력 화면 상단 아이콘 확인 필요",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "정수아"
+      },
+      {
+        "key": "TECH-1912",
+        "url": "https://dohands.atlassian.net/browse/TECH-1912",
+        "summary": "[디자인-QA] 비밀번호 입력창 아이콘 노출 규칙",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "정수아"
+      },
+      {
         "key": "TECH-1931",
         "url": "https://dohands.atlassian.net/browse/TECH-1931",
         "summary": "[프론트] 조회 - 고객사 컬럼 노출 2차",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "최라온"
+      },
+      {
+        "key": "TECH-1995",
+        "url": "https://dohands.atlassian.net/browse/TECH-1995",
+        "summary": "[디자인-QA] 비밀번호 조건 추가 > 최근 사용한 비밀번호 입력 불가",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "정수아"
       },
       {
         "key": "TECH-1996",
@@ -156,7 +180,7 @@
         "week": "W8",
         "p0": 0,
         "p1": 2,
-        "p2": 3,
+        "p2": 4,
         "p3": 5
       }
     ],
@@ -757,6 +781,12 @@
     ],
     "messages": [
       {
+        "channel": "기술조직",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1786683285.627189",
+        "text": "@윤송 (기술/개발팀) `partner_ids`"
+      },
+      {
         "channel": "기술-qa팀",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1786676204.557709",
@@ -797,12 +827,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1786613854.060179",
         "text": "@정승아 (기술/개발팀) *[보안 확인 요청] 액세스 토큰 localStorage 저장 및 2차 인증 우회 가능성*"
-      },
-      {
-        "channel": "기술과제-개발팀-pii",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1786602739.804249",
-        "text": "@정수아 (기술/디자인팀) 계정 잠금 vs 계정 해제 디자인"
       }
     ]
   },
