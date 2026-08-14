@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T09:45:18.541Z",
+  "generated_at": "2026-08-14T10:42:41.199Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -92,14 +92,6 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "최라온"
-      },
-      {
-        "key": "TECH-1961",
-        "url": "https://dohands.atlassian.net/browse/TECH-1961",
-        "summary": "위젯 편집 모드 > 목록에서 추가된 위젯 바로 제거",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "박래원"
       },
       {
         "key": "TECH-1996",
