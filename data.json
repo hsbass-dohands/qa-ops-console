@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T23:58:17.509Z",
+  "generated_at": "2026-08-14T02:29:45.615Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,10 +7,10 @@
       "P0": 0,
       "P1": 2,
       "P2": 12,
-      "P3": 45
+      "P3": 46
     },
-    "total_open": 59,
-    "new_this_week": 9,
+    "total_open": 60,
+    "new_this_week": 10,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -70,17 +70,17 @@
         "assignee": "최라온"
       },
       {
-        "key": "TECH-1858",
-        "url": "https://dohands.atlassian.net/browse/TECH-1858",
-        "summary": "바이스 드롭다운 검색 변경",
-        "status": "QA 필요",
+        "key": "TECH-1955",
+        "url": "https://dohands.atlassian.net/browse/TECH-1955",
+        "summary": "정산서 조회 > '정산 연월' 표기 통일",
+        "status": "QA 중",
         "project": "TECH",
         "assignee": "박래원"
       },
       {
-        "key": "TECH-1955",
-        "url": "https://dohands.atlassian.net/browse/TECH-1955",
-        "summary": "정산서 조회 > '정산 연월' 표기 통일",
+        "key": "TECH-1858",
+        "url": "https://dohands.atlassian.net/browse/TECH-1858",
+        "summary": "바이스 드롭다운 검색 변경",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "박래원"
@@ -141,7 +141,7 @@
         "p0": 0,
         "p1": 2,
         "p2": 3,
-        "p3": 4
+        "p3": 5
       }
     ],
     "calendar_events": [
@@ -432,7 +432,7 @@
       {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
-        "updated": "2026-08-13"
+        "updated": "2026-08-14"
       },
       {
         "title": "상준님 온보딩",
@@ -741,6 +741,36 @@
     ],
     "messages": [
       {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1786670727.932459",
+        "text": "@최라온 (기술/QA팀) @김태재 (기술/QA팀) 감곡 방문"
+      },
+      {
+        "channel": "기술조직",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786670671.799369",
+        "text": "@한병두 (기술/제품팀) @이찬민 (기술/제품팀) 오늘 잡혀있는 [VISE] 주문 오류 알림 기획(확정) 리뷰 (15:00 ~ 16:00) 관련 QA 참석 필요 여부 스레드 cc. @베스현승 (기술/QA팀)"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786670367.512169",
+        "text": "@베스현승 (기술/QA팀) 오늘 잡혀있는 [VISE] 주문 오류 알림 기획(확정) 리뷰 (15:00 ~ 16:00) 에 QA 없는 것 관련 스레드"
+      },
+      {
+        "channel": "sigvise",
+        "user": "박래원 (기술/QA팀)",
+        "ts": "1786670149.682829",
+        "text": "@한병두 (기술/제품팀) 병두님! 노션 권한 승인 요청 보냈는데 승인해 주실 수 있나요?\n<https://app.notion.com/p/dohands/12d8aea076208037974fc6f33a439ae1?v=03d2180aa9f84641bde8764f47ba7a08&amp;source=copy_link|app.notion.com/p/dohands/…?"
+      },
+      {
+        "channel": "기술과제-토스쇼핑",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1786669649.586259",
+        "text": "@이근한 (기술/개발팀) @한상협 (기술/개발팀) 아래 작업 어제 배포 완료된 것 맞을까요~?!\n<https://dohands.atlassian.net/browse/TECH-1940|[연동] fulfillmentAccountKey 전환작업 (access key -> 품고 partner id)&gt;"
+      },
+      {
         "channel": "기술과제-개발팀-pii",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1786613854.060179",
@@ -757,36 +787,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1786602710.472459",
         "text": "@황성민 (기술/개발팀) 도와줘요 카보황:bangbang:\n\nSTG &gt; <https://vise.stg.poomgo.com/billflow/bill/2580|vise.stg.poomgo.com/billflow/bill/2580> 확정 -&gt; 확인중으로 바꿔주실 수 있나요?"
-      },
-      {
-        "channel": "기술조직",
-        "user": "박래원 (기술/QA팀)",
-        "ts": "1786602252.221599",
-        "text": "@한병두 (기술/제품팀) @정수아 (기술/디자인팀) 셀러 &gt; CS조회 &gt; 상세보기 &gt; 회수 SKU &gt; 검품상태가 많을 경우, 좌우 스크롤 노출 문의"
-      },
-      {
-        "channel": "sigvise",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1786601273.667429",
-        "text": "@이덕희 (기술/개발팀) 이모티콘 글자 수"
-      },
-      {
-        "channel": "sigvise",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1786601144.866369",
-        "text": "계정 사용 정지하면 사용자 리스트에서 아예 사라지는건가요?"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786600637.230609",
-        "text": "@김태재 (기술/QA팀) @박래원 (기술/QA팀) 위젯 관련 노션 링크\n<https://app.notion.com/p/dohands/12d8aea076208037974fc6f33a439ae1?v=03d2180aa9f84641bde8764f47ba7a08&amp;source=copy_link|app.notion.com/p/dohands/…?v=…&amp;so"
-      },
-      {
-        "channel": "기술과제-개발팀-pii",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1786599093.867539",
-        "text": "새 비밀번호 설정 - 비밀번호 조건 @한병두 (기술/제품팀)"
       }
     ]
   },
