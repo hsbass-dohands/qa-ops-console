@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T02:29:45.615Z",
+  "generated_at": "2026-08-14T04:24:13.567Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -62,6 +62,14 @@
         "assignee": "김태재"
       },
       {
+        "key": "TECH-1858",
+        "url": "https://dohands.atlassian.net/browse/TECH-1858",
+        "summary": "바이스 드롭다운 검색 변경",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "박래원"
+      },
+      {
         "key": "TECH-1919",
         "url": "https://dohands.atlassian.net/browse/TECH-1919",
         "summary": "[프론트] 조회 - 고객사 컬럼 노출 1차",
@@ -70,20 +78,28 @@
         "assignee": "최라온"
       },
       {
-        "key": "TECH-1955",
-        "url": "https://dohands.atlassian.net/browse/TECH-1955",
-        "summary": "정산서 조회 > '정산 연월' 표기 통일",
+        "key": "TECH-1991",
+        "url": "https://dohands.atlassian.net/browse/TECH-1991",
+        "summary": "[백엔드] authentication user.partner_id -> partner_ids로 로직 변경",
         "status": "QA 중",
         "project": "TECH",
-        "assignee": "박래원"
+        "assignee": "베스현승"
       },
       {
-        "key": "TECH-1858",
-        "url": "https://dohands.atlassian.net/browse/TECH-1858",
-        "summary": "바이스 드롭다운 검색 변경",
+        "key": "TECH-1931",
+        "url": "https://dohands.atlassian.net/browse/TECH-1931",
+        "summary": "[프론트] 조회 - 고객사 컬럼 노출 2차",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "박래원"
+        "assignee": "최라온"
+      },
+      {
+        "key": "TECH-1996",
+        "url": "https://dohands.atlassian.net/browse/TECH-1996",
+        "summary": "2차 인증 재발송 대기 시간 노출 오류 수정 (60초 초과 노출 건)",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "베스현승"
       }
     ],
     "weekly_severity": [
@@ -743,6 +759,12 @@
       {
         "channel": "기술-qa팀",
         "user": "베스현승 (기술/QA팀)",
+        "ts": "1786676204.557709",
+        "text": "@박래원 (기술/QA팀) 2차인증 테스트"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
         "ts": "1786670727.932459",
         "text": "@최라온 (기술/QA팀) @김태재 (기술/QA팀) 감곡 방문"
       },
@@ -781,12 +803,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1786602739.804249",
         "text": "@정수아 (기술/디자인팀) 계정 잠금 vs 계정 해제 디자인"
-      },
-      {
-        "channel": "sigvise",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786602710.472459",
-        "text": "@황성민 (기술/개발팀) 도와줘요 카보황:bangbang:\n\nSTG &gt; <https://vise.stg.poomgo.com/billflow/bill/2580|vise.stg.poomgo.com/billflow/bill/2580> 확정 -&gt; 확인중으로 바꿔주실 수 있나요?"
       }
     ]
   },
