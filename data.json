@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T08:44:58.689Z",
+  "generated_at": "2026-08-14T09:45:18.541Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -28,14 +28,6 @@
         "status": "QA 중",
         "project": "ROBOT",
         "assignee": "우창수"
-      },
-      {
-        "key": "TECH-1577",
-        "url": "https://dohands.atlassian.net/browse/TECH-1577",
-        "summary": "[QA] 재고 등록/차감 조회",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "김태재"
       },
       {
         "key": "TECH-1699",
@@ -86,12 +78,28 @@
         "assignee": "베스현승"
       },
       {
+        "key": "TECH-1674",
+        "url": "https://dohands.atlassian.net/browse/TECH-1674",
+        "summary": "헤더 구성과 내 정보 정리",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "이덕희"
+      },
+      {
         "key": "TECH-1931",
         "url": "https://dohands.atlassian.net/browse/TECH-1931",
         "summary": "[프론트] 조회 - 고객사 컬럼 노출 2차",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "최라온"
+      },
+      {
+        "key": "TECH-1961",
+        "url": "https://dohands.atlassian.net/browse/TECH-1961",
+        "summary": "위젯 편집 모드 > 목록에서 추가된 위젯 바로 제거",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "박래원"
       },
       {
         "key": "TECH-1996",
