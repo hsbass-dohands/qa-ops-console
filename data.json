@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T08:00:43.002Z",
+  "generated_at": "2026-08-17T09:00:14.478Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -107,8 +107,8 @@
         "week": "W1",
         "p0": 0,
         "p1": 0,
-        "p2": 5,
-        "p3": 7
+        "p2": 4,
+        "p3": 5
       },
       {
         "week": "W2",
