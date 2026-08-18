@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T05:56:11.633Z",
+  "generated_at": "2026-08-18T06:43:16.299Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -108,6 +108,14 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "박래원"
+      },
+      {
+        "key": "TECH-1971",
+        "url": "https://dohands.atlassian.net/browse/TECH-1971",
+        "summary": "[프론트] 박스 인쇄 관리 > 고객사 관리자/고객사 사용자 권한일 경우 해당 고객사의 박스 인쇄 관리 목록만 조회할 수 있도록 작업",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "최라온"
       },
       {
         "key": "TECH-1996",
