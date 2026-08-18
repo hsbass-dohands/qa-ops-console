@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T05:27:34.691Z",
+  "generated_at": "2026-08-18T05:56:11.633Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -28,6 +28,14 @@
         "status": "QA 중",
         "project": "ROBOT",
         "assignee": "우창수"
+      },
+      {
+        "key": "TECH-1670",
+        "url": "https://dohands.atlassian.net/browse/TECH-1670",
+        "summary": "위젯 추가 작업, B2C 배송 현황",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "도혜원"
       },
       {
         "key": "TECH-1699",
@@ -78,6 +86,14 @@
         "assignee": "이덕희"
       },
       {
+        "key": "TECH-1819",
+        "url": "https://dohands.atlassian.net/browse/TECH-1819",
+        "summary": "[VISE] 위젯 추가 작업, B2C 배송 현황",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "박래원"
+      },
+      {
         "key": "TECH-1931",
         "url": "https://dohands.atlassian.net/browse/TECH-1931",
         "summary": "[프론트] 조회 - 고객사 컬럼 노출 2차",
@@ -108,6 +124,14 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "베스현승"
+      },
+      {
+        "key": "TECH-2026",
+        "url": "https://dohands.atlassian.net/browse/TECH-2026",
+        "summary": "[디자인-QA] 위젯 - B2C 배송 현황",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "정수아"
       }
     ],
     "weekly_severity": [
@@ -765,6 +789,18 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-n직-사은품-교환-수기",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1787031779.719149",
+        "text": "@이찬민 (기술/제품팀) @정승아 (기술/개발팀) 직계약 고객사 캠페인 화면 노출 여부 확인 스레드"
+      },
+      {
+        "channel": "기술과제-토스쇼핑",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1787031026.459869",
+        "text": "@이근한 (기술/개발팀) @한상협 (기술/개발팀) 금일 기준으로 토스 쇼핑 도착보장 연동을 통한 주문 수집건 있는지 확인 부탁드려도 될까요~?!"
+      },
+      {
         "channel": "기술과제-직계약-혼합운용",
         "user": "최라온 (기술/QA팀)",
         "ts": "1787029283.861609",
@@ -799,18 +835,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1786683285.627189",
         "text": "@윤송 (기술/개발팀) `partner_ids`"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1786676204.557709",
-        "text": "@박래원 (기술/QA팀) 2차인증 테스트"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1786670727.932459",
-        "text": "@최라온 (기술/QA팀) @김태재 (기술/QA팀) 감곡 방문"
       }
     ]
   },
