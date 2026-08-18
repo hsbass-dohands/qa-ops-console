@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T09:31:44.536Z",
+  "generated_at": "2026-08-18T10:03:56.612Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -132,6 +132,14 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "베스현승"
+      },
+      {
+        "key": "TECH-1997",
+        "url": "https://dohands.atlassian.net/browse/TECH-1997",
+        "summary": "[VISE][프론트] 퀵메뉴 Height 수정",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "정수아"
       },
       {
         "key": "TECH-2007",
