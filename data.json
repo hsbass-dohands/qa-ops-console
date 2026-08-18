@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T01:08:28.861Z",
+  "generated_at": "2026-08-18T02:22:21.243Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -86,6 +86,14 @@
         "assignee": "이덕희"
       },
       {
+        "key": "TECH-1887",
+        "url": "https://dohands.atlassian.net/browse/TECH-1887",
+        "summary": "[연동] 배송강제종료 개발",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "최라온"
+      },
+      {
         "key": "TECH-1931",
         "url": "https://dohands.atlassian.net/browse/TECH-1931",
         "summary": "[프론트] 조회 - 고객사 컬럼 노출 2차",
@@ -108,7 +116,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 4,
-        "p3": 5
+        "p3": 4
       },
       {
         "week": "W2",
@@ -446,6 +454,11 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "2026.08.18 직계약 혼합운용 회의(Q&A 정리)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/315817998/2026.08.18+Q+A",
+        "updated": "2026-08-18"
+      },
+      {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-08-18"
@@ -469,11 +482,6 @@
         "title": "재고 조정 차감 API 테스트 결과 (2026-08-14)",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/313163791/API+2026-08-14",
         "updated": "2026-08-14"
-      },
-      {
-        "title": "상준님 온보딩",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/310608024",
-        "updated": "2026-08-13"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
@@ -757,6 +765,12 @@
     ],
     "messages": [
       {
+        "channel": "sigvise",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1787019547.293579",
+        "text": "@황성민 (기술/개발팀) STG &gt; <mailto:laon.choi+001@dohands.com|laon.choi+001@dohands.com>에 고객사 하나 추가 부탁드려도 될까요?\n\n• 현재 갖고 있는 고객사 : [라온 단독 사용 고객사] 스완\n• 추가 필요한 고객사 : 스완이는백조\n화면에서 가능한 곳이 없어서 부득이하게.. 고객사 계정으로 여러 "
+      },
+      {
         "channel": "기술조직",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1786968413.150339",
@@ -797,12 +811,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1786670367.512169",
         "text": "@베스현승 (기술/QA팀) 오늘 잡혀있는 [VISE] 주문 오류 알림 기획(확정) 리뷰 (15:00 ~ 16:00) 에 QA 없는 것 관련 스레드"
-      },
-      {
-        "channel": "sigvise",
-        "user": "박래원 (기술/QA팀)",
-        "ts": "1786670149.682829",
-        "text": "@한병두 (기술/제품팀) 병두님! 노션 권한 승인 요청 보냈는데 승인해 주실 수 있나요?\n<https://app.notion.com/p/dohands/12d8aea076208037974fc6f33a439ae1?v=03d2180aa9f84641bde8764f47ba7a08&amp;source=copy_link|app.notion.com/p/dohands/…?"
       }
     ]
   },
