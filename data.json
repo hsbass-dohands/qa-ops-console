@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T02:22:21.243Z",
+  "generated_at": "2026-08-18T03:22:53.916Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,10 +7,10 @@
       "P0": 0,
       "P1": 2,
       "P2": 13,
-      "P3": 45
+      "P3": 46
     },
-    "total_open": 60,
-    "new_this_week": 10,
+    "total_open": 61,
+    "new_this_week": 11,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -54,17 +54,9 @@
         "assignee": "김태재"
       },
       {
-        "key": "TECH-1858",
-        "url": "https://dohands.atlassian.net/browse/TECH-1858",
-        "summary": "바이스 드롭다운 검색 변경",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "박래원"
-      },
-      {
-        "key": "TECH-1919",
-        "url": "https://dohands.atlassian.net/browse/TECH-1919",
-        "summary": "[프론트] 조회 - 고객사 컬럼 노출 1차",
+        "key": "TECH-1887",
+        "url": "https://dohands.atlassian.net/browse/TECH-1887",
+        "summary": "[연동] 배송강제종료 개발",
         "status": "QA 중",
         "project": "TECH",
         "assignee": "최라온"
@@ -86,14 +78,6 @@
         "assignee": "이덕희"
       },
       {
-        "key": "TECH-1887",
-        "url": "https://dohands.atlassian.net/browse/TECH-1887",
-        "summary": "[연동] 배송강제종료 개발",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "최라온"
-      },
-      {
         "key": "TECH-1931",
         "url": "https://dohands.atlassian.net/browse/TECH-1931",
         "summary": "[프론트] 조회 - 고객사 컬럼 노출 2차",
@@ -102,9 +86,25 @@
         "assignee": "최라온"
       },
       {
+        "key": "TECH-1949",
+        "url": "https://dohands.atlassian.net/browse/TECH-1949",
+        "summary": "[VISE] 위젯 화면 편집 모드 > 위젯 추가 창 > 위젯 이미지 상이하게 노출됨",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "박래원"
+      },
+      {
         "key": "TECH-1996",
         "url": "https://dohands.atlassian.net/browse/TECH-1996",
         "summary": "2차 인증 재발송 대기 시간 노출 오류 수정 (60초 초과 노출 건)",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "베스현승"
+      },
+      {
+        "key": "TECH-2007",
+        "url": "https://dohands.atlassian.net/browse/TECH-2007",
+        "summary": "[개발] 고객사 상세 > 슬랙 채널명 기재란을 슬랙 ID를 받도록 수정",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "베스현승"
@@ -114,58 +114,58 @@
       {
         "week": "W1",
         "p0": 0,
-        "p1": 0,
-        "p2": 4,
-        "p3": 4
-      },
-      {
-        "week": "W2",
-        "p0": 0,
         "p1": 2,
         "p2": 2,
         "p3": 4
       },
       {
-        "week": "W3",
+        "week": "W2",
         "p0": 0,
         "p1": 0,
         "p2": 3,
         "p3": 5
       },
       {
-        "week": "W4",
+        "week": "W3",
         "p0": 0,
         "p1": 0,
         "p2": 0,
         "p3": 6
       },
       {
-        "week": "W5",
+        "week": "W4",
         "p0": 1,
         "p1": 1,
         "p2": 1,
         "p3": 6
       },
       {
-        "week": "W6",
+        "week": "W5",
         "p0": 0,
         "p1": 1,
         "p2": 4,
         "p3": 7
       },
       {
-        "week": "W7",
+        "week": "W6",
         "p0": 0,
         "p1": 0,
         "p2": 1,
         "p3": 10
       },
       {
-        "week": "W8",
+        "week": "W7",
         "p0": 0,
         "p1": 2,
         "p2": 4,
         "p3": 5
+      },
+      {
+        "week": "W8",
+        "p0": 0,
+        "p1": 0,
+        "p2": 0,
+        "p3": 1
       }
     ],
     "calendar_events": [
