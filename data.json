@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T08:03:33.052Z",
+  "generated_at": "2026-08-18T08:53:43.752Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -486,13 +486,13 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "2026.08.18 직계약 혼합운용 회의(Q&A 정리)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/315817998/2026.08.18+Q+A",
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-08-18"
       },
       {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "title": "2026.08.18 직계약 혼합운용 회의(Q&A 정리)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/315817998/2026.08.18+Q+A",
         "updated": "2026-08-18"
       },
       {
