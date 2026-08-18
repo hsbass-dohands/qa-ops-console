@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T07:25:14.103Z",
+  "generated_at": "2026-08-18T08:03:33.052Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -10,7 +10,7 @@
       "P3": 46
     },
     "total_open": 61,
-    "new_this_week": 11,
+    "new_this_week": 10,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -83,7 +83,7 @@
         "summary": "헤더 구성과 내 정보 정리",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "이덕희"
+        "assignee": "박래원"
       },
       {
         "key": "TECH-1819",
