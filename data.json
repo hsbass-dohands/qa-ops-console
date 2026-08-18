@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T08:53:43.752Z",
+  "generated_at": "2026-08-18T09:31:44.536Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -78,6 +78,14 @@
         "assignee": "베스현승"
       },
       {
+        "key": "TECH-2026",
+        "url": "https://dohands.atlassian.net/browse/TECH-2026",
+        "summary": "[디자인-QA] 위젯 - B2C 배송 현황",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "도혜원"
+      },
+      {
         "key": "TECH-1674",
         "url": "https://dohands.atlassian.net/browse/TECH-1674",
         "summary": "헤더 구성과 내 정보 정리",
@@ -132,14 +140,6 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "베스현승"
-      },
-      {
-        "key": "TECH-2026",
-        "url": "https://dohands.atlassian.net/browse/TECH-2026",
-        "summary": "[디자인-QA] 위젯 - B2C 배송 현황",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "정수아"
       }
     ],
     "weekly_severity": [
