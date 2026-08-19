@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T06:54:04.033Z",
+  "generated_at": "2026-08-19T07:37:11.557Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -28,14 +28,6 @@
         "status": "QA 중",
         "project": "ROBOT",
         "assignee": "우창수"
-      },
-      {
-        "key": "TECH-1674",
-        "url": "https://dohands.atlassian.net/browse/TECH-1674",
-        "summary": "헤더 구성과 내 정보 정리",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "박래원"
       },
       {
         "key": "TECH-1699",
@@ -68,14 +60,6 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "최라온"
-      },
-      {
-        "key": "TECH-1949",
-        "url": "https://dohands.atlassian.net/browse/TECH-1949",
-        "summary": "[VISE] 위젯 화면 편집 모드 > 위젯 추가 창 > 위젯 이미지 상이하게 노출됨",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "박래원"
       },
       {
         "key": "TECH-1675",
