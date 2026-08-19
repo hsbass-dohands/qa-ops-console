@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T23:46:39.545Z",
+  "generated_at": "2026-08-19T01:09:31.485Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -70,6 +70,22 @@
         "assignee": "최라온"
       },
       {
+        "key": "TECH-1931",
+        "url": "https://dohands.atlassian.net/browse/TECH-1931",
+        "summary": "[프론트] 조회 - 고객사 컬럼 노출 2차",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "최라온"
+      },
+      {
+        "key": "TECH-1971",
+        "url": "https://dohands.atlassian.net/browse/TECH-1971",
+        "summary": "[프론트] 박스 인쇄 관리 > 고객사 관리자/고객사 사용자 권한일 경우 해당 고객사의 박스 인쇄 관리 목록만 조회할 수 있도록 작업",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "최라온"
+      },
+      {
         "key": "TECH-1991",
         "url": "https://dohands.atlassian.net/browse/TECH-1991",
         "summary": "[백엔드] authentication user.partner_id -> partner_ids로 로직 변경",
@@ -102,28 +118,12 @@
         "assignee": "박래원"
       },
       {
-        "key": "TECH-1931",
-        "url": "https://dohands.atlassian.net/browse/TECH-1931",
-        "summary": "[프론트] 조회 - 고객사 컬럼 노출 2차",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "최라온"
-      },
-      {
         "key": "TECH-1949",
         "url": "https://dohands.atlassian.net/browse/TECH-1949",
         "summary": "[VISE] 위젯 화면 편집 모드 > 위젯 추가 창 > 위젯 이미지 상이하게 노출됨",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "박래원"
-      },
-      {
-        "key": "TECH-1971",
-        "url": "https://dohands.atlassian.net/browse/TECH-1971",
-        "summary": "[프론트] 박스 인쇄 관리 > 고객사 관리자/고객사 사용자 권한일 경우 해당 고객사의 박스 인쇄 관리 목록만 조회할 수 있도록 작업",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "최라온"
       },
       {
         "key": "TECH-1996",
@@ -496,7 +496,7 @@
       {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
-        "updated": "2026-08-18"
+        "updated": "2026-08-19"
       },
       {
         "title": "2026.08.18 직계약 혼합운용 회의(Q&A 정리)",
