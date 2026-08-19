@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T09:03:47.281Z",
+  "generated_at": "2026-08-19T09:49:01.772Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -36,14 +36,6 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "베스현승"
-      },
-      {
-        "key": "TECH-1709",
-        "url": "https://dohands.atlassian.net/browse/TECH-1709",
-        "summary": "[QA] 바이스 역할/권한에 따른 조회 점검 및 수정 2차",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "김태재"
       },
       {
         "key": "TECH-1820",
