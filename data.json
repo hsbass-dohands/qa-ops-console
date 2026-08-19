@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T09:49:01.772Z",
+  "generated_at": "2026-08-19T10:26:54.429Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -68,6 +68,14 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "최라온"
+      },
+      {
+        "key": "TECH-1960",
+        "url": "https://dohands.atlassian.net/browse/TECH-1960",
+        "summary": "미사용 Redis Key(WMS:LOCATION:*) 확인 및 정리",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "손조성"
       },
       {
         "key": "TECH-2052",
