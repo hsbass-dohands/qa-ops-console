@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T05:58:09.969Z",
+  "generated_at": "2026-08-19T06:54:04.033Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,10 +7,10 @@
       "P0": 0,
       "P1": 2,
       "P2": 13,
-      "P3": 46
+      "P3": 47
     },
-    "total_open": 61,
-    "new_this_week": 10,
+    "total_open": 62,
+    "new_this_week": 11,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -28,6 +28,14 @@
         "status": "QA 중",
         "project": "ROBOT",
         "assignee": "우창수"
+      },
+      {
+        "key": "TECH-1674",
+        "url": "https://dohands.atlassian.net/browse/TECH-1674",
+        "summary": "헤더 구성과 내 정보 정리",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "박래원"
       },
       {
         "key": "TECH-1699",
@@ -70,14 +78,6 @@
         "assignee": "박래원"
       },
       {
-        "key": "TECH-1991",
-        "url": "https://dohands.atlassian.net/browse/TECH-1991",
-        "summary": "[백엔드] authentication user.partner_id -> partner_ids로 로직 변경",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "베스현승"
-      },
-      {
         "key": "TECH-1675",
         "url": "https://dohands.atlassian.net/browse/TECH-1675",
         "summary": "고객사 정보 수정 가능한 역할 조정",
@@ -102,12 +102,12 @@
         "assignee": "최라온"
       },
       {
-        "key": "TECH-1996",
-        "url": "https://dohands.atlassian.net/browse/TECH-1996",
-        "summary": "2차 인증 재발송 대기 시간 노출 오류 수정 (60초 초과 노출 건)",
+        "key": "TECH-2054",
+        "url": "https://dohands.atlassian.net/browse/TECH-2054",
+        "summary": "[프론트] 배송중 분실처리/배송중 파손처리 -> 배송 중 OO처리 띄어쓰기 통일",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "베스현승"
+        "assignee": "최라온"
       }
     ],
     "weekly_severity": [
@@ -165,7 +165,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 0,
-        "p3": 1
+        "p3": 2
       }
     ],
     "calendar_events": [
@@ -765,6 +765,12 @@
     ],
     "messages": [
       {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1787121296.757959",
+        "text": "*<https://dohands.atlassian.net/wiki/x/DgDTEg|2026.08.18 직계약 혼합운용 회의(Q&amp;A 정리)>* 관련해서 병두님께서 아직 회신 남겨주고 계시지만,\n추후 테스트 하실 때 참고 필요한 중요 케이스들이 있어보여서 참고차 공유 드립니다~!!"
+      },
+      {
         "channel": "기술과제-n직-사은품-교환-수기",
         "user": "최라온 (기술/QA팀)",
         "ts": "1787118738.073419",
@@ -805,12 +811,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1787031779.719149",
         "text": "@이찬민 (기술/제품팀) @정승아 (기술/개발팀) 직계약 고객사 캠페인 화면 노출 여부 확인 스레드"
-      },
-      {
-        "channel": "기술과제-토스쇼핑",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1787031026.459869",
-        "text": "@이근한 (기술/개발팀) @한상협 (기술/개발팀) 금일 기준으로 토스 쇼핑 도착보장 연동을 통한 주문 수집건 있는지 확인 부탁드려도 될까요~?!"
       }
     ]
   },
