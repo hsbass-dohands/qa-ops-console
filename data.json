@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T01:09:31.485Z",
+  "generated_at": "2026-08-19T02:32:23.469Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -36,6 +36,14 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "도혜원"
+      },
+      {
+        "key": "TECH-1674",
+        "url": "https://dohands.atlassian.net/browse/TECH-1674",
+        "summary": "헤더 구성과 내 정보 정리",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "박래원"
       },
       {
         "key": "TECH-1699",
@@ -78,6 +86,14 @@
         "assignee": "최라온"
       },
       {
+        "key": "TECH-1949",
+        "url": "https://dohands.atlassian.net/browse/TECH-1949",
+        "summary": "[VISE] 위젯 화면 편집 모드 > 위젯 추가 창 > 위젯 이미지 상이하게 노출됨",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "박래원"
+      },
+      {
         "key": "TECH-1971",
         "url": "https://dohands.atlassian.net/browse/TECH-1971",
         "summary": "[프론트] 박스 인쇄 관리 > 고객사 관리자/고객사 사용자 권한일 경우 해당 고객사의 박스 인쇄 관리 목록만 조회할 수 있도록 작업",
@@ -94,57 +110,9 @@
         "assignee": "베스현승"
       },
       {
-        "key": "TECH-2026",
-        "url": "https://dohands.atlassian.net/browse/TECH-2026",
-        "summary": "[디자인-QA] 위젯 - B2C 배송 현황",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "도혜원"
-      },
-      {
-        "key": "TECH-1674",
-        "url": "https://dohands.atlassian.net/browse/TECH-1674",
-        "summary": "헤더 구성과 내 정보 정리",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "박래원"
-      },
-      {
-        "key": "TECH-1819",
-        "url": "https://dohands.atlassian.net/browse/TECH-1819",
-        "summary": "[VISE] 위젯 추가 작업, B2C 배송 현황",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "박래원"
-      },
-      {
-        "key": "TECH-1949",
-        "url": "https://dohands.atlassian.net/browse/TECH-1949",
-        "summary": "[VISE] 위젯 화면 편집 모드 > 위젯 추가 창 > 위젯 이미지 상이하게 노출됨",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "박래원"
-      },
-      {
         "key": "TECH-1996",
         "url": "https://dohands.atlassian.net/browse/TECH-1996",
         "summary": "2차 인증 재발송 대기 시간 노출 오류 수정 (60초 초과 노출 건)",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "베스현승"
-      },
-      {
-        "key": "TECH-1997",
-        "url": "https://dohands.atlassian.net/browse/TECH-1997",
-        "summary": "[VISE][프론트] 퀵메뉴 Height 수정",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "정수아"
-      },
-      {
-        "key": "TECH-2007",
-        "url": "https://dohands.atlassian.net/browse/TECH-2007",
-        "summary": "[개발] 고객사 상세 > 슬랙 채널명 기재란을 슬랙 ID를 받도록 수정",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "베스현승"
@@ -805,6 +773,24 @@
     ],
     "messages": [
       {
+        "channel": "기술조직",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1787105652.051649",
+        "text": "@김동완 (기술/로보틱스팀) 바이스 크롬 익스텐션"
+      },
+      {
+        "channel": "기술과제-직계약-혼합운용",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1787104198.729759",
+        "text": "@이대한 (기술/개발팀) @이찬민 (기술/제품팀) 연동 재고 관리 &gt; 큐텐 가용재고 설정 관련 리스크 주체 스레드"
+      },
+      {
+        "channel": "기술과제-개발팀-pii",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1787103552.230439",
+        "text": "@정승아 (기술/개발팀) 2차인증 제보.. cc. @베스현승 (기술/QA팀)\n\n요약 : 등록 또는 수정 화면 진입 후 2시간 뒤 로그아웃 될 때 사이트에서 나가시겠습니까? &gt; 취소 &gt; 취소 &gt; 프론트상 에러 발생\nTMI : 어제 발견하고 한번 더 재현하는데까지 다시 2시간 소요.. + 재현하고나니 18시 50분 다 되어가서 지금 드립니다.."
+      },
+      {
         "channel": "기술과제-n직-사은품-교환-수기",
         "user": "최라온 (기술/QA팀)",
         "ts": "1787031779.719149",
@@ -833,24 +819,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1787019547.293579",
         "text": "@황성민 (기술/개발팀) STG &gt; <mailto:laon.choi+001@dohands.com|laon.choi+001@dohands.com>에 고객사 하나 추가 부탁드려도 될까요?\n\n• 현재 갖고 있는 고객사 : [라온 단독 사용 고객사] 스완\n• 추가 필요한 고객사 : 스완이는백조\n화면에서 가능한 곳이 없어서 부득이하게.. 고객사 계정으로 여러 "
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1786968413.150339",
-        "text": "8월 18일 화요일 감곡센터로 저 포함 @정수아 (기술/디자인팀) @반수정 (기술/디자인팀) @김태재 (기술/QA팀) 출퇴근합니다. 업무에 참고 부탁드리겠습니다."
-      },
-      {
-        "channel": "기술과제-토스쇼핑",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1786695777.191089",
-        "text": "@이근한 (기술/개발팀) @한상협 (기술/개발팀) 찬민님 안 계셔서 급히 멘션 한번 드려봅니다...! 저희 지금 아직 공식 오픈 아니죠..?!"
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1786683285.627189",
-        "text": "@윤송 (기술/개발팀) `partner_ids`"
       }
     ]
   },
