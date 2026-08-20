@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T06:58:35.128Z",
+  "generated_at": "2026-08-20T07:48:44.339Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -10,7 +10,7 @@
       "P3": 48
     },
     "total_open": 62,
-    "new_this_week": 7,
+    "new_this_week": 5,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -62,12 +62,28 @@
         "assignee": "베스현승"
       },
       {
+        "key": "TECH-1865",
+        "url": "https://dohands.atlassian.net/browse/TECH-1865",
+        "summary": "바이스 수기 주문 취소 이력 노출",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "김태재"
+      },
+      {
+        "key": "TECH-1998",
+        "url": "https://dohands.atlassian.net/browse/TECH-1998",
+        "summary": "브랜드 페이지 고객사 컬럼 추가",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "박래원"
+      },
+      {
         "key": "TECH-2014",
         "url": "https://dohands.atlassian.net/browse/TECH-2014",
         "summary": "[프론트] 등록/상세 3차 → 고객사 필드 노출(카페24,고도몰,아임웹)",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "베스현승"
+        "assignee": "박래원"
       }
     ],
     "weekly_severity": [
