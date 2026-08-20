@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T02:30:41.540Z",
+  "generated_at": "2026-08-20T03:29:50.391Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -28,6 +28,14 @@
         "status": "QA 중",
         "project": "ROBOT",
         "assignee": "우창수"
+      },
+      {
+        "key": "TECH-1670",
+        "url": "https://dohands.atlassian.net/browse/TECH-1670",
+        "summary": "위젯 추가 작업, B2C 배송 현황",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "도혜원"
       },
       {
         "key": "TECH-1699",
@@ -78,20 +86,12 @@
         "assignee": "베스현승"
       },
       {
-        "key": "TECH-1960",
-        "url": "https://dohands.atlassian.net/browse/TECH-1960",
-        "summary": "미사용 Redis Key(WMS:LOCATION:*) 확인 및 정리",
+        "key": "TECH-2036",
+        "url": "https://dohands.atlassian.net/browse/TECH-2036",
+        "summary": "[VISE] B2C 배송 현황 위젯 > 마지막 조회 시각 표시 미노출됨",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "손조성"
-      },
-      {
-        "key": "TECH-2052",
-        "url": "https://dohands.atlassian.net/browse/TECH-2052",
-        "summary": "[VISE][프론트] 자동 로그아웃 시 이탈 확인창 때문에 로그아웃이 중단되는 문제 수정",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "이덕희"
+        "assignee": "박래원"
       }
     ],
     "weekly_severity": [
@@ -438,6 +438,11 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-08-20"
+      },
+      {
         "title": "PDA 기본기능",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/268238910/PDA",
         "updated": "2026-08-20"
@@ -460,11 +465,6 @@
       {
         "title": "b2b 출고앱 기본기능",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259653690/b2b",
-        "updated": "2026-08-20"
-      },
-      {
-        "title": "격리재고",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/260669483",
         "updated": "2026-08-20"
       }
     ],
