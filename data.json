@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T23:46:48.179Z",
+  "generated_at": "2026-08-20T01:08:30.524Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -46,6 +46,22 @@
         "assignee": "김태재"
       },
       {
+        "key": "TECH-1929",
+        "url": "https://dohands.atlassian.net/browse/TECH-1929",
+        "summary": "[프론트] 등록/상세 1차 → 고객사 필드 노출",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "최라온"
+      },
+      {
+        "key": "TECH-1990",
+        "url": "https://dohands.atlassian.net/browse/TECH-1990",
+        "summary": "배송완료처리 쿼리 개선",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "최라온"
+      },
+      {
         "key": "TECH-1675",
         "url": "https://dohands.atlassian.net/browse/TECH-1675",
         "summary": "고객사 정보 수정 가능한 역할 조정",
@@ -60,14 +76,6 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "베스현승"
-      },
-      {
-        "key": "TECH-1929",
-        "url": "https://dohands.atlassian.net/browse/TECH-1929",
-        "summary": "[프론트] 등록/상세 1차 → 고객사 필드 노출",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "최라온"
       },
       {
         "key": "TECH-1960",
@@ -430,34 +438,34 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "2026.08.18 직계약 혼합운용 회의(Q&A 정리)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/315817998/2026.08.18+Q+A",
-        "updated": "2026-08-19"
+        "title": "PDA 기본기능",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/268238910/PDA",
+        "updated": "2026-08-20"
       },
       {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
-        "updated": "2026-08-19"
+        "title": "고객사/브랜드 조회 권한",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/267911195",
+        "updated": "2026-08-20"
       },
       {
-        "title": "[QA] 9/16 3개 과제 리스크 분산안",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/312246480/QA+9+16+3",
-        "updated": "2026-08-14"
+        "title": "주문제어흐름",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/204636182",
+        "updated": "2026-08-20"
       },
       {
-        "title": "[QA] 9/16 3개 과제 동시 진행 리스크 리스트",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/312967189/QA+9+16+3",
-        "updated": "2026-08-14"
+        "title": "[QA] 로케이션 등록 – 유형별 격리구분 활성화 검증",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264994834/QA",
+        "updated": "2026-08-20"
       },
       {
-        "title": "N직 - 배송강제종료",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/313131022/N+-",
-        "updated": "2026-08-14"
+        "title": "b2b 출고앱 기본기능",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259653690/b2b",
+        "updated": "2026-08-20"
       },
       {
-        "title": "재고 조정 차감 API 테스트 결과 (2026-08-14)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/313163791/API+2026-08-14",
-        "updated": "2026-08-14"
+        "title": "격리재고",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/260669483",
+        "updated": "2026-08-20"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
@@ -741,6 +749,12 @@
     ],
     "messages": [
       {
+        "channel": "sigint",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1787186067.988329",
+        "text": "@김준기 (기술/개발팀) <https://dohands.atlassian.net/browse/TECH-1990|배송완료처리 쿼리 개선> 테스트 스레드"
+      },
+      {
         "channel": "기술과제-n직-사은품-교환-수기",
         "user": "최라온 (기술/QA팀)",
         "ts": "1787130165.178629",
@@ -781,12 +795,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1787117307.269519",
         "text": "@김준기 (기술/개발팀) <https://dohands.atlassian.net/browse/TECH-1887|[연동] 배송강제종료 개발> 테스트 스레드"
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1787105652.051649",
-        "text": "@김동완 (기술/로보틱스팀) 바이스 크롬 익스텐션"
       }
     ]
   },
