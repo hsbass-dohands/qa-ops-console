@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T03:29:50.391Z",
+  "generated_at": "2026-08-20T04:10:53.355Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -10,7 +10,7 @@
       "P3": 47
     },
     "total_open": 61,
-    "new_this_week": 10,
+    "new_this_week": 9,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -28,14 +28,6 @@
         "status": "QA 중",
         "project": "ROBOT",
         "assignee": "우창수"
-      },
-      {
-        "key": "TECH-1670",
-        "url": "https://dohands.atlassian.net/browse/TECH-1670",
-        "summary": "위젯 추가 작업, B2C 배송 현황",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "도혜원"
       },
       {
         "key": "TECH-1699",
@@ -84,14 +76,6 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "베스현승"
-      },
-      {
-        "key": "TECH-2036",
-        "url": "https://dohands.atlassian.net/browse/TECH-2036",
-        "summary": "[VISE] B2C 배송 현황 위젯 > 마지막 조회 시각 표시 미노출됨",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "박래원"
       }
     ],
     "weekly_severity": [
