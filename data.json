@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T08:36:15.833Z",
+  "generated_at": "2026-08-20T09:17:03.234Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -51,7 +51,7 @@
         "summary": "[과제] 바코",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "베스현승"
+        "assignee": "박래원"
       },
       {
         "key": "TECH-1865",
