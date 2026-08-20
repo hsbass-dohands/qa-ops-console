@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T05:28:55.854Z",
+  "generated_at": "2026-08-20T05:59:07.412Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -57,6 +57,14 @@
         "key": "TECH-1719",
         "url": "https://dohands.atlassian.net/browse/TECH-1719",
         "summary": "[과제] 바코",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "베스현승"
+      },
+      {
+        "key": "TECH-2014",
+        "url": "https://dohands.atlassian.net/browse/TECH-2014",
+        "summary": "[프론트] 등록/상세 3차 → 고객사 필드 노출(카페24,고도몰,아임웹)",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "베스현승"
