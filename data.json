@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T04:53:16.101Z",
+  "generated_at": "2026-08-20T05:28:55.854Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -10,25 +10,9 @@
       "P3": 47
     },
     "total_open": 61,
-    "new_this_week": 9,
+    "new_this_week": 8,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "ROBOT-191",
-        "url": "https://dohands.atlassian.net/browse/ROBOT-191",
-        "summary": "[로보틱스] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스) 에 따른 소터 작업",
-        "status": "QA 중",
-        "project": "ROBOT",
-        "assignee": "우창수"
-      },
-      {
-        "key": "ROBOT-193",
-        "url": "https://dohands.atlassian.net/browse/ROBOT-193",
-        "summary": "[로보틱스] 네이버 당일배송 수행업체 변경 (V2V -> 딜리버스) 에 따른 송장재출력 앱 작업",
-        "status": "QA 중",
-        "project": "ROBOT",
-        "assignee": "우창수"
-      },
       {
         "key": "TECH-1699",
         "url": "https://dohands.atlassian.net/browse/TECH-1699",
@@ -733,6 +717,18 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-개발팀-pii",
+        "user": "박래원 (기술/QA팀)",
+        "ts": "1787202775.045669",
+        "text": "@한병두 (기술/제품팀)\n'보안을 위해' 문구가 기획서랑 현재 반영된 거랑 순서가 다르게 노출되는데 이슈로 볼지 기획서 수정이 필요할지 확인 부탁드립니다!\n\n&gt; 기획서\n&gt; 보안을 위해 2시간 동안 사용하지 않아 자동 로그아웃되었어요. 다시 로그인해 주세요.\n&gt; \n&gt; 현재\n&gt; 2시간 동안 사용하지 않아\n&gt; 보안을 위해 자동 로"
+      },
+      {
+        "channel": "기술과제-토스쇼핑",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1787202495.305509",
+        "text": "@이찬민 (기술/제품팀) 도착보장 서비스 미제공 센터의 고객사 연동 방지 소통 스레드 cc. @이근한 (기술/개발팀) @한상협 (기술/개발팀)"
+      },
+      {
         "channel": "sigint",
         "user": "최라온 (기술/QA팀)",
         "ts": "1787186067.988329",
@@ -767,18 +763,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1787118738.073419",
         "text": "@이찬민 (기술/제품팀) @정승아 (기술/개발팀) 띄어쓰기괴물 등장:amongustwerkhalloween::bangbang:\n\n배송중 분실처리/배송중 파손처리에서, `배송중` -&gt; `배송 중` 으로 통일이 가능할까요?!\n첫번째 사진 : AS-IS\n두번째 사진 : TO-BE"
-      },
-      {
-        "channel": "sigvise",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1787118188.305199",
-        "text": "페이지 이동, 상세페이지 접근 할때마다 이게 뜹니다. @정승아 (기술/개발팀)"
-      },
-      {
-        "channel": "sigint",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1787117307.269519",
-        "text": "@김준기 (기술/개발팀) <https://dohands.atlassian.net/browse/TECH-1887|[연동] 배송강제종료 개발> 테스트 스레드"
       }
     ]
   },
