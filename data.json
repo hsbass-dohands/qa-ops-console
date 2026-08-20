@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T07:48:44.339Z",
+  "generated_at": "2026-08-20T08:36:15.833Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -28,14 +28,6 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "김태재"
-      },
-      {
-        "key": "TECH-1929",
-        "url": "https://dohands.atlassian.net/browse/TECH-1929",
-        "summary": "[프론트] 등록/상세 1차 → 고객사 필드 노출",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "최라온"
       },
       {
         "key": "TECH-1990",
@@ -741,6 +733,12 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-바코",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1787214912.932279",
+        "text": "@강진영 (기술/제품팀) 고객사 선택이 안된 상태에서도 바코 보여지는게 맞는 흐름도인가용?"
+      },
+      {
         "channel": "기술과제-개발팀-pii",
         "user": "박래원 (기술/QA팀)",
         "ts": "1787202775.045669",
@@ -781,12 +779,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1787121296.757959",
         "text": "*<https://dohands.atlassian.net/wiki/x/DgDTEg|2026.08.18 직계약 혼합운용 회의(Q&amp;A 정리)>* 관련해서 병두님께서 아직 회신 남겨주고 계시지만,\n추후 테스트 하실 때 참고 필요한 중요 케이스들이 있어보여서 참고차 공유 드립니다~!!"
-      },
-      {
-        "channel": "기술과제-n직-사은품-교환-수기",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1787118738.073419",
-        "text": "@이찬민 (기술/제품팀) @정승아 (기술/개발팀) 띄어쓰기괴물 등장:amongustwerkhalloween::bangbang:\n\n배송중 분실처리/배송중 파손처리에서, `배송중` -&gt; `배송 중` 으로 통일이 가능할까요?!\n첫번째 사진 : AS-IS\n두번째 사진 : TO-BE"
       }
     ]
   },
