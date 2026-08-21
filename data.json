@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T03:01:10.749Z",
+  "generated_at": "2026-08-21T04:00:41.103Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,9 +7,9 @@
       "P0": 0,
       "P1": 2,
       "P2": 12,
-      "P3": 48
+      "P3": 47
     },
-    "total_open": 62,
+    "total_open": 61,
     "new_this_week": 5,
     "closed_this_week": 0,
     "funnel": [
@@ -76,14 +76,6 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "박래원"
-      },
-      {
-        "key": "TECH-1999",
-        "url": "https://dohands.atlassian.net/browse/TECH-1999",
-        "summary": "[VISE] 2시간 자동 로그아웃 > 재로그인 > 위젯 권한 없음으로 노출됨",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "이덕희"
       }
     ],
     "weekly_severity": [
@@ -741,6 +733,12 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-바코",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1787281648.564319",
+        "text": "@강진영 (기술/제품팀) @채창기(기술/AI팀) 올드 데이터"
+      },
+      {
         "channel": "sigvise",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1787279286.144099",
@@ -781,12 +779,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1787186067.988329",
         "text": "@김준기 (기술/개발팀) <https://dohands.atlassian.net/browse/TECH-1990|배송완료처리 쿼리 개선> 테스트 스레드"
-      },
-      {
-        "channel": "기술과제-n직-사은품-교환-수기",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1787130165.178629",
-        "text": "@김준기 (기술/개발팀) @정승아 (기술/개발팀) 내일(8/20) 배송강제종료 운영배포 시간 논의 스레드"
       }
     ]
   },
