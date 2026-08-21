@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T01:50:22.480Z",
+  "generated_at": "2026-08-21T03:01:10.749Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -10,7 +10,7 @@
       "P3": 48
     },
     "total_open": 62,
-    "new_this_week": 6,
+    "new_this_week": 5,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -76,6 +76,14 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "박래원"
+      },
+      {
+        "key": "TECH-1999",
+        "url": "https://dohands.atlassian.net/browse/TECH-1999",
+        "summary": "[VISE] 2시간 자동 로그아웃 > 재로그인 > 위젯 권한 없음으로 노출됨",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "이덕희"
       }
     ],
     "weekly_severity": [
@@ -422,6 +430,11 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-08-21"
+      },
+      {
         "title": "[직계약 혼합운용] 로케이션 보관비 면제",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/323026945",
         "updated": "2026-08-21"
@@ -430,11 +443,6 @@
         "title": "[직계약 혼합운용] 고객사 간 재고 이관",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322994177",
         "updated": "2026-08-21"
-      },
-      {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
-        "updated": "2026-08-20"
       },
       {
         "title": "PDA 기본기능",
@@ -733,6 +741,24 @@
     ],
     "messages": [
       {
+        "channel": "sigvise",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1787279286.144099",
+        "text": "@정수아 (기술/디자인팀) 로그인 화면 STG vs PROD"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "박래원 (기술/QA팀)",
+        "ts": "1787278833.357759",
+        "text": "@베스현승 (기술/QA팀) 바코 정기회의"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1787277057.335049",
+        "text": "@베스현승 (기술/QA팀) 이천센터 가는 날짜 관련 스레드 :car:"
+      },
+      {
         "channel": "기술과제-바코",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1787214912.932279",
@@ -761,24 +787,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1787130165.178629",
         "text": "@김준기 (기술/개발팀) @정승아 (기술/개발팀) 내일(8/20) 배송강제종료 운영배포 시간 논의 스레드"
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1787128955.833099",
-        "text": "<!here> 외부 행사나 센터 방문 등으로 연락이 어려운 상황이 생기는 날에는 어디에 있는지 슬랙에 간단하게 공지 부탁드립니다.\n\n게더나 슬랙, 휴가 채널을 확인해도 별도 안내가 없어서 마지막에는 개별 캘린더까지 확인해야 상황을 파악할 수 있는 경우가 있습니다.\n이런 확인 과정에 불필요하게 리소스가 소비됩니다.\n\n외부 일정이 있는 경우에는 언제 어떤 일정"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1787125095.484199",
-        "text": "@베스현승 (기술/QA팀) 페덱스 관련 QA 싱크 스레드"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1787121296.757959",
-        "text": "*<https://dohands.atlassian.net/wiki/x/DgDTEg|2026.08.18 직계약 혼합운용 회의(Q&amp;A 정리)>* 관련해서 병두님께서 아직 회신 남겨주고 계시지만,\n추후 테스트 하실 때 참고 필요한 중요 케이스들이 있어보여서 참고차 공유 드립니다~!!"
       }
     ]
   },
