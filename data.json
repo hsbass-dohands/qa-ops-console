@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T07:07:09.206Z",
+  "generated_at": "2026-08-21T07:57:00.243Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,12 +7,20 @@
       "P0": 0,
       "P1": 2,
       "P2": 12,
-      "P3": 47
+      "P3": 48
     },
-    "total_open": 61,
-    "new_this_week": 4,
+    "total_open": 62,
+    "new_this_week": 5,
     "closed_this_week": 0,
     "funnel": [
+      {
+        "key": "SPRINT-843",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-843",
+        "summary": "품고나우 Open API 가이드 문서 404 에러 수정 및 URL 업데이트",
+        "status": "QA 중",
+        "project": "SPRINT",
+        "assignee": "박래원"
+      },
       {
         "key": "TECH-1820",
         "url": "https://dohands.atlassian.net/browse/TECH-1820",
@@ -125,7 +133,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 1,
-        "p3": 3
+        "p3": 4
       }
     ],
     "calendar_events": [
