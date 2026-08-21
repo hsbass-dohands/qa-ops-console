@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T05:30:27.410Z",
+  "generated_at": "2026-08-21T06:03:44.879Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -10,7 +10,7 @@
       "P3": 47
     },
     "total_open": 61,
-    "new_this_week": 5,
+    "new_this_week": 4,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -51,7 +51,7 @@
         "summary": "오피스 고객사 저장 시 계약형태·브랜드 전화번호·사용여부가 의도치 않게 변경됨",
         "status": "QA 필요",
         "project": "SPRINT",
-        "assignee": "베스현승"
+        "assignee": "최라온"
       },
       {
         "key": "TECH-1675",
@@ -733,6 +733,12 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-개발팀-pii",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1787290938.325939",
+        "text": "@한병두 (기술/제품팀) 공지"
+      },
+      {
         "channel": "기술과제-바코",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1787281648.564319",
@@ -773,12 +779,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1787202495.305509",
         "text": "@이찬민 (기술/제품팀) 도착보장 서비스 미제공 센터의 고객사 연동 방지 소통 스레드 cc. @이근한 (기술/개발팀) @한상협 (기술/개발팀)"
-      },
-      {
-        "channel": "sigint",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1787186067.988329",
-        "text": "@김준기 (기술/개발팀) <https://dohands.atlassian.net/browse/TECH-1990|배송완료처리 쿼리 개선> 테스트 스레드"
       }
     ]
   },
