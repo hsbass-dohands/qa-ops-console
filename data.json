@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T00:00:11.401Z",
+  "generated_at": "2026-08-21T01:50:22.480Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -10,7 +10,7 @@
       "P3": 48
     },
     "total_open": 62,
-    "new_this_week": 5,
+    "new_this_week": 6,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -30,20 +30,28 @@
         "assignee": "김태재"
       },
       {
-        "key": "TECH-1990",
-        "url": "https://dohands.atlassian.net/browse/TECH-1990",
-        "summary": "배송완료처리 쿼리 개선",
+        "key": "TECH-1865",
+        "url": "https://dohands.atlassian.net/browse/TECH-1865",
+        "summary": "바이스 수기 주문 취소 이력 노출",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "김태재"
+      },
+      {
+        "key": "TECH-1967",
+        "url": "https://dohands.atlassian.net/browse/TECH-1967",
+        "summary": "요구사항분석",
         "status": "QA 중",
         "project": "TECH",
         "assignee": "최라온"
       },
       {
-        "key": "BE-169",
-        "url": "https://dohands.atlassian.net/browse/BE-169",
-        "summary": "[LMS] 토스쇼핑 재고 불일치 — PETASOS 재고이벤트 생산자 12곳 멀티센터 inventoryLists 오조회 수정",
-        "status": "QA 필요",
-        "project": "BE",
-        "assignee": "황성민"
+        "key": "TECH-2014",
+        "url": "https://dohands.atlassian.net/browse/TECH-2014",
+        "summary": "[프론트] 등록/상세 3차 → 고객사 필드 노출(카페24,고도몰,아임웹)",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "박래원"
       },
       {
         "key": "TECH-1675",
@@ -51,7 +59,7 @@
         "summary": "고객사 정보 수정 가능한 역할 조정",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "박래원"
+        "assignee": "김태재"
       },
       {
         "key": "TECH-1719",
@@ -62,25 +70,9 @@
         "assignee": "박래원"
       },
       {
-        "key": "TECH-1865",
-        "url": "https://dohands.atlassian.net/browse/TECH-1865",
-        "summary": "바이스 수기 주문 취소 이력 노출",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "김태재"
-      },
-      {
         "key": "TECH-1998",
         "url": "https://dohands.atlassian.net/browse/TECH-1998",
         "summary": "브랜드 페이지 고객사 컬럼 추가",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "박래원"
-      },
-      {
-        "key": "TECH-2014",
-        "url": "https://dohands.atlassian.net/browse/TECH-2014",
-        "summary": "[프론트] 등록/상세 3차 → 고객사 필드 노출(카페24,고도몰,아임웹)",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "박래원"
@@ -140,7 +132,7 @@
         "week": "W8",
         "p0": 0,
         "p1": 0,
-        "p2": 0,
+        "p2": 1,
         "p3": 3
       }
     ],
@@ -430,6 +422,16 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "[직계약 혼합운용] 로케이션 보관비 면제",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/323026945",
+        "updated": "2026-08-21"
+      },
+      {
+        "title": "[직계약 혼합운용] 고객사 간 재고 이관",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322994177",
+        "updated": "2026-08-21"
+      },
+      {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-08-20"
@@ -447,16 +449,6 @@
       {
         "title": "주문제어흐름",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/204636182",
-        "updated": "2026-08-20"
-      },
-      {
-        "title": "[QA] 로케이션 등록 – 유형별 격리구분 활성화 검증",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/264994834/QA",
-        "updated": "2026-08-20"
-      },
-      {
-        "title": "b2b 출고앱 기본기능",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/259653690/b2b",
         "updated": "2026-08-20"
       }
     ],
