@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T15:50:50.458Z",
+  "generated_at": "2026-08-21T16:32:16.149Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -422,6 +422,11 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "2026.08.18 직계약 혼합운용 회의(Q&A 정리)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/315817998/2026.08.18+Q+A",
+        "updated": "2026-08-21"
+      },
+      {
         "title": "[QA 체크리스트] 고객사 뷰 / 웹 열기 + 헤더 재구성",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322666570/QA",
         "updated": "2026-08-21"
@@ -445,11 +450,6 @@
         "title": "[직계약 혼합운용] 고객사 간 재고 이관",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322994177",
         "updated": "2026-08-21"
-      },
-      {
-        "title": "PDA 기본기능",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/268238910/PDA",
-        "updated": "2026-08-20"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
