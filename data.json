@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T04:53:46.701Z",
+  "generated_at": "2026-08-21T05:30:27.410Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -13,14 +13,6 @@
     "new_this_week": 5,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "TECH-1699",
-        "url": "https://dohands.atlassian.net/browse/TECH-1699",
-        "summary": "[QA] PII 인증 보안 강화",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "베스현승"
-      },
       {
         "key": "TECH-1820",
         "url": "https://dohands.atlassian.net/browse/TECH-1820",
@@ -52,6 +44,14 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "박래원"
+      },
+      {
+        "key": "SPRINT-803",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-803",
+        "summary": "오피스 고객사 저장 시 계약형태·브랜드 전화번호·사용여부가 의도치 않게 변경됨",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "베스현승"
       },
       {
         "key": "TECH-1675",
