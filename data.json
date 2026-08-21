@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T08:44:05.240Z",
+  "generated_at": "2026-08-21T09:20:19.754Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -68,6 +68,14 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "박래원"
+      },
+      {
+        "key": "TECH-2066",
+        "url": "https://dohands.atlassian.net/browse/TECH-2066",
+        "summary": "[QA] 고객사 뷰",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "김태재"
       }
     ],
     "weekly_severity": [
@@ -419,6 +427,11 @@
         "updated": "2026-08-21"
       },
       {
+        "title": "[8월24일] Weekly QA",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/323977222/8+24+Weekly+QA",
+        "updated": "2026-08-21"
+      },
+      {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-08-21"
@@ -436,11 +449,6 @@
       {
         "title": "PDA 기본기능",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/268238910/PDA",
-        "updated": "2026-08-20"
-      },
-      {
-        "title": "고객사/브랜드 조회 권한",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/267911195",
         "updated": "2026-08-20"
       }
     ],
