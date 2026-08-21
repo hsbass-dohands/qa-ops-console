@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T07:57:00.243Z",
+  "generated_at": "2026-08-21T08:44:05.240Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -13,14 +13,6 @@
     "new_this_week": 5,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "SPRINT-843",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-843",
-        "summary": "품고나우 Open API 가이드 문서 404 에러 수정 및 URL 업데이트",
-        "status": "QA 중",
-        "project": "SPRINT",
-        "assignee": "박래원"
-      },
       {
         "key": "TECH-1820",
         "url": "https://dohands.atlassian.net/browse/TECH-1820",
@@ -422,6 +414,11 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "[QA 체크리스트] 고객사 뷰 / 웹 열기 + 헤더 재구성",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322666570/QA",
+        "updated": "2026-08-21"
+      },
+      {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-08-21"
@@ -444,11 +441,6 @@
       {
         "title": "고객사/브랜드 조회 권한",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/267911195",
-        "updated": "2026-08-20"
-      },
-      {
-        "title": "주문제어흐름",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/204636182",
         "updated": "2026-08-20"
       }
     ],
