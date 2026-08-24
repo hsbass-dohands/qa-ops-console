@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T07:57:25.326Z",
+  "generated_at": "2026-08-24T08:52:36.306Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -13,14 +13,6 @@
     "new_this_week": 6,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "SPRINT-803",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-803",
-        "summary": "오피스 고객사 저장 시 계약형태·브랜드 전화번호·사용여부가 의도치 않게 변경됨",
-        "status": "QA 중",
-        "project": "SPRINT",
-        "assignee": "최라온"
-      },
       {
         "key": "TECH-1820",
         "url": "https://dohands.atlassian.net/browse/TECH-1820",
@@ -36,14 +28,6 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "최라온"
-      },
-      {
-        "key": "TECH-1998",
-        "url": "https://dohands.atlassian.net/browse/TECH-1998",
-        "summary": "브랜드 페이지 고객사 컬럼 추가",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "박래원"
       },
       {
         "key": "TECH-2014",
@@ -83,7 +67,7 @@
         "summary": "사용자 페이지 역할별 노출 여부와 데이터 노출 기준",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "베스현승"
+        "assignee": "박래원"
       },
       {
         "key": "TECH-1964",
@@ -757,6 +741,30 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-직계약-혼합운용",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1787561436.005909",
+        "text": "@한병두 (기술/제품팀) @황성민 (기술/개발팀) 고객사 간 재고 이관 > 02 일괄 추가 — 다이얼로그\n\nQ. 이관할 재고를 모두 입력하고, 완료 버튼을 누른 후의 상황은 어떻게 정리되면 좋을까요?! (<https://dohands.atlassian.net/wiki/spaces/qa/pages/315817998/2026.08.18+Q+A#Q7.-%EC%9"
+      },
+      {
+        "channel": "기술과제-직계약-혼합운용",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1787560401.182849",
+        "text": "@한병두 (기술/제품팀) @황성민 (기술/개발팀) 로케이션 보관비 면제 &gt; 00 &gt; 산정과 반영 시점, 00 &gt; 운영일 기준\n\nQ. <https://dohands.atlassian.net/wiki/spaces/qa/pages/315817998/2026.08.18+Q+A#Q10.-%EA%B0%99%EC%9D%80-%EC%9A%B4%EC%98%"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1787559697.833979",
+        "text": "@한상준 (기술/QA팀) 내일 점심 메뉴 참고,, :woman-bowing::skin-tone-2:"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1787558970.945449",
+        "text": "@한상준 (기술/QA팀) 질문 쓰레드 ver.3"
+      },
+      {
         "channel": "기술과제-바코",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1787557295.014249",
@@ -779,30 +787,6 @@
         "user": "김태재 (기술/QA팀)",
         "ts": "1787539500.684619",
         "text": "<!subteam^S088LS39A69> 안녕하세요-! STG에서 테스트 가능한 스마트스토어 물류사 직계약 계정을 받을 수 있을까요?\n연동된 고객사명도 부탁드립니다!"
-      },
-      {
-        "channel": "sigvise",
-        "user": "박래원 (기술/QA팀)",
-        "ts": "1787293134.350729",
-        "text": "<!subteam^S089CG0M23S> 고객사 등록시, 고객사명 입력하라고 노출되고 있어 문의드립니다."
-      },
-      {
-        "channel": "기술과제-개발팀-pii",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1787290938.325939",
-        "text": "@한병두 (기술/제품팀) 공지"
-      },
-      {
-        "channel": "기술과제-바코",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1787281648.564319",
-        "text": "@강진영 (기술/제품팀) @채창기(기술/AI팀) 올드 데이터"
-      },
-      {
-        "channel": "sigvise",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1787279286.144099",
-        "text": "@정수아 (기술/디자인팀) 로그인 화면 STG vs PROD"
       }
     ]
   },
