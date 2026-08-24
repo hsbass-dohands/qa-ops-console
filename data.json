@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T06:55:23.956Z",
+  "generated_at": "2026-08-24T07:57:25.326Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -76,6 +76,22 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "박래원"
+      },
+      {
+        "key": "TECH-1765",
+        "url": "https://dohands.atlassian.net/browse/TECH-1765",
+        "summary": "사용자 페이지 역할별 노출 여부와 데이터 노출 기준",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "베스현승"
+      },
+      {
+        "key": "TECH-1964",
+        "url": "https://dohands.atlassian.net/browse/TECH-1964",
+        "summary": "[프론트] 등록/상세 2차 → 고객사 필드 노출",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "최라온"
       },
       {
         "key": "TECH-2038",
@@ -743,6 +759,12 @@
       {
         "channel": "기술과제-바코",
         "user": "베스현승 (기술/QA팀)",
+        "ts": "1787557295.014249",
+        "text": "@강진영 (기술/제품팀) 바코 과제 참여 인원"
+      },
+      {
+        "channel": "기술과제-바코",
+        "user": "베스현승 (기술/QA팀)",
         "ts": "1787553824.070449",
         "text": "문의 접수 후 같은 세션에서(같은창에서 새 대화 없이) 대화가 계속 이어질 때 새로운 슬랙 메시지가 생성되는데요.\n\n이전 메시지를 이렇게 많이 가져오는 거면 그냥 같은 스레드에서 추가 메시지로 생성되는 게 낫지 않을까요? 그리고 역시 포멧이 헷갈리긴 하네요"
       },
@@ -781,12 +803,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1787279286.144099",
         "text": "@정수아 (기술/디자인팀) 로그인 화면 STG vs PROD"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "박래원 (기술/QA팀)",
-        "ts": "1787278833.357759",
-        "text": "@베스현승 (기술/QA팀) 바코 정기회의"
       }
     ]
   },
