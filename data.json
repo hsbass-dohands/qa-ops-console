@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T05:01:15.507Z",
+  "generated_at": "2026-08-24T05:53:35.145Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -430,23 +430,23 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "고객사 뷰 / 웹 열기",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322666570",
-        "updated": "2026-08-24"
-      },
-      {
         "title": "상준님 온보딩",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/310608024",
         "updated": "2026-08-24"
       },
       {
-        "title": "[8월24일] Weekly QA",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/323977222/8+24+Weekly+QA",
+        "title": "고객사 뷰 / 웹 열기",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322666570",
         "updated": "2026-08-24"
       },
       {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-08-24"
+      },
+      {
+        "title": "[8월24일] Weekly QA",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/323977222/8+24+Weekly+QA",
         "updated": "2026-08-24"
       },
       {
