@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T00:00:21.881Z",
+  "generated_at": "2026-08-24T01:51:22.405Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -13,6 +13,14 @@
     "new_this_week": 5,
     "closed_this_week": 0,
     "funnel": [
+      {
+        "key": "SPRINT-803",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-803",
+        "summary": "오피스 고객사 저장 시 계약형태·브랜드 전화번호·사용여부가 의도치 않게 변경됨",
+        "status": "QA 중",
+        "project": "SPRINT",
+        "assignee": "최라온"
+      },
       {
         "key": "TECH-1820",
         "url": "https://dohands.atlassian.net/browse/TECH-1820",
@@ -38,12 +46,20 @@
         "assignee": "박래원"
       },
       {
-        "key": "SPRINT-803",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-803",
-        "summary": "오피스 고객사 저장 시 계약형태·브랜드 전화번호·사용여부가 의도치 않게 변경됨",
+        "key": "TECH-2066",
+        "url": "https://dohands.atlassian.net/browse/TECH-2066",
+        "summary": "[QA] 고객사 뷰",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "김태재"
+      },
+      {
+        "key": "SPRINT-843",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-843",
+        "summary": "품고나우 Open API 가이드 문서 404 에러 수정 및 URL 업데이트",
         "status": "QA 필요",
         "project": "SPRINT",
-        "assignee": "최라온"
+        "assignee": "박래원"
       },
       {
         "key": "TECH-1675",
@@ -68,14 +84,6 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "박래원"
-      },
-      {
-        "key": "TECH-2066",
-        "url": "https://dohands.atlassian.net/browse/TECH-2066",
-        "summary": "[QA] 고객사 뷰",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "김태재"
       }
     ],
     "weekly_severity": [
@@ -422,34 +430,34 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "2026.08.18 직계약 혼합운용 회의(Q&A 정리)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/315817998/2026.08.18+Q+A",
-        "updated": "2026-08-21"
-      },
-      {
-        "title": "[QA 체크리스트] 고객사 뷰 / 웹 열기 + 헤더 재구성",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322666570/QA",
-        "updated": "2026-08-21"
-      },
-      {
         "title": "[8월24일] Weekly QA",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/323977222/8+24+Weekly+QA",
-        "updated": "2026-08-21"
+        "updated": "2026-08-24"
       },
       {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
-        "updated": "2026-08-21"
+        "title": "고객사 뷰 / 웹 열기",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322666570",
+        "updated": "2026-08-24"
       },
       {
-        "title": "[직계약 혼합운용] 로케이션 보관비 면제",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/323026945",
-        "updated": "2026-08-21"
+        "title": "2026.08.18 직계약 혼합운용 회의(Q&A 정리)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/315817998/2026.08.18+Q+A",
+        "updated": "2026-08-24"
       },
       {
-        "title": "[직계약 혼합운용] 고객사 간 재고 이관",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322994177",
-        "updated": "2026-08-21"
+        "title": "재고 조정 차감 QA 결과 (2026-08-11)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/308314148/QA+2026-08-11",
+        "updated": "2026-08-24"
+      },
+      {
+        "title": "재고 조정 차감 API 테스트 결과 (2026-08-14)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/313163791/API+2026-08-14",
+        "updated": "2026-08-24"
+      },
+      {
+        "title": "[8월10일] Weekly QA",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/305365437/8+10+Weekly+QA",
+        "updated": "2026-08-24"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
