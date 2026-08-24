@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T08:52:36.306Z",
+  "generated_at": "2026-08-24T09:45:29.207Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -81,6 +81,14 @@
         "key": "TECH-2038",
         "url": "https://dohands.atlassian.net/browse/TECH-2038",
         "summary": "[프론트] 연동 재고 관리 > 직계약 고객사의 경우 큐텐 가용재고 설정 불가하도록 방지 기능 구현",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "최라온"
+      },
+      {
+        "key": "TECH-2060",
+        "url": "https://dohands.atlassian.net/browse/TECH-2060",
+        "summary": "[보관비 면제] 로케이션 면제 여부 컬럼 추가 및 API",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "최라온"
@@ -430,13 +438,18 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "상준님 온보딩",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/310608024",
+        "title": "역할 별 사용자 페이지 제공 여부 QA",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/325746759/QA",
         "updated": "2026-08-24"
       },
       {
         "title": "고객사 뷰 / 웹 열기",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322666570",
+        "updated": "2026-08-24"
+      },
+      {
+        "title": "상준님 온보딩",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/310608024",
         "updated": "2026-08-24"
       },
       {
@@ -452,11 +465,6 @@
       {
         "title": "2026.08.18 직계약 혼합운용 회의(Q&A 정리)",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/315817998/2026.08.18+Q+A",
-        "updated": "2026-08-24"
-      },
-      {
-        "title": "재고 조정 차감 QA 결과 (2026-08-11)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/308314148/QA+2026-08-11",
         "updated": "2026-08-24"
       }
     ],
