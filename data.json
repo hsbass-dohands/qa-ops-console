@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T03:01:48.681Z",
+  "generated_at": "2026-08-24T04:05:12.895Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,9 +7,9 @@
       "P0": 0,
       "P1": 2,
       "P2": 12,
-      "P3": 49
+      "P3": 47
     },
-    "total_open": 63,
+    "total_open": 61,
     "new_this_week": 6,
     "closed_this_week": 0,
     "funnel": [
@@ -76,6 +76,14 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "박래원"
+      },
+      {
+        "key": "TECH-2038",
+        "url": "https://dohands.atlassian.net/browse/TECH-2038",
+        "summary": "[프론트] 연동 재고 관리 > 직계약 고객사의 경우 큐텐 가용재고 설정 불가하도록 방지 기능 구현",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "최라온"
       }
     ],
     "weekly_severity": [
@@ -422,18 +430,23 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
-        "updated": "2026-08-24"
-      },
-      {
         "title": "고객사 뷰 / 웹 열기",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322666570",
         "updated": "2026-08-24"
       },
       {
+        "title": "상준님 온보딩",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/310608024",
+        "updated": "2026-08-24"
+      },
+      {
         "title": "[8월24일] Weekly QA",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/323977222/8+24+Weekly+QA",
+        "updated": "2026-08-24"
+      },
+      {
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-08-24"
       },
       {
@@ -444,11 +457,6 @@
       {
         "title": "재고 조정 차감 QA 결과 (2026-08-11)",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/308314148/QA+2026-08-11",
-        "updated": "2026-08-24"
-      },
-      {
-        "title": "재고 조정 차감 API 테스트 결과 (2026-08-14)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/313163791/API+2026-08-14",
         "updated": "2026-08-24"
       }
     ],
@@ -733,6 +741,12 @@
     ],
     "messages": [
       {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1787543902.694599",
+        "text": "<https://naver.me/5PW1YXqx|naver.me/…>"
+      },
+      {
         "channel": "sigint",
         "user": "김태재 (기술/QA팀)",
         "ts": "1787539500.684619",
@@ -773,12 +787,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1787277057.335049",
         "text": "@베스현승 (기술/QA팀) 이천센터 가는 날짜 관련 스레드 :car:"
-      },
-      {
-        "channel": "기술과제-바코",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1787214912.932279",
-        "text": "@강진영 (기술/제품팀) 고객사 선택이 안된 상태에서도 바코 보여지는게 맞는 흐름도인가용?"
       }
     ]
   },
