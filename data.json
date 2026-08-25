@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T05:05:04.118Z",
+  "generated_at": "2026-08-25T05:47:52.233Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -28,14 +28,6 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "최라온"
-      },
-      {
-        "key": "TECH-2014",
-        "url": "https://dohands.atlassian.net/browse/TECH-2014",
-        "summary": "[프론트] 등록/상세 3차 → 고객사 필드 노출(카페24,고도몰,아임웹)",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "박래원"
       },
       {
         "key": "TECH-2066",
@@ -84,6 +76,14 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "최라온"
+      },
+      {
+        "key": "TECH-2069",
+        "url": "https://dohands.atlassian.net/browse/TECH-2069",
+        "summary": "[백엔드] 정산서/계약서 목록·개수 조회 - 고객사 권한 직계약 고객사 데이터 필터링",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "황성민"
       }
     ],
     "weekly_severity": [
@@ -741,6 +741,12 @@
     ],
     "messages": [
       {
+        "channel": "sigint",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1787636074.770449",
+        "text": "@김준기 (기술/개발팀) V2V -&gt; 딜리버스 전환 관련 딜리버스 측 E2E 테스트 스레드"
+      },
+      {
         "channel": "기술-qa팀",
         "user": "최라온 (기술/QA팀)",
         "ts": "1787628988.833319",
@@ -781,12 +787,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1787619999.914979",
         "text": "@이덕희 (기술/개발팀) 인간적으로"
-      },
-      {
-        "channel": "기술과제-직계약-혼합운용",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1787561436.005909",
-        "text": "@한병두 (기술/제품팀) @황성민 (기술/개발팀) 고객사 간 재고 이관 > 02 일괄 추가 — 다이얼로그\n\nQ. 이관할 재고를 모두 입력하고, 완료 버튼을 누른 후의 상황은 어떻게 정리되면 좋을까요?! (<https://dohands.atlassian.net/wiki/spaces/qa/pages/315817998/2026.08.18+Q+A#Q7.-%EC%9"
       }
     ]
   },
