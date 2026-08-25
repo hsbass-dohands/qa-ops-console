@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T01:38:31.815Z",
+  "generated_at": "2026-08-25T02:44:31.590Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,9 +7,9 @@
       "P0": 0,
       "P1": 2,
       "P2": 12,
-      "P3": 47
+      "P3": 48
     },
-    "total_open": 61,
+    "total_open": 62,
     "new_this_week": 6,
     "closed_this_week": 0,
     "funnel": [
@@ -20,6 +20,14 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "김태재"
+      },
+      {
+        "key": "TECH-1964",
+        "url": "https://dohands.atlassian.net/browse/TECH-1964",
+        "summary": "[프론트] 등록/상세 2차 → 고객사 필드 노출",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "최라온"
       },
       {
         "key": "TECH-2014",
@@ -36,14 +44,6 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "김태재"
-      },
-      {
-        "key": "TECH-1675",
-        "url": "https://dohands.atlassian.net/browse/TECH-1675",
-        "summary": "고객사 정보 수정 가능한 역할 조정",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "박래원"
       },
       {
         "key": "TECH-1719",
@@ -65,14 +65,6 @@
         "key": "TECH-1942",
         "url": "https://dohands.atlassian.net/browse/TECH-1942",
         "summary": "[프론트] 정산서 - 직계약 분기처리 대응",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "최라온"
-      },
-      {
-        "key": "TECH-1964",
-        "url": "https://dohands.atlassian.net/browse/TECH-1964",
-        "summary": "[프론트] 등록/상세 2차 → 고객사 필드 노출",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "최라온"
@@ -149,7 +141,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 0,
-        "p3": 1
+        "p3": 2
       }
     ],
     "calendar_events": [
@@ -438,14 +430,14 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "상준님 온보딩",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/310608024",
+        "title": "역할 별 사용자 페이지 제공 여부 QA",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/325746759/QA",
         "updated": "2026-08-25"
       },
       {
-        "title": "역할 별 사용자 페이지 제공 여부 QA",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/325746759/QA",
-        "updated": "2026-08-24"
+        "title": "상준님 온보딩",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/310608024",
+        "updated": "2026-08-25"
       },
       {
         "title": "고객사 뷰 / 웹 열기",
@@ -750,6 +742,30 @@
     "messages": [
       {
         "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1787623459.733699",
+        "text": "@박래원 (기술/QA팀) @한상준 (기술/QA팀)\n*정보보호 교육 관련*\n\n신규 입사자 대상 정보보호 교육이 진행됩니다.\n보안팀에서 두 분께 개별적으로 안내드릴 예정이니, 8월 28일 금요일 16:00부터 16:30까지는 일정 비워두시면 됩니다.\nGoogle Meet으로 진행되는 온라인 교육이니 참고 부탁드립니다."
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1787623099.490469",
+        "text": "<!here> Testiny 모두 관리자 권한으로 변경했습니다.\n기존에는 편집자 권한으로 TC 작성 및 수정만 가능했지만, 이제는 새로운 프로젝트 생성까지 가능합니다.\n필요한 경우 각자 프로젝트를 생성해서 사용하셔도 되니, 업무에 맞게 Testiny를 적절히 활용해 주세요."
+      },
+      {
+        "channel": "sigvise",
+        "user": "박래원 (기술/QA팀)",
+        "ts": "1787622984.497849",
+        "text": "@한병두 (기술/제품팀) @정수아 (기술/디자인팀) 메일명이 길 경우 문의 쓰레드"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1787622074.144189",
+        "text": "@베스현승 (기술/QA팀) 상준님 첫 과제/작업 스레드"
+      },
+      {
+        "channel": "기술-qa팀",
         "user": "최라온 (기술/QA팀)",
         "ts": "1787620262.712989",
         "text": "<!subteam^S096ZRAAKFY> 음료 드실 분 계신가요~?! (평택에 있는 태재님은 배달불가)"
@@ -771,30 +787,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1787560401.182849",
         "text": "@한병두 (기술/제품팀) @황성민 (기술/개발팀) 로케이션 보관비 면제 &gt; 00 &gt; 산정과 반영 시점, 00 &gt; 운영일 기준\n\nQ. <https://dohands.atlassian.net/wiki/spaces/qa/pages/315817998/2026.08.18+Q+A#Q10.-%EA%B0%99%EC%9D%80-%EC%9A%B4%EC%98%"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1787559697.833979",
-        "text": "@한상준 (기술/QA팀) 내일 점심 메뉴 참고,, :woman-bowing::skin-tone-2:"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1787558970.945449",
-        "text": "@한상준 (기술/QA팀) 질문 쓰레드 ver.3"
-      },
-      {
-        "channel": "기술과제-바코",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1787557295.014249",
-        "text": "@강진영 (기술/제품팀) 바코 과제 참여 인원"
-      },
-      {
-        "channel": "기술과제-바코",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1787553824.070449",
-        "text": "문의 접수 후 같은 세션에서(같은창에서 새 대화 없이) 대화가 계속 이어질 때 새로운 슬랙 메시지가 생성되는데요.\n\n이전 메시지를 이렇게 많이 가져오는 거면 그냥 같은 스레드에서 추가 메시지로 생성되는 게 낫지 않을까요? 그리고 역시 포멧이 헷갈리긴 하네요"
       }
     ]
   },
