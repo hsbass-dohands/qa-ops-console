@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T08:23:06.578Z",
+  "generated_at": "2026-08-25T09:07:48.951Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -49,6 +49,14 @@
         "key": "TECH-1719",
         "url": "https://dohands.atlassian.net/browse/TECH-1719",
         "summary": "[과제] 바코",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "박래원"
+      },
+      {
+        "key": "TECH-1738",
+        "url": "https://dohands.atlassian.net/browse/TECH-1738",
+        "summary": "사용자 생성 후 제공하는 위젯 기본 구성",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "박래원"
@@ -750,6 +758,12 @@
     "messages": [
       {
         "channel": "sigvise",
+        "user": "한상준 (기술/QA팀)",
+        "ts": "1787648148.547629",
+        "text": "@한병두 (기술/제품팀) 입고 관리 &gt; SKU 보기 &gt; 기본 로케이션 컬럼 관련 문의"
+      },
+      {
+        "channel": "sigvise",
         "user": "박래원 (기술/QA팀)",
         "ts": "1787644362.270149",
         "text": "@한병두 (기술/제품팀) 역할 별 사용자 wiki에 문의 남겼는데 확인 부탁드립니다! :man-bowing::skin-tone-3:\n\n<https://dohands.atlassian.net/wiki/spaces/TECH/pages/293077080/TECH-1765?focusedCommentId=327614538|dohands.atlassian.net/wi"
@@ -789,12 +803,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1787623459.733699",
         "text": "@박래원 (기술/QA팀) @한상준 (기술/QA팀)\n*정보보호 교육 관련*\n\n신규 입사자 대상 정보보호 교육이 진행됩니다.\n보안팀에서 두 분께 개별적으로 안내드릴 예정이니, 8월 28일 금요일 16:00부터 16:30까지는 일정 비워두시면 됩니다.\nGoogle Meet으로 진행되는 온라인 교육이니 참고 부탁드립니다."
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1787623099.490469",
-        "text": "<!here> Testiny 모두 관리자 권한으로 변경했습니다.\n기존에는 편집자 권한으로 TC 작성 및 수정만 가능했지만, 이제는 새로운 프로젝트 생성까지 가능합니다.\n필요한 경우 각자 프로젝트를 생성해서 사용하셔도 되니, 업무에 맞게 Testiny를 적절히 활용해 주세요."
       }
     ]
   },
