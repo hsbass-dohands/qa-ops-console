@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T09:11:16.747Z",
+  "generated_at": "2026-08-26T09:57:30.413Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -68,6 +68,14 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "박래원"
+      },
+      {
+        "key": "TECH-1728",
+        "url": "https://dohands.atlassian.net/browse/TECH-1728",
+        "summary": "[VISE] 그리드 순번 고정",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "도혜원"
       },
       {
         "key": "TECH-1738",
