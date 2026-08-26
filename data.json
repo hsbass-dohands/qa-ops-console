@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-08-26T02:39:35.565Z",
+  "generated_at": "2026-08-26T03:39:07.608Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
       "P1": 2,
-      "P2": 11,
-      "P3": 48
+      "P2": 10,
+      "P3": 45
     },
-    "total_open": 61,
+    "total_open": 58,
     "new_this_week": 6,
     "closed_this_week": 0,
     "funnel": [
+      {
+        "key": "TECH-1765",
+        "url": "https://dohands.atlassian.net/browse/TECH-1765",
+        "summary": "사용자 페이지 역할별 노출 여부와 데이터 노출 기준",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "박래원"
+      },
       {
         "key": "TECH-1820",
         "url": "https://dohands.atlassian.net/browse/TECH-1820",
@@ -35,7 +43,7 @@
         "summary": "[프론트] 등록/상세 2차 → 고객사 필드 노출",
         "status": "QA 중",
         "project": "TECH",
-        "assignee": "최라온"
+        "assignee": "한상준"
       },
       {
         "key": "TECH-2066",
@@ -65,14 +73,6 @@
         "key": "TECH-1738",
         "url": "https://dohands.atlassian.net/browse/TECH-1738",
         "summary": "사용자 생성 후 제공하는 위젯 기본 구성",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "박래원"
-      },
-      {
-        "key": "TECH-1765",
-        "url": "https://dohands.atlassian.net/browse/TECH-1765",
-        "summary": "사용자 페이지 역할별 노출 여부와 데이터 노출 기준",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "박래원"
@@ -741,6 +741,36 @@
     ],
     "messages": [
       {
+        "channel": "sigvise",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1787713691.163599",
+        "text": "@정수아 (기술/디자인팀) 디자인 이슈 관련"
+      },
+      {
+        "channel": "기술조직",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1787713067.600119",
+        "text": "<!channel> 안녕하세요.\n\nJIRA 티켓 중 생성된 후 오랫동안 방치되어 상태 업데이트가 필요한 티켓들이 있습니다.\n\n아래 링크에서 본인이 생성한 JIRA 티켓을 확인하실 수 있으니, *생성일이 오래된 순으로 정렬해서 상태 업데이트가 필요한 티켓들을 확인 및 정리* 부탁드립니다.\n\n특히 *2025년 12월부터 2026년 상반기까지 생성된 티켓*을 우"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1787712594.341279",
+        "text": "<https://dohands.atlassian.net/issues?filter=11783|dohands.atlassian.net/issues?filter=11783>"
+      },
+      {
+        "channel": "sigint",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1787712184.581119",
+        "text": "@이찬민 (기술/제품팀) <https://dohands.atlassian.net/browse/TECH-175|[SIGINT]VISE 메뉴 이관 1차> 이거 상태 업데이트 부탁드립니다. + 하위작업도 같이요!"
+      },
+      {
+        "channel": "기술과제-개발팀-pii",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1787711985.192839",
+        "text": "@한병두 (기술/제품팀) <https://dohands.atlassian.net/browse/TECH-1000|계정 생명주기 관리> 이것도 확인 부탁드립니다."
+      },
+      {
         "channel": "기술과제-트랙스로지스",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1787711789.501959",
@@ -757,36 +787,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1787707918.470379",
         "text": "@베스현승 (기술/QA팀) 님! 어제 오후 반차셔서 못 보셨을 것 같아 전달드립니다!\n\n9/1 모니터링으로 출근 시간 조정을 해야하는데, 각 팀장님과 협의하라고 전달주셔서 관련해서 스레드 열었습니다~!"
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1787707010.797619",
-        "text": "@이대한 (기술/개발팀) 상준님 깃헙 초대"
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1787704808.565139",
-        "text": "저만 이런가요?"
-      },
-      {
-        "channel": "sigvise",
-        "user": "한상준 (기술/QA팀)",
-        "ts": "1787648148.547629",
-        "text": "@한병두 (기술/제품팀) 입고 관리 &gt; SKU 보기 &gt; 기본 로케이션 컬럼 관련 문의"
-      },
-      {
-        "channel": "sigvise",
-        "user": "박래원 (기술/QA팀)",
-        "ts": "1787644362.270149",
-        "text": "@한병두 (기술/제품팀) 역할 별 사용자 wiki에 문의 남겼는데 확인 부탁드립니다! :man-bowing::skin-tone-3:\n\n<https://dohands.atlassian.net/wiki/spaces/TECH/pages/293077080/TECH-1765?focusedCommentId=327614538|dohands.atlassian.net/wi"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1787644023.334079",
-        "text": "@박래원 (기술/QA팀) 역할과 권한 문서 : <https://app.notion.com/p/dohands/62c9adb187f14efb9df04422cc383b03?source=copy_link>"
       }
     ]
   },
