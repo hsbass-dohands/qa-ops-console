@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T09:57:30.413Z",
+  "generated_at": "2026-08-26T10:39:28.561Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -43,7 +43,7 @@
         "summary": "퀵 메뉴 카테고리 순서 조정",
         "status": "QA 중",
         "project": "TECH",
-        "assignee": "베스현승"
+        "assignee": "박래원"
       },
       {
         "key": "TECH-2060",
