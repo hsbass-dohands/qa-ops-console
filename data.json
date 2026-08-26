@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T01:12:43.780Z",
+  "generated_at": "2026-08-26T02:39:35.565Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -22,17 +22,17 @@
         "assignee": "김태재"
       },
       {
-        "key": "TECH-1964",
-        "url": "https://dohands.atlassian.net/browse/TECH-1964",
-        "summary": "[프론트] 등록/상세 2차 → 고객사 필드 노출",
+        "key": "TECH-1942",
+        "url": "https://dohands.atlassian.net/browse/TECH-1942",
+        "summary": "[프론트] 정산서 - 직계약 분기처리 대응",
         "status": "QA 중",
         "project": "TECH",
         "assignee": "최라온"
       },
       {
-        "key": "TECH-2038",
-        "url": "https://dohands.atlassian.net/browse/TECH-2038",
-        "summary": "[프론트] 연동 재고 관리 > 직계약 고객사의 경우 큐텐 가용재고 설정 불가하도록 방지 기능 구현",
+        "key": "TECH-1964",
+        "url": "https://dohands.atlassian.net/browse/TECH-1964",
+        "summary": "[프론트] 등록/상세 2차 → 고객사 필드 노출",
         "status": "QA 중",
         "project": "TECH",
         "assignee": "최라온"
@@ -44,6 +44,14 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "김태재"
+      },
+      {
+        "key": "TECH-2069",
+        "url": "https://dohands.atlassian.net/browse/TECH-2069",
+        "summary": "[백엔드] 정산서/계약서 목록·개수 조회 - 고객사 권한 직계약 고객사 데이터 필터링",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "최라온"
       },
       {
         "key": "TECH-1719",
@@ -70,28 +78,12 @@
         "assignee": "박래원"
       },
       {
-        "key": "TECH-1942",
-        "url": "https://dohands.atlassian.net/browse/TECH-1942",
-        "summary": "[프론트] 정산서 - 직계약 분기처리 대응",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "최라온"
-      },
-      {
         "key": "TECH-2060",
         "url": "https://dohands.atlassian.net/browse/TECH-2060",
         "summary": "[보관비 면제] 로케이션 면제 여부 컬럼 추가 및 API",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "최라온"
-      },
-      {
-        "key": "TECH-2069",
-        "url": "https://dohands.atlassian.net/browse/TECH-2069",
-        "summary": "[백엔드] 정산서/계약서 목록·개수 조회 - 고객사 권한 직계약 고객사 데이터 필터링",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "황성민"
       }
     ],
     "weekly_severity": [
@@ -440,7 +432,7 @@
       {
         "title": "역할 별 사용자 페이지 제공 여부 QA",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/325746759/QA",
-        "updated": "2026-08-25"
+        "updated": "2026-08-26"
       },
       {
         "title": "상준님 온보딩",
@@ -749,6 +741,30 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-트랙스로지스",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1787711789.501959",
+        "text": "@한병두 (기술/제품팀) <https://dohands.atlassian.net/browse/TECH-706|[VISE] 일본 투함 서비스> 요 이슈 확인 부탁드립니다."
+      },
+      {
+        "channel": "sigvise",
+        "user": "한상준 (기술/QA팀)",
+        "ts": "1787710306.556499",
+        "text": "<!subteam^S089CG0M23S> STG &gt; sj.han<mailto:l@dohands.com|@dohands.com>에 고객사 하나 추가 요청 드립니다!\n• 추가 필요한 고객사 ID : <mailto:sj.han+nfa@dohands.com|sj.han+nfa@dohands.com>\n"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1787707918.470379",
+        "text": "@베스현승 (기술/QA팀) 님! 어제 오후 반차셔서 못 보셨을 것 같아 전달드립니다!\n\n9/1 모니터링으로 출근 시간 조정을 해야하는데, 각 팀장님과 협의하라고 전달주셔서 관련해서 스레드 열었습니다~!"
+      },
+      {
+        "channel": "기술조직",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1787707010.797619",
+        "text": "@이대한 (기술/개발팀) 상준님 깃헙 초대"
+      },
+      {
         "channel": "기술조직",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1787704808.565139",
@@ -771,30 +787,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1787644023.334079",
         "text": "@박래원 (기술/QA팀) 역할과 권한 문서 : <https://app.notion.com/p/dohands/62c9adb187f14efb9df04422cc383b03?source=copy_link>"
-      },
-      {
-        "channel": "sigvise",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1787643615.561929",
-        "text": "<!subteam^S089CG0M23S> STG &gt; 평내센터 &gt; 고객사명 : [라온 단독 사용 고객사] 스완\n\n주문번호 : 2026082514331301\n송장번호 : 100035456743\n\n위 주문/송장번호가 어떤 배송계약으로 할당되었는지 확인해주실 분을 찾습니다 :mag:"
-      },
-      {
-        "channel": "sigvise",
-        "user": "한상준 (기술/QA팀)",
-        "ts": "1787643349.292709",
-        "text": "<!subteam^S089CG0M23S> STG 고객사 계정 정보 변경 요청 드립니다!\n• <mailto:sj.han@test.com|sj.han@test.com> -&gt; <mailto:sj.han@dohands.com|sj.han@dohands.com>"
-      },
-      {
-        "channel": "sigint",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1787636074.770449",
-        "text": "@김준기 (기술/개발팀) V2V -&gt; 딜리버스 전환 관련 딜리버스 측 E2E 테스트 스레드"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1787628988.833319",
-        "text": "@한상준 (기술/QA팀) VISE 계정 생성 후 제품 및 도메인 이해를 위한 프론트 위주의 regression test 스레드"
       }
     ]
   },
