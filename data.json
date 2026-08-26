@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T06:45:58.666Z",
+  "generated_at": "2026-08-26T07:44:09.112Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -30,6 +30,14 @@
         "assignee": "김태재"
       },
       {
+        "key": "TECH-1874",
+        "url": "https://dohands.atlassian.net/browse/TECH-1874",
+        "summary": "퀵 메뉴 카테고리 순서 조정",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "박래원"
+      },
+      {
         "key": "TECH-2060",
         "url": "https://dohands.atlassian.net/browse/TECH-2060",
         "summary": "[보관비 면제] 로케이션 면제 여부 컬럼 추가 및 API",
@@ -49,6 +57,14 @@
         "key": "TECH-1719",
         "url": "https://dohands.atlassian.net/browse/TECH-1719",
         "summary": "[과제] 바코",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "박래원"
+      },
+      {
+        "key": "TECH-1738",
+        "url": "https://dohands.atlassian.net/browse/TECH-1738",
+        "summary": "사용자 생성 후 제공하는 위젯 기본 구성",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "박래원"
@@ -718,6 +734,12 @@
     "messages": [
       {
         "channel": "기술조직",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1787726807.558199",
+        "text": "@정승아 (기술/개발팀) 님 ㅎㅎ.. 박스이미지 다시 켜주세요"
+      },
+      {
+        "channel": "기술조직",
         "user": "최라온 (기술/QA팀)",
         "ts": "1787724074.502249",
         "text": "@도혜원 (기술/개발팀) [도메인 온보딩] 교육 관련 초대 요청 스레드 :books:"
@@ -757,12 +779,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1787712184.581119",
         "text": "@이찬민 (기술/제품팀) <https://dohands.atlassian.net/browse/TECH-175|[SIGINT]VISE 메뉴 이관 1차> 이거 상태 업데이트 부탁드립니다. + 하위작업도 같이요!"
-      },
-      {
-        "channel": "기술과제-개발팀-pii",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1787711985.192839",
-        "text": "@한병두 (기술/제품팀) <https://dohands.atlassian.net/browse/TECH-1000|계정 생명주기 관리> 이것도 확인 부탁드립니다."
       }
     ]
   },
