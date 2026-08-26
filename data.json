@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-25T23:48:52.414Z",
+  "generated_at": "2026-08-26T01:12:43.780Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
       "P1": 2,
-      "P2": 12,
+      "P2": 11,
       "P3": 48
     },
-    "total_open": 62,
+    "total_open": 61,
     "new_this_week": 6,
     "closed_this_week": 0,
     "funnel": [
@@ -30,20 +30,20 @@
         "assignee": "최라온"
       },
       {
+        "key": "TECH-2038",
+        "url": "https://dohands.atlassian.net/browse/TECH-2038",
+        "summary": "[프론트] 연동 재고 관리 > 직계약 고객사의 경우 큐텐 가용재고 설정 불가하도록 방지 기능 구현",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "최라온"
+      },
+      {
         "key": "TECH-2066",
         "url": "https://dohands.atlassian.net/browse/TECH-2066",
         "summary": "[QA] 고객사 뷰",
         "status": "QA 중",
         "project": "TECH",
         "assignee": "김태재"
-      },
-      {
-        "key": "SPRINT-835",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-835",
-        "summary": "[연동] 큐텐 DeliveryCompany 값 추가 및 필드 값에 따라 분기처리",
-        "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "최라온"
       },
       {
         "key": "TECH-1719",
@@ -73,14 +73,6 @@
         "key": "TECH-1942",
         "url": "https://dohands.atlassian.net/browse/TECH-1942",
         "summary": "[프론트] 정산서 - 직계약 분기처리 대응",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "최라온"
-      },
-      {
-        "key": "TECH-2038",
-        "url": "https://dohands.atlassian.net/browse/TECH-2038",
-        "summary": "[프론트] 연동 재고 관리 > 직계약 고객사의 경우 큐텐 가용재고 설정 불가하도록 방지 기능 구현",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "최라온"
@@ -757,6 +749,12 @@
     ],
     "messages": [
       {
+        "channel": "기술조직",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1787704808.565139",
+        "text": "저만 이런가요?"
+      },
+      {
         "channel": "sigvise",
         "user": "한상준 (기술/QA팀)",
         "ts": "1787648148.547629",
@@ -797,12 +795,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1787628988.833319",
         "text": "@한상준 (기술/QA팀) VISE 계정 생성 후 제품 및 도메인 이해를 위한 프론트 위주의 regression test 스레드"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1787623459.733699",
-        "text": "@박래원 (기술/QA팀) @한상준 (기술/QA팀)\n*정보보호 교육 관련*\n\n신규 입사자 대상 정보보호 교육이 진행됩니다.\n보안팀에서 두 분께 개별적으로 안내드릴 예정이니, 8월 28일 금요일 16:00부터 16:30까지는 일정 비워두시면 됩니다.\nGoogle Meet으로 진행되는 온라인 교육이니 참고 부탁드립니다."
       }
     ]
   },
