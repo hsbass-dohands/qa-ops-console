@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T05:50:16.160Z",
+  "generated_at": "2026-08-26T06:45:58.666Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,10 +7,10 @@
       "P0": 0,
       "P1": 2,
       "P2": 10,
-      "P3": 45
+      "P3": 43
     },
-    "total_open": 58,
-    "new_this_week": 6,
+    "total_open": 56,
+    "new_this_week": 5,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -52,6 +52,14 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "박래원"
+      },
+      {
+        "key": "TECH-2035",
+        "url": "https://dohands.atlassian.net/browse/TECH-2035",
+        "summary": "[프론트] 캠페인/입고요청서/박스인쇄관리 - 직계약 분기처리 대응",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "최라온"
       }
     ],
     "weekly_severity": [
@@ -709,6 +717,18 @@
     ],
     "messages": [
       {
+        "channel": "기술조직",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1787724074.502249",
+        "text": "@도혜원 (기술/개발팀) [도메인 온보딩] 교육 관련 초대 요청 스레드 :books:"
+      },
+      {
+        "channel": "sigvise",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1787723671.810749",
+        "text": "<!subteam^S089CG0M23S> STG &gt; 직계약 센터 &gt; SPC-01-01-01 로케이션 내 공간이 없어 재고 이동이 불가해 공간 세팅해주실 분을 찾습니다 :mag: cc. @한상준 (기술/QA팀)"
+      },
+      {
         "channel": "기술과제-패킹로봇-poc",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1787723059.477609",
@@ -743,18 +763,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1787711985.192839",
         "text": "@한병두 (기술/제품팀) <https://dohands.atlassian.net/browse/TECH-1000|계정 생명주기 관리> 이것도 확인 부탁드립니다."
-      },
-      {
-        "channel": "기술과제-트랙스로지스",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1787711789.501959",
-        "text": "@한병두 (기술/제품팀) <https://dohands.atlassian.net/browse/TECH-706|[VISE] 일본 투함 서비스> 요 이슈 확인 부탁드립니다."
-      },
-      {
-        "channel": "sigvise",
-        "user": "한상준 (기술/QA팀)",
-        "ts": "1787710306.556499",
-        "text": "<!subteam^S089CG0M23S> STG &gt; sj.han<mailto:l@dohands.com|@dohands.com>에 고객사 하나 추가 요청 드립니다!\n• 추가 필요한 고객사 ID : <mailto:sj.han+nfa@dohands.com|sj.han+nfa@dohands.com>\n"
       }
     ]
   },
