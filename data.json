@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T08:24:36.216Z",
+  "generated_at": "2026-08-26T09:11:16.747Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -43,7 +43,7 @@
         "summary": "퀵 메뉴 카테고리 순서 조정",
         "status": "QA 중",
         "project": "TECH",
-        "assignee": "박래원"
+        "assignee": "베스현승"
       },
       {
         "key": "TECH-2060",
@@ -430,6 +430,11 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "퀵 메뉴 카테고리 QA",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/328925223/QA",
+        "updated": "2026-08-26"
+      },
+      {
         "title": "역할 별 사용자 페이지 제공 여부 QA",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/325746759/QA",
         "updated": "2026-08-26"
@@ -452,11 +457,6 @@
       {
         "title": "[8월24일] Weekly QA",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/323977222/8+24+Weekly+QA",
-        "updated": "2026-08-24"
-      },
-      {
-        "title": "2026.08.18 직계약 혼합운용 회의(Q&A 정리)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/315817998/2026.08.18+Q+A",
         "updated": "2026-08-24"
       }
     ],
