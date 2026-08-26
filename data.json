@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T07:44:09.112Z",
+  "generated_at": "2026-08-26T08:24:36.216Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -28,6 +28,14 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "김태재"
+      },
+      {
+        "key": "TECH-1847",
+        "url": "https://dohands.atlassian.net/browse/TECH-1847",
+        "summary": "VISE 로그인 화면",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "베스현승"
       },
       {
         "key": "TECH-1874",
