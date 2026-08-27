@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T02:56:15.707Z",
+  "generated_at": "2026-08-27T13:53:05.523Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -14,12 +14,12 @@
     "closed_this_week": 0,
     "funnel": [
       {
-        "key": "TECH-1738",
-        "url": "https://dohands.atlassian.net/browse/TECH-1738",
-        "summary": "사용자 생성 후 제공하는 위젯 기본 구성",
+        "key": "TECH-1728",
+        "url": "https://dohands.atlassian.net/browse/TECH-1728",
+        "summary": "[VISE] 그리드 순번 고정",
         "status": "QA 중",
         "project": "TECH",
-        "assignee": "박래원"
+        "assignee": "한상준"
       },
       {
         "key": "TECH-1765",
@@ -38,36 +38,20 @@
         "assignee": "김태재"
       },
       {
-        "key": "TECH-1847",
-        "url": "https://dohands.atlassian.net/browse/TECH-1847",
-        "summary": "VISE 로그인 화면",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "베스현승"
-      },
-      {
-        "key": "TECH-1874",
-        "url": "https://dohands.atlassian.net/browse/TECH-1874",
-        "summary": "퀵 메뉴 카테고리 순서 조정",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "베스현승"
-      },
-      {
-        "key": "TECH-2060",
-        "url": "https://dohands.atlassian.net/browse/TECH-2060",
-        "summary": "[보관비 면제] 로케이션 면제 여부 컬럼 추가 및 API",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "최라온"
-      },
-      {
         "key": "TECH-2066",
         "url": "https://dohands.atlassian.net/browse/TECH-2066",
         "summary": "[QA] 고객사 뷰",
         "status": "QA 중",
         "project": "TECH",
         "assignee": "김태재"
+      },
+      {
+        "key": "SPRINT-689",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-689",
+        "summary": "그리드 내 병합된 셀에서 드래그 시작 불가 현상 수정 & Grid 36 버전업",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "베스현승"
       },
       {
         "key": "TECH-1719",
@@ -78,28 +62,28 @@
         "assignee": "박래원"
       },
       {
-        "key": "TECH-1728",
-        "url": "https://dohands.atlassian.net/browse/TECH-1728",
-        "summary": "[VISE] 그리드 순번 고정",
+        "key": "TECH-2094",
+        "url": "https://dohands.atlassian.net/browse/TECH-2094",
+        "summary": "[프론트] userInfo에서 partnerId 참조하는곳 모두 제거",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "도혜원"
+        "assignee": "최라온"
       },
       {
-        "key": "TECH-1757",
-        "url": "https://dohands.atlassian.net/browse/TECH-1757",
-        "summary": "탭에 노출되는 타이틀 정리",
+        "key": "TECH-2101",
+        "url": "https://dohands.atlassian.net/browse/TECH-2101",
+        "summary": "[프론트] 오피스 > 입고요청서/재고차감 메뉴 드랍, 바이스 > 입고요청서/재고차감 메뉴 제거",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "베스현승"
+        "assignee": "김태재"
       },
       {
-        "key": "TECH-2035",
-        "url": "https://dohands.atlassian.net/browse/TECH-2035",
-        "summary": "[프론트] 캠페인/입고요청서/박스인쇄관리 - 직계약 분기처리 대응",
+        "key": "TECH-2102",
+        "url": "https://dohands.atlassian.net/browse/TECH-2102",
+        "summary": "[백엔드] 로케이션 보관비 면제 변경 이력 문구 수정",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "한상준"
+        "assignee": "문현호"
       }
     ],
     "weekly_severity": [
@@ -157,7 +141,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 0,
-        "p3": 2
+        "p3": 3
       }
     ],
     "calendar_events": [
@@ -446,24 +430,24 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "2026.08.27 직계약 혼합운용 - 계약/정산 (Q&A 정리)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/329482257/2026.08.27+-+Q+A",
+        "title": "사용자 생성 후 제공하는 위젯 기본 구성 QA",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/329809923/QA",
         "updated": "2026-08-27"
       },
       {
-        "title": "사용자 생성 후 제공하는 위젯 기본 구성 QA",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/329809923/QA",
+        "title": "역할 별 사용자 페이지 제공 여부 QA",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/325746759/QA",
+        "updated": "2026-08-27"
+      },
+      {
+        "title": "2026.08.27 직계약 혼합운용 - 계약/정산 (Q&A 정리)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/329482257/2026.08.27+-+Q+A",
         "updated": "2026-08-27"
       },
       {
         "title": "퀵 메뉴 카테고리 QA",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/328925223/QA",
         "updated": "2026-08-27"
-      },
-      {
-        "title": "역할 별 사용자 페이지 제공 여부 QA",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/325746759/QA",
-        "updated": "2026-08-26"
       },
       {
         "title": "상준님 온보딩",
@@ -758,6 +742,18 @@
     "messages": [
       {
         "channel": "sigvise",
+        "user": "한상준 (기술/QA팀)",
+        "ts": "1787816552.809179",
+        "text": "@도혜원 (기술/개발팀) 그리드 사용하는 탭 리스트 문의"
+      },
+      {
+        "channel": "기술과제-직계약-혼합운용",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1787807870.472739",
+        "text": "@한병두 (기술/제품팀) @황성민 (기술/개발팀) 정산 싱크 맞추는 시간 2시 30분 어떠신지요"
+      },
+      {
+        "channel": "sigvise",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1787798791.686719",
         "text": "@이덕희 (기술/개발팀) 계정 잠금 해제 (lock) 기능이 사라졌읍니다"
@@ -791,18 +787,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1787724074.502249",
         "text": "@도혜원 (기술/개발팀) [도메인 온보딩] 교육 관련 초대 요청 스레드 :books:"
-      },
-      {
-        "channel": "sigvise",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1787723671.810749",
-        "text": "<!subteam^S089CG0M23S> STG &gt; 직계약 센터 &gt; SPC-01-01-01 로케이션 내 공간이 없어 재고 이동이 불가해 공간 세팅해주실 분을 찾습니다 :mag: cc. @한상준 (기술/QA팀)"
-      },
-      {
-        "channel": "기술과제-패킹로봇-poc",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1787723059.477609",
-        "text": "여기 패킹로봇 과제에 QA 투입 일정은 언제쯤으로 생각하면될까요?"
       }
     ]
   },
