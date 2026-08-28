@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T23:37:15.717Z",
+  "generated_at": "2026-08-28T07:05:00.871Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,20 +7,12 @@
       "P0": 0,
       "P1": 2,
       "P2": 9,
-      "P3": 43
+      "P3": 45
     },
-    "total_open": 55,
-    "new_this_week": 5,
+    "total_open": 57,
+    "new_this_week": 6,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "TECH-1728",
-        "url": "https://dohands.atlassian.net/browse/TECH-1728",
-        "summary": "[VISE] 그리드 순번 고정",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "한상준"
-      },
       {
         "key": "TECH-1765",
         "url": "https://dohands.atlassian.net/browse/TECH-1765",
@@ -51,7 +43,15 @@
         "summary": "그리드 내 병합된 셀에서 드래그 시작 불가 현상 수정 & Grid 36 버전업",
         "status": "QA 필요",
         "project": "SPRINT",
-        "assignee": "베스현승"
+        "assignee": "김태재"
+      },
+      {
+        "key": "SPRINT-845",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-845",
+        "summary": "[백엔드] [연동] 큐텐 DeliveryCompany 값 추가 및 필드 값에 따라 분기처리",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "황성민"
       },
       {
         "key": "TECH-1719",
@@ -70,20 +70,12 @@
         "assignee": "최라온"
       },
       {
-        "key": "TECH-2101",
-        "url": "https://dohands.atlassian.net/browse/TECH-2101",
-        "summary": "[프론트] 오피스 > 입고요청서/재고차감 메뉴 드랍, 바이스 > 입고요청서/재고차감 메뉴 제거",
+        "key": "TECH-2096",
+        "url": "https://dohands.atlassian.net/browse/TECH-2096",
+        "summary": "[디자인-QA] 로그인 화면 리디자인",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "김태재"
-      },
-      {
-        "key": "TECH-2102",
-        "url": "https://dohands.atlassian.net/browse/TECH-2102",
-        "summary": "[백엔드] 로케이션 보관비 면제 변경 이력 문구 수정",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "문현호"
+        "assignee": "반수정"
       }
     ],
     "weekly_severity": [
@@ -141,7 +133,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 0,
-        "p3": 3
+        "p3": 5
       }
     ],
     "calendar_events": [
@@ -430,9 +422,24 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-08-28"
+      },
+      {
+        "title": "고객사 뷰 / 웹 열기",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322666570",
+        "updated": "2026-08-28"
+      },
+      {
+        "title": "QA팀 홈",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/overview",
+        "updated": "2026-08-28"
+      },
+      {
         "title": "사용자 생성 후 제공하는 위젯 기본 구성 QA",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/329809923/QA",
-        "updated": "2026-08-27"
+        "updated": "2026-08-28"
       },
       {
         "title": "역할 별 사용자 페이지 제공 여부 QA",
@@ -443,21 +450,6 @@
         "title": "2026.08.27 직계약 혼합운용 - 계약/정산 (Q&A 정리)",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/329482257/2026.08.27+-+Q+A",
         "updated": "2026-08-27"
-      },
-      {
-        "title": "퀵 메뉴 카테고리 QA",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/328925223/QA",
-        "updated": "2026-08-27"
-      },
-      {
-        "title": "상준님 온보딩",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/310608024",
-        "updated": "2026-08-25"
-      },
-      {
-        "title": "고객사 뷰 / 웹 열기",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322666570",
-        "updated": "2026-08-24"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
@@ -741,6 +733,30 @@
     ],
     "messages": [
       {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1787898384.026489",
+        "text": "다음주 To-Do\n\n@한상준 (기술/QA팀) 님 다음 주 To-Do 공유드립니다.\n1. *품고 해피 프로세스 경험*\n    a. SKU 등록부터 아래 프로세스를 처음부터 끝까지 직접 경험해 주세요.\n    b. SKU 등록 → 입고 → 로케이션 등록 → 재고 등록 → 수기 주문 → 할당 → 마감 → 송장 프린트\n    c. 디바이스 관련 작업을 제외하면 게"
+      },
+      {
+        "channel": "기술과제-개발팀-pii",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1787896462.806309",
+        "text": "@한병두 (기술/제품팀) 님 혹시 pii 과제 남은것들 정리 한번 해주실수있나요? 그리고 남은것 스케쥴(타임라인)도 부탁드려요.\n어떤게 남았는지 어떤게 언제 배포되야 하는지 등 중간 정리 한번 필요해보여서요!"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1787885481.296589",
+        "text": "<!here> 점메추"
+      },
+      {
+        "channel": "기술과제-바코",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1787885121.624899",
+        "text": "운영 사용 가능한 고객사ㅓ"
+      },
+      {
         "channel": "sigvise",
         "user": "한상준 (기술/QA팀)",
         "ts": "1787816552.809179",
@@ -763,30 +779,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1787796638.505509",
         "text": "@김태재 (기술/QA팀) 보고싶읍니다."
-      },
-      {
-        "channel": "기술과제-직계약-혼합운용",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1787795462.887079",
-        "text": "@한병두 (기술/제품팀) [VISE] 직계약 혼합 운영-계약서/정산서-기획 리뷰(QA) 어디서 진행하나요~?!"
-      },
-      {
-        "channel": "sigvise",
-        "user": "한상준 (기술/QA팀)",
-        "ts": "1787792005.481619",
-        "text": "<!subteam^S089CG0M23S> STG &gt; 입고 로케이션 문의"
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1787726807.558199",
-        "text": "@정승아 (기술/개발팀) 님 ㅎㅎ.. 박스이미지 다시 켜주세요"
-      },
-      {
-        "channel": "기술조직",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1787724074.502249",
-        "text": "@도혜원 (기술/개발팀) [도메인 온보딩] 교육 관련 초대 요청 스레드 :books:"
       }
     ]
   },
