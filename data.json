@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T07:05:00.871Z",
+  "generated_at": "2026-08-28T19:26:20.531Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -10,7 +10,7 @@
       "P3": 45
     },
     "total_open": 57,
-    "new_this_week": 6,
+    "new_this_week": 7,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -38,6 +38,14 @@
         "assignee": "김태재"
       },
       {
+        "key": "BE-174",
+        "url": "https://dohands.atlassian.net/browse/BE-174",
+        "summary": "[billflow] 정산 배치 calculateBillPrice OOM — bill_lines 전량 로드 제거 (attributes 제한)",
+        "status": "QA 필요",
+        "project": "BE",
+        "assignee": "최라온"
+      },
+      {
         "key": "SPRINT-689",
         "url": "https://dohands.atlassian.net/browse/SPRINT-689",
         "summary": "그리드 내 병합된 셀에서 드래그 시작 불가 현상 수정 & Grid 36 버전업",
@@ -51,7 +59,7 @@
         "summary": "[백엔드] [연동] 큐텐 DeliveryCompany 값 추가 및 필드 값에 따라 분기처리",
         "status": "QA 필요",
         "project": "SPRINT",
-        "assignee": "황성민"
+        "assignee": "최라온"
       },
       {
         "key": "TECH-1719",
@@ -68,14 +76,6 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "최라온"
-      },
-      {
-        "key": "TECH-2096",
-        "url": "https://dohands.atlassian.net/browse/TECH-2096",
-        "summary": "[디자인-QA] 로그인 화면 리디자인",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "반수정"
       }
     ],
     "weekly_severity": [
@@ -133,7 +133,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 0,
-        "p3": 5
+        "p3": 7
       }
     ],
     "calendar_events": [
@@ -422,13 +422,13 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "title": "고객사 뷰 / 웹 열기",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322666570",
         "updated": "2026-08-28"
       },
       {
-        "title": "고객사 뷰 / 웹 열기",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322666570",
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-08-28"
       },
       {
@@ -733,6 +733,18 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-바코",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1787904030.295599",
+        "text": "@강진영 (기술/제품팀) 님 이거 확인 부탁드려요. 바코 on/off 할때 마지막으로 두엇던 곳에 창이 열리는데 원래 기획인지요"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1787903327.004929",
+        "text": "@박래원 (기술/QA팀) @한상준 (기술/QA팀) swagger 문서 참고"
+      },
+      {
         "channel": "기술-qa팀",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1787898384.026489",
@@ -767,18 +779,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1787807870.472739",
         "text": "@한병두 (기술/제품팀) @황성민 (기술/개발팀) 정산 싱크 맞추는 시간 2시 30분 어떠신지요"
-      },
-      {
-        "channel": "sigvise",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1787798791.686719",
-        "text": "@이덕희 (기술/개발팀) 계정 잠금 해제 (lock) 기능이 사라졌읍니다"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1787796638.505509",
-        "text": "@김태재 (기술/QA팀) 보고싶읍니다."
       }
     ]
   },
