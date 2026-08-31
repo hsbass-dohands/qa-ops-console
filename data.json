@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T00:24:30.866Z",
+  "generated_at": "2026-08-31T05:54:45.547Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -70,12 +70,12 @@
         "assignee": "박래원"
       },
       {
-        "key": "TECH-2094",
-        "url": "https://dohands.atlassian.net/browse/TECH-2094",
-        "summary": "[프론트] userInfo에서 partnerId 참조하는곳 모두 제거",
+        "key": "TECH-1880",
+        "url": "https://dohands.atlassian.net/browse/TECH-1880",
+        "summary": "Office <-> VISE 간, 고객사 정보 통합",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "최라온"
+        "assignee": "김태재"
       }
     ],
     "weekly_severity": [
@@ -83,57 +83,57 @@
         "week": "W1",
         "p0": 0,
         "p1": 0,
-        "p2": 3,
-        "p3": 5
-      },
-      {
-        "week": "W2",
-        "p0": 0,
-        "p1": 0,
         "p2": 0,
         "p3": 6
       },
       {
-        "week": "W3",
+        "week": "W2",
         "p0": 1,
         "p1": 1,
         "p2": 1,
         "p3": 6
       },
       {
-        "week": "W4",
+        "week": "W3",
         "p0": 0,
         "p1": 1,
         "p2": 4,
         "p3": 7
       },
       {
-        "week": "W5",
+        "week": "W4",
         "p0": 0,
         "p1": 0,
         "p2": 1,
         "p3": 10
       },
       {
-        "week": "W6",
+        "week": "W5",
         "p0": 0,
         "p1": 2,
         "p2": 4,
         "p3": 5
       },
       {
-        "week": "W7",
+        "week": "W6",
         "p0": 0,
         "p1": 0,
         "p2": 1,
         "p3": 4
       },
       {
-        "week": "W8",
+        "week": "W7",
         "p0": 0,
         "p1": 0,
         "p2": 0,
         "p3": 7
+      },
+      {
+        "week": "W8",
+        "p0": 0,
+        "p1": 0,
+        "p2": 0,
+        "p3": 1
       }
     ],
     "calendar_events": [
@@ -422,14 +422,24 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "고객사 뷰 / 웹 열기",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322666570",
-        "updated": "2026-08-28"
+        "title": "역할 별 사용자 페이지 제공 여부 QA",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/325746759/QA",
+        "updated": "2026-08-31"
       },
       {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
-        "updated": "2026-08-28"
+        "updated": "2026-08-31"
+      },
+      {
+        "title": "[8월31일] Weekly QA",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/332333441/8+31+Weekly+QA",
+        "updated": "2026-08-31"
+      },
+      {
+        "title": "고객사 뷰 / 웹 열기",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322666570",
+        "updated": "2026-08-31"
       },
       {
         "title": "QA팀 홈",
@@ -440,16 +450,6 @@
         "title": "사용자 생성 후 제공하는 위젯 기본 구성 QA",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/329809923/QA",
         "updated": "2026-08-28"
-      },
-      {
-        "title": "역할 별 사용자 페이지 제공 여부 QA",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/325746759/QA",
-        "updated": "2026-08-27"
-      },
-      {
-        "title": "2026.08.27 직계약 혼합운용 - 계약/정산 (Q&A 정리)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/329482257/2026.08.27+-+Q+A",
-        "updated": "2026-08-27"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
@@ -733,6 +733,18 @@
     ],
     "messages": [
       {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1788155358.499059",
+        "text": "@한상준 (기술/QA팀) 오전에 버블로 소통했던 내용 스레드\n\n• STG &gt; 상품 &gt; 연결목록 &gt; 연결목록 2개 이상 있을 때 임의의 목록을 1개 삭제할 경우 프론트 에러 발생하는 이슈"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1788142444.251789",
+        "text": "<!here> 바이스 로그인 잘 되시나요?"
+      },
+      {
         "channel": "기술과제-바코",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1787904030.295599",
@@ -767,18 +779,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1787885121.624899",
         "text": "운영 사용 가능한 고객사ㅓ"
-      },
-      {
-        "channel": "sigvise",
-        "user": "한상준 (기술/QA팀)",
-        "ts": "1787816552.809179",
-        "text": "@도혜원 (기술/개발팀) 그리드 사용하는 탭 리스트 문의"
-      },
-      {
-        "channel": "기술과제-직계약-혼합운용",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1787807870.472739",
-        "text": "@한병두 (기술/제품팀) @황성민 (기술/개발팀) 정산 싱크 맞추는 시간 2시 30분 어떠신지요"
       }
     ]
   },
