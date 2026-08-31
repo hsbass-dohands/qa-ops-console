@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T05:54:45.547Z",
+  "generated_at": "2026-08-31T12:46:33.599Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,19 +7,35 @@
       "P0": 0,
       "P1": 2,
       "P2": 9,
-      "P3": 45
+      "P3": 44
     },
-    "total_open": 57,
-    "new_this_week": 7,
+    "total_open": 56,
+    "new_this_week": 9,
     "closed_this_week": 0,
     "funnel": [
       {
-        "key": "TECH-1765",
-        "url": "https://dohands.atlassian.net/browse/TECH-1765",
-        "summary": "사용자 페이지 역할별 노출 여부와 데이터 노출 기준",
+        "key": "SPRINT-835",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-835",
+        "summary": "[연동] 큐텐 DeliveryCompany 값 추가 및 필드 값에 따라 분기처리",
         "status": "QA 중",
-        "project": "TECH",
-        "assignee": "박래원"
+        "project": "SPRINT",
+        "assignee": "최라온"
+      },
+      {
+        "key": "SPRINT-840",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-840",
+        "summary": "[프론트] [연동] 큐텐 DeliveryCompany 값 추가 및 필드 값에 따라 분기처리",
+        "status": "QA 중",
+        "project": "SPRINT",
+        "assignee": "최라온"
+      },
+      {
+        "key": "SPRINT-845",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-845",
+        "summary": "[백엔드] [연동] 큐텐 DeliveryCompany 값 추가 및 필드 값에 따라 분기처리",
+        "status": "QA 중",
+        "project": "SPRINT",
+        "assignee": "최라온"
       },
       {
         "key": "TECH-1820",
@@ -30,12 +46,28 @@
         "assignee": "김태재"
       },
       {
-        "key": "TECH-2066",
-        "url": "https://dohands.atlassian.net/browse/TECH-2066",
-        "summary": "[QA] 고객사 뷰",
+        "key": "TECH-2107",
+        "url": "https://dohands.atlassian.net/browse/TECH-2107",
+        "summary": "네오팜 고객사 셀러페이지 접속 불가 현상 확인 및 수정",
         "status": "QA 중",
         "project": "TECH",
-        "assignee": "김태재"
+        "assignee": "한상준"
+      },
+      {
+        "key": "BE-169",
+        "url": "https://dohands.atlassian.net/browse/BE-169",
+        "summary": "[LMS] 토스쇼핑 재고 불일치 — PETASOS 재고이벤트 생산자 12곳 멀티센터 inventoryLists 오조회 수정",
+        "status": "QA 필요",
+        "project": "BE",
+        "assignee": "황성민"
+      },
+      {
+        "key": "BE-173",
+        "url": "https://dohands.atlassian.net/browse/BE-173",
+        "summary": "[연동] 토스쇼핑 판매가능재고 센터 구분하여 전송",
+        "status": "QA 필요",
+        "project": "BE",
+        "assignee": "최라온"
       },
       {
         "key": "BE-174",
@@ -43,22 +75,6 @@
         "summary": "[billflow] 정산 배치 calculateBillPrice OOM — bill_lines 전량 로드 제거 (attributes 제한)",
         "status": "QA 필요",
         "project": "BE",
-        "assignee": "최라온"
-      },
-      {
-        "key": "SPRINT-689",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-689",
-        "summary": "그리드 내 병합된 셀에서 드래그 시작 불가 현상 수정 & Grid 36 버전업",
-        "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "김태재"
-      },
-      {
-        "key": "SPRINT-845",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-845",
-        "summary": "[백엔드] [연동] 큐텐 DeliveryCompany 값 추가 및 필드 값에 따라 분기처리",
-        "status": "QA 필요",
-        "project": "SPRINT",
         "assignee": "최라온"
       },
       {
@@ -73,6 +89,14 @@
         "key": "TECH-1880",
         "url": "https://dohands.atlassian.net/browse/TECH-1880",
         "summary": "Office <-> VISE 간, 고객사 정보 통합",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "김태재"
+      },
+      {
+        "key": "TECH-1881",
+        "url": "https://dohands.atlassian.net/browse/TECH-1881",
+        "summary": "Office <-> VISE 간, 브랜드 정보 통합",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "김태재"
@@ -131,9 +155,9 @@
       {
         "week": "W8",
         "p0": 0,
-        "p1": 0,
+        "p1": 1,
         "p2": 0,
-        "p3": 1
+        "p3": 2
       }
     ],
     "calendar_events": [
@@ -422,13 +446,23 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "역할 별 사용자 페이지 제공 여부 QA",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/325746759/QA",
+        "title": "기능별",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/333479969",
         "updated": "2026-08-31"
       },
       {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-08-31"
+      },
+      {
+        "title": "알림 기능 QA",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/332628067/QA",
+        "updated": "2026-08-31"
+      },
+      {
+        "title": "역할 별 사용자 페이지 제공 여부 QA",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/325746759/QA",
         "updated": "2026-08-31"
       },
       {
@@ -440,16 +474,6 @@
         "title": "고객사 뷰 / 웹 열기",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322666570",
         "updated": "2026-08-31"
-      },
-      {
-        "title": "QA팀 홈",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/overview",
-        "updated": "2026-08-28"
-      },
-      {
-        "title": "사용자 생성 후 제공하는 위젯 기본 구성 QA",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/329809923/QA",
-        "updated": "2026-08-28"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
@@ -733,6 +757,24 @@
     ],
     "messages": [
       {
+        "channel": "sigvise",
+        "user": "한상준 (기술/QA팀)",
+        "ts": "1788160430.725399",
+        "text": "@한병두 (기술/제품팀) STG VISE &gt; 고객사 드롭다운 관련 문의"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1788156596.156309",
+        "text": "@베스현승 (기술/QA팀) 현승님~! <https://dohands.atlassian.net/browse/TECH-2094|[프론트] userInfo에서 partnerId 참조하는곳 모두 제거> 이 티켓 조금 전에 QA 완료로 배포 준비 변경해둔 티켓인데요!\n혹시 다른 작업 보시다가 관련해서 발견된 이슈가 있으셨을까요~?!! 다시 저한테 할당 주셔서 확인차"
+      },
+      {
+        "channel": "sigvise",
+        "user": "한상준 (기술/QA팀)",
+        "ts": "1788156212.996619",
+        "text": "<!subteam^S088S7692RJ> STG &gt; 상품 등록 &gt; 연결목록 관련 이슈"
+      },
+      {
         "channel": "기술-qa팀",
         "user": "최라온 (기술/QA팀)",
         "ts": "1788155358.499059",
@@ -761,24 +803,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1787898384.026489",
         "text": "다음주 To-Do\n\n@한상준 (기술/QA팀) 님 다음 주 To-Do 공유드립니다.\n1. *품고 해피 프로세스 경험*\n    a. SKU 등록부터 아래 프로세스를 처음부터 끝까지 직접 경험해 주세요.\n    b. SKU 등록 → 입고 → 로케이션 등록 → 재고 등록 → 수기 주문 → 할당 → 마감 → 송장 프린트\n    c. 디바이스 관련 작업을 제외하면 게"
-      },
-      {
-        "channel": "기술과제-개발팀-pii",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1787896462.806309",
-        "text": "@한병두 (기술/제품팀) 님 혹시 pii 과제 남은것들 정리 한번 해주실수있나요? 그리고 남은것 스케쥴(타임라인)도 부탁드려요.\n어떤게 남았는지 어떤게 언제 배포되야 하는지 등 중간 정리 한번 필요해보여서요!"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1787885481.296589",
-        "text": "<!here> 점메추"
-      },
-      {
-        "channel": "기술과제-바코",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1787885121.624899",
-        "text": "운영 사용 가능한 고객사ㅓ"
       }
     ]
   },
