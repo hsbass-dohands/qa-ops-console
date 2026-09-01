@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T23:17:01.421Z",
+  "generated_at": "2026-09-01T01:58:00.234Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -46,20 +46,12 @@
         "assignee": "김태재"
       },
       {
-        "key": "TECH-2107",
-        "url": "https://dohands.atlassian.net/browse/TECH-2107",
-        "summary": "네오팜 고객사 셀러페이지 접속 불가 현상 확인 및 수정",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "한상준"
-      },
-      {
         "key": "BE-169",
         "url": "https://dohands.atlassian.net/browse/BE-169",
         "summary": "[LMS] 토스쇼핑 재고 불일치 — PETASOS 재고이벤트 생산자 12곳 멀티센터 inventoryLists 오조회 수정",
         "status": "QA 필요",
         "project": "BE",
-        "assignee": "황성민"
+        "assignee": "최라온"
       },
       {
         "key": "BE-173",
@@ -446,6 +438,11 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "입고",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/334856199",
+        "updated": "2026-09-01"
+      },
+      {
         "title": "기능별",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/333479969",
         "updated": "2026-08-31"
@@ -468,11 +465,6 @@
       {
         "title": "[8월31일] Weekly QA",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/332333441/8+31+Weekly+QA",
-        "updated": "2026-08-31"
-      },
-      {
-        "title": "고객사 뷰 / 웹 열기",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322666570",
         "updated": "2026-08-31"
       }
     ],
@@ -757,6 +749,24 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-cafe24-openapi",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1788225900.951099",
+        "text": "@김서경 (기술/제품팀) 남은 작업이 있나요?"
+      },
+      {
+        "channel": "기술과제-직계약-입점",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1788225842.485839",
+        "text": "@김서경 (기술/제품팀) 요거 완료인가요"
+      },
+      {
+        "channel": "기술과제-재고증차감-이관",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1788225807.520149",
+        "text": "@한병두 (기술/제품팀) 요거 완료인가요"
+      },
+      {
         "channel": "기술조직",
         "user": "최라온 (기술/QA팀)",
         "ts": "1788188572.422769",
@@ -785,24 +795,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1788155358.499059",
         "text": "@한상준 (기술/QA팀) 오전에 버블로 소통했던 내용 스레드\n\n• STG &gt; 상품 &gt; 연결목록 &gt; 연결목록 2개 이상 있을 때 임의의 목록을 1개 삭제할 경우 프론트 에러 발생하는 이슈"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1788142444.251789",
-        "text": "<!here> 바이스 로그인 잘 되시나요?"
-      },
-      {
-        "channel": "기술과제-바코",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1787904030.295599",
-        "text": "@강진영 (기술/제품팀) 님 이거 확인 부탁드려요. 바코 on/off 할때 마지막으로 두엇던 곳에 창이 열리는데 원래 기획인지요"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1787903327.004929",
-        "text": "@박래원 (기술/QA팀) @한상준 (기술/QA팀) swagger 문서 참고"
       }
     ]
   },
