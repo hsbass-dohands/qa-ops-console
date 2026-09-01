@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T07:36:44.749Z",
+  "generated_at": "2026-09-01T12:45:06.775Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,28 +7,12 @@
       "P0": 0,
       "P1": 2,
       "P2": 9,
-      "P3": 45
+      "P3": 46
     },
-    "total_open": 57,
-    "new_this_week": 9,
+    "total_open": 58,
+    "new_this_week": 10,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "BE-169",
-        "url": "https://dohands.atlassian.net/browse/BE-169",
-        "summary": "[LMS] 토스쇼핑 재고 불일치 — PETASOS 재고이벤트 생산자 12곳 멀티센터 inventoryLists 오조회 수정",
-        "status": "QA 중",
-        "project": "BE",
-        "assignee": "최라온"
-      },
-      {
-        "key": "BE-173",
-        "url": "https://dohands.atlassian.net/browse/BE-173",
-        "summary": "[연동] 토스쇼핑 판매가능재고 센터 구분하여 전송",
-        "status": "QA 중",
-        "project": "BE",
-        "assignee": "최라온"
-      },
       {
         "key": "SPRINT-835",
         "url": "https://dohands.atlassian.net/browse/SPRINT-835",
@@ -54,14 +38,6 @@
         "assignee": "최라온"
       },
       {
-        "key": "TECH-1820",
-        "url": "https://dohands.atlassian.net/browse/TECH-1820",
-        "summary": "[QA] 고객사 이관 최종 점검",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "김태재"
-      },
-      {
         "key": "TECH-1880",
         "url": "https://dohands.atlassian.net/browse/TECH-1880",
         "summary": "Office <-> VISE 간, 고객사 정보 통합",
@@ -84,6 +60,14 @@
         "status": "QA 필요",
         "project": "BE",
         "assignee": "최라온"
+      },
+      {
+        "key": "SPRINT-854",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-854",
+        "summary": "할당 결과 조회 > 조회 날짜 필수값 변경 및 기본값 '오늘' 적용",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "한병두"
       },
       {
         "key": "TECH-1719",
@@ -157,7 +141,7 @@
         "p0": 0,
         "p1": 1,
         "p2": 0,
-        "p3": 3
+        "p3": 4
       }
     ],
     "calendar_events": [
@@ -446,6 +430,11 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "26년 QA 리포트 (1~8월)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/335413290/26+QA+1~8",
+        "updated": "2026-09-01"
+      },
+      {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-09-01"
@@ -468,11 +457,6 @@
       {
         "title": "역할 별 사용자 페이지 제공 여부 QA",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/325746759/QA",
-        "updated": "2026-08-31"
-      },
-      {
-        "title": "[8월31일] Weekly QA",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/332333441/8+31+Weekly+QA",
         "updated": "2026-08-31"
       }
     ],
