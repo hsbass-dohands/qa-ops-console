@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T00:24:19.289Z",
+  "generated_at": "2026-09-02T04:54:05.192Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -22,9 +22,9 @@
         "assignee": "최라온"
       },
       {
-        "key": "SPRINT-840",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-840",
-        "summary": "[프론트] [연동] 큐텐 DeliveryCompany 값 추가 및 필드 값에 따라 분기처리",
+        "key": "SPRINT-836",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-836",
+        "summary": "[연동]취소요청 철회 시 사은품이 미증정 상태로 잘못 확정되는 이슈",
         "status": "QA 중",
         "project": "SPRINT",
         "assignee": "최라온"
@@ -52,14 +52,6 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "김태재"
-      },
-      {
-        "key": "BE-174",
-        "url": "https://dohands.atlassian.net/browse/BE-174",
-        "summary": "[billflow] 정산 배치 calculateBillPrice OOM — bill_lines 전량 로드 제거 (attributes 제한)",
-        "status": "QA 필요",
-        "project": "BE",
-        "assignee": "최라온"
       },
       {
         "key": "SPRINT-854",
@@ -430,34 +422,34 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "26년 QA 리포트 (1~8월)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/335413290/26+QA+1~8",
-        "updated": "2026-09-01"
-      },
-      {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
-        "updated": "2026-09-01"
-      },
-      {
-        "title": "입고",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/334856199",
-        "updated": "2026-09-01"
-      },
-      {
-        "title": "기능별",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/333479969",
-        "updated": "2026-08-31"
+        "title": "순서",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/336265239",
+        "updated": "2026-09-02"
       },
       {
         "title": "알림 기능 QA",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/332628067/QA",
-        "updated": "2026-08-31"
+        "updated": "2026-09-02"
       },
       {
-        "title": "역할 별 사용자 페이지 제공 여부 QA",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/325746759/QA",
-        "updated": "2026-08-31"
+        "title": "순서2",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/336592903/2",
+        "updated": "2026-09-02"
+      },
+      {
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-09-02"
+      },
+      {
+        "title": "고객사/브랜드 페이지",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/336396323",
+        "updated": "2026-09-02"
+      },
+      {
+        "title": "26년 QA 리포트 (1~8월)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/335413290/26+QA+1~8",
+        "updated": "2026-09-01"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
@@ -741,6 +733,24 @@
     ],
     "messages": [
       {
+        "channel": "기술조직",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1788318875.162289",
+        "text": "@황성민 (기술/개발팀) @김준기 (기술/개발팀) 큐텐 DeliveryCompany 값 추가 및 필드 값에 따라 분기처리 QA 중 아래 상황에서 마감 불가 확인 필요 스레드\n\nSTG &gt; 두산베어스 &gt; 송장번호 : 872284774830\n상황 : 주문의 택배사는 품고 미니 / 실제 할당은 한진글로벌-사가와-관서\n\n```{\n    \"name\": \"B"
+      },
+      {
+        "channel": "sigvise",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1788313887.117969",
+        "text": "<!subteam^S088S7692RJ> VISE 로그인 화면 관련해서 세상에서 가장 공손하게 질문드립니다.\n(짤은 승아님과 합의(?) 하에 올립니다.. :5_blue::sun_with_face: 없으시길... :sparkling_heart: + 무려 지난주부터 승아님과 이 짤을 쓸 날만을 기다림..)"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1788311216.705739",
+        "text": "VISE 로그인 화면 배율 100% 일 때(첫번째 사진) 살짝 무게감이 아래쪽으로 있는 것 같은데 저만 그렇게 느끼나요..~?!!\n평상시에 배율 67~80% 사이로 쓸 때는 몰랐는데(두번째 사진), 100%로 보니까 입력폼이 아래쪽으로 너무 내려가 있는 느낌이 드는건지..?!"
+      },
+      {
         "channel": "기술-qa팀",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1788247773.003019",
@@ -769,24 +779,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1788244925.732949",
         "text": "@김태재 (기술/QA팀) STG &gt; 재고증차감 &gt; 증가 또는 차감 시 발생하는 `API error [400] createdAtGte must be a string`"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1788235791.682949",
-        "text": "@베스현승 (기술/QA팀) 어제 21시 50분 경 V2V -&gt; 딜리버스 핫픽스 배포 관련 스레드"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1788233012.686189",
-        "text": "@김태재 (기술/QA팀) 9/3일 Tech Sync OKR"
-      },
-      {
-        "channel": "기술조직",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1788228934.869479",
-        "text": "<!here> 혹시 해당 송장으로 반송 또는 배송 테스트 하고 계신 분 있으실까요~?\n\n받는 분 주소지가 명확하지 않아서 불가하다고 주소 정확히 기재해달라는 요청을 받았습니다\n\n송장에 제 전화번호가 있어서 저한테 문자 전화가 계속 오고 있는 상황이라 빠르게 확인 부탁드리겠습니다~!"
       }
     ]
   },
