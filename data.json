@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T09:18:27.992Z",
+  "generated_at": "2026-09-02T13:47:02.539Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -422,6 +422,11 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "바코 (VAKO)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/337477651/VAKO",
+        "updated": "2026-09-02"
+      },
+      {
         "title": "B2B",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/338100227/B2B",
         "updated": "2026-09-02"
@@ -444,11 +449,6 @@
       {
         "title": "순서",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/336265239",
-        "updated": "2026-09-02"
-      },
-      {
-        "title": "바코 (VAKO)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/337477651/VAKO",
         "updated": "2026-09-02"
       }
     ],
@@ -734,6 +734,12 @@
     "messages": [
       {
         "channel": "sigvise",
+        "user": "한상준 (기술/QA팀)",
+        "ts": "1788342354.946509",
+        "text": "<!subteam^S088S7692RJ> STG &gt; 입고 요청서 등록 &gt; 예정 수량 일괄 변경 모달 관련 이슈"
+      },
+      {
+        "channel": "sigvise",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1788335206.556239",
         "text": "잠시 뭐좀 테스트"
@@ -773,12 +779,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1788313887.117969",
         "text": "<!subteam^S088S7692RJ> VISE 로그인 화면 관련해서 세상에서 가장 공손하게 질문드립니다.\n(짤은 승아님과 합의(?) 하에 올립니다.. :5_blue::sun_with_face: 없으시길... :sparkling_heart: + 무려 지난주부터 승아님과 이 짤을 쓸 날만을 기다림..)"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1788311216.705739",
-        "text": "VISE 로그인 화면 배율 100% 일 때(첫번째 사진) 살짝 무게감이 아래쪽으로 있는 것 같은데 저만 그렇게 느끼나요..~?!!\n평상시에 배율 67~80% 사이로 쓸 때는 몰랐는데(두번째 사진), 100%로 보니까 입력폼이 아래쪽으로 너무 내려가 있는 느낌이 드는건지..?!"
       }
     ]
   },
