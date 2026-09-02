@@ -1,38 +1,22 @@
 {
-  "generated_at": "2026-09-02T04:54:05.192Z",
+  "generated_at": "2026-09-02T09:18:27.992Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
       "P1": 2,
-      "P2": 9,
-      "P3": 46
+      "P2": 10,
+      "P3": 45
     },
     "total_open": 58,
-    "new_this_week": 10,
+    "new_this_week": 12,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "SPRINT-835",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-835",
-        "summary": "[연동] 큐텐 DeliveryCompany 값 추가 및 필드 값에 따라 분기처리",
-        "status": "QA 중",
-        "project": "SPRINT",
-        "assignee": "최라온"
-      },
       {
         "key": "SPRINT-836",
         "url": "https://dohands.atlassian.net/browse/SPRINT-836",
         "summary": "[연동]취소요청 철회 시 사은품이 미증정 상태로 잘못 확정되는 이슈",
-        "status": "QA 중",
-        "project": "SPRINT",
-        "assignee": "최라온"
-      },
-      {
-        "key": "SPRINT-845",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-845",
-        "summary": "[백엔드] [연동] 큐텐 DeliveryCompany 값 추가 및 필드 값에 따라 분기처리",
         "status": "QA 중",
         "project": "SPRINT",
         "assignee": "최라온"
@@ -52,6 +36,22 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "김태재"
+      },
+      {
+        "key": "TECH-2178",
+        "url": "https://dohands.atlassian.net/browse/TECH-2178",
+        "summary": "[프론트] 윈도우 노트북 > 배율 100%일 경우 로그인 화면에서 비밀번호 재설정 버튼 클릭 불가",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "최라온"
+      },
+      {
+        "key": "BE-183",
+        "url": "https://dohands.atlassian.net/browse/BE-183",
+        "summary": "[정산] 부가세를 절삭 전 공급가액 기준으로 계산해 소수점 발생 - 과세 세금계산서 발행 불가",
+        "status": "QA 필요",
+        "project": "BE",
+        "assignee": "문현호"
       },
       {
         "key": "SPRINT-854",
@@ -132,8 +132,8 @@
         "week": "W8",
         "p0": 0,
         "p1": 1,
-        "p2": 0,
-        "p3": 4
+        "p2": 1,
+        "p3": 5
       }
     ],
     "calendar_events": [
@@ -422,34 +422,34 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "B2B",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/338100227/B2B",
+        "updated": "2026-09-02"
+      },
+      {
+        "title": "공통",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/337969242",
+        "updated": "2026-09-02"
+      },
+      {
+        "title": "재고",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/338165783",
+        "updated": "2026-09-02"
+      },
+      {
+        "title": "주문",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/338067464",
+        "updated": "2026-09-02"
+      },
+      {
         "title": "순서",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/336265239",
         "updated": "2026-09-02"
       },
       {
-        "title": "알림 기능 QA",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/332628067/QA",
+        "title": "바코 (VAKO)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/337477651/VAKO",
         "updated": "2026-09-02"
-      },
-      {
-        "title": "순서2",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/336592903/2",
-        "updated": "2026-09-02"
-      },
-      {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
-        "updated": "2026-09-02"
-      },
-      {
-        "title": "고객사/브랜드 페이지",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/336396323",
-        "updated": "2026-09-02"
-      },
-      {
-        "title": "26년 QA 리포트 (1~8월)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/335413290/26+QA+1~8",
-        "updated": "2026-09-01"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
@@ -733,6 +733,36 @@
     ],
     "messages": [
       {
+        "channel": "sigvise",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1788335206.556239",
+        "text": "잠시 뭐좀 테스트"
+      },
+      {
+        "channel": "기술조직",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1788334338.231429",
+        "text": "@한병두 (기술/제품팀) @황성민 (기술/개발팀) 직계약 정산 관련 인득님 문의 스레드"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1788333286.531209",
+        "text": "@최라온 (기술/QA팀) 정산 관련 알림은 언제 노출되는지 아시나요?"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1788326078.147289",
+        "text": "@한상준 (기술/QA팀) @박래원 (기술/QA팀)\n라온님이나 태재님은 벌써 설정하셨을텐데 두분도 슬랙에서 키워드 알림 설정 하시길 권장합니다. 전 이렇게 했습니다."
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1788325751.766439",
+        "text": "@박래원 (기술/QA팀) 다음주 센터 방문에 필요한 수기주문"
+      },
+      {
         "channel": "기술조직",
         "user": "최라온 (기술/QA팀)",
         "ts": "1788318875.162289",
@@ -749,36 +779,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1788311216.705739",
         "text": "VISE 로그인 화면 배율 100% 일 때(첫번째 사진) 살짝 무게감이 아래쪽으로 있는 것 같은데 저만 그렇게 느끼나요..~?!!\n평상시에 배율 67~80% 사이로 쓸 때는 몰랐는데(두번째 사진), 100%로 보니까 입력폼이 아래쪽으로 너무 내려가 있는 느낌이 드는건지..?!"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1788247773.003019",
-        "text": "<!here> <https://claude.ai/code/artifact/2555daf3-f1bb-414f-acfa-52c0e3d3bd01|claude.ai/code/artifact/…>\n1~8월 QA리포트 공유 드립니다."
-      },
-      {
-        "channel": "sigint",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1788247607.163789",
-        "text": "@김준기 (기술/개발팀) 큐텐 DeliveryCompany 값 추가 및 필드 값에 따라 분기처리 관련 스레드 &gt; 수기 주문으로 DeliveryCompany 세팅 가능한지 확인"
-      },
-      {
-        "channel": "기술조직",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1788246706.955859",
-        "text": "@황성민 (기술/개발팀) 큐텐 DeliveryCompany 값 추가 및 필드 값에 따라 분기처리 관련 스레드"
-      },
-      {
-        "channel": "기술조직",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1788245088.534189",
-        "text": "@이근한 (기술/개발팀) @황성민 (기술/개발팀) 토스 쇼핑 재고 불일치 관련 스레드"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1788244925.732949",
-        "text": "@김태재 (기술/QA팀) STG &gt; 재고증차감 &gt; 증가 또는 차감 시 발생하는 `API error [400] createdAtGte must be a string`"
       }
     ]
   },
