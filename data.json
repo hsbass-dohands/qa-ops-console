@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-03T14:09:19.397Z",
+  "generated_at": "2026-09-03T17:52:12.275Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
-      "P1": 2,
-      "P2": 12,
+      "P1": 3,
+      "P2": 11,
       "P3": 43
     },
     "total_open": 60,
@@ -150,8 +150,8 @@
         "week": "W6",
         "p0": 0,
         "p1": 0,
-        "p2": 2,
-        "p3": 3
+        "p2": 1,
+        "p3": 4
       },
       {
         "week": "W7",
@@ -163,9 +163,9 @@
       {
         "week": "W8",
         "p0": 0,
-        "p1": 2,
+        "p1": 3,
         "p2": 2,
-        "p3": 6
+        "p3": 5
       }
     ],
     "calendar_events": [
