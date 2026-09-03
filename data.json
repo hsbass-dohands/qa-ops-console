@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-03T00:41:49.019Z",
+  "generated_at": "2026-09-03T05:07:23.721Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
       "P1": 1,
-      "P2": 11,
-      "P3": 44
+      "P2": 12,
+      "P3": 43
     },
-    "total_open": 57,
-    "new_this_week": 12,
+    "total_open": 59,
+    "new_this_week": 14,
     "closed_this_week": 0,
     "funnel": [
       {
-        "key": "SPRINT-836",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-836",
-        "summary": "[연동]취소요청 철회 시 사은품이 미증정 상태로 잘못 확정되는 이슈",
+        "key": "BE-183",
+        "url": "https://dohands.atlassian.net/browse/BE-183",
+        "summary": "[정산] 부가세를 절삭 전 공급가액 기준으로 계산해 소수점 발생 - 과세 세금계산서 발행 불가",
         "status": "QA 중",
-        "project": "SPRINT",
+        "project": "BE",
         "assignee": "최라온"
       },
       {
@@ -38,28 +38,28 @@
         "assignee": "김태재"
       },
       {
-        "key": "TECH-2178",
-        "url": "https://dohands.atlassian.net/browse/TECH-2178",
-        "summary": "[프론트] 윈도우 노트북 > 배율 100%일 경우 로그인 화면에서 비밀번호 재설정 버튼 클릭 불가",
+        "key": "TECH-2059",
+        "url": "https://dohands.atlassian.net/browse/TECH-2059",
+        "summary": "[보관비 면제] 정산 로직 반영",
         "status": "QA 중",
         "project": "TECH",
         "assignee": "최라온"
       },
       {
-        "key": "BE-183",
-        "url": "https://dohands.atlassian.net/browse/BE-183",
-        "summary": "[정산] 부가세를 절삭 전 공급가액 기준으로 계산해 소수점 발생 - 과세 세금계산서 발행 불가",
-        "status": "QA 필요",
-        "project": "BE",
-        "assignee": "문현호"
+        "key": "TECH-2116",
+        "url": "https://dohands.atlassian.net/browse/TECH-2116",
+        "summary": "[QA] 바이스 알림 기능",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "김태재"
       },
       {
-        "key": "SPRINT-854",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-854",
-        "summary": "할당 결과 조회 > 조회 날짜 필수값 변경 및 기본값 '오늘' 적용",
+        "key": "SPRINT-862",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-862",
+        "summary": "[프론트] 바이스 > 재고 증가/재고 차감 ",
         "status": "QA 필요",
         "project": "SPRINT",
-        "assignee": "한병두"
+        "assignee": "도혜원"
       },
       {
         "key": "TECH-1719",
@@ -70,9 +70,17 @@
         "assignee": "박래원"
       },
       {
-        "key": "TECH-2116",
-        "url": "https://dohands.atlassian.net/browse/TECH-2116",
-        "summary": "[QA] 바이스 알림 기능",
+        "key": "TECH-205",
+        "url": "https://dohands.atlassian.net/browse/TECH-205",
+        "summary": "[VISE] 고객사 웹 열기 대체",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "한병두"
+      },
+      {
+        "key": "TECH-2233",
+        "url": "https://dohands.atlassian.net/browse/TECH-2233",
+        "summary": "직계약 혼합운용 & 고객사 뷰모드 같이 대응",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "김태재"
@@ -132,7 +140,7 @@
         "week": "W8",
         "p0": 0,
         "p1": 1,
-        "p2": 1,
+        "p2": 2,
         "p3": 5
       }
     ],
@@ -422,34 +430,34 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "바코 (VAKO)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/337477651/VAKO",
-        "updated": "2026-09-02"
+        "title": "[직계약 혼합운용] 네이버 직계약 전환(계약서/정산서)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/337641475",
+        "updated": "2026-09-03"
       },
       {
-        "title": "B2B",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/338100227/B2B",
-        "updated": "2026-09-02"
+        "title": "[직계약 혼합운용] 고객사 간 재고 이관",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322994177",
+        "updated": "2026-09-03"
       },
       {
-        "title": "공통",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/337969242",
-        "updated": "2026-09-02"
-      },
-      {
-        "title": "재고",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/338165783",
-        "updated": "2026-09-02"
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-09-03"
       },
       {
         "title": "주문",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/338067464",
-        "updated": "2026-09-02"
+        "updated": "2026-09-03"
       },
       {
-        "title": "순서",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/336265239",
-        "updated": "2026-09-02"
+        "title": "재고",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/338165783",
+        "updated": "2026-09-03"
+      },
+      {
+        "title": "정산",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/338853990",
+        "updated": "2026-09-03"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
@@ -733,6 +741,24 @@
     ],
     "messages": [
       {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1788407366.771219",
+        "text": "@한상준 (기술/QA팀) 직계약 혼합운용 과제 스레드\n\n직계약 혼합운용 과제 기획서\n• <https://dohands.atlassian.net/wiki/spaces/TECH/pages/303431955?atlOrigin=eyJpIjoiODY1MTU0NTA0YjIxNGZmYmE2ZmZlYzViZGQ4NmI3MDAiLCJwIjoiYyJ9|dohands.atla"
+      },
+      {
+        "channel": "sigvise",
+        "user": "한상준 (기술/QA팀)",
+        "ts": "1788401809.404499",
+        "text": "<!subteam^S089CG0M23S> STG &gt; 입고 로케이션 *A12-31-24-35* 위치에 공간 정보 넣어주시면 감사하겠습니다!"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1788398440.107209",
+        "text": "<!here> 9/17 점심 회식 할 것 같습니다!"
+      },
+      {
         "channel": "기술과제-직계약-혼합운용",
         "user": "최라온 (기술/QA팀)",
         "ts": "1788395011.700949",
@@ -761,24 +787,6 @@
         "user": "김태재 (기술/QA팀)",
         "ts": "1788333286.531209",
         "text": "@최라온 (기술/QA팀) 정산 관련 알림은 언제 노출되는지 아시나요?"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1788326078.147289",
-        "text": "@한상준 (기술/QA팀) @박래원 (기술/QA팀)\n라온님이나 태재님은 벌써 설정하셨을텐데 두분도 슬랙에서 키워드 알림 설정 하시길 권장합니다. 전 이렇게 했습니다."
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1788325751.766439",
-        "text": "@박래원 (기술/QA팀) 다음주 센터 방문에 필요한 수기주문"
-      },
-      {
-        "channel": "기술조직",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1788318875.162289",
-        "text": "@황성민 (기술/개발팀) @김준기 (기술/개발팀) 큐텐 DeliveryCompany 값 추가 및 필드 값에 따라 분기처리 QA 중 아래 상황에서 마감 불가 확인 필요 스레드\n\nSTG &gt; 두산베어스 &gt; 송장번호 : 872284774830\n상황 : 주문의 택배사는 품고 미니 / 실제 할당은 한진글로벌-사가와-관서\n\n```{\n    \"name\": \"B"
       }
     ]
   },
