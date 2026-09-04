@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T05:31:44.931Z",
+  "generated_at": "2026-09-04T09:56:40.244Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,10 +7,10 @@
       "P0": 0,
       "P1": 7,
       "P2": 9,
-      "P3": 43
+      "P3": 44
     },
-    "total_open": 62,
-    "new_this_week": 18,
+    "total_open": 63,
+    "new_this_week": 16,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -78,20 +78,20 @@
         "assignee": "김태재"
       },
       {
+        "key": "ROBOT-203",
+        "url": "https://dohands.atlassian.net/browse/ROBOT-203",
+        "summary": "[출고 B2C] 단수 출고 기능",
+        "status": "QA 필요",
+        "project": "ROBOT",
+        "assignee": "최라온"
+      },
+      {
         "key": "TECH-1719",
         "url": "https://dohands.atlassian.net/browse/TECH-1719",
         "summary": "[과제] 바코",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "박래원"
-      },
-      {
-        "key": "TECH-1788",
-        "url": "https://dohands.atlassian.net/browse/TECH-1788",
-        "summary": "[백엔드] poomgo_billflow B2C settler master.brands JOIN 13곳전환",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "문현호"
       },
       {
         "key": "TECH-2028",
@@ -116,6 +116,14 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "정수아"
+      },
+      {
+        "key": "TECH-2243",
+        "url": "https://dohands.atlassian.net/browse/TECH-2243",
+        "summary": "바이스 퀵 메뉴 클릭 영역 확장",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "박래원"
       },
       {
         "key": "TECH-2246",
@@ -181,7 +189,7 @@
         "p0": 0,
         "p1": 5,
         "p2": 1,
-        "p3": 7
+        "p3": 8
       }
     ],
     "calendar_events": [
@@ -782,6 +790,30 @@
     "messages": [
       {
         "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1788511158.638469",
+        "text": "@최라온 (기술/QA팀) 새벽배송 &gt; 시스템 태그 관련"
+      },
+      {
+        "channel": "sigint",
+        "user": "박래원 (기술/QA팀)",
+        "ts": "1788510627.004379",
+        "text": "<!subteam^S088LS39A69> 운영 &gt; 배송 속성 추가 요청 2"
+      },
+      {
+        "channel": "sigint",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1788510506.895139",
+        "text": "<!subteam^S088LS39A69> 운영 &gt; 배송 속성 추가 요청"
+      },
+      {
+        "channel": "기술조직",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1788502271.133859",
+        "text": "@우창수 (기술/로보틱스팀) 창수님! 상준님 앱 테스터 초대 부탁드립니다~!!\n• <mailto:sj.han@dohands.com|sj.han@dohands.com>"
+      },
+      {
+        "channel": "기술-qa팀",
         "user": "박래원 (기술/QA팀)",
         "ts": "1788499379.720649",
         "text": "@베스현승 (기술/QA팀) 바코 관련"
@@ -803,30 +835,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1788490060.895949",
         "text": "@한병두 (기술/제품팀) 고객사 권한 &gt; 2개 이상의 고객사 세팅을 할 수 있는 화면"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1788489832.191449",
-        "text": "@최라온 (기술/QA팀) 직계약 혼합 운용 관련"
-      },
-      {
-        "channel": "sigvise",
-        "user": "한상준 (기술/QA팀)",
-        "ts": "1788487682.937779",
-        "text": "@한병두 (기술/제품팀) 고객사 &gt; 입고 &gt; 입고 요청서 상세 관련 문의"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1788484167.058189",
-        "text": "@박래원 (기술/QA팀) 알림 카드 &gt; b2b, 반품 알림 동작 여부 확인"
-      },
-      {
-        "channel": "기술과제-직계약-혼합운용",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1788483875.653699",
-        "text": "@황성민 (기술/개발팀) <https://dohandsworkspace.slack.com/archives/C0BNNAR7RML/p1788414607637079|https://dohandsworkspace.slack.com/archives/C0BNNAR7RML/p1788414607637079> 후속 조율 스레드"
       }
     ]
   },
