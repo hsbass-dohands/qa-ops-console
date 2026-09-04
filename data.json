@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-09-04T00:47:07.868Z",
+  "generated_at": "2026-09-04T05:31:44.931Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
-      "P1": 3,
-      "P2": 11,
+      "P1": 7,
+      "P2": 9,
       "P3": 43
     },
-    "total_open": 60,
-    "new_this_week": 16,
+    "total_open": 62,
+    "new_this_week": 18,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "BE-183",
-        "url": "https://dohands.atlassian.net/browse/BE-183",
-        "summary": "[정산] 부가세를 절삭 전 공급가액 기준으로 계산해 소수점 발생 - 과세 세금계산서 발행 불가",
-        "status": "QA 중",
-        "project": "BE",
-        "assignee": "최라온"
-      },
       {
         "key": "SPRINT-862",
         "url": "https://dohands.atlassian.net/browse/SPRINT-862",
@@ -28,6 +20,14 @@
         "status": "QA 중",
         "project": "SPRINT",
         "assignee": "한상준"
+      },
+      {
+        "key": "TECH-1765",
+        "url": "https://dohands.atlassian.net/browse/TECH-1765",
+        "summary": "사용자 페이지 역할별 노출 여부와 데이터 노출 기준",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "박래원"
       },
       {
         "key": "TECH-1880",
@@ -41,6 +41,14 @@
         "key": "TECH-1881",
         "url": "https://dohands.atlassian.net/browse/TECH-1881",
         "summary": "Office <-> VISE 간, 브랜드 정보 통합",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "김태재"
+      },
+      {
+        "key": "TECH-205",
+        "url": "https://dohands.atlassian.net/browse/TECH-205",
+        "summary": "[VISE] 고객사 웹 열기 대체",
         "status": "QA 중",
         "project": "TECH",
         "assignee": "김태재"
@@ -62,6 +70,14 @@
         "assignee": "김태재"
       },
       {
+        "key": "TECH-2233",
+        "url": "https://dohands.atlassian.net/browse/TECH-2233",
+        "summary": "직계약 혼합운용 & 고객사 뷰모드 같이 대응",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "김태재"
+      },
+      {
         "key": "TECH-1719",
         "url": "https://dohands.atlassian.net/browse/TECH-1719",
         "summary": "[과제] 바코",
@@ -70,12 +86,12 @@
         "assignee": "박래원"
       },
       {
-        "key": "TECH-1765",
-        "url": "https://dohands.atlassian.net/browse/TECH-1765",
-        "summary": "사용자 페이지 역할별 노출 여부와 데이터 노출 기준",
+        "key": "TECH-1788",
+        "url": "https://dohands.atlassian.net/browse/TECH-1788",
+        "summary": "[백엔드] poomgo_billflow B2C settler master.brands JOIN 13곳전환",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "박래원"
+        "assignee": "문현호"
       },
       {
         "key": "TECH-2028",
@@ -86,20 +102,12 @@
         "assignee": "최라온"
       },
       {
-        "key": "TECH-205",
-        "url": "https://dohands.atlassian.net/browse/TECH-205",
-        "summary": "[VISE] 고객사 웹 열기 대체",
+        "key": "TECH-2093",
+        "url": "https://dohands.atlassian.net/browse/TECH-2093",
+        "summary": "[QA] 직계약 판매자 입점 SKU 정보 추가 작업",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "김태재"
-      },
-      {
-        "key": "TECH-2233",
-        "url": "https://dohands.atlassian.net/browse/TECH-2233",
-        "summary": "직계약 혼합운용 & 고객사 뷰모드 같이 대응",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "김태재"
+        "assignee": "최라온"
       },
       {
         "key": "TECH-2238",
@@ -108,6 +116,14 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "정수아"
+      },
+      {
+        "key": "TECH-2246",
+        "url": "https://dohands.atlassian.net/browse/TECH-2246",
+        "summary": "[디자인-QA] 직계약 판매자 입점 SKU 정보 추가 작업",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "반수정"
       }
     ],
     "weekly_severity": [
@@ -142,9 +158,9 @@
       {
         "week": "W5",
         "p0": 0,
-        "p1": 2,
-        "p2": 4,
-        "p3": 5
+        "p1": 4,
+        "p2": 3,
+        "p3": 4
       },
       {
         "week": "W6",
@@ -163,9 +179,9 @@
       {
         "week": "W8",
         "p0": 0,
-        "p1": 3,
-        "p2": 2,
-        "p3": 5
+        "p1": 5,
+        "p2": 1,
+        "p3": 7
       }
     ],
     "calendar_events": [
@@ -454,9 +470,19 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "역할 별 사용자 페이지 제공 여부 QA",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/325746759/QA",
+        "updated": "2026-09-04"
+      },
+      {
         "title": "고객사뷰 +직계약",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/338821237",
-        "updated": "2026-09-03"
+        "updated": "2026-09-04"
+      },
+      {
+        "title": "[직계약 혼합운용] 고객사 간 재고 이관",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322994177",
+        "updated": "2026-09-04"
       },
       {
         "title": "주문",
@@ -469,18 +495,8 @@
         "updated": "2026-09-03"
       },
       {
-        "title": "[직계약 혼합운용] 고객사 간 재고 이관",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322994177",
-        "updated": "2026-09-03"
-      },
-      {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
-        "updated": "2026-09-03"
-      },
-      {
-        "title": "재고",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/338165783",
         "updated": "2026-09-03"
       }
     ],
@@ -766,51 +782,51 @@
     "messages": [
       {
         "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1788407366.771219",
-        "text": "@한상준 (기술/QA팀) 직계약 혼합운용 과제 스레드\n\n직계약 혼합운용 과제 기획서\n• <https://dohands.atlassian.net/wiki/spaces/TECH/pages/303431955?atlOrigin=eyJpIjoiODY1MTU0NTA0YjIxNGZmYmE2ZmZlYzViZGQ4NmI3MDAiLCJwIjoiYyJ9|dohands.atla"
+        "user": "박래원 (기술/QA팀)",
+        "ts": "1788499379.720649",
+        "text": "@베스현승 (기술/QA팀) 바코 관련"
       },
       {
-        "channel": "sigvise",
-        "user": "한상준 (기술/QA팀)",
-        "ts": "1788401809.404499",
-        "text": "<!subteam^S089CG0M23S> STG &gt; 입고 로케이션 *A12-31-24-35* 위치에 공간 정보 넣어주시면 감사하겠습니다!"
-      },
-      {
-        "channel": "기술-qa팀",
+        "channel": "기술과제-직계약-혼합운용",
         "user": "김태재 (기술/QA팀)",
-        "ts": "1788398440.107209",
-        "text": "<!here> 9/17 점심 회식 할 것 같습니다!"
+        "ts": "1788493092.737869",
+        "text": "@황성민 (기술/개발팀) 고객사 2개 운영"
+      },
+      {
+        "channel": "기술과제-바코",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1788490361.870819",
+        "text": "저 미팅에서 튕기더니 갑자기 접속이 안되네요;"
       },
       {
         "channel": "기술과제-직계약-혼합운용",
         "user": "최라온 (기술/QA팀)",
-        "ts": "1788395011.700949",
-        "text": "• <https://dohands.atlassian.net/wiki/x/AYBAEw|[직계약 혼합운용] 고객사 간 재고 이관>\n• <https://dohands.atlassian.net/wiki/x/AQBBEw|[직계약 혼합운용] 로케이션 보관비 면제>\n• <https://dohands.atlassian.net/wiki/x/AwAgF|[직계약 혼합운용] 네"
-      },
-      {
-        "channel": "sigvise",
-        "user": "한상준 (기술/QA팀)",
-        "ts": "1788342354.946509",
-        "text": "<!subteam^S088S7692RJ> STG &gt; 입고 요청서 등록 &gt; 예정 수량 일괄 변경 모달 관련 이슈"
-      },
-      {
-        "channel": "sigvise",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1788335206.556239",
-        "text": "잠시 뭐좀 테스트"
-      },
-      {
-        "channel": "기술조직",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1788334338.231429",
-        "text": "@한병두 (기술/제품팀) @황성민 (기술/개발팀) 직계약 정산 관련 인득님 문의 스레드"
+        "ts": "1788490060.895949",
+        "text": "@한병두 (기술/제품팀) 고객사 권한 &gt; 2개 이상의 고객사 세팅을 할 수 있는 화면"
       },
       {
         "channel": "기술-qa팀",
         "user": "김태재 (기술/QA팀)",
-        "ts": "1788333286.531209",
-        "text": "@최라온 (기술/QA팀) 정산 관련 알림은 언제 노출되는지 아시나요?"
+        "ts": "1788489832.191449",
+        "text": "@최라온 (기술/QA팀) 직계약 혼합 운용 관련"
+      },
+      {
+        "channel": "sigvise",
+        "user": "한상준 (기술/QA팀)",
+        "ts": "1788487682.937779",
+        "text": "@한병두 (기술/제품팀) 고객사 &gt; 입고 &gt; 입고 요청서 상세 관련 문의"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1788484167.058189",
+        "text": "@박래원 (기술/QA팀) 알림 카드 &gt; b2b, 반품 알림 동작 여부 확인"
+      },
+      {
+        "channel": "기술과제-직계약-혼합운용",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1788483875.653699",
+        "text": "@황성민 (기술/개발팀) <https://dohandsworkspace.slack.com/archives/C0BNNAR7RML/p1788414607637079|https://dohandsworkspace.slack.com/archives/C0BNNAR7RML/p1788414607637079> 후속 조율 스레드"
       }
     ]
   },
