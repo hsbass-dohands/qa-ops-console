@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T09:56:40.244Z",
+  "generated_at": "2026-09-04T14:04:44.616Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -13,14 +13,6 @@
     "new_this_week": 16,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "SPRINT-862",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-862",
-        "summary": "[프론트] 바이스 > 재고 증가/재고 차감 ",
-        "status": "QA 중",
-        "project": "SPRINT",
-        "assignee": "한상준"
-      },
       {
         "key": "TECH-1765",
         "url": "https://dohands.atlassian.net/browse/TECH-1765",
