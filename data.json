@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T04:28:33.761Z",
+  "generated_at": "2026-09-05T08:32:07.790Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -470,6 +470,16 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "고객사 뷰 / 웹 열기",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/322666570",
+        "updated": "2026-09-05"
+      },
+      {
+        "title": "순서",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/336265239",
+        "updated": "2026-09-05"
+      },
+      {
         "title": "역할 별 사용자 페이지 제공 여부 QA",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/325746759/QA",
         "updated": "2026-09-04"
@@ -487,16 +497,6 @@
       {
         "title": "주문",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/338067464",
-        "updated": "2026-09-03"
-      },
-      {
-        "title": "[직계약 혼합운용] 네이버 직계약 전환(계약서/정산서)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/337641475",
-        "updated": "2026-09-03"
-      },
-      {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-09-03"
       }
     ],
