@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T00:40:53.282Z",
+  "generated_at": "2026-09-08T05:16:39.710Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,12 +7,28 @@
       "P0": 0,
       "P1": 7,
       "P2": 8,
-      "P3": 38
+      "P3": 39
     },
-    "total_open": 56,
+    "total_open": 57,
     "new_this_week": 14,
     "closed_this_week": 0,
     "funnel": [
+      {
+        "key": "SPRINT-875",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-875",
+        "summary": "위젯 화면 편집 모드 > 위젯 목록 창이 좌측 위젯을 가리는 레이아웃 개선",
+        "status": "QA 중",
+        "project": "SPRINT",
+        "assignee": "박래원"
+      },
+      {
+        "key": "SPRINT-876",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-876",
+        "summary": "위젯 화면 편집 모드 > 추가된 위젯 위치 확인 및 목록에서 바로 삭제 기능 제공",
+        "status": "QA 중",
+        "project": "SPRINT",
+        "assignee": "박래원"
+      },
       {
         "key": "TECH-1765",
         "url": "https://dohands.atlassian.net/browse/TECH-1765",
@@ -46,14 +62,6 @@
         "assignee": "최라온"
       },
       {
-        "key": "TECH-205",
-        "url": "https://dohands.atlassian.net/browse/TECH-205",
-        "summary": "[VISE] 고객사 웹 열기 대체",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "김태재"
-      },
-      {
         "key": "TECH-2059",
         "url": "https://dohands.atlassian.net/browse/TECH-2059",
         "summary": "[보관비 면제] 정산 로직 반영",
@@ -65,14 +73,6 @@
         "key": "TECH-2116",
         "url": "https://dohands.atlassian.net/browse/TECH-2116",
         "summary": "[QA] 바이스 알림 기능",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "김태재"
-      },
-      {
-        "key": "TECH-2233",
-        "url": "https://dohands.atlassian.net/browse/TECH-2233",
-        "summary": "직계약 혼합운용 & 고객사 뷰모드 같이 대응",
         "status": "QA 중",
         "project": "TECH",
         "assignee": "김태재"
@@ -94,44 +94,20 @@
         "assignee": "한상준"
       },
       {
+        "key": "INT-21",
+        "url": "https://dohands.atlassian.net/browse/INT-21",
+        "summary": "주문 변경 이력 정리",
+        "status": "QA 필요",
+        "project": "INT",
+        "assignee": "조수아"
+      },
+      {
         "key": "INT-321",
         "url": "https://dohands.atlassian.net/browse/INT-321",
         "summary": "[연동] 샵링커 스케줄러 응답 캐시 파일 무제한 누적 (컨테이너 메모리 잠식)",
         "status": "QA 필요",
         "project": "INT",
         "assignee": "최라온"
-      },
-      {
-        "key": "SPRINT-868",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-868",
-        "summary": "[VISE] 입고 > 등록됨 탭 > 입고 요청서 상세 > 입고 회차 목록 추가 > 도착 예정 일자,시간 수정되지 않음",
-        "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "한상준"
-      },
-      {
-        "key": "SPRINT-875",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-875",
-        "summary": "위젯 화면 편집 모드 > 위젯 목록 창이 좌측 위젯을 가리는 레이아웃 개선",
-        "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "박래원"
-      },
-      {
-        "key": "SPRINT-876",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-876",
-        "summary": "위젯 화면 편집 모드 > 추가된 위젯 위치 확인 및 목록에서 바로 삭제 기능 제공",
-        "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "박래원"
-      },
-      {
-        "key": "SPRINT-880",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-880",
-        "summary": "모바일 대응 코드 제거 및 화면 최소 너비(1280px) 적용",
-        "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "박래원"
       },
       {
         "key": "TECH-1719",
@@ -174,6 +150,14 @@
         "assignee": "반수정"
       },
       {
+        "key": "TECH-2248",
+        "url": "https://dohands.atlassian.net/browse/TECH-2248",
+        "summary": "재고이동시 공간 데이터 없는 로케이션이 에러 발생되는 현상 개선",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "황성민"
+      },
+      {
         "key": "TECH-2271",
         "url": "https://dohands.atlassian.net/browse/TECH-2271",
         "summary": "[poomgo_api] 총량피킹지시서 생성 시 송장 잠금 순서 미고정으로 invoices 데드락 발생",
@@ -182,12 +166,12 @@
         "assignee": "한상준"
       },
       {
-        "key": "TECH-2276",
-        "url": "https://dohands.atlassian.net/browse/TECH-2276",
-        "summary": "PII ID 컬럼 not null 전환 (OPEN API 입고요청서 경로)",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "신혜수"
+        "key": "SPRINT-832",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-832",
+        "summary": "[VISE] 내 정보/사용자 상세 -> Notion API 문서 -> API 문서로 워딩 변경 필요",
+        "status": "배포 준비",
+        "project": "SPRINT",
+        "assignee": "한상준"
       }
     ],
     "weekly_severity": [
@@ -245,7 +229,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 0,
-        "p3": 2
+        "p3": 3
       }
     ],
     "calendar_events": [
@@ -847,6 +831,36 @@
       {
         "channel": "기술조직",
         "user": "베스현승 (기술/QA팀)",
+        "ts": "1788836075.329519",
+        "text": "QA팀 현장학습 사진"
+      },
+      {
+        "channel": "기술조직",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1788830871.290289",
+        "text": "@김동완 (기술/로보틱스팀)이천 XFC 체적기"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1788829732.115119",
+        "text": "나오셔서 허브오피ㅛㅡ로 오세요"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "박래원 (기술/QA팀)",
+        "ts": "1788829644.493429",
+        "text": "@베스현승 (기술/QA팀)  저희 도착해서 컨퍼런스룸으로 안내해주셔서 들어와있습니다!"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1788828313.742379",
+        "text": "<!here> 차는 1층에 주차하면되나요?"
+      },
+      {
+        "channel": "기술조직",
+        "user": "베스현승 (기술/QA팀)",
         "ts": "1788774412.352619",
         "text": "<!here> 9월 8일 화요일 QA 팀 전원 이천 XFC 센터 방문 예정입니다. 업무에 참고 부탁드리겠습니다."
       },
@@ -861,36 +875,6 @@
         "user": "한상준 (기술/QA팀)",
         "ts": "1788766118.305979",
         "text": "<!subteam^S089CG0M23S> 안녕하세요! 정산 스케줄러 배치 시간 변경 가능할까요??"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1788764283.819439",
-        "text": "@베스현승 (기술/QA팀) <https://dohands.atlassian.net/browse/ROBOT-203|[출고 B2C] 단수 출고 기능> 테스트 장소 스레드"
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1788764203.946169",
-        "text": "@김성일 (기술/로보틱스팀) STG 앱"
-      },
-      {
-        "channel": "sigvise",
-        "user": "한상준 (기술/QA팀)",
-        "ts": "1788762092.030579",
-        "text": "@한병두 (기술/제품팀) 로케이션 상세 &gt; 변경 이력 &gt; 변경자 노출 관련 문의"
-      },
-      {
-        "channel": "sigvise",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1788758306.157359",
-        "text": "@한병두 (기술/제품팀) 님! 휴가 이후 확인 부탁드리겠습니다~!\n현재 정산서 목록에서 미확정 상태일 때에는 ? 노출로 문제 없으나, 확인중 변경 이후에는 총 금액, 공급가액(과세), 공급가액(영세), 부가가치세 0원일 때, 0원 노출이 아닌 아예 미노출로 보여 확인 요청 드립니다!\n\n미노출이 기획 의도인지, 혹은 0원으로 노출되어야 하는지 확인 부탁드리겠"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1788745244.773559",
-        "text": "@박래원 (기술/QA팀) @한상준 (기술/QA팀) 내일 픽업 장소"
       }
     ]
   },
