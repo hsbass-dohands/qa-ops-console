@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T05:16:39.710Z",
+  "generated_at": "2026-09-08T09:57:18.189Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -10,17 +10,9 @@
       "P3": 39
     },
     "total_open": 57,
-    "new_this_week": 14,
+    "new_this_week": 13,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "SPRINT-875",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-875",
-        "summary": "위젯 화면 편집 모드 > 위젯 목록 창이 좌측 위젯을 가리는 레이아웃 개선",
-        "status": "QA 중",
-        "project": "SPRINT",
-        "assignee": "박래원"
-      },
       {
         "key": "SPRINT-876",
         "url": "https://dohands.atlassian.net/browse/SPRINT-876",
@@ -99,7 +91,7 @@
         "summary": "주문 변경 이력 정리",
         "status": "QA 필요",
         "project": "INT",
-        "assignee": "조수아"
+        "assignee": "김태재"
       },
       {
         "key": "INT-321",
@@ -108,6 +100,38 @@
         "status": "QA 필요",
         "project": "INT",
         "assignee": "최라온"
+      },
+      {
+        "key": "SPRINT-778",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-778",
+        "summary": "VISE 판매채널 > 큐텐(일본) 판매처 생성 시 판매 채널 URL 기본 반영 개선",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "베스현승"
+      },
+      {
+        "key": "SPRINT-780",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-780",
+        "summary": "[VISE] 바이스 상단 드롭다운 정렬",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "베스현승"
+      },
+      {
+        "key": "SPRINT-861",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-861",
+        "summary": "[공통] 고객사 브랜드 > 메인 브랜드 삭제 차단 및 메인 브랜드 자동 지정",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "베스현승"
+      },
+      {
+        "key": "SPRINT-867",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-867",
+        "summary": "셀러 > 비밀번호 재설정 시 파라미터 검증 에러 발생",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "문현호"
       },
       {
         "key": "TECH-1719",
@@ -123,7 +147,7 @@
         "summary": "[billflow] 월중 계약 교체 시 이중과금 방지 ",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "황성민"
+        "assignee": "최라온"
       },
       {
         "key": "TECH-1993",
@@ -131,7 +155,7 @@
         "summary": "[바이스백엔드] 직계약 전환용 고객사 데이터 복사 로직 구현",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "황성민"
+        "assignee": "최라온"
       },
       {
         "key": "TECH-2115",
@@ -155,7 +179,7 @@
         "summary": "재고이동시 공간 데이터 없는 로케이션이 에러 발생되는 현상 개선",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "황성민"
+        "assignee": "김태재"
       },
       {
         "key": "TECH-2271",
@@ -166,12 +190,28 @@
         "assignee": "한상준"
       },
       {
-        "key": "SPRINT-832",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-832",
-        "summary": "[VISE] 내 정보/사용자 상세 -> Notion API 문서 -> API 문서로 워딩 변경 필요",
-        "status": "배포 준비",
-        "project": "SPRINT",
-        "assignee": "한상준"
+        "key": "TECH-2283",
+        "url": "https://dohands.atlassian.net/browse/TECH-2283",
+        "summary": "[디자인-QA] 계약중 종료 시도 토스트 문구 미적용",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "황성민"
+      },
+      {
+        "key": "TECH-2286",
+        "url": "https://dohands.atlassian.net/browse/TECH-2286",
+        "summary": "로케이션 상세 > 변경 이력 > 변경자 데이터 노출되지 않는 현상",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "문현호"
+      },
+      {
+        "key": "TECH-2288",
+        "url": "https://dohands.atlassian.net/browse/TECH-2288",
+        "summary": "송장 내역 조회(invoice list) 필요없는 컬럼 삭제(api를 최적화)",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "김태재"
       }
     ],
     "weekly_severity": [
@@ -518,6 +558,11 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "순서",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/336265239",
+        "updated": "2026-09-08"
+      },
+      {
         "title": "역할 별 사용자 페이지 제공 여부 QA",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/325746759/QA",
         "updated": "2026-09-07"
@@ -540,11 +585,6 @@
       {
         "title": "[직계약 혼합운용] 로케이션 보관비 면제",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/323026945",
-        "updated": "2026-09-07"
-      },
-      {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-09-07"
       }
     ],
@@ -829,6 +869,42 @@
     ],
     "messages": [
       {
+        "channel": "sigint",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1788857009.588909",
+        "text": "<!subteam^S088LS39A69> STG &gt; 주문 오류 관련 문의"
+      },
+      {
+        "channel": "sigvise",
+        "user": "박래원 (기술/QA팀)",
+        "ts": "1788855938.984429",
+        "text": "<!subteam^S089CG0M23S> PRE 서버 계정 요청"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1788855167.618329",
+        "text": "@박래원 (기술/QA팀) 송장 출력물 관련"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "박래원 (기술/QA팀)",
+        "ts": "1788853519.650189",
+        "text": "인터뷰 내용 정리"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "박래원 (기술/QA팀)",
+        "ts": "1788848350.368139",
+        "text": "@베스현승 (기술/QA팀) \n저희 입고로케이션에 도착했습니다!"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1788846058.599549",
+        "text": "@박래원 (기술/QA팀) <https://inpa.tistory.com/entry/WEB-%F0%9F%8C%90-HTTP-%EB%A9%94%EC%84%9C%EB%93%9C-%EC%A2%85%EB%A5%98-%ED%86%B5%EC%8B%A0-%EA%B3%BC%EC%A0%95-%F0%9F%92%AF-%EC%B4%9D%EC%A0%95%EB%A6%AC|inpa.t"
+      },
+      {
         "channel": "기술조직",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1788836075.329519",
@@ -839,42 +915,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1788830871.290289",
         "text": "@김동완 (기술/로보틱스팀)이천 XFC 체적기"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1788829732.115119",
-        "text": "나오셔서 허브오피ㅛㅡ로 오세요"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "박래원 (기술/QA팀)",
-        "ts": "1788829644.493429",
-        "text": "@베스현승 (기술/QA팀)  저희 도착해서 컨퍼런스룸으로 안내해주셔서 들어와있습니다!"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1788828313.742379",
-        "text": "<!here> 차는 1층에 주차하면되나요?"
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1788774412.352619",
-        "text": "<!here> 9월 8일 화요일 QA 팀 전원 이천 XFC 센터 방문 예정입니다. 업무에 참고 부탁드리겠습니다."
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1788766646.701379",
-        "text": "@한상준 (기술/QA팀) 정산 테스트 관련 :bangbang:"
-      },
-      {
-        "channel": "sigvise",
-        "user": "한상준 (기술/QA팀)",
-        "ts": "1788766118.305979",
-        "text": "<!subteam^S089CG0M23S> 안녕하세요! 정산 스케줄러 배치 시간 변경 가능할까요??"
       }
     ]
   },
