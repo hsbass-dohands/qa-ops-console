@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T22:30:48.393Z",
+  "generated_at": "2026-09-08T00:40:53.282Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -100,6 +100,14 @@
         "status": "QA 필요",
         "project": "INT",
         "assignee": "최라온"
+      },
+      {
+        "key": "SPRINT-868",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-868",
+        "summary": "[VISE] 입고 > 등록됨 탭 > 입고 요청서 상세 > 입고 회차 목록 추가 > 도착 예정 일자,시간 수정되지 않음",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "한상준"
       },
       {
         "key": "SPRINT-875",
