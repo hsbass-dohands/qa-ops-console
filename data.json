@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T06:23:14.456Z",
+  "generated_at": "2026-09-09T11:42:58.710Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,10 +7,10 @@
       "P0": 0,
       "P1": 5,
       "P2": 8,
-      "P3": 39
+      "P3": 38
     },
-    "total_open": 55,
-    "new_this_week": 14,
+    "total_open": 54,
+    "new_this_week": 13,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -30,12 +30,12 @@
         "assignee": "한상준"
       },
       {
-        "key": "SPRINT-876",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-876",
-        "summary": "위젯 화면 편집 모드 > 추가된 위젯 위치 확인 및 목록에서 바로 삭제 기능 제공",
+        "key": "SPRINT-871",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-871",
+        "summary": "[정산] 신정산 요금 계산 시 무게 소수 셋째 자리 반올림 적용 ",
         "status": "QA 중",
         "project": "SPRINT",
-        "assignee": "박래원"
+        "assignee": "문현호"
       },
       {
         "key": "TECH-1983",
@@ -57,14 +57,6 @@
         "key": "TECH-2059",
         "url": "https://dohands.atlassian.net/browse/TECH-2059",
         "summary": "[보관비 면제] 정산 로직 반영",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "최라온"
-      },
-      {
-        "key": "TECH-2115",
-        "url": "https://dohands.atlassian.net/browse/TECH-2115",
-        "summary": "[프론트] 혼합 고객사 계약/정산",
         "status": "QA 중",
         "project": "TECH",
         "assignee": "최라온"
@@ -94,6 +86,14 @@
         "assignee": "한상준"
       },
       {
+        "key": "TECH-2301",
+        "url": "https://dohands.atlassian.net/browse/TECH-2301",
+        "summary": "[poomgo_dya] 미사용 Sequelize 모델/모듈 정리",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "황성민"
+      },
+      {
         "key": "INT-21",
         "url": "https://dohands.atlassian.net/browse/INT-21",
         "summary": "주문 변경 이력 정리",
@@ -102,20 +102,28 @@
         "assignee": "김태재"
       },
       {
-        "key": "SPRINT-782",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-782",
-        "summary": "[VISE]반출대장 등록 시 반품건 검색 필터 및 조회 컬럼 추가 요청",
+        "key": "SPRINT-651",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-651",
+        "summary": "[VISE] 할당 성공에서 노출되는 주소와 송장>조회>할당됨 주소지가 상이한 이슈",
         "status": "QA 필요",
         "project": "SPRINT",
-        "assignee": "박래원"
+        "assignee": "최라온"
       },
       {
-        "key": "SPRINT-858",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-858",
-        "summary": "[바이스] 브랜드 영문명 저장 시 화면 미노출 및 백엔드 업데이트 오류 수정",
+        "key": "SPRINT-658",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-658",
+        "summary": "상품 매핑 로직의 상품 정렬 변경",
         "status": "QA 필요",
         "project": "SPRINT",
-        "assignee": "베스현승"
+        "assignee": "최라온"
+      },
+      {
+        "key": "SPRINT-823",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-823",
+        "summary": "CJ 배송 메시지 전송",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "최라온"
       },
       {
         "key": "SPRINT-859",
@@ -123,12 +131,12 @@
         "summary": "큐텐 가용 재고 변경 이력 수정",
         "status": "QA 필요",
         "project": "SPRINT",
-        "assignee": "손조성"
+        "assignee": "최라온"
       },
       {
-        "key": "SPRINT-861",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-861",
-        "summary": "[공통] 고객사 브랜드 > 메인 브랜드 삭제 차단 및 메인 브랜드 자동 지정",
+        "key": "SPRINT-881",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-881",
+        "summary": "N직 수기,CS 재발송,교환 미노출 작업",
         "status": "QA 필요",
         "project": "SPRINT",
         "assignee": "김태재"
@@ -140,6 +148,14 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "박래원"
+      },
+      {
+        "key": "TECH-2235",
+        "url": "https://dohands.atlassian.net/browse/TECH-2235",
+        "summary": "[주문 알림] 할당 실패 이메일/알림톡 > 할당 실패 주문 확인하기 페이지로 이동 필요",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "김태재"
       },
       {
         "key": "TECH-2246",
@@ -166,9 +182,9 @@
         "assignee": "한상준"
       },
       {
-        "key": "TECH-2288",
-        "url": "https://dohands.atlassian.net/browse/TECH-2288",
-        "summary": "송장 내역 조회(invoice list) 필요없는 컬럼 삭제(api를 최적화)",
+        "key": "TECH-2300",
+        "url": "https://dohands.atlassian.net/browse/TECH-2300",
+        "summary": "[적정 재고] 적정 재고 이메일 > 부족 재고 확인하기 페이지로 이동 필요",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "김태재"
@@ -829,6 +845,30 @@
     ],
     "messages": [
       {
+        "channel": "기술-qa팀",
+        "user": "박래원 (기술/QA팀)",
+        "ts": "1788945066.661759",
+        "text": "혹시 vise 접근 되시나요? 대기해봐야겠죠..?"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1788941312.131379",
+        "text": "@한상준 (기술/QA팀) 로케이션 보관비 면제 관련 실패한 테스트 케이스 3건 관련 스레드"
+      },
+      {
+        "channel": "기술조직",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1788940560.766469",
+        "text": "맥북 재부팅하고 오겠습니다~!"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1788935148.925789",
+        "text": "한우 잘 왔네요 - 떡갈비 차돌박이 도가니 살(숙성)"
+      },
+      {
         "channel": "기술과제-직계약-혼합운용",
         "user": "최라온 (기술/QA팀)",
         "ts": "1788934864.771479",
@@ -851,30 +891,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1788917089.585659",
         "text": "<!subteam^S096ZRAAKFY> <https://dohands.atlassian.net/issues?filter=10973&amp;selectedIssue=TECH-2246|dohands.atlassian.net/issues?filter=10973&amp;selectedIssue=TECH-2246>\n가끔씩 터지는 \"이슈가 한꺼번에 QA 필요 상태로"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1788915616.728839",
-        "text": "@한상준 (기술/QA팀) api 테스팅"
-      },
-      {
-        "channel": "sigint",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1788857009.588909",
-        "text": "<!subteam^S088LS39A69> STG &gt; 주문 오류 관련 문의"
-      },
-      {
-        "channel": "sigvise",
-        "user": "박래원 (기술/QA팀)",
-        "ts": "1788855938.984429",
-        "text": "<!subteam^S089CG0M23S> PRE 서버 계정 요청"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1788855167.618329",
-        "text": "@박래원 (기술/QA팀) 송장 출력물 관련"
       }
     ]
   },
