@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T23:12:06.302Z",
+  "generated_at": "2026-09-09T01:15:37.157Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,9 +7,9 @@
       "P0": 0,
       "P1": 7,
       "P2": 8,
-      "P3": 39
+      "P3": 38
     },
-    "total_open": 57,
+    "total_open": 56,
     "new_this_week": 13,
     "closed_this_week": 0,
     "funnel": [
@@ -115,7 +115,15 @@
         "summary": "[VISE] 바이스 상단 드롭다운 정렬",
         "status": "QA 필요",
         "project": "SPRINT",
-        "assignee": "베스현승"
+        "assignee": "한상준"
+      },
+      {
+        "key": "SPRINT-782",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-782",
+        "summary": "[VISE]반출대장 등록 시 반품건 검색 필터 및 조회 컬럼 추가 요청",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "박래원"
       },
       {
         "key": "SPRINT-861",
@@ -123,7 +131,7 @@
         "summary": "[공통] 고객사 브랜드 > 메인 브랜드 삭제 차단 및 메인 브랜드 자동 지정",
         "status": "QA 필요",
         "project": "SPRINT",
-        "assignee": "베스현승"
+        "assignee": "김태재"
       },
       {
         "key": "SPRINT-867",
@@ -131,7 +139,7 @@
         "summary": "셀러 > 비밀번호 재설정 시 파라미터 검증 에러 발생",
         "status": "QA 필요",
         "project": "SPRINT",
-        "assignee": "문현호"
+        "assignee": "한상준"
       },
       {
         "key": "TECH-1719",
@@ -196,14 +204,6 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "황성민"
-      },
-      {
-        "key": "TECH-2286",
-        "url": "https://dohands.atlassian.net/browse/TECH-2286",
-        "summary": "로케이션 상세 > 변경 이력 > 변경자 데이터 노출되지 않는 현상",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "문현호"
       },
       {
         "key": "TECH-2288",
@@ -869,6 +869,12 @@
     ],
     "messages": [
       {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1788915616.728839",
+        "text": "@한상준 (기술/QA팀) api 테스팅"
+      },
+      {
         "channel": "sigint",
         "user": "김태재 (기술/QA팀)",
         "ts": "1788857009.588909",
@@ -909,12 +915,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1788836075.329519",
         "text": "QA팀 현장학습 사진"
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1788830871.290289",
-        "text": "@김동완 (기술/로보틱스팀)이천 XFC 체적기"
       }
     ]
   },
