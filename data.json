@@ -1,18 +1,34 @@
 {
-  "generated_at": "2026-09-09T01:15:37.157Z",
+  "generated_at": "2026-09-09T06:23:14.456Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
-      "P1": 7,
+      "P1": 5,
       "P2": 8,
-      "P3": 38
+      "P3": 39
     },
-    "total_open": 56,
-    "new_this_week": 13,
+    "total_open": 55,
+    "new_this_week": 14,
     "closed_this_week": 0,
     "funnel": [
+      {
+        "key": "INT-321",
+        "url": "https://dohands.atlassian.net/browse/INT-321",
+        "summary": "[연동] 샵링커 스케줄러 응답 캐시 파일 무제한 누적 (컨테이너 메모리 잠식)",
+        "status": "QA 중",
+        "project": "INT",
+        "assignee": "최라온"
+      },
+      {
+        "key": "SPRINT-778",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-778",
+        "summary": "VISE 판매채널 > 큐텐(일본) 판매처 생성 시 판매 채널 URL 기본 반영 개선",
+        "status": "QA 중",
+        "project": "SPRINT",
+        "assignee": "한상준"
+      },
       {
         "key": "SPRINT-876",
         "url": "https://dohands.atlassian.net/browse/SPRINT-876",
@@ -22,28 +38,12 @@
         "assignee": "박래원"
       },
       {
-        "key": "TECH-1765",
-        "url": "https://dohands.atlassian.net/browse/TECH-1765",
-        "summary": "사용자 페이지 역할별 노출 여부와 데이터 노출 기준",
+        "key": "TECH-1983",
+        "url": "https://dohands.atlassian.net/browse/TECH-1983",
+        "summary": "[billflow] 월중 계약 교체 시 이중과금 방지 ",
         "status": "QA 중",
         "project": "TECH",
-        "assignee": "박래원"
-      },
-      {
-        "key": "TECH-1880",
-        "url": "https://dohands.atlassian.net/browse/TECH-1880",
-        "summary": "Office <-> VISE 간, 고객사 정보 통합",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "김태재"
-      },
-      {
-        "key": "TECH-1881",
-        "url": "https://dohands.atlassian.net/browse/TECH-1881",
-        "summary": "Office <-> VISE 간, 브랜드 정보 통합",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "김태재"
+        "assignee": "최라온"
       },
       {
         "key": "TECH-2028",
@@ -57,6 +57,14 @@
         "key": "TECH-2059",
         "url": "https://dohands.atlassian.net/browse/TECH-2059",
         "summary": "[보관비 면제] 정산 로직 반영",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "최라온"
+      },
+      {
+        "key": "TECH-2115",
+        "url": "https://dohands.atlassian.net/browse/TECH-2115",
+        "summary": "[프론트] 혼합 고객사 계약/정산",
         "status": "QA 중",
         "project": "TECH",
         "assignee": "최라온"
@@ -94,36 +102,28 @@
         "assignee": "김태재"
       },
       {
-        "key": "INT-321",
-        "url": "https://dohands.atlassian.net/browse/INT-321",
-        "summary": "[연동] 샵링커 스케줄러 응답 캐시 파일 무제한 누적 (컨테이너 메모리 잠식)",
-        "status": "QA 필요",
-        "project": "INT",
-        "assignee": "최라온"
-      },
-      {
-        "key": "SPRINT-778",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-778",
-        "summary": "VISE 판매채널 > 큐텐(일본) 판매처 생성 시 판매 채널 URL 기본 반영 개선",
-        "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "베스현승"
-      },
-      {
-        "key": "SPRINT-780",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-780",
-        "summary": "[VISE] 바이스 상단 드롭다운 정렬",
-        "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "한상준"
-      },
-      {
         "key": "SPRINT-782",
         "url": "https://dohands.atlassian.net/browse/SPRINT-782",
         "summary": "[VISE]반출대장 등록 시 반품건 검색 필터 및 조회 컬럼 추가 요청",
         "status": "QA 필요",
         "project": "SPRINT",
         "assignee": "박래원"
+      },
+      {
+        "key": "SPRINT-858",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-858",
+        "summary": "[바이스] 브랜드 영문명 저장 시 화면 미노출 및 백엔드 업데이트 오류 수정",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "베스현승"
+      },
+      {
+        "key": "SPRINT-859",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-859",
+        "summary": "큐텐 가용 재고 변경 이력 수정",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "손조성"
       },
       {
         "key": "SPRINT-861",
@@ -134,44 +134,12 @@
         "assignee": "김태재"
       },
       {
-        "key": "SPRINT-867",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-867",
-        "summary": "셀러 > 비밀번호 재설정 시 파라미터 검증 에러 발생",
-        "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "한상준"
-      },
-      {
         "key": "TECH-1719",
         "url": "https://dohands.atlassian.net/browse/TECH-1719",
         "summary": "[과제] 바코",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "박래원"
-      },
-      {
-        "key": "TECH-1983",
-        "url": "https://dohands.atlassian.net/browse/TECH-1983",
-        "summary": "[billflow] 월중 계약 교체 시 이중과금 방지 ",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "최라온"
-      },
-      {
-        "key": "TECH-1993",
-        "url": "https://dohands.atlassian.net/browse/TECH-1993",
-        "summary": "[바이스백엔드] 직계약 전환용 고객사 데이터 복사 로직 구현",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "최라온"
-      },
-      {
-        "key": "TECH-2115",
-        "url": "https://dohands.atlassian.net/browse/TECH-2115",
-        "summary": "[프론트] 혼합 고객사 계약/정산",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "최라온"
       },
       {
         "key": "TECH-2246",
@@ -196,14 +164,6 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "한상준"
-      },
-      {
-        "key": "TECH-2283",
-        "url": "https://dohands.atlassian.net/browse/TECH-2283",
-        "summary": "[디자인-QA] 계약중 종료 시도 토스트 문구 미적용",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "황성민"
       },
       {
         "key": "TECH-2288",
@@ -269,7 +229,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 0,
-        "p3": 3
+        "p3": 5
       }
     ],
     "calendar_events": [
@@ -558,34 +518,34 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "역할 별 사용자 페이지 제공 여부 QA",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/325746759/QA",
+        "updated": "2026-09-09"
+      },
+      {
+        "title": "현장 인터뷰 상세 (2026-09-08)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/345571402/2026-09-08",
+        "updated": "2026-09-09"
+      },
+      {
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-09-09"
+      },
+      {
+        "title": "Edge Case 질문 — 기획 리뷰 / QA 설계 체크리스트",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/254083135/Edge+Case+QA",
+        "updated": "2026-09-09"
+      },
+      {
+        "title": "QA OKR 작성 가이드",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/345210889/QA+OKR",
+        "updated": "2026-09-09"
+      },
+      {
         "title": "순서",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/336265239",
         "updated": "2026-09-08"
-      },
-      {
-        "title": "역할 별 사용자 페이지 제공 여부 QA",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/325746759/QA",
-        "updated": "2026-09-07"
-      },
-      {
-        "title": "B2B",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/338100227/B2B",
-        "updated": "2026-09-07"
-      },
-      {
-        "title": "재고알림",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/338165783",
-        "updated": "2026-09-07"
-      },
-      {
-        "title": "[9월7일] Weekly QA",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/341770581/9+7+Weekly+QA",
-        "updated": "2026-09-07"
-      },
-      {
-        "title": "[직계약 혼합운용] 로케이션 보관비 면제",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/323026945",
-        "updated": "2026-09-07"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
@@ -869,6 +829,30 @@
     ],
     "messages": [
       {
+        "channel": "기술과제-직계약-혼합운용",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1788934864.771479",
+        "text": "@한병두 (기술/제품팀) @박소영 (기술/개발팀) 직영 -&gt; 직계약 전환 시 항목이 없는 탭 노출 관련 스레드"
+      },
+      {
+        "channel": "기술과제-직계약-혼합운용",
+        "user": "한상준 (기술/QA팀)",
+        "ts": "1788925062.606219",
+        "text": "@한병두 (기술/제품팀) @정수아 (기술/디자인팀) 고객사 간 재고 이관 &gt; 반려 취소 다이얼로그 관련 문의"
+      },
+      {
+        "channel": "기술조직",
+        "user": "박래원 (기술/QA팀)",
+        "ts": "1788920816.582929",
+        "text": "안녕하세요, QA팀 박래원입니다.\n어제 QA팀 모두 이천센터를 방문해 물류 자동화 프로세스가 돌아가는 모습을 직접 보고, 물류센터의 전체 흐름을 체험할 수 있었습니다. 현장을 돌면서 작업자분들께 업무 중 불편하거나 어려운 점을 여쭤보았고, 그 내용을 정리해 공유드립니다.\n\n*[느낀 점]*\n인터뷰를 진행하면서, 저희가 테스트하는 기능들을 현장에서 치열하게 일"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1788917089.585659",
+        "text": "<!subteam^S096ZRAAKFY> <https://dohands.atlassian.net/issues?filter=10973&amp;selectedIssue=TECH-2246|dohands.atlassian.net/issues?filter=10973&amp;selectedIssue=TECH-2246>\n가끔씩 터지는 \"이슈가 한꺼번에 QA 필요 상태로"
+      },
+      {
         "channel": "기술-qa팀",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1788915616.728839",
@@ -891,30 +875,6 @@
         "user": "김태재 (기술/QA팀)",
         "ts": "1788855167.618329",
         "text": "@박래원 (기술/QA팀) 송장 출력물 관련"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "박래원 (기술/QA팀)",
-        "ts": "1788853519.650189",
-        "text": "인터뷰 내용 정리"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "박래원 (기술/QA팀)",
-        "ts": "1788848350.368139",
-        "text": "@베스현승 (기술/QA팀) \n저희 입고로케이션에 도착했습니다!"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1788846058.599549",
-        "text": "@박래원 (기술/QA팀) <https://inpa.tistory.com/entry/WEB-%F0%9F%8C%90-HTTP-%EB%A9%94%EC%84%9C%EB%93%9C-%EC%A2%85%EB%A5%98-%ED%86%B5%EC%8B%A0-%EA%B3%BC%EC%A0%95-%F0%9F%92%AF-%EC%B4%9D%EC%A0%95%EB%A6%AC|inpa.t"
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1788836075.329519",
-        "text": "QA팀 현장학습 사진"
       }
     ]
   },
