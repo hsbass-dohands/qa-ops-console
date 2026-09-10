@@ -1,50 +1,18 @@
 {
-  "generated_at": "2026-09-10T01:22:33.462Z",
+  "generated_at": "2026-09-10T06:21:54.370Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
-      "P1": 5,
+      "P1": 4,
       "P2": 8,
-      "P3": 38
+      "P3": 39
     },
-    "total_open": 54,
-    "new_this_week": 13,
+    "total_open": 53,
+    "new_this_week": 12,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "INT-321",
-        "url": "https://dohands.atlassian.net/browse/INT-321",
-        "summary": "[연동] 샵링커 스케줄러 응답 캐시 파일 무제한 누적 (컨테이너 메모리 잠식)",
-        "status": "QA 중",
-        "project": "INT",
-        "assignee": "최라온"
-      },
-      {
-        "key": "SPRINT-651",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-651",
-        "summary": "[VISE] 할당 성공에서 노출되는 주소와 송장>조회>할당됨 주소지가 상이한 이슈",
-        "status": "QA 중",
-        "project": "SPRINT",
-        "assignee": "최라온"
-      },
-      {
-        "key": "SPRINT-823",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-823",
-        "summary": "CJ 배송 메시지 전송",
-        "status": "QA 중",
-        "project": "SPRINT",
-        "assignee": "최라온"
-      },
-      {
-        "key": "SPRINT-859",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-859",
-        "summary": "큐텐 가용 재고 변경 이력 수정",
-        "status": "QA 중",
-        "project": "SPRINT",
-        "assignee": "최라온"
-      },
       {
         "key": "SPRINT-871",
         "url": "https://dohands.atlassian.net/browse/SPRINT-871",
@@ -52,6 +20,22 @@
         "status": "QA 중",
         "project": "SPRINT",
         "assignee": "문현호"
+      },
+      {
+        "key": "SPRINT-881",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-881",
+        "summary": "N직 수기,CS 재발송,교환 미노출 작업",
+        "status": "QA 중",
+        "project": "SPRINT",
+        "assignee": "김태재"
+      },
+      {
+        "key": "TECH-1719",
+        "url": "https://dohands.atlassian.net/browse/TECH-1719",
+        "summary": "[과제] 바코",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "박래원"
       },
       {
         "key": "TECH-2028",
@@ -78,9 +62,9 @@
         "assignee": "정수아"
       },
       {
-        "key": "TECH-2260",
-        "url": "https://dohands.atlassian.net/browse/TECH-2260",
-        "summary": "[poomgo_dya] 주문취소 예약재고 원복/재발송 경로 resourceId 정렬 미적용으로 inventoryLists 데드락 발생",
+        "key": "TECH-2248",
+        "url": "https://dohands.atlassian.net/browse/TECH-2248",
+        "summary": "재고이동시 공간 데이터 없는 로케이션이 에러 발생되는 현상 개선",
         "status": "QA 중",
         "project": "TECH",
         "assignee": "한상준"
@@ -91,7 +75,7 @@
         "summary": "주문 변경 이력 정리",
         "status": "QA 필요",
         "project": "INT",
-        "assignee": "김태재"
+        "assignee": "박래원"
       },
       {
         "key": "SPRINT-658",
@@ -102,36 +86,12 @@
         "assignee": "최라온"
       },
       {
-        "key": "SPRINT-881",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-881",
-        "summary": "N직 수기,CS 재발송,교환 미노출 작업",
+        "key": "SPRINT-827",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-827",
+        "summary": "[바이스프론트] 단수 출고 기능 - SKU 단수 플래그 등록/수정/표시",
         "status": "QA 필요",
         "project": "SPRINT",
-        "assignee": "김태재"
-      },
-      {
-        "key": "TECH-1719",
-        "url": "https://dohands.atlassian.net/browse/TECH-1719",
-        "summary": "[과제] 바코",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "박래원"
-      },
-      {
-        "key": "TECH-2235",
-        "url": "https://dohands.atlassian.net/browse/TECH-2235",
-        "summary": "[주문 알림] 할당 실패 이메일/알림톡 > 할당 실패 주문 확인하기 페이지로 이동 필요",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "김태재"
-      },
-      {
-        "key": "TECH-2248",
-        "url": "https://dohands.atlassian.net/browse/TECH-2248",
-        "summary": "재고이동시 공간 데이터 없는 로케이션이 에러 발생되는 현상 개선",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "김태재"
+        "assignee": "최라온"
       },
       {
         "key": "TECH-2271",
@@ -140,14 +100,6 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "한상준"
-      },
-      {
-        "key": "TECH-2300",
-        "url": "https://dohands.atlassian.net/browse/TECH-2300",
-        "summary": "[적정 재고] 적정 재고 이메일 > 부족 재고 확인하기 페이지로 이동 필요",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "김태재"
       }
     ],
     "weekly_severity": [
@@ -205,7 +157,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 0,
-        "p3": 5
+        "p3": 7
       }
     ],
     "calendar_events": [
@@ -494,34 +446,34 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "역할 별 사용자 페이지 제공 여부 QA",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/325746759/QA",
-        "updated": "2026-09-09"
-      },
-      {
-        "title": "현장 인터뷰 상세 (2026-09-08)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/345571402/2026-09-08",
-        "updated": "2026-09-09"
-      },
-      {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
-        "updated": "2026-09-09"
+        "updated": "2026-09-10"
       },
       {
-        "title": "Edge Case 질문 — 기획 리뷰 / QA 설계 체크리스트",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/254083135/Edge+Case+QA",
-        "updated": "2026-09-09"
+        "title": "입고알림",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/347504718",
+        "updated": "2026-09-10"
       },
       {
-        "title": "QA OKR 작성 가이드",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/345210889/QA+OKR",
-        "updated": "2026-09-09"
+        "title": "B2B",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/338100227/B2B",
+        "updated": "2026-09-10"
       },
       {
-        "title": "순서",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/336265239",
-        "updated": "2026-09-08"
+        "title": "바코 (VAKO)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/337477651/VAKO",
+        "updated": "2026-09-10"
+      },
+      {
+        "title": "주문",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/338067464",
+        "updated": "2026-09-10"
+      },
+      {
+        "title": "정산",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/338853990",
+        "updated": "2026-09-10"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
@@ -805,52 +757,52 @@
     ],
     "messages": [
       {
-        "channel": "sigvise",
-        "user": "박래원 (기술/QA팀)",
-        "ts": "1789003318.264999",
-        "text": "<!subteam^S089CG0M23S>  재고 조정 증가 &gt; 재고 증가 &gt; 입고 로케이션 노출 문의"
-      },
-      {
-        "channel": "기술과제-바코",
-        "user": "박래원 (기술/QA팀)",
-        "ts": "1789001876.136879",
-        "text": "현재 바코 버튼이 사라져있는데 변경 사항이 있었나요?"
-      },
-      {
         "channel": "기술-qa팀",
         "user": "최라온 (기술/QA팀)",
-        "ts": "1789001607.376819",
-        "text": "@박래원 (기술/QA팀) @한상준 (기술/QA팀) 오늘 *`[QA팀 설명회] 주문 + 상품/캠페인 + 동적할당`* *HG#2 M5-6C (5층 6인실) 16:00 ~ 17:00* 입니다~! (캘린더 초대 완료)"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "박래원 (기술/QA팀)",
-        "ts": "1788945066.661759",
-        "text": "혹시 vise 접근 되시나요? 대기해봐야겠죠..?"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1788941312.131379",
-        "text": "@한상준 (기술/QA팀) 로케이션 보관비 면제 관련 실패한 테스트 케이스 3건 관련 스레드"
-      },
-      {
-        "channel": "기술조직",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1788940560.766469",
-        "text": "맥북 재부팅하고 오겠습니다~!"
+        "ts": "1789021137.829049",
+        "text": "@김태재 (기술/QA팀)"
       },
       {
         "channel": "기술-qa팀",
         "user": "베스현승 (기술/QA팀)",
-        "ts": "1788935148.925789",
-        "text": "한우 잘 왔네요 - 떡갈비 차돌박이 도가니 살(숙성)"
+        "ts": "1789020670.125549",
+        "text": "@박래원 (기술/QA팀) @한상준 (기술/QA팀) 버그 확인"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1789020025.907849",
+        "text": "@김태재 (기술/QA팀) 탐색적 테스트 언제 다시 재개 예정인가요?"
+      },
+      {
+        "channel": "기술과제-바코",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1789019631.343209",
+        "text": "똑같은 질문 무한으로 질문/답변 반복 가능한데 리미트 관련 기획이 어디에 있나용"
       },
       {
         "channel": "기술과제-직계약-혼합운용",
         "user": "최라온 (기술/QA팀)",
-        "ts": "1788934864.771479",
-        "text": "@한병두 (기술/제품팀) @박소영 (기술/개발팀) 직영 -&gt; 직계약 전환 시 항목이 없는 탭 노출 관련 스레드"
+        "ts": "1789019607.140769",
+        "text": "@손조성 (기술/개발팀) 고객사 간 재고 이관 성능 테스트 스레드 cc. @한상준 (기술/QA팀)"
+      },
+      {
+        "channel": "기술과제-직계약-혼합운용",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1789018286.731819",
+        "text": "@한병두 (기술/제품팀) @황성민 (기술/개발팀) 요거 이미 알고 계시는 예상 동작인지, 논의가 필요한 동작인지 확인차 스레드 오픈합니다!\n\n재현절차 : STG > [라온 단독 사용 고객사] 스완 > 재고 이동 > 적치 탭 > 임의의 SKU 선택 후 `선택 SKU 이동재고 입력` 버튼 눌렀을 때 선택한 SKU 리스트 미노출 됨"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1789017801.759719",
+        "text": "혹시 STG &gt; 재고 이동 &gt; 적치 탭 &gt; 임의의 SKU 선택 후 `선택 SKU 이동재고 입력` 버튼 눌렀을 때 선택한 SKU 리스트 잘 나오시나요?"
+      },
+      {
+        "channel": "기술과제-직계약-혼합운용",
+        "user": "한상준 (기술/QA팀)",
+        "ts": "1789007537.835569",
+        "text": "@손조성 (기술/개발팀) 재고 변동 이력 문의"
       }
     ]
   },
