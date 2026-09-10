@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T06:21:54.370Z",
+  "generated_at": "2026-09-10T11:40:08.167Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,12 +7,20 @@
       "P0": 0,
       "P1": 4,
       "P2": 8,
-      "P3": 39
+      "P3": 40
     },
-    "total_open": 53,
+    "total_open": 54,
     "new_this_week": 12,
     "closed_this_week": 0,
     "funnel": [
+      {
+        "key": "ROBOT-203",
+        "url": "https://dohands.atlassian.net/browse/ROBOT-203",
+        "summary": "[출고 B2C] 단수 출고 기능",
+        "status": "QA 중",
+        "project": "ROBOT",
+        "assignee": "최라온"
+      },
       {
         "key": "SPRINT-871",
         "url": "https://dohands.atlassian.net/browse/SPRINT-871",
@@ -78,28 +86,28 @@
         "assignee": "박래원"
       },
       {
-        "key": "SPRINT-658",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-658",
-        "summary": "상품 매핑 로직의 상품 정렬 변경",
-        "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "최라온"
-      },
-      {
-        "key": "SPRINT-827",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-827",
-        "summary": "[바이스프론트] 단수 출고 기능 - SKU 단수 플래그 등록/수정/표시",
-        "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "최라온"
-      },
-      {
         "key": "TECH-2271",
         "url": "https://dohands.atlassian.net/browse/TECH-2271",
         "summary": "[poomgo_api] 총량피킹지시서 생성 시 송장 잠금 순서 미고정으로 invoices 데드락 발생",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "한상준"
+      },
+      {
+        "key": "TECH-2326",
+        "url": "https://dohands.atlassian.net/browse/TECH-2326",
+        "summary": "WMS SKU 동기화 첨부 조회가 read replica 를 봐서 404 알람 반복 발생 — useMaster 적용",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "손조성"
+      },
+      {
+        "key": "TECH-2334",
+        "url": "https://dohands.atlassian.net/browse/TECH-2334",
+        "summary": "[프론트] 직계약 판매자 입점 SKU 정보 추가 작업",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "최라온"
       }
     ],
     "weekly_severity": [
@@ -157,7 +165,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 0,
-        "p3": 7
+        "p3": 8
       }
     ],
     "calendar_events": [
@@ -446,6 +454,16 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "주문 처리 플로우 (OMS → LMS)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/347963437/OMS+LMS",
+        "updated": "2026-09-10"
+      },
+      {
+        "title": "바코 (VAKO)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/337477651/VAKO",
+        "updated": "2026-09-10"
+      },
+      {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-09-10"
@@ -461,18 +479,8 @@
         "updated": "2026-09-10"
       },
       {
-        "title": "바코 (VAKO)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/337477651/VAKO",
-        "updated": "2026-09-10"
-      },
-      {
         "title": "주문",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/338067464",
-        "updated": "2026-09-10"
-      },
-      {
-        "title": "정산",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/338853990",
         "updated": "2026-09-10"
       }
     ],
@@ -759,6 +767,30 @@
       {
         "channel": "기술-qa팀",
         "user": "최라온 (기술/QA팀)",
+        "ts": "1789029543.943519",
+        "text": "@한상준 (기술/QA팀)"
+      },
+      {
+        "channel": "sigvise",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1789029339.277119",
+        "text": "@정승아 (기술/개발팀)"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1789027818.994719",
+        "text": "@최라온 (기술/QA팀) @박래원 (기술/QA팀) @한상준 (기술/QA팀)\n오늘 강의 요약\n<https://dohands.atlassian.net/wiki/spaces/qa/pages/347963437/OMS+LMS|dohands.atlassian.net/wiki/…/OMS+LMS>"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1789026529.255979",
+        "text": "• NORMAL → 일반 배송\n• ARRIVAL_GUARANTEE → N_도착보장\n    ◦ 판매채널: 스마트스토어(물류사)\n• HOLIDAY → 휴일배송\n    ◦ 판매채널: 스마트스토어(물류사)\n• TODAY → 당일배송\n    ◦ 판매채널: 스마트스토어(물류사)\n• DAWN -&gt; 새벽배송\n    ◦ 판매채널: 스마트스토어(물류사)\n• STAR →"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
         "ts": "1789021137.829049",
         "text": "@김태재 (기술/QA팀)"
       },
@@ -779,30 +811,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1789019631.343209",
         "text": "똑같은 질문 무한으로 질문/답변 반복 가능한데 리미트 관련 기획이 어디에 있나용"
-      },
-      {
-        "channel": "기술과제-직계약-혼합운용",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1789019607.140769",
-        "text": "@손조성 (기술/개발팀) 고객사 간 재고 이관 성능 테스트 스레드 cc. @한상준 (기술/QA팀)"
-      },
-      {
-        "channel": "기술과제-직계약-혼합운용",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1789018286.731819",
-        "text": "@한병두 (기술/제품팀) @황성민 (기술/개발팀) 요거 이미 알고 계시는 예상 동작인지, 논의가 필요한 동작인지 확인차 스레드 오픈합니다!\n\n재현절차 : STG > [라온 단독 사용 고객사] 스완 > 재고 이동 > 적치 탭 > 임의의 SKU 선택 후 `선택 SKU 이동재고 입력` 버튼 눌렀을 때 선택한 SKU 리스트 미노출 됨"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1789017801.759719",
-        "text": "혹시 STG &gt; 재고 이동 &gt; 적치 탭 &gt; 임의의 SKU 선택 후 `선택 SKU 이동재고 입력` 버튼 눌렀을 때 선택한 SKU 리스트 잘 나오시나요?"
-      },
-      {
-        "channel": "기술과제-직계약-혼합운용",
-        "user": "한상준 (기술/QA팀)",
-        "ts": "1789007537.835569",
-        "text": "@손조성 (기술/개발팀) 재고 변동 이력 문의"
       }
     ]
   },
