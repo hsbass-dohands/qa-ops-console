@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T11:40:08.167Z",
+  "generated_at": "2026-09-10T15:10:53.698Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -78,20 +78,20 @@
         "assignee": "한상준"
       },
       {
+        "key": "TECH-2271",
+        "url": "https://dohands.atlassian.net/browse/TECH-2271",
+        "summary": "[poomgo_api] 총량피킹지시서 생성 시 송장 잠금 순서 미고정으로 invoices 데드락 발생",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "한상준"
+      },
+      {
         "key": "INT-21",
         "url": "https://dohands.atlassian.net/browse/INT-21",
         "summary": "주문 변경 이력 정리",
         "status": "QA 필요",
         "project": "INT",
         "assignee": "박래원"
-      },
-      {
-        "key": "TECH-2271",
-        "url": "https://dohands.atlassian.net/browse/TECH-2271",
-        "summary": "[poomgo_api] 총량피킹지시서 생성 시 송장 잠금 순서 미고정으로 invoices 데드락 발생",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "한상준"
       },
       {
         "key": "TECH-2326",
@@ -774,7 +774,7 @@
         "channel": "sigvise",
         "user": "김태재 (기술/QA팀)",
         "ts": "1789029339.277119",
-        "text": "@정승아 (기술/개발팀)"
+        "text": "@정승아 (기술/개발팀) 티켓 관련"
       },
       {
         "channel": "기술-qa팀",
