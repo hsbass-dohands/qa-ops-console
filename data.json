@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-11T01:05:51.210Z",
+  "generated_at": "2026-09-11T05:59:18.041Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
-      "P1": 4,
-      "P2": 8,
-      "P3": 40
+      "P1": 6,
+      "P2": 9,
+      "P3": 37
     },
     "total_open": 54,
-    "new_this_week": 12,
+    "new_this_week": 14,
     "closed_this_week": 0,
     "funnel": [
       {
-        "key": "ROBOT-203",
-        "url": "https://dohands.atlassian.net/browse/ROBOT-203",
-        "summary": "[출고 B2C] 단수 출고 기능",
+        "key": "SPRINT-859",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-859",
+        "summary": "큐텐 가용 재고 변경 이력 수정",
         "status": "QA 중",
-        "project": "ROBOT",
+        "project": "SPRINT",
         "assignee": "최라온"
       },
       {
@@ -28,14 +28,6 @@
         "status": "QA 중",
         "project": "SPRINT",
         "assignee": "문현호"
-      },
-      {
-        "key": "SPRINT-881",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-881",
-        "summary": "N직 수기,CS 재발송,교환 미노출 작업",
-        "status": "QA 중",
-        "project": "SPRINT",
-        "assignee": "김태재"
       },
       {
         "key": "TECH-1719",
@@ -62,22 +54,6 @@
         "assignee": "김태재"
       },
       {
-        "key": "TECH-2238",
-        "url": "https://dohands.atlassian.net/browse/TECH-2238",
-        "summary": "[디자인-QA] 고객사 간 재고 이관",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "정수아"
-      },
-      {
-        "key": "TECH-2248",
-        "url": "https://dohands.atlassian.net/browse/TECH-2248",
-        "summary": "재고이동시 공간 데이터 없는 로케이션이 에러 발생되는 현상 개선",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "한상준"
-      },
-      {
         "key": "TECH-2271",
         "url": "https://dohands.atlassian.net/browse/TECH-2271",
         "summary": "[poomgo_api] 총량피킹지시서 생성 시 송장 잠금 순서 미고정으로 invoices 데드락 발생",
@@ -94,20 +70,36 @@
         "assignee": "박래원"
       },
       {
+        "key": "TECH-2234",
+        "url": "https://dohands.atlassian.net/browse/TECH-2234",
+        "summary": "[주문 알림] 할당 실패 이메일/알림톡 내용 수정 필요",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "김태재"
+      },
+      {
+        "key": "TECH-2296",
+        "url": "https://dohands.atlassian.net/browse/TECH-2296",
+        "summary": "[주문 알림] 이메일/알림톡 내용 관련 수정 확인 요청",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "김태재"
+      },
+      {
+        "key": "TECH-2297",
+        "url": "https://dohands.atlassian.net/browse/TECH-2297",
+        "summary": "고객사 간 재고 이관 > 이관 요청서 상세 > 이관 요청 취소 다이얼로그 > 취소사유 200글자 초과 입력시 에러 문구 노출됨",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "한상준"
+      },
+      {
         "key": "TECH-2326",
         "url": "https://dohands.atlassian.net/browse/TECH-2326",
         "summary": "WMS SKU 동기화 첨부 조회가 read replica 를 봐서 404 알람 반복 발생 — useMaster 적용",
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "손조성"
-      },
-      {
-        "key": "TECH-2334",
-        "url": "https://dohands.atlassian.net/browse/TECH-2334",
-        "summary": "[프론트] 직계약 판매자 입점 SKU 정보 추가 작업",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "최라온"
       }
     ],
     "weekly_severity": [
@@ -156,16 +148,16 @@
       {
         "week": "W7",
         "p0": 0,
-        "p1": 5,
+        "p1": 6,
         "p2": 1,
         "p3": 8
       },
       {
         "week": "W8",
         "p0": 0,
-        "p1": 0,
-        "p2": 0,
-        "p3": 8
+        "p1": 2,
+        "p2": 2,
+        "p3": 9
       }
     ],
     "calendar_events": [
@@ -454,13 +446,13 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "주문 처리 플로우 (OMS → LMS)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/347963437/OMS+LMS",
-        "updated": "2026-09-10"
-      },
-      {
         "title": "바코 (VAKO)",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/337477651/VAKO",
+        "updated": "2026-09-11"
+      },
+      {
+        "title": "주문 처리 플로우 (OMS → LMS)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/347963437/OMS+LMS",
         "updated": "2026-09-10"
       },
       {
@@ -765,6 +757,42 @@
     ],
     "messages": [
       {
+        "channel": "sigvise",
+        "user": "한상준 (기술/QA팀)",
+        "ts": "1789099027.809499",
+        "text": "<!subteam^S089CG0M23S> STG &gt; 입고 로케이션 문의"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1789096405.939129",
+        "text": "@베스현승 (기술/QA팀) 페덱스 관련"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1789096389.885639",
+        "text": "@한상준 (기술/QA팀) 직계약 혼합운용 QA 잔여 이슈 스레드"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1789095630.455469",
+        "text": "@최라온 (기술/QA팀) 직계약 입점 신청 페이지 검색어 필드에 완전 일치는 잠금 처리된 이유가 따로 있을까요?"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1789092506.402079",
+        "text": "@김태재 (기술/QA팀) 님*...더보기*"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1789092064.220559",
+        "text": "@박래원 (기술/QA팀) 님 호출대기 참관에 기술문의가 한 개도 안 들어온 거죠?"
+      },
+      {
         "channel": "기술-qa팀",
         "user": "최라온 (기술/QA팀)",
         "ts": "1789029543.943519",
@@ -775,42 +803,6 @@
         "user": "김태재 (기술/QA팀)",
         "ts": "1789029339.277119",
         "text": "@정승아 (기술/개발팀) 티켓 관련"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1789027818.994719",
-        "text": "@최라온 (기술/QA팀) @박래원 (기술/QA팀) @한상준 (기술/QA팀)\n오늘 강의 요약\n<https://dohands.atlassian.net/wiki/spaces/qa/pages/347963437/OMS+LMS|dohands.atlassian.net/wiki/…/OMS+LMS>"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1789026529.255979",
-        "text": "• NORMAL → 일반 배송\n• ARRIVAL_GUARANTEE → N_도착보장\n    ◦ 판매채널: 스마트스토어(물류사)\n• HOLIDAY → 휴일배송\n    ◦ 판매채널: 스마트스토어(물류사)\n• TODAY → 당일배송\n    ◦ 판매채널: 스마트스토어(물류사)\n• DAWN -&gt; 새벽배송\n    ◦ 판매채널: 스마트스토어(물류사)\n• STAR →"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1789021137.829049",
-        "text": "@김태재 (기술/QA팀)"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1789020670.125549",
-        "text": "@박래원 (기술/QA팀) @한상준 (기술/QA팀) 버그 확인"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1789020025.907849",
-        "text": "@김태재 (기술/QA팀) 탐색적 테스트 언제 다시 재개 예정인가요?"
-      },
-      {
-        "channel": "기술과제-바코",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1789019631.343209",
-        "text": "똑같은 질문 무한으로 질문/답변 반복 가능한데 리미트 관련 기획이 어디에 있나용"
       }
     ]
   },
