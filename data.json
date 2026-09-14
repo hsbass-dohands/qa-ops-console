@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-09-14T01:04:35.732Z",
+  "generated_at": "2026-09-14T06:17:19.060Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
       "P1": 5,
-      "P2": 10,
-      "P3": 33
+      "P2": 8,
+      "P3": 29
     },
-    "total_open": 50,
-    "new_this_week": 15,
+    "total_open": 44,
+    "new_this_week": 14,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "SPRINT-859",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-859",
-        "summary": "큐텐 가용 재고 변경 이력 수정",
-        "status": "QA 중",
-        "project": "SPRINT",
-        "assignee": "최라온"
-      },
       {
         "key": "SPRINT-871",
         "url": "https://dohands.atlassian.net/browse/SPRINT-871",
@@ -28,14 +20,6 @@
         "status": "QA 중",
         "project": "SPRINT",
         "assignee": "문현호"
-      },
-      {
-        "key": "SPRINT-911",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-911",
-        "summary": "바이스 입고요청서 입고 회차 그리드 행 높이 증가 시 셀 정렬 오류 수정",
-        "status": "QA 중",
-        "project": "SPRINT",
-        "assignee": "한상준"
       },
       {
         "key": "TECH-1719",
@@ -54,12 +38,28 @@
         "assignee": "김태재"
       },
       {
+        "key": "TECH-2326",
+        "url": "https://dohands.atlassian.net/browse/TECH-2326",
+        "summary": "WMS SKU 동기화 첨부 조회가 read replica 를 봐서 404 알람 반복 발생 — useMaster 적용",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "한상준"
+      },
+      {
         "key": "INT-21",
         "url": "https://dohands.atlassian.net/browse/INT-21",
         "summary": "주문 변경 이력 정리",
         "status": "QA 필요",
         "project": "INT",
         "assignee": "박래원"
+      },
+      {
+        "key": "SPRINT-834",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-834",
+        "summary": "SKU 출고 정보 > 송장당 최대 출고수량 0 직접입력 시 저장 불가",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "김태재"
       },
       {
         "key": "SPRINT-837",
@@ -75,73 +75,65 @@
         "summary": "[VISE] 개인정보 검색 완전일치 전환 (GET 기준)",
         "status": "QA 필요",
         "project": "TECH",
-        "assignee": "이덕희"
-      },
-      {
-        "key": "TECH-2326",
-        "url": "https://dohands.atlassian.net/browse/TECH-2326",
-        "summary": "WMS SKU 동기화 첨부 조회가 read replica 를 봐서 404 알람 반복 발생 — useMaster 적용",
-        "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "손조성"
+        "assignee": "베스현승"
       }
     ],
     "weekly_severity": [
       {
         "week": "W1",
-        "p0": 1,
-        "p1": 1,
-        "p2": 1,
-        "p3": 6
-      },
-      {
-        "week": "W2",
         "p0": 0,
         "p1": 1,
         "p2": 4,
         "p3": 7
       },
       {
-        "week": "W3",
+        "week": "W2",
         "p0": 0,
         "p1": 0,
         "p2": 1,
         "p3": 10
       },
       {
-        "week": "W4",
+        "week": "W3",
         "p0": 0,
         "p1": 4,
         "p2": 3,
         "p3": 4
       },
       {
-        "week": "W5",
+        "week": "W4",
         "p0": 0,
         "p1": 0,
         "p2": 1,
         "p3": 4
       },
       {
-        "week": "W6",
+        "week": "W5",
         "p0": 0,
         "p1": 0,
         "p2": 0,
         "p3": 7
       },
       {
-        "week": "W7",
+        "week": "W6",
         "p0": 0,
         "p1": 6,
         "p2": 1,
         "p3": 8
       },
       {
-        "week": "W8",
+        "week": "W7",
         "p0": 0,
         "p1": 2,
         "p2": 3,
         "p3": 10
+      },
+      {
+        "week": "W8",
+        "p0": 0,
+        "p1": 0,
+        "p2": 0,
+        "p3": 1
       }
     ],
     "calendar_events": [
@@ -430,9 +422,24 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "[PII] VISE 개인정보조회/다운로드",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/350781461/PII+VISE",
+        "updated": "2026-09-14"
+      },
+      {
+        "title": "[라온] QA팀 2027 OKR 아이디어",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/350748714/QA+2027+OKR",
+        "updated": "2026-09-14"
+      },
+      {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
-        "updated": "2026-09-11"
+        "updated": "2026-09-14"
+      },
+      {
+        "title": "[9월17일] Weekly QA",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/350388754/9+17+Weekly+QA",
+        "updated": "2026-09-14"
       },
       {
         "title": "바코 (VAKO)",
@@ -442,21 +449,6 @@
       {
         "title": "주문 처리 플로우 (OMS → LMS)",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/347963437/OMS+LMS",
-        "updated": "2026-09-10"
-      },
-      {
-        "title": "입고알림",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/347504718",
-        "updated": "2026-09-10"
-      },
-      {
-        "title": "B2B",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/338100227/B2B",
-        "updated": "2026-09-10"
-      },
-      {
-        "title": "주문",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/338067464",
         "updated": "2026-09-10"
       }
     ],
@@ -742,6 +734,12 @@
     "messages": [
       {
         "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1789348606.598169",
+        "text": "<!here> 오늘 위클리 회의 스킵합니다. 대신 17일 목요일 11시 대면으로 위클리 및 OKR 회의 하겠습니다."
+      },
+      {
+        "channel": "기술-qa팀",
         "user": "김태재 (기술/QA팀)",
         "ts": "1789114588.079459",
         "text": "@베스현승 (기술/QA팀) <https://claude.ai/code/artifact/e8e5c95f-25f3-43fa-9db7-afaa0b96c3f1?sk=GG96nNqnVB73ks4IgKIzCg|claude.ai/code/artifact/…?sk=…>"
@@ -781,12 +779,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1789092506.402079",
         "text": "@김태재 (기술/QA팀) 님*...더보기*"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1789092064.220559",
-        "text": "@박래원 (기술/QA팀) 님 호출대기 참관에 기술문의가 한 개도 안 들어온 거죠?"
       }
     ]
   },
