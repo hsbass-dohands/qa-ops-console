@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T00:37:58.449Z",
+  "generated_at": "2026-09-15T05:23:26.546Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,19 +7,19 @@
       "P0": 0,
       "P1": 4,
       "P2": 8,
-      "P3": 32
+      "P3": 31
     },
-    "total_open": 46,
-    "new_this_week": 16,
+    "total_open": 44,
+    "new_this_week": 15,
     "closed_this_week": 0,
     "funnel": [
       {
-        "key": "BE-187",
-        "url": "https://dohands.atlassian.net/browse/BE-187",
-        "summary": "[poomgo_api] 계정 삭제 시 품고백엔드 사용자 아이디·이메일 정리 + invitation retirement 필터 +  계정 삭제 username 치환값 중복 제거",
+        "key": "SPRINT-837",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-837",
+        "summary": "[연동] 카페24, 아임웹,고도몰 판매채널 화면이관",
         "status": "QA 중",
-        "project": "BE",
-        "assignee": "한상준"
+        "project": "SPRINT",
+        "assignee": "최라온"
       },
       {
         "key": "TECH-1719",
@@ -30,12 +30,12 @@
         "assignee": "박래원"
       },
       {
-        "key": "TECH-2116",
-        "url": "https://dohands.atlassian.net/browse/TECH-2116",
-        "summary": "[QA] 바이스 알림 기능",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "김태재"
+        "key": "BE-198",
+        "url": "https://dohands.atlassian.net/browse/BE-198",
+        "summary": "[WMS] 미사용 wms 스키마 뷰 7개 제거 및 inventory_summary 뷰 의존 코드 인라인화",
+        "status": "QA 필요",
+        "project": "BE",
+        "assignee": "박래원"
       },
       {
         "key": "BE-201",
@@ -46,12 +46,36 @@
         "assignee": "박래원"
       },
       {
+        "key": "BE-202",
+        "url": "https://dohands.atlassian.net/browse/BE-202",
+        "summary": "[NOW] 고객사 상품별 재고 현황(partner-resource/inventory) 출고예정수량 쿼리 인덱스 미사용 개선",
+        "status": "QA 필요",
+        "project": "BE",
+        "assignee": "한상준"
+      },
+      {
+        "key": "BE-203",
+        "url": "https://dohands.atlassian.net/browse/BE-203",
+        "summary": "[NOW] 송장 목록 오피스 경로(invoice.find-all.service) 요청당 Sequelize 생성 제거 및 count/findAll 분리",
+        "status": "QA 필요",
+        "project": "BE",
+        "assignee": "한상준"
+      },
+      {
+        "key": "BE-206",
+        "url": "https://dohands.atlassian.net/browse/BE-206",
+        "summary": "[HANDYBOT] 보충 필요 상품(partner-resources-be-supplemented) 송장 조인 PK 미사용으로 인한 타임아웃 개선",
+        "status": "QA 필요",
+        "project": "BE",
+        "assignee": "최라온"
+      },
+      {
         "key": "INT-21",
         "url": "https://dohands.atlassian.net/browse/INT-21",
         "summary": "주문 변경 이력 정리",
         "status": "QA 필요",
         "project": "INT",
-        "assignee": "박래원"
+        "assignee": "김태재"
       },
       {
         "key": "ROBOT-223",
@@ -68,14 +92,6 @@
         "status": "QA 필요",
         "project": "SPRINT",
         "assignee": "김태재"
-      },
-      {
-        "key": "SPRINT-837",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-837",
-        "summary": "[연동] 카페24, 아임웹,고도몰 판매채널 화면이관",
-        "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "최라온"
       }
     ],
     "weekly_severity": [
@@ -422,6 +438,16 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-09-15"
+      },
+      {
+        "title": "바코 (VAKO)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/337477651/VAKO",
+        "updated": "2026-09-15"
+      },
+      {
         "title": "동작이 한 가지로 특정되지 않아 TC의 예상 결과를 쓸 수 없는 15건",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/351502426/TC+15",
         "updated": "2026-09-14"
@@ -437,19 +463,9 @@
         "updated": "2026-09-14"
       },
       {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
-        "updated": "2026-09-14"
-      },
-      {
         "title": "[9월17일] Weekly QA",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/350388754/9+17+Weekly+QA",
         "updated": "2026-09-14"
-      },
-      {
-        "title": "바코 (VAKO)",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/337477651/VAKO",
-        "updated": "2026-09-11"
       }
     ],
     "tasks_source_url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
