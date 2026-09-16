@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T00:19:43.486Z",
+  "generated_at": "2026-09-16T05:04:14.694Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,12 +7,36 @@
       "P0": 0,
       "P1": 4,
       "P2": 8,
-      "P3": 31
+      "P3": 30
     },
-    "total_open": 44,
-    "new_this_week": 16,
+    "total_open": 43,
+    "new_this_week": 15,
     "closed_this_week": 0,
     "funnel": [
+      {
+        "key": "BE-202",
+        "url": "https://dohands.atlassian.net/browse/BE-202",
+        "summary": "[NOW] 고객사 상품별 재고 현황(partner-resource/inventory) 출고예정수량 쿼리 인덱스 미사용 개선",
+        "status": "QA 중",
+        "project": "BE",
+        "assignee": "한상준"
+      },
+      {
+        "key": "BE-203",
+        "url": "https://dohands.atlassian.net/browse/BE-203",
+        "summary": "[NOW] 송장 목록 오피스 경로(invoice.find-all.service) 요청당 Sequelize 생성 제거 및 count/findAll 분리",
+        "status": "QA 중",
+        "project": "BE",
+        "assignee": "한상준"
+      },
+      {
+        "key": "ROBOT-223",
+        "url": "https://dohands.atlassian.net/browse/ROBOT-223",
+        "summary": "택배사 송장 스캔 기능 개발",
+        "status": "QA 중",
+        "project": "ROBOT",
+        "assignee": "최라온"
+      },
       {
         "key": "SPRINT-834",
         "url": "https://dohands.atlassian.net/browse/SPRINT-834",
@@ -28,14 +52,6 @@
         "status": "QA 중",
         "project": "SPRINT",
         "assignee": "최라온"
-      },
-      {
-        "key": "SPRINT-860",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-860",
-        "summary": "재고 조정 증가/차감 > 조회 기간 필수값 변경 및 기본값 '오늘' 적용",
-        "status": "QA 중",
-        "project": "SPRINT",
-        "assignee": "한상준"
       },
       {
         "key": "TECH-1719",
@@ -60,46 +76,6 @@
         "status": "QA 필요",
         "project": "BE",
         "assignee": "박래원"
-      },
-      {
-        "key": "BE-202",
-        "url": "https://dohands.atlassian.net/browse/BE-202",
-        "summary": "[NOW] 고객사 상품별 재고 현황(partner-resource/inventory) 출고예정수량 쿼리 인덱스 미사용 개선",
-        "status": "QA 필요",
-        "project": "BE",
-        "assignee": "한상준"
-      },
-      {
-        "key": "BE-203",
-        "url": "https://dohands.atlassian.net/browse/BE-203",
-        "summary": "[NOW] 송장 목록 오피스 경로(invoice.find-all.service) 요청당 Sequelize 생성 제거 및 count/findAll 분리",
-        "status": "QA 필요",
-        "project": "BE",
-        "assignee": "한상준"
-      },
-      {
-        "key": "BE-206",
-        "url": "https://dohands.atlassian.net/browse/BE-206",
-        "summary": "[HANDYBOT] 보충 필요 상품(partner-resources-be-supplemented) 송장 조인 PK 미사용으로 인한 타임아웃 개선",
-        "status": "QA 필요",
-        "project": "BE",
-        "assignee": "최라온"
-      },
-      {
-        "key": "ROBOT-223",
-        "url": "https://dohands.atlassian.net/browse/ROBOT-223",
-        "summary": "택배사 송장 스캔 기능 개발",
-        "status": "QA 필요",
-        "project": "ROBOT",
-        "assignee": "최라온"
-      },
-      {
-        "key": "ROBOT-224",
-        "url": "https://dohands.atlassian.net/browse/ROBOT-224",
-        "summary": "[PDA][개발] 입고 검수 시 입고 로케이션 조회 이슈",
-        "status": "QA 필요",
-        "project": "ROBOT",
-        "assignee": "김태재"
       }
     ],
     "weekly_severity": [
@@ -757,6 +733,24 @@
     ],
     "messages": [
       {
+        "channel": "sigvise",
+        "user": "박래원 (기술/QA팀)",
+        "ts": "1789530900.859959",
+        "text": "@도혜원 (기술/개발팀) 재고 조정 증가 &gt; 타 고객사 url 입력시 노출 문의"
+      },
+      {
+        "channel": "sigvise",
+        "user": "한상준 (기술/QA팀)",
+        "ts": "1789524692.764369",
+        "text": "@윤송 (기술/개발팀) STG &gt; CS 배송 속성 문의"
+      },
+      {
+        "channel": "sigvise",
+        "user": "한상준 (기술/QA팀)",
+        "ts": "1789522005.891809",
+        "text": "<!subteam^S089CG0M23S> STG > 입출고계획 실행중 오류발생 문의"
+      },
+      {
         "channel": "기술-qa팀",
         "user": "베스현승 (기술/QA팀)",
         "ts": "1789454247.995349",
@@ -785,24 +779,6 @@
         "user": "한상준 (기술/QA팀)",
         "ts": "1789440890.465679",
         "text": "<!subteam^S088LS39A69> STG &gt; 배송 속성 변경 요청"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1789440035.223639",
-        "text": "태재님 진심이시네요"
-      },
-      {
-        "channel": "sigvise",
-        "user": "한상준 (기술/QA팀)",
-        "ts": "1789375546.165239",
-        "text": "<!subteam^S089CG0M23S> STG 셀러 &gt; 구성원 추가 &gt; 계정 생성 메일에서 ‘비밀번호 설정’을 누르면 502 에러 발생 문의"
-      },
-      {
-        "channel": "기술과제-개발팀-pii",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1789368072.814549",
-        "text": "@한병두 (기술/제품팀) [PII] VISE 개인정보 조회/다운로드 — QA 요구사항 분석 확인 요청 (2/2) 스레드\n\nQA 요구사항 분석 중, *기획서에 방향은 있지만 동작이 한 가지로 특정되지 않아 TC의 예상 결과를 쓸 수 없는 15건을 대상으로 했습니다* :saluting_face:\n\"차단한다 / 알린다 / 제공하지 않는다\"처럼 결과가 두세 갈래로"
       }
     ]
   },
