@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T14:43:14.243Z",
+  "generated_at": "2026-09-16T18:27:56.216Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,10 +7,10 @@
       "P0": 0,
       "P1": 4,
       "P2": 7,
-      "P3": 28
+      "P3": 30
     },
-    "total_open": 40,
-    "new_this_week": 15,
+    "total_open": 42,
+    "new_this_week": 18,
     "closed_this_week": 0,
     "funnel": [
       {
@@ -125,7 +125,7 @@
         "p0": 0,
         "p1": 0,
         "p2": 0,
-        "p3": 5
+        "p3": 8
       }
     ],
     "calendar_events": [
