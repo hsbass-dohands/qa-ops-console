@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-17T14:06:55.508Z",
+  "generated_at": "2026-09-17T18:13:22.265Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
       "P1": 5,
-      "P2": 7,
-      "P3": 32
+      "P2": 6,
+      "P3": 33
     },
     "total_open": 45,
     "new_this_week": 18,
@@ -81,8 +81,8 @@
         "week": "W3",
         "p0": 0,
         "p1": 4,
-        "p2": 3,
-        "p3": 4
+        "p2": 2,
+        "p3": 5
       },
       {
         "week": "W4",
@@ -406,6 +406,11 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "동작이 한 가지로 특정되지 않아 TC의 예상 결과를 쓸 수 없는 15건",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/351502426/TC+15",
+        "updated": "2026-09-17"
+      },
+      {
         "title": "26년 과제/작업 QA 리소스 및 스케쥴",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-09-17"
@@ -428,11 +433,6 @@
       {
         "title": "[래원] QA팀 2027 OKR 아이디어",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/354910301/QA+2027+OKR",
-        "updated": "2026-09-17"
-      },
-      {
-        "title": "[9월17일] Weekly QA",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/350388754/9+17+Weekly+QA",
         "updated": "2026-09-17"
       }
     ],
