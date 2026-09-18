@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-09-17T23:36:43.878Z",
+  "generated_at": "2026-09-18T01:31:30.421Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
       "P1": 5,
-      "P2": 6,
+      "P2": 5,
       "P3": 33
     },
-    "total_open": 45,
+    "total_open": 44,
     "new_this_week": 18,
     "closed_this_week": 0,
     "funnel": [
+      {
+        "key": "BE-188",
+        "url": "https://dohands.atlassian.net/browse/BE-188",
+        "summary": "[poomgo_backend] 삭제 계정 비밀번호 찾기 부활 차단 + POST /user/check 인증 추가",
+        "status": "QA 중",
+        "project": "BE",
+        "assignee": "김태재"
+      },
       {
         "key": "BE-198",
         "url": "https://dohands.atlassian.net/browse/BE-198",
@@ -52,14 +60,6 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "박래원"
-      },
-      {
-        "key": "BE-188",
-        "url": "https://dohands.atlassian.net/browse/BE-188",
-        "summary": "[poomgo_backend] 삭제 계정 비밀번호 찾기 부활 차단 + POST /user/check 인증 추가",
-        "status": "QA 필요",
-        "project": "BE",
-        "assignee": "김태재"
       }
     ],
     "weekly_severity": [
@@ -719,6 +719,30 @@
       {
         "channel": "기술-qa팀",
         "user": "김태재 (기술/QA팀)",
+        "ts": "1789694635.879069",
+        "text": "@박래원 (기술/QA팀) @한상준 (기술/QA팀) weekly 탐색적 테스트\n<https://dohands.atlassian.net/wiki/spaces/qa/folder/358449186|dohands.atlassian.net/wiki/…/358449186>"
+      },
+      {
+        "channel": "기술조직",
+        "user": "박래원 (기술/QA팀)",
+        "ts": "1789694328.005299",
+        "text": "맥북 재부팅하고 오겠습니다!"
+      },
+      {
+        "channel": "기술조직",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1789693574.392079",
+        "text": "오늘 XFC에서 업무합니다. 참고 부탁드리겠습니다."
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1789690924.047079",
+        "text": "금일 성수 오피스로 출근 입니다! (9:25-18:25 근무예정)"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
         "ts": "1789632687.290979",
         "text": "@베스현승 (기술/QA팀) 래원님 호대 시작일 10/19 맞을까요~?"
       },
@@ -739,30 +763,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1789629362.037809",
         "text": "@김태재 (기술/QA팀)"
-      },
-      {
-        "channel": "sigvise",
-        "user": "박래원 (기술/QA팀)",
-        "ts": "1789627014.484149",
-        "text": "@황성민 (기술/개발팀) @윤송 (기술/개발팀) @이현수 (기술/개발팀) @한병두 (기술/제품팀) 피킹가능 수량보다 더 많이 주문 하였을 경우, 주문 할당됨 문의"
-      },
-      {
-        "channel": "기술조직",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1789626865.995119",
-        "text": "@이찬민 (기술/제품팀) 품고 트래킹 기준"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1789621161.423319",
-        "text": "@김태재 (기술/QA팀) 태재님 앞에 앉으시라고 제가 자리 비워놨습니다"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1789618975.630899",
-        "text": "상준님"
       }
     ]
   },
