@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T06:40:41.089Z",
+  "generated_at": "2026-09-18T11:50:30.654Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,9 +7,9 @@
       "P0": 0,
       "P1": 5,
       "P2": 5,
-      "P3": 32
+      "P3": 33
     },
-    "total_open": 43,
+    "total_open": 44,
     "new_this_week": 14,
     "closed_this_week": 0,
     "funnel": [
@@ -22,12 +22,36 @@
         "assignee": "박래원"
       },
       {
-        "key": "BE-200",
-        "url": "https://dohands.atlassian.net/browse/BE-200",
-        "summary": "[NOW] 셀러 트렌드 SKU별 판매 현황(sales-by-resource) 응답 지연 개선",
+        "key": "BE-214",
+        "url": "https://dohands.atlassian.net/browse/BE-214",
+        "summary": "[HANDYBOT] 보충 필요 상품(partner-resources-be-supplemented) p95 60초 — 상관 서브쿼리·ops CTE 과다 물리화 개선",
         "status": "QA 중",
         "project": "BE",
+        "assignee": "최라온"
+      },
+      {
+        "key": "SPRINT-870",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-870",
+        "summary": "[VISE] 어드민 > 사용자 계정에 고객사 2개 이상 세팅 (기술조직 관리자 전용)",
+        "status": "QA 중",
+        "project": "SPRINT",
         "assignee": "한상준"
+      },
+      {
+        "key": "SPRINT-872",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-872",
+        "summary": "[연동] 프로모션 변경 이력 노출 영향도 파악 및 작업",
+        "status": "QA 중",
+        "project": "SPRINT",
+        "assignee": "최라온"
+      },
+      {
+        "key": "SPRINT-929",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-929",
+        "summary": "[VISE] 프로모션 변경 이력 그리드 개행 노출 처리",
+        "status": "QA 중",
+        "project": "SPRINT",
+        "assignee": "최라온"
       },
       {
         "key": "TECH-1719",
@@ -38,20 +62,12 @@
         "assignee": "박래원"
       },
       {
-        "key": "BE-214",
-        "url": "https://dohands.atlassian.net/browse/BE-214",
-        "summary": "[HANDYBOT] 보충 필요 상품(partner-resources-be-supplemented) p95 60초 — 상관 서브쿼리·ops CTE 과다 물리화 개선",
+        "key": "ROBOT-231",
+        "url": "https://dohands.atlassian.net/browse/ROBOT-231",
+        "summary": "입고앱 그라파나 로그 개선 및 타임아웃 시간 증량",
         "status": "QA 필요",
-        "project": "BE",
-        "assignee": "최라온"
-      },
-      {
-        "key": "BE-215",
-        "url": "https://dohands.atlassian.net/browse/BE-215",
-        "summary": "[셀러][프론트] 트렌드 > SKU별 판매 현황(sales-by-resource) 중복 토스트 메세지 제거",
-        "status": "QA 필요",
-        "project": "BE",
-        "assignee": "한상준"
+        "project": "ROBOT",
+        "assignee": "김태재"
       }
     ],
     "weekly_severity": [
@@ -108,8 +124,8 @@
         "week": "W8",
         "p0": 0,
         "p1": 1,
-        "p2": 0,
-        "p3": 11
+        "p2": 1,
+        "p3": 12
       }
     ],
     "calendar_events": [
@@ -398,12 +414,12 @@
     "space_key": "qa",
     "docs": [
       {
-        "title": "[PII] VISE 개인정보조회/다운로드",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/350781461/PII+VISE",
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
         "updated": "2026-09-18"
       },
       {
-        "title": "[래원] 2026.09.18 (금) - VISE > 재고 조정/이동, 가용재고",
+        "title": "[래원] 2026.09.18 (금) - VISE > 로그인, 재고 조회/조정",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/358449271/2026.09.18+-+VISE",
         "updated": "2026-09-18"
       },
@@ -413,8 +429,8 @@
         "updated": "2026-09-18"
       },
       {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "title": "[PII] VISE 개인정보조회/다운로드",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/350781461/PII+VISE",
         "updated": "2026-09-18"
       },
       {
@@ -711,6 +727,30 @@
       {
         "channel": "기술-qa팀",
         "user": "베스현승 (기술/QA팀)",
+        "ts": "1789720687.722179",
+        "text": "@김태재 (기술/QA팀) @박래원 (기술/QA팀) <#C0C2RNYPNGN> 마감라벨출고 과제 배정 드렸습니다. 병두님이 기획자고 남양주 한정 과제입니다! 필요에 따라서 남양주센터 방문 할 듯 한데 참고 부탁드리겠습니다. :꾸벅:"
+      },
+      {
+        "channel": "기술조직",
+        "user": "박래원 (기술/QA팀)",
+        "ts": "1789714610.050019",
+        "text": "@이대한 (기술/개발팀) @전우영 (기술/AI팀) Grafana 계정 요청"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1789714333.042569",
+        "text": "@박래원 (기술/QA팀) 그라파나 계정 관련"
+      },
+      {
+        "channel": "기술과제-개발팀-pii",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1789714080.478129",
+        "text": "@한병두 (기술/제품팀) @정승아 (기술/개발팀) @신혜수 (기술/개발팀) @이현수 (기술/개발팀) QA 요구사항분석 완료되어, *관련해서 이해한 예상 결과가 맞는지 확인 요청*드리고자 합니다!\n\n• <https://dohands.atlassian.net/wiki/spaces/qa/pages/350781461/PII+VISE#3.-%EA%B3%B5%ED%8"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
         "ts": "1789709297.018609",
         "text": "Fedex QA 타임라인"
       },
@@ -731,30 +771,6 @@
         "user": "김태재 (기술/QA팀)",
         "ts": "1789698228.522389",
         "text": "@최라온 (기술/QA팀)\n&gt; 이형 계약 할당 여부는 SKU 이형 여부로만 관리합니다!\n질문이씁니다"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1789694635.879069",
-        "text": "@박래원 (기술/QA팀) @한상준 (기술/QA팀) weekly 탐색적 테스트\n<https://dohands.atlassian.net/wiki/spaces/qa/folder/358449186|dohands.atlassian.net/wiki/…/358449186>"
-      },
-      {
-        "channel": "기술조직",
-        "user": "박래원 (기술/QA팀)",
-        "ts": "1789694328.005299",
-        "text": "맥북 재부팅하고 오겠습니다!"
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1789693574.392079",
-        "text": "오늘 XFC에서 업무합니다. 참고 부탁드리겠습니다."
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1789690924.047079",
-        "text": "금일 성수 오피스로 출근 입니다! (9:25-18:25 근무예정)"
       }
     ]
   },
