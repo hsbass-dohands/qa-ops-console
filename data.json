@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T01:31:30.421Z",
+  "generated_at": "2026-09-18T06:40:41.089Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,20 +7,12 @@
       "P0": 0,
       "P1": 5,
       "P2": 5,
-      "P3": 33
+      "P3": 32
     },
-    "total_open": 44,
-    "new_this_week": 18,
+    "total_open": 43,
+    "new_this_week": 14,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "BE-188",
-        "url": "https://dohands.atlassian.net/browse/BE-188",
-        "summary": "[poomgo_backend] 삭제 계정 비밀번호 찾기 부활 차단 + POST /user/check 인증 추가",
-        "status": "QA 중",
-        "project": "BE",
-        "assignee": "김태재"
-      },
       {
         "key": "BE-198",
         "url": "https://dohands.atlassian.net/browse/BE-198",
@@ -30,28 +22,12 @@
         "assignee": "박래원"
       },
       {
-        "key": "BE-201",
-        "url": "https://dohands.atlassian.net/browse/BE-201",
-        "summary": "[API] 재고 증감 목록 조회 count 쿼리 성능 개선 (운영 60초 504 발생)",
+        "key": "BE-200",
+        "url": "https://dohands.atlassian.net/browse/BE-200",
+        "summary": "[NOW] 셀러 트렌드 SKU별 판매 현황(sales-by-resource) 응답 지연 개선",
         "status": "QA 중",
         "project": "BE",
-        "assignee": "최라온"
-      },
-      {
-        "key": "INT-343",
-        "url": "https://dohands.atlassian.net/browse/INT-343",
-        "summary": "NFA 파트너 과거 주문 수집 윈도우 겹침(7일 → 실질 28일 조회) 수정",
-        "status": "QA 중",
-        "project": "INT",
-        "assignee": "최라온"
-      },
-      {
-        "key": "SPRINT-872",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-872",
-        "summary": "[연동] 프로모션 변경 이력 노출 영향도 파악 및 작업",
-        "status": "QA 중",
-        "project": "SPRINT",
-        "assignee": "최라온"
+        "assignee": "한상준"
       },
       {
         "key": "TECH-1719",
@@ -60,6 +36,22 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "박래원"
+      },
+      {
+        "key": "BE-214",
+        "url": "https://dohands.atlassian.net/browse/BE-214",
+        "summary": "[HANDYBOT] 보충 필요 상품(partner-resources-be-supplemented) p95 60초 — 상관 서브쿼리·ops CTE 과다 물리화 개선",
+        "status": "QA 필요",
+        "project": "BE",
+        "assignee": "최라온"
+      },
+      {
+        "key": "BE-215",
+        "url": "https://dohands.atlassian.net/browse/BE-215",
+        "summary": "[셀러][프론트] 트렌드 > SKU별 판매 현황(sales-by-resource) 중복 토스트 메세지 제거",
+        "status": "QA 필요",
+        "project": "BE",
+        "assignee": "한상준"
       }
     ],
     "weekly_severity": [
@@ -117,7 +109,7 @@
         "p0": 0,
         "p1": 1,
         "p2": 0,
-        "p3": 10
+        "p3": 11
       }
     ],
     "calendar_events": [
@@ -406,33 +398,33 @@
     "space_key": "qa",
     "docs": [
       {
+        "title": "[PII] VISE 개인정보조회/다운로드",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/350781461/PII+VISE",
+        "updated": "2026-09-18"
+      },
+      {
+        "title": "[래원] 2026.09.18 (금) - VISE > 재고 조정/이동, 가용재고",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/358449271/2026.09.18+-+VISE",
+        "updated": "2026-09-18"
+      },
+      {
+        "title": "[상준] 2026.09.18 (금) (VISE- SKU)",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/358580307/2026.09.18+VISE-+SKU",
+        "updated": "2026-09-18"
+      },
+      {
+        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
+        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
+        "updated": "2026-09-18"
+      },
+      {
         "title": "동작이 한 가지로 특정되지 않아 TC의 예상 결과를 쓸 수 없는 15건",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/351502426/TC+15",
         "updated": "2026-09-17"
       },
       {
-        "title": "26년 과제/작업 QA 리소스 및 스케쥴",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/189071363/26+QA",
-        "updated": "2026-09-17"
-      },
-      {
-        "title": "[PII] VISE 개인정보조회/다운로드",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/350781461/PII+VISE",
-        "updated": "2026-09-17"
-      },
-      {
         "title": "2026.09.17 FedEx 기획 리뷰",
         "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/357400577/2026.09.17+FedEx",
-        "updated": "2026-09-17"
-      },
-      {
-        "title": "[상준] QA팀 2027 OKR 아이디어",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/354615520/QA+2027+OKR",
-        "updated": "2026-09-17"
-      },
-      {
-        "title": "[래원] QA팀 2027 OKR 아이디어",
-        "url": "https://dohands.atlassian.net/wiki/spaces/qa/pages/354910301/QA+2027+OKR",
         "updated": "2026-09-17"
       }
     ],
@@ -718,6 +710,30 @@
     "messages": [
       {
         "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1789709297.018609",
+        "text": "Fedex QA 타임라인"
+      },
+      {
+        "channel": "sigvise",
+        "user": "한상준 (기술/QA팀)",
+        "ts": "1789707830.017369",
+        "text": "<!subteam^S088S7692RJ> STG &gt; 셀러 &gt; 트렌드 &gt; SKU별 판매 현황 &gt; 토스트 관련 문의"
+      },
+      {
+        "channel": "기술조직",
+        "user": "최라온 (기술/QA팀)",
+        "ts": "1789699726.024769",
+        "text": "@이찬민 (기술/제품팀) <https://dohands.atlassian.net/browse/SPRINT-872|[연동] 프로모션 변경 이력 노출 영향도 파악 및 작업> 스레드 cc. @이근한 (기술/개발팀)"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1789698228.522389",
+        "text": "@최라온 (기술/QA팀)\n&gt; 이형 계약 할당 여부는 SKU 이형 여부로만 관리합니다!\n질문이씁니다"
+      },
+      {
+        "channel": "기술-qa팀",
         "user": "김태재 (기술/QA팀)",
         "ts": "1789694635.879069",
         "text": "@박래원 (기술/QA팀) @한상준 (기술/QA팀) weekly 탐색적 테스트\n<https://dohands.atlassian.net/wiki/spaces/qa/folder/358449186|dohands.atlassian.net/wiki/…/358449186>"
@@ -739,30 +755,6 @@
         "user": "김태재 (기술/QA팀)",
         "ts": "1789690924.047079",
         "text": "금일 성수 오피스로 출근 입니다! (9:25-18:25 근무예정)"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1789632687.290979",
-        "text": "@베스현승 (기술/QA팀) 래원님 호대 시작일 10/19 맞을까요~?"
-      },
-      {
-        "channel": "sigvise",
-        "user": "박래원 (기술/QA팀)",
-        "ts": "1789632023.263369",
-        "text": "<!subteam^S088S7692RJ> 수기 주문  일괄 등록 &gt; 합배송 데이터 수집 미처리 관련 문의"
-      },
-      {
-        "channel": "sigint",
-        "user": "박래원 (기술/QA팀)",
-        "ts": "1789629931.313049",
-        "text": "@김준기 (기술/개발팀) <https://dohands.atlassian.net/browse/SPRINT-578|[VISE] 지마켓 스타배송+일반배송 합배송 주문 스타배송으로 할당 필요> 합배송 제작 테스트"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1789629362.037809",
-        "text": "@김태재 (기술/QA팀)"
       }
     ]
   },
