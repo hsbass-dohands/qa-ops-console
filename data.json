@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T06:46:57.664Z",
+  "generated_at": "2026-09-21T13:38:27.671Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,20 +7,12 @@
       "P0": 0,
       "P1": 6,
       "P2": 6,
-      "P3": 33
+      "P3": 32
     },
-    "total_open": 46,
+    "total_open": 45,
     "new_this_week": 14,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "BE-216",
-        "url": "https://dohands.atlassian.net/browse/BE-216",
-        "summary": "[인증서버] 서버 간(bypass) GET /user/:id 403으로 유저 캐시 재생성 실패 — CS 생성자 등 사용자 이름 미노출",
-        "status": "QA 중",
-        "project": "BE",
-        "assignee": "최라온"
-      },
       {
         "key": "TECH-1719",
         "url": "https://dohands.atlassian.net/browse/TECH-1719",
@@ -36,6 +28,14 @@
         "status": "QA 필요",
         "project": "SPRINT",
         "assignee": "김태재"
+      },
+      {
+        "key": "TECH-2343",
+        "url": "https://dohands.atlassian.net/browse/TECH-2343",
+        "summary": "[AUTH] role_binding 0건 계정에 로그인 토큰이 발급되는 문제 차단 + 롤바인딩 유실 원인 파악",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "손조성"
       }
     ],
     "weekly_severity": [
@@ -693,6 +693,12 @@
     ],
     "messages": [
       {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1789982320.468719",
+        "text": "@최라온 (기술/QA팀) <https://dohands.atlassian.net/browse/TECH-999|개인정보 조회/검색/엑셀 다운로드/상세 수정> 관련"
+      },
+      {
         "channel": "sigvise",
         "user": "최라온 (기술/QA팀)",
         "ts": "1789970758.963529",
@@ -733,12 +739,6 @@
         "user": "베스현승 (기술/QA팀)",
         "ts": "1789956292.211299",
         "text": "<!here> 급한 미팅이 잡혀서 오늘 weekly 스킵하겠습니다. 따로 공유 사항 있으시면 말씀해 주세요!"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1789955712.793869",
-        "text": "@한상준 (기술/QA팀) @박래원 (기술/QA팀) 면담"
       }
     ]
   },
