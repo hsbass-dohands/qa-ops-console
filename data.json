@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T22:27:21.239Z",
+  "generated_at": "2026-09-22T01:03:01.127Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -36,6 +36,14 @@
         "status": "QA 필요",
         "project": "TECH",
         "assignee": "손조성"
+      },
+      {
+        "key": "TECH-2371",
+        "url": "https://dohands.atlassian.net/browse/TECH-2371",
+        "summary": "[VISE][프론트] 고객사 출고 정보 옵션 노출 여부 직계약 여부에 따른 처리",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "베스현승"
       }
     ],
     "weekly_severity": [
