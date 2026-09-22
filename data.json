@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T06:13:25.899Z",
+  "generated_at": "2026-09-22T11:43:55.425Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -14,9 +14,9 @@
     "closed_this_week": 0,
     "funnel": [
       {
-        "key": "SPRINT-846",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-846",
-        "summary": "[VISE] 고객사 신규 등록 완료 후 이동 도메인 변경 (seller.poomgo.com → vise.poomgo.com)",
+        "key": "SPRINT-866",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-866",
+        "summary": "[VISE] 재고 조정 차감 다이얼로그 개선",
         "status": "QA 중",
         "project": "SPRINT",
         "assignee": "한상준"
@@ -38,12 +38,12 @@
         "assignee": "최라온"
       },
       {
-        "key": "TECH-2441",
-        "url": "https://dohands.atlassian.net/browse/TECH-2441",
-        "summary": "[Button 컴포넌트 적용] STG > 주문 처리 > 매핑 오류 > 상품 등록 후 바로 매핑 모달 하단 [등록 및 매핑] 버튼 깨짐",
-        "status": "QA 중",
-        "project": "TECH",
-        "assignee": "최라온"
+        "key": "SPRINT-381",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-381",
+        "summary": "재고 변동 이력 - 증감 사유가 그리드 헤더와 엑셀에서 사유로 표기됨",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "한상준"
       },
       {
         "key": "SPRINT-812",
@@ -52,6 +52,30 @@
         "status": "QA 필요",
         "project": "SPRINT",
         "assignee": "김태재"
+      },
+      {
+        "key": "SPRINT-939",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-939",
+        "summary": "바이스 백엔드) 구분을 증감 구분으로, 사유를 증감 사유로 변경",
+        "status": "QA 필요",
+        "project": "SPRINT",
+        "assignee": "박래원"
+      },
+      {
+        "key": "TECH-1860",
+        "url": "https://dohands.atlassian.net/browse/TECH-1860",
+        "summary": "[페이지 적용] 주소록 — 검색·다운로드 적용",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "최라온"
+      },
+      {
+        "key": "TECH-2368",
+        "url": "https://dohands.atlassian.net/browse/TECH-2368",
+        "summary": "[페이지 적용] B2B 출고 관리 — 검색·상세 조회/수정·다운로드 적용",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "한상준"
       }
     ],
     "weekly_severity": [
@@ -109,7 +133,7 @@
         "p0": 0,
         "p1": 1,
         "p2": 1,
-        "p3": 3
+        "p3": 4
       }
     ],
     "calendar_events": [
@@ -711,6 +735,24 @@
       {
         "channel": "기술-qa팀",
         "user": "베스현승 (기술/QA팀)",
+        "ts": "1790069689.387089",
+        "text": "<https://dohandsworkspace.slack.com/archives/C0A9K11QEBV/p1790069482341399|https://dohandsworkspace.slack.com/archives/C0A9K11QEBV/p1790069482341399> 이거 원래 라온님건가요?"
+      },
+      {
+        "channel": "sigvise",
+        "user": "한상준 (기술/QA팀)",
+        "ts": "1790069217.760299",
+        "text": "<!subteam^S089CG0M23S> STG 바이스 &gt; 재고 조정 차감 500에러 문의"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1790062811.339049",
+        "text": "@베스현승 (기술/QA팀) 호출대기 시트 관련"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
         "ts": "1790054721.818159",
         "text": "<!here> 안녕하세요! 요즘 과제가 은근 없고 QA 확인 이슈도 사람이 늘어서 빨리 해결되는 게 이렇게 좋으면서도 뭔가 허전한 기분은 입사 후 처음인 것 같습니다. 뭔가 불안하지만 다들 열심히 해 주셔서 그런 거겠죠? ㅎㅎㅎ\n그런김에 일거리를 가져왔습니다. testiny에 TC 보충/수정/보완 부탁드리겠습니다. 너무 디테일하게 또는 TC를 많이 만들라는"
       },
@@ -737,24 +779,6 @@
         "user": "김태재 (기술/QA팀)",
         "ts": "1789982320.468719",
         "text": "@최라온 (기술/QA팀) <https://dohands.atlassian.net/browse/TECH-999|개인정보 조회/검색/엑셀 다운로드/상세 수정> 관련"
-      },
-      {
-        "channel": "sigvise",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1789970758.963529",
-        "text": "<!subteam^S088S7692RJ> :full_moon: 추석 맞이 선물 :gift:\n\nSTG &gt; 주문 처리 &gt; 매핑 오류 &gt; 상품 등록 후 바로 매핑 모달 하단 [등록 및 매핑] 버튼 :boom:"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1789970591.711519",
-        "text": "혹시 STG &gt; 주문 처리 &gt; 매핑 오류 &gt; 상품 등록 후 바로 매핑 모달 하단 [등록 및 매핑] 버튼 따로 보고 계신 분 있나요~?!"
-      },
-      {
-        "channel": "기술조직",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1789961317.954079",
-        "text": "*<!here>* 안녕하세요, 문화팀입니다 :slightly_smiling_face:\n*10월, 11월 Tech Sync 일정이 최종 확정*되어 미리 공유드립니다!\n\n:pushpin: *10월 Tech Sync*\n10/22(목) 16:00 ~ 17:30\n\n:pushpin: *11월 Tech Sync*\n11/26(목) 14:00 ~ 18:00\n18:00 ~ "
       }
     ]
   },
