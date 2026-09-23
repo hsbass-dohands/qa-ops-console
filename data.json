@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T05:30:12.543Z",
+  "generated_at": "2026-09-23T10:14:48.681Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -7,9 +7,9 @@
       "P0": 0,
       "P1": 4,
       "P2": 7,
-      "P3": 34
+      "P3": 35
     },
-    "total_open": 46,
+    "total_open": 47,
     "new_this_week": 18,
     "closed_this_week": 0,
     "funnel": [
@@ -46,12 +46,12 @@
         "assignee": "한상준"
       },
       {
-        "key": "SPRINT-812",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-812",
-        "summary": "세금계산서 발행 시 비고란 메모 노출 기능 개발",
+        "key": "BE-179",
+        "url": "https://dohands.atlassian.net/browse/BE-179",
+        "summary": "[VISE] 재고 변동 이력 조회 API(operation-inventory/range) 응답속도 개선 - count 쿼리 최적화",
         "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "김태재"
+        "project": "BE",
+        "assignee": "이승우"
       },
       {
         "key": "SPRINT-886",
@@ -62,12 +62,20 @@
         "assignee": "김태재"
       },
       {
-        "key": "SPRINT-943",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-943",
-        "summary": "사용자 유형별 툴팁 내용 수정 및 검토",
+        "key": "SPRINT-924",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-924",
+        "summary": "바이스 수기주문 일괄 업로드 엑셀 템플릿 헤더명 수정 및 열 너비 조정",
         "status": "QA 필요",
         "project": "SPRINT",
-        "assignee": "베스현승"
+        "assignee": "조수아"
+      },
+      {
+        "key": "TECH-2446",
+        "url": "https://dohands.atlassian.net/browse/TECH-2446",
+        "summary": "[프론트] 재고 변동 이력 총 건수 1만 이상 9,999+ 표기 (BE-179 대응)",
+        "status": "QA 필요",
+        "project": "TECH",
+        "assignee": "이덕희"
       }
     ],
     "weekly_severity": [
@@ -125,7 +133,7 @@
         "p0": 0,
         "p1": 1,
         "p2": 1,
-        "p3": 6
+        "p3": 7
       }
     ],
     "calendar_events": [
@@ -727,6 +735,24 @@
       {
         "channel": "기술-qa팀",
         "user": "베스현승 (기술/QA팀)",
+        "ts": "1790148316.094759",
+        "text": "래원님 반차"
+      },
+      {
+        "channel": "기술조직",
+        "user": "베스현승 (기술/QA팀)",
+        "ts": "1790148155.464559",
+        "text": "~여기서 장애 발생하면 재미있을텐데~ 엇 오타를"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "김태재 (기술/QA팀)",
+        "ts": "1790142993.267589",
+        "text": "@최라온 (기술/QA팀) 정산 관련 스프린트"
+      },
+      {
+        "channel": "기술-qa팀",
+        "user": "베스현승 (기술/QA팀)",
         "ts": "1790069689.387089",
         "text": "<https://dohandsworkspace.slack.com/archives/C0A9K11QEBV/p1790069482341399|https://dohandsworkspace.slack.com/archives/C0A9K11QEBV/p1790069482341399> 이거 원래 라온님건가요?"
       },
@@ -753,24 +779,6 @@
         "user": "최라온 (기술/QA팀)",
         "ts": "1790045650.997749",
         "text": "@한상준 (기술/QA팀) PII VISE 개인정보 조회/다운로드 일정 스레드"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "최라온 (기술/QA팀)",
-        "ts": "1790043131.517359",
-        "text": "@베스현승 (기술/QA팀) 현승님~! 혹시 페덱스 과제 채널에 계실까용~!?"
-      },
-      {
-        "channel": "기술조직",
-        "user": "베스현승 (기술/QA팀)",
-        "ts": "1790040685.937279",
-        "text": "오늘 클로드 서버 문제가 좀 있네요\n<https://status.claude.com/|status.claude.com>"
-      },
-      {
-        "channel": "기술-qa팀",
-        "user": "김태재 (기술/QA팀)",
-        "ts": "1789982320.468719",
-        "text": "@최라온 (기술/QA팀) <https://dohands.atlassian.net/browse/TECH-999|개인정보 조회/검색/엑셀 다운로드/상세 수정> 관련"
       }
     ]
   },
