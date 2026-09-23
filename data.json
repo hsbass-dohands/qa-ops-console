@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T22:21:59.953Z",
+  "generated_at": "2026-09-23T00:49:49.511Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
@@ -20,6 +20,14 @@
         "status": "QA 중",
         "project": "SPRINT",
         "assignee": "한상준"
+      },
+      {
+        "key": "SPRINT-939",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-939",
+        "summary": "바이스 백엔드) 구분을 증감 구분으로, 사유를 증감 사유로 변경",
+        "status": "QA 중",
+        "project": "SPRINT",
+        "assignee": "박래원"
       },
       {
         "key": "TECH-1719",
@@ -52,14 +60,6 @@
         "status": "QA 필요",
         "project": "SPRINT",
         "assignee": "김태재"
-      },
-      {
-        "key": "SPRINT-939",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-939",
-        "summary": "바이스 백엔드) 구분을 증감 구분으로, 사유를 증감 사유로 변경",
-        "status": "QA 필요",
-        "project": "SPRINT",
-        "assignee": "박래원"
       },
       {
         "key": "TECH-1860",
