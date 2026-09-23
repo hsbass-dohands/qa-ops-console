@@ -1,34 +1,18 @@
 {
-  "generated_at": "2026-09-23T00:49:49.511Z",
+  "generated_at": "2026-09-23T05:30:12.543Z",
   "source": "live-sync",
   "jira": {
     "site": "https://dohands.atlassian.net",
     "open_by_priority": {
       "P0": 0,
-      "P1": 5,
+      "P1": 4,
       "P2": 7,
       "P3": 34
     },
-    "total_open": 47,
+    "total_open": 46,
     "new_this_week": 18,
     "closed_this_week": 0,
     "funnel": [
-      {
-        "key": "SPRINT-866",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-866",
-        "summary": "[VISE] 재고 조정 차감 다이얼로그 개선",
-        "status": "QA 중",
-        "project": "SPRINT",
-        "assignee": "한상준"
-      },
-      {
-        "key": "SPRINT-939",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-939",
-        "summary": "바이스 백엔드) 구분을 증감 구분으로, 사유를 증감 사유로 변경",
-        "status": "QA 중",
-        "project": "SPRINT",
-        "assignee": "박래원"
-      },
       {
         "key": "TECH-1719",
         "url": "https://dohands.atlassian.net/browse/TECH-1719",
@@ -36,6 +20,14 @@
         "status": "QA 중",
         "project": "TECH",
         "assignee": "박래원"
+      },
+      {
+        "key": "TECH-1860",
+        "url": "https://dohands.atlassian.net/browse/TECH-1860",
+        "summary": "[페이지 적용] 주소록 — 검색·다운로드 적용",
+        "status": "QA 중",
+        "project": "TECH",
+        "assignee": "최라온"
       },
       {
         "key": "TECH-2343",
@@ -46,11 +38,11 @@
         "assignee": "최라온"
       },
       {
-        "key": "SPRINT-381",
-        "url": "https://dohands.atlassian.net/browse/SPRINT-381",
-        "summary": "재고 변동 이력 - 증감 사유가 그리드 헤더와 엑셀에서 사유로 표기됨",
-        "status": "QA 필요",
-        "project": "SPRINT",
+        "key": "TECH-2368",
+        "url": "https://dohands.atlassian.net/browse/TECH-2368",
+        "summary": "[페이지 적용] B2B 출고 관리 — 검색·상세 조회/수정·다운로드 적용",
+        "status": "QA 중",
+        "project": "TECH",
         "assignee": "한상준"
       },
       {
@@ -62,20 +54,20 @@
         "assignee": "김태재"
       },
       {
-        "key": "TECH-1860",
-        "url": "https://dohands.atlassian.net/browse/TECH-1860",
-        "summary": "[페이지 적용] 주소록 — 검색·다운로드 적용",
+        "key": "SPRINT-886",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-886",
+        "summary": "[VISE] 입고 요청서 > 입고 요청서 상세 > 입고 회차 > 상태 툴팁에 '도착 예정' 항목 추가 필요",
         "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "최라온"
+        "project": "SPRINT",
+        "assignee": "김태재"
       },
       {
-        "key": "TECH-2368",
-        "url": "https://dohands.atlassian.net/browse/TECH-2368",
-        "summary": "[페이지 적용] B2B 출고 관리 — 검색·상세 조회/수정·다운로드 적용",
+        "key": "SPRINT-943",
+        "url": "https://dohands.atlassian.net/browse/SPRINT-943",
+        "summary": "사용자 유형별 툴팁 내용 수정 및 검토",
         "status": "QA 필요",
-        "project": "TECH",
-        "assignee": "한상준"
+        "project": "SPRINT",
+        "assignee": "베스현승"
       }
     ],
     "weekly_severity": [
